@@ -1,0 +1,3 @@
+register file info:
+
+https://en.wikibooks.org/wiki/Microprocessor_Design/Register_File
