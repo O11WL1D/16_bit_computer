@@ -1,3 +1,11 @@
+1/16/2021
+I have been experimenting with excel as a more efficient means of datasheet analysis.
+Currently I am attempting to analyze the intractability of IC’s; that is if their electrical minimums and maximums are in range of each other. The current method I am using is ineffective for creating pivot tables, so I will be looking into how to make a pivot table with excel’s built in pivot table functionality. 
+
+
+
+
+
 # design plan
 
 My plan is to create a rough preliminary design for each module. After I have an idea of how every module will interact with each other,
