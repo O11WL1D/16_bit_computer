@@ -1,3 +1,10 @@
+1/22/2021
+
+When It comes time to integrate all of my designs, I think that it may help if I reduced all of the connections to the more efficient form that
+I implemented with the ram module; i.e. putting a range which represents the connections in a multisim wire. 
+
+
+
 1/16/2021
 I have been experimenting with excel as a more efficient means of datasheet analysis.
 Currently I am attempting to analyze the intractability of IC’s; that is if their electrical minimums and maximums are in range of each other. The current method I am using is ineffective for creating pivot tables, so I will be looking into how to make a pivot table with excel’s built in pivot table functionality. 
