@@ -1,3 +1,15 @@
+
+
+2/25/2021
+
+I think that the module color coding idea that I started with in the alu design is a easily forgettable
+system. For now on, I will be labeling wires going off to other modules with text.
+
+
+ 
+
+
+
 1/22/2021
 
 When It comes time to integrate all of my designs, I think that it may help if I reduced all of the connections to the more efficient form that
