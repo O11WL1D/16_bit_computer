@@ -10,6 +10,10 @@ every detail regarding propigation time, voltages ect ect, I will begin ordering
 Once every module has been tested, and all revisions have been made, I will put all of the modules together and test the final product.
 
 
+!--As of 8/3/2021 there is a short presentation included in the repository which features images and a short summary of each module.--! 
+
+
+
 
 
 # design log
