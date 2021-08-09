@@ -16,8 +16,16 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
+
+
+
 # design log
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
+
+
+8-9-2021
+I have discovered that unfortunately multisim does not allow the simulation of eeprom memory. Since a multitude of my componets feature 
+eeproms, I may need to re think my design plan. 
 
 
 
