@@ -1,4 +1,4 @@
-
+﻿
 
 
 
@@ -6,7 +6,7 @@
 
 My plan is to create a rough preliminary design for each module. After I have an idea of how every module will interact with each other,
 I will begin looking for specific chips to use and start on a to scale design using some form of pcb software. After I have worked out
-every detail regarding propigation time, voltages ect ect, I will begin ordering parts and boards, and test my computer module by module.
+every detail regarding propagation time, voltages ect ect, I will begin ordering parts and boards, and test my computer module by module.
 Once every module has been tested, and all revisions have been made, I will put all of the modules together and test the final product.
 
 
@@ -23,8 +23,32 @@ Once every module has been tested, and all revisions have been made, I will put 
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
 
 
+
+8-13-2021
+
+The sheer size of such a computer has generated some complications.
+I have decided that I will store the computer in my closet and possibly work on it on my bed. I will also build it in a similar manner of my 8-bit computer, and not use a rack system. This means that I may need to figure out some unique system for the buses, since there will be many. Currently the idea of having a rack system just for the buses seems ideal. Or I could lay each disconnected bus on its side so that one bus could be accessed/ modified without disconnecting another. This system would require that the whole computer has a solid base, such as a thin square piece of wood or metal. 
+
+
+
+8-12-2021
+
+I do not know enough about the internal make up of ICs to determine the current intractability of multiple chips. The input/output current of a connection depends on the internal resistance of an IC, and the resistance of said connection. Since some datasheets don’t provide info on the internal resistance, I don’t think I could calculate the exact current flowing between one chip and another. The best way to approach the computer I believe would be to determine the voltage interactability (something I can calculate) and then figure out the current issue by trial and error; i.e. putting the thing together and see if it works. 
+
+
+I really do not want to deal with propagation time, so I will try to keep my computer at a relatively low clock speed so that everything calculates before the next clock pulse.   
+
+
+Moreover, I could probability get away with picking out 74ls chips and assume that they have the standard +5 v high and 0 v low. If doing this means that I accidentally purchase one or two incompatible chips, so be it. 
+
+
+Now I must take stock of what ICs I have, and what I may use for this project. If I use the chips that I used for my 8-bit computer it may function as that computer did.
+    
+
+
+
 8-9-2021
-I have discovered that unfortunately multisim does not allow the simulation of eeprom memory. Since a multitude of my componets feature 
+I have discovered that unfortunately multisim does not allow the simulation of eeprom memory. Since a multitude of my components feature 
 eeproms, I may need to re think my design plan. 
 
 
