@@ -24,6 +24,19 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+8-17-2021
+
+I have included a program I made to program the chips for my 8-bit computer. I plan on using the same code for my 16 bit computer. 
+
+
+
+8-16-2021
+
+I’ve ordered the chips I need for the alu, shipping turned out to be $10 so I need to lump module orders together to save on the total cost. It may just come down to making a more detailed blueprint and ordering everything in one big purchase. I also plan on possibly getting some project funding from some school clubs, so if I want to do that I would definitely need a more detailed project plan. 
+
+
+
+
 8-13-2021
 
 The sheer size of such a computer has generated some complications.
