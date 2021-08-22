@@ -24,6 +24,25 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+8-21-2021
+
+Breadboards cost way too much for me to waste any aspect of them. I have an abundance of wire and not enough breadboards. Moreover, this computer requires a plethora of bus connections. The solution to this is to use every connection port on the rails I currently have, and stretch wire to meet those connections.  This entails not using two sets of bus rails connected via wires, but to use only one or two sets.
+
+
+I have the parts for the alu, and I am currently building it. 
+I’ve neglected to purchase resistors for my led indicators, and may need to wait for an order of them for the alu to be complete 
+
+
+I am also beginning the next school semester soon, so there may be some stagnation in my progress. I will try to work on this project for at least an hour every day, if possible. 
+
+
+
+
+
+
+
+
+
 8-17-2021
 
 I have included a program I made to program the chips for my 8-bit computer. I plan on using the same code for my 16 bit computer. 
