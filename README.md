@@ -43,7 +43,9 @@ Currently I am working on a way to incorporate a multiplication chip into the co
 Currently I am doing most of my work in a paper notebook, so not all of the progress made is present on my github.  Instead of scanning my computer journal, I’ll detail the total number of pages filled out with each update. I may get more progress done on the computer during winter break. 
 
  
+Oh also I’ve recently programmed my raspberry pi to act as a testing device for the pi, which outputs a binary test value based on the input hex entered on its keyboard. I’ll also include an image of this, and when I find time, possibly a video too. 
 
+Pictured is the raspi with its signals on the A and B operands of the alu, I am currently testing if the logic functionality works. 
 
 
 
