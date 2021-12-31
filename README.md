@@ -23,6 +23,33 @@ Once every module has been tested, and all revisions have been made, I will put 
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
 
 
+12/31/2021
+
+
+
+Total number of pages filled in computer journal: 40
+
+
+
+
+I have attached a photo of the latest progress made on the computer. Pictured is the AND and OR logic circuit, nearly complete. Note the massive size for the relatively small portion of the computer. After building a portion of the alu with a helper, I am starting to rethink building the computer using breadboards. The assembly takes too long by hand, and I imagine that breadboards are far more expensive than the small amounts of plastic used in PCBS. I think that any additional costs associated with utilizing a PCB design service would be covered in the amount saved by not using breadboards.  Its possible that the difficulty of learning how to design PCBs is greatly exaggerated in my head and that that is the way to go for prototyping. 
+
+I have also discovered that when it comes to wired circuits,  it is better to break the circuit apart into small pieces and then use a different color for each piece, rather than color code according to the expected usage of the  wire; i.e. register data, control signal, eect ect. 
+
+
+Currently I am working on a way to incorporate a multiplication chip into the computer. I was having issues finding an eeprom with enough addresses to multiply and divide two 16 bit values, and return a 16 bit result, so I think I may need to resort  to using a ram chip that is written upon booting the computer by the raspi. Also, after taking computer organization 2, I realize that I may need to make the mult chip return a 32 bit value, and have the option to store the high and low words in certain registers. 
+
+
+Currently I am doing most of my work in a paper notebook, so not all of the progress made is present on my github.  Instead of scanning my computer journal, I’ll detail the total number of pages filled out with each update. I may get more progress done on the computer during winter break. 
+
+ 
+
+
+
+
+
+
+
 
 8-21-2021
 
