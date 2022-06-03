@@ -23,6 +23,27 @@ Once every module has been tested, and all revisions have been made, I will put 
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
 
 
+
+
+
+6/3/2022
+
+College has made it extremely difficult to get any progress on this project, but I will be soon starting a new strategy to hopefully get some work done on the project over time. I plan on dedicating an hour every alternating day to this project. I have maintained a fitness routine throughout the previous semester, working out for an hour every alternating day, so if I apply the same strategy I might be able to actually make some progress. 
+
+Moreover, I’ve recently ordered a de0-cv development board, With its onboard memory and FPGAS I could test my project much faster than if I were to design a PCB every time or use a breadboard. 
+
+I’m not entirely sure why it took me so long to consider FPGAS for development, it’s a little embarrassing to be honest. 
+
+
+I’ve consulted a few people over the LUT quantity of the de0-cv board and it should be sufficient to support my project, as the NEO430 16 bit processor only takes up like 4k Logic elements. 
+
+Moreover, after digital systems 2, I realized that I could have just built a multiplication circuit rather than use an eeprom for the multiplication module. I completely forgot about that, however the design challenges I faced attempting to use EEPROMS for implementation were useful in their own way so I believe it wasn’t an entire waste. 
+
+
+
+
+
+
 12/31/2021
 
 
