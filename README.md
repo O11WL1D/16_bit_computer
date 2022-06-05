@@ -24,6 +24,17 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+6/4/2022
+
+I think I should alternate between utilizing Verilog and the block diagram GUI so that I get experience in both areas as I design the computer.
+
+I have included some files produced from when I took digital systems 2 last semester, for personal reference.   
+
+Moreover, since I’ve designed this thing with bus transfer chips in mind, I may need to switch to the use of multiplexers, depending on if bus transfer gates can be implemented via the de0-cv. Since I do not have the board currently, for now I will use multiplexers. 
+
+
+
+
 
 
 6/3/2022

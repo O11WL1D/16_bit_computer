@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim
+valu
+Z1 !s110 1654389455
+!i10b 1
+!s100 ZcIhEJUgSIPNe:G:SdfLK2
+IRYSf@Z]PYfCKeFlLWn5l]3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1654389453
+8alu.vo
+Falu.vo
+Z3 L0 31
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1654389455.000000
+!s107 alu.vo|
+!s90 -work|work|alu.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valu_logic
+Z8 !s110 1654384646
+!i10b 1
+!s100 ?kX9Q^UKX1niiJQ4T?1eP2
+I24oj:[2Z5`d20jg=BXLh33
+R2
+R0
+w1654384643
+8alu_logic.vo
+Falu_logic.vo
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1654384646.000000
+!s107 alu_logic.vo|
+!s90 -work|work|alu_logic.vo|
+!i113 1
+R6
+R7
+valu_logic_vlg_vec_tst
+R8
+!i10b 1
+!s100 2Rg5F;:5cYJIhHcfIkTan2
+IIQ8F^]2WkB3]6OZ=BGQ;K3
+R2
+R0
+w1654384639
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z10 L0 29
+R4
+r1
+!s85 0
+31
+R9
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+valu_vlg_vec_tst
+R1
+!i10b 1
+!s100 GV`L=aJPX:;0jM;AOcEz40
+ID>>OmQd22UH_=9?DZLcN63
+R2
+R0
+w1654389450
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R6
+R7

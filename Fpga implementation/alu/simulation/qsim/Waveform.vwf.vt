@@ -1,0 +1,187 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/04/2022 17:17:18"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          alu_logic
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module alu_logic_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg a0;
+reg a1;
+reg a2;
+reg a3;
+reg a4;
+reg a5;
+reg a6;
+reg a7;
+reg a8;
+reg a9;
+reg a10;
+reg a11;
+reg a12;
+reg a13;
+reg a14;
+reg a15;
+reg b0;
+reg b1;
+reg b2;
+reg b3;
+reg b4;
+reg b5;
+reg b6;
+reg b7;
+reg b8;
+reg b9;
+reg b10;
+reg b11;
+reg b12;
+reg b13;
+reg b14;
+reg b15;
+// wires                                               
+wire f0;
+wire f1;
+wire f2;
+wire f3;
+wire f4;
+wire f5;
+wire f6;
+wire f7;
+wire f8;
+wire f9;
+wire f10;
+wire f11;
+wire f12;
+wire f13;
+wire f14;
+wire f15;
+
+// assign statements (if any)                          
+alu_logic i1 (
+// port map - connection between master ports and signals/registers   
+	.a0(a0),
+	.a1(a1),
+	.a2(a2),
+	.a3(a3),
+	.a4(a4),
+	.a5(a5),
+	.a6(a6),
+	.a7(a7),
+	.a8(a8),
+	.a9(a9),
+	.a10(a10),
+	.a11(a11),
+	.a12(a12),
+	.a13(a13),
+	.a14(a14),
+	.a15(a15),
+	.b0(b0),
+	.b1(b1),
+	.b2(b2),
+	.b3(b3),
+	.b4(b4),
+	.b5(b5),
+	.b6(b6),
+	.b7(b7),
+	.b8(b8),
+	.b9(b9),
+	.b10(b10),
+	.b11(b11),
+	.b12(b12),
+	.b13(b13),
+	.b14(b14),
+	.b15(b15),
+	.f0(f0),
+	.f1(f1),
+	.f2(f2),
+	.f3(f3),
+	.f4(f4),
+	.f5(f5),
+	.f6(f6),
+	.f7(f7),
+	.f8(f8),
+	.f9(f9),
+	.f10(f10),
+	.f11(f11),
+	.f12(f12),
+	.f13(f13),
+	.f14(f14),
+	.f15(f15)
+);
+initial 
+begin 
+#200000 $finish;
+end 
+
+// a0
+initial
+begin
+	repeat(13)
+	begin
+		a0 = 1'b0;
+		a0 = #5000 1'b1;
+		# 5000;
+	end
+	a0 = 1'b0;
+end 
+
+// b0
+initial
+begin
+	repeat(6)
+	begin
+		b0 = 1'b0;
+		b0 = #10000 1'b1;
+		# 10000;
+	end
+	b0 = 1'b0;
+end 
+
+// a1
+initial
+begin
+	repeat(13)
+	begin
+		a1 = 1'b0;
+		a1 = #5000 1'b1;
+		# 5000;
+	end
+	a1 = 1'b0;
+end 
+
+// b1
+initial
+begin
+	repeat(6)
+	begin
+		b1 = 1'b0;
+		b1 = #10000 1'b1;
+		# 10000;
+	end
+	b1 = 1'b0;
+end 
+endmodule
+
