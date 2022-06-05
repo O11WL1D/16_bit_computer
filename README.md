@@ -25,6 +25,11 @@ Once every module has been tested, and all revisions have been made, I will put 
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
 
 
+6/5/2022
+
+Slightly unrelated but I have an idea for a better github updating system. Instead of creating a special program for each project I have, I can put the github repository in one of 5 update folders, which my update programs are set to change directory to. This way, I can quickly update anything that I want without needing to allocate so much time to each project’s update program. Woo. 
+
+
 6/4/2022
 
 Just wrote a quick little program which quickly performs my github default save specifically on this project. Now I can update the github at any point just by pressing windows + r, and running the program u16
