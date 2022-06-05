@@ -8,87 +8,175 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim
+Eadder
+Z1 w1654413512
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R0
+Z9 8adder.vho
+Z10 Fadder.vho
+l0
+L36
+VRPGGARG11U4O6dUm=zGK=2
+!s100 eT=15aAO6a3ALW4jJdIVL0
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1654413514
+!i10b 1
+Z13 !s108 1654413514.000000
+Z14 !s90 -work|work|adder.vho|
+Z15 !s107 adder.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 5 adder 0 22 RPGGARG11U4O6dUm=zGK=2
+l250
+L99
+VnZOLM[_jOoina@TbCfj6K2
+!s100 ;A^]`YJ`MVn?mLB5kOUNl3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eadder_vhd_vec_tst
+Z18 w1654413509
+R6
+R7
+R0
+Z19 8Waveform4.vwf.vht
+Z20 FWaveform4.vwf.vht
+l0
+L31
+VIB1_NKD3BBN5h1C@gI?8l1
+!s100 BnnV_T]Ai8GzQh=P8dYg_2
+R11
+32
+Z21 !s110 1654413515
+!i10b 1
+Z22 !s108 1654413515.000000
+Z23 !s90 -work|work|Waveform4.vwf.vht|
+Z24 !s107 Waveform4.vwf.vht|
+!i113 1
+R16
+R17
+Aadder_arch
+R6
+R7
+Z25 DEx4 work 17 adder_vhd_vec_tst 0 22 IB1_NKD3BBN5h1C@gI?8l1
+l50
+L33
+Z26 V2;mW7dBeXGD7UDQUmgQ3j0
+Z27 !s100 FKR_MSHcGB`YYc]1;KO=S1
+R11
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
 valu
-Z1 !s110 1654389455
+Z28 !s110 1654389455
 !i10b 1
 !s100 ZcIhEJUgSIPNe:G:SdfLK2
 IRYSf@Z]PYfCKeFlLWn5l]3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z29 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1654389453
 8alu.vo
 Falu.vo
-Z3 L0 31
-Z4 OV;L;10.5b;63
+Z30 L0 31
+Z31 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1654389455.000000
+Z32 !s108 1654389455.000000
 !s107 alu.vo|
 !s90 -work|work|alu.vo|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+R16
+Z33 tCvgOpt 0
 valu_logic
-Z8 !s110 1654384646
+Z34 !s110 1654399922
 !i10b 1
-!s100 ?kX9Q^UKX1niiJQ4T?1eP2
-I24oj:[2Z5`d20jg=BXLh33
-R2
+!s100 >W;;?fBB:G:h32Jl[?lzn3
+I1]6fClVTn<ID]ZYgeYgA@3
+R29
 R0
-w1654384643
+w1654399920
 8alu_logic.vo
 Falu_logic.vo
-R3
-R4
+R30
+R31
 r1
 !s85 0
 31
-Z9 !s108 1654384646.000000
+Z35 !s108 1654399922.000000
 !s107 alu_logic.vo|
 !s90 -work|work|alu_logic.vo|
 !i113 1
-R6
-R7
+R16
+R33
 valu_logic_vlg_vec_tst
-R8
+R34
 !i10b 1
-!s100 2Rg5F;:5cYJIhHcfIkTan2
-IIQ8F^]2WkB3]6OZ=BGQ;K3
-R2
+!s100 n<iCUjW2h8b>TAZK4_=6E2
+IAC7gGk[K;j][HYQ@nHUh@2
+R29
 R0
-w1654384639
-8Waveform.vwf.vt
-FWaveform.vwf.vt
-Z10 L0 29
-R4
+w1654399917
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z36 L0 29
+R31
 r1
 !s85 0
 31
-R9
-!s107 Waveform.vwf.vt|
-!s90 -work|work|Waveform.vwf.vt|
+R35
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
 !i113 1
-R6
-R7
+R16
+R33
 valu_vlg_vec_tst
-R1
+R28
 !i10b 1
 !s100 GV`L=aJPX:;0jM;AOcEz40
 ID>>OmQd22UH_=9?DZLcN63
-R2
+R29
 R0
 w1654389450
 8Waveform1.vwf.vt
 FWaveform1.vwf.vt
-R10
-R4
+R36
+R31
 r1
 !s85 0
 31
-R5
+R32
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
-R6
-R7
+R16
+R33

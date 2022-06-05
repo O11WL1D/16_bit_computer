@@ -1,0 +1,325 @@
+|adder
+over <= designA:argsetr.over
+sub => designA:inst.C
+sub => inst1.IN1
+sub => inst2.IN1
+sub => inst3.IN1
+sub => inst4.IN1
+sub => inst5.IN1
+sub => inst6.IN1
+sub => inst7.IN1
+sub => inst8.IN1
+sub => inst9.IN1
+sub => inst10.IN1
+sub => inst11.IN1
+sub => inst12.IN1
+sub => inst13.IN1
+sub => inst14.IN1
+sub => inst15.IN1
+sub => inst16.IN1
+a[0] => designA:inst.x
+a[1] => designA:aasd.x
+a[2] => designA:aa.x
+a[3] => designA:av.x
+a[4] => designA:dse.x
+a[5] => designA:eg.x
+a[6] => designA:yd.x
+a[7] => designA:egut.x
+a[8] => designA:srgt.x
+a[9] => designA:wefgy.x
+a[10] => designA:ergw.x
+a[11] => designA:wghyy.x
+a[12] => designA:srgarh.x
+a[13] => designA:atht.x
+a[14] => designA:areaert.x
+a[15] => designA:argsetr.x
+b[0] => inst1.IN0
+b[1] => inst2.IN0
+b[2] => inst3.IN0
+b[3] => inst4.IN0
+b[4] => inst5.IN0
+b[5] => inst6.IN0
+b[6] => inst7.IN0
+b[7] => inst8.IN0
+b[8] => inst9.IN0
+b[9] => inst10.IN0
+b[10] => inst11.IN0
+b[11] => inst12.IN0
+b[12] => inst13.IN0
+b[13] => inst14.IN0
+b[14] => inst15.IN0
+b[15] => inst16.IN0
+f[0] <= designA:inst.S
+f[1] <= designA:aasd.S
+f[2] <= designA:aa.S
+f[3] <= designA:av.S
+f[4] <= designA:dse.S
+f[5] <= designA:eg.S
+f[6] <= designA:yd.S
+f[7] <= designA:egut.S
+f[8] <= designA:srgt.S
+f[9] <= designA:wefgy.S
+f[10] <= designA:ergw.S
+f[11] <= designA:wghyy.S
+f[12] <= designA:srgarh.S
+f[13] <= designA:atht.S
+f[14] <= designA:areaert.S
+f[15] <= designA:argsetr.S
+
+
+|adder|designA:argsetr
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:areaert
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:atht
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:srgarh
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:wghyy
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:ergw
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:wefgy
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:srgt
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:egut
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:yd
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:eg
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:dse
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:av
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:aa
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:aasd
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|designA:inst
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+

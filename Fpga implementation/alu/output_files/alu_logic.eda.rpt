@@ -1,5 +1,5 @@
 EDA Netlist Writer report for alu_logic
-Sat Jun 04 17:17:23 2022
+Sat Jun 04 21:32:00 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat Jun 04 17:17:23 2022 ;
+; EDA Netlist Writer Status ; Successful - Sat Jun 04 21:32:00 2022 ;
 ; Revision Name             ; alu_logic                             ;
 ; Top-level Entity Name     ; alu_logic                             ;
 ; Family                    ; Cyclone V                             ;
@@ -93,14 +93,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat Jun 04 17:17:19 2022
+    Info: Processing started: Sat Jun 04 21:31:57 2022
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/" alu_logic -c alu_logic
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file alu_logic.vo in folder "C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4699 megabytes
-    Info: Processing ended: Sat Jun 04 17:17:23 2022
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 4701 megabytes
+    Info: Processing ended: Sat Jun 04 21:32:00 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

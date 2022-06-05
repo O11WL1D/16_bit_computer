@@ -1,0 +1,16 @@
+|designA
+S <= 1212.DB_MAX_OUTPUT_PORT_TYPE
+C => d.IN0
+C => asd.IN1
+C => as.IN1
+C => daasassasasd.IN1
+x => d.IN1
+x => asd.IN0
+x => asdasd.IN0
+y => 1212.IN1
+y => as.IN0
+y => asdasd.IN1
+Cpo <= asdasdd.DB_MAX_OUTPUT_PORT_TYPE
+over <= daasassasasd.DB_MAX_OUTPUT_PORT_TYPE
+
+

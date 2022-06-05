@@ -44,9 +44,14 @@ ARCHITECTURE LogicFunc OF alu_logic IS
 
 BEGIN 
 
+
+
+
+
 --f <= (a AND b ) ;    this would make it so that all f outputs would be equal to its respective A[x] AND B[x]
 
 
+f <= (( (a XOR ap) AND  (b XOR bp)) XOR fp ) ;
 
 
 

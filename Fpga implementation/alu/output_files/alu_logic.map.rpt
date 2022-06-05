@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu_logic
-Sat Jun 04 18:34:07 2022
+Sat Jun 04 19:33:08 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Jun 04 18:34:07 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sat Jun 04 19:33:08 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; alu_logic                                   ;
 ; Top-level Entity Name           ; alu_logic                                   ;
@@ -184,9 +184,9 @@ refer to the applicable agreement for further details.
 ; Combinational ALUT usage for logic          ; 16    ;
 ;     -- 7 input functions                    ; 0     ;
 ;     -- 6 input functions                    ; 0     ;
-;     -- 5 input functions                    ; 0     ;
+;     -- 5 input functions                    ; 16    ;
 ;     -- 4 input functions                    ; 0     ;
-;     -- <=3 input functions                  ; 16    ;
+;     -- <=3 input functions                  ; 0     ;
 ;                                             ;       ;
 ; Dedicated logic registers                   ; 0     ;
 ;                                             ;       ;
@@ -196,8 +196,8 @@ refer to the applicable agreement for further details.
 ;                                             ;       ;
 ; Maximum fan-out node                        ; f~0   ;
 ; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 144   ;
-; Average fan-out                             ; 0.69  ;
+; Total fan-out                               ; 192   ;
+; Average fan-out                             ; 0.92  ;
 +---------------------------------------------+-------+
 
 
@@ -233,7 +233,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; arriav_lcell_comb     ; 16                          ;
 ;     normal            ; 16                          ;
-;         2 data inputs ; 16                          ;
+;         5 data inputs ; 16                          ;
 ; boundary_port         ; 96                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
@@ -256,7 +256,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Jun 04 18:33:48 2022
+    Info: Processing started: Sat Jun 04 19:32:49 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu_logic -c alu_logic
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -270,63 +270,14 @@ Info (12127): Elaborating entity "alu_logic" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 48 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "ap[0]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[1]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[2]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[3]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[4]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[5]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[6]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[7]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[8]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[9]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[10]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[11]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[12]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[13]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[14]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "ap[15]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 10
-    Warning (15610): No output dependent on input pin "bp[0]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[1]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[2]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[3]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[4]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[5]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[6]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[7]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[8]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[9]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[10]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[11]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[12]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[13]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[14]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "bp[15]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 11
-    Warning (15610): No output dependent on input pin "fp[0]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[1]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[2]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[3]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[4]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[5]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[6]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[7]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[8]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[9]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[10]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[11]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[12]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[13]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[14]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
-    Warning (15610): No output dependent on input pin "fp[15]" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/alu_logic.vhd Line: 14
 Info (21057): Implemented 112 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 80 input pins
     Info (21059): Implemented 16 output pins
     Info (21061): Implemented 16 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 51 warnings
-    Info: Peak virtual memory: 4840 megabytes
-    Info: Processing ended: Sat Jun 04 18:34:07 2022
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Sat Jun 04 19:33:08 2022
     Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:41
+    Info: Total CPU time (on all processors): 00:00:40
 
 
