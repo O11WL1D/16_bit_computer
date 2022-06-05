@@ -25,6 +25,12 @@ Once every module has been tested, and all revisions have been made, I will put 
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
 
 
+6/4/2022
+
+Just wrote a quick little program which quickly performs my github default save specifically on this project. Now I can update the github at any point just by pressing windows + r, and running the program u16
+
+I’ve got to make a repository one of these days with all of my bash programs 😊
+
 
 6/4/2022
 
