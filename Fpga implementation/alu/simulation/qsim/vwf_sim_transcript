@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off adder -c adder --vector_source="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/Waveform4.vwf" --testbench_file="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/Waveform4.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off b16_or -c b16_or --vector_source="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/Waveform6.vwf" --testbench_file="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/Waveform6.vwf.vht"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -25,15 +25,15 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sun Jun 05 01:18:26 2022
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off adder -c adder --vector_source="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/Waveform4.vwf" --testbench_file="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/Waveform4.vwf.vht"
+    Info: Processing started: Sun Jun 05 12:28:07 2022
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off b16_or -c b16_or --vector_source="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/Waveform6.vwf" --testbench_file="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/Waveform6.vwf.vht"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
 Completed successfully. 
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/" adder -c adder
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/" b16_or -c b16_or
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -51,13 +51,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sun Jun 05 01:18:30 2022
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/" adder -c adder
+    Info: Processing started: Sun Jun 05 12:28:11 2022
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/" b16_or -c b16_or
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file adder.vho in folder "C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file b16_or.vho in folder "C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4698 megabytes
-    Info: Processing ended: Sun Jun 05 01:18:32 2022
+    Info: Peak virtual memory: 4699 megabytes
+    Info: Processing ended: Sun Jun 05 12:28:13 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:03
 
@@ -65,85 +65,83 @@ Completed successfully.
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/adder.do generated.
+C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/b16_or.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-c:/intelfpga_lite/18.1/modelsim_ase/win32aloem//vsim -c -do adder.do
+c:/intelfpga_lite/18.1/modelsim_ase/win32aloem//vsim -c -do b16_or.do
 
 Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
 
 # 10.5b
 
 
-# do adder.do
-
+# do b16_or.do
 # ** Warning: (vlib-34) Library already exists at "work".
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:18:34 on Jun 05,2022
-# vcom -work work adder.vho 
+# Start time: 12:28:15 on Jun 05,2022
+# vcom -work work b16_or.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package altera_lnsim_components
-
 # -- Loading package VITAL_Timing
 # -- Loading package VITAL_Primitives
 # -- Loading package cyclonev_atom_pack
 # -- Loading package cyclonev_components
-# -- Compiling entity adder
-# -- Compiling architecture structure of adder
-# End time: 01:18:34 on Jun 05,2022, Elapsed time: 0:00:00
+# -- Compiling entity b16_or
+# -- Compiling architecture structure of b16_or
+
+# End time: 12:28:15 on Jun 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:18:35 on Jun 05,2022
-# vcom -work work Waveform4.vwf.vht 
+# Start time: 12:28:15 on Jun 05,2022
+# vcom -work work Waveform6.vwf.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity adder_vhd_vec_tst
-# -- Compiling architecture adder_arch of adder_vhd_vec_tst
-# End time: 01:18:35 on Jun 05,2022, Elapsed time: 0:00:00
+# -- Compiling entity b16_or_vhd_vec_tst
+# -- Compiling architecture b16_or_arch of b16_or_vhd_vec_tst
+# End time: 12:28:15 on Jun 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.adder_vhd_vec_tst 
-# Start time: 01:18:35 on Jun 05,2022
+# vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.b16_or_vhd_vec_tst 
+# Start time: 12:28:15 on Jun 05,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.adder_vhd_vec_tst(adder_arch)
+# Loading work.b16_or_vhd_vec_tst(b16_or_arch)
 # Loading altera_lnsim.altera_lnsim_components
 # Loading ieee.vital_timing(body)
 # Loading ieee.vital_primitives(body)
 # Loading cyclonev.cyclonev_atom_pack(body)
 # Loading cyclonev.cyclonev_components
-# Loading work.adder(structure)
+# Loading work.b16_or(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cyclonev.cyclonev_io_obuf(arch)
 # Loading cyclonev.cyclonev_io_ibuf(arch)
 # Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
-# ** Warning: Design size of 14016 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
-# Expect performance to be adversely affected.
 # after#32
 
-# End time: 01:18:36 on Jun 05,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 1
+# End time: 12:28:16 on Jun 05,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/adder_waveform.vwf...
+Reading C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/Waveform6.vwf...
 
-Reading C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/adder.msim.vcd...
+Reading C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/b16_or.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/adder_20220605011836.sim.vwf
+Writing the resulting VWF to C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/simulation/qsim/b16_or_20220605122817.sim.vwf
 
 Finished VCD to VWF conversion.
 
