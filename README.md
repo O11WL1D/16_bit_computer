@@ -2,6 +2,8 @@
 
 
 
+
+
 # design plan
 
 My plan is to create a rough preliminary design for each module. After I have an idea of how every module will interact with each other,
@@ -14,7 +16,7 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
-
+----directory:  https://github.com/O11WL1D/16_bit_computer 
 
 
 
