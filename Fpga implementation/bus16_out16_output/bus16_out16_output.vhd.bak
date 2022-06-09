@@ -1,0 +1,44 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all ;
+
+
+
+
+Entity omod is
+
+port(
+
+
+a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15 : out std_logic ;
+
+
+b : in std_logic_vector(15 downto 0) 
+
+-- last item cannot have a semicolon 
+
+
+
+);
+
+
+end omod ;
+
+
+
+
+ARCHITECTURE LogicFunc of omod is
+Begin 
+
+
+
+
+
+
+
+
+
+
+
+
+
+END LogicFunc ; 
