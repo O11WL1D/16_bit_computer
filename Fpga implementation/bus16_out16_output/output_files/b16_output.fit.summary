@@ -1,11 +1,11 @@
-Fitter Status : Successful - Wed Jun 08 15:54:11 2022
+Fitter Status : Failed - Thu Jun 09 22:27:42 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : b16_output
 Top-level Entity Name : b16_output
 Family : Cyclone V
 Device : 5CEBA2F17A7
 Timing Models : Final
-Logic utilization (in ALMs) : 1 / 9,430 ( < 1 % )
+Logic utilization (in ALMs) : 0 / 9,430 ( 0 % )
 Total registers : 0
 Total pins : 32 / 128 ( 25 % )
 Total virtual pins : 0

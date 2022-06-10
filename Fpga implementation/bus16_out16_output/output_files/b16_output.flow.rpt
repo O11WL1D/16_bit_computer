@@ -1,5 +1,5 @@
 Flow report for b16_output
-Wed Jun 08 15:54:33 2022
+Thu Jun 09 22:27:42 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,14 +40,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Jun 08 15:54:21 2022       ;
+; Flow Status                     ; Flow Failed - Thu Jun 09 22:27:42 2022      ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; b16_output                                  ;
 ; Top-level Entity Name           ; b16_output                                  ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA2F17A7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1 / 9,430 ( < 1 % )                         ;
+; Logic utilization (in ALMs)     ; 0 / 9,430 ( 0 % )                           ;
 ; Total registers                 ; 0                                           ;
 ; Total pins                      ; 32 / 128 ( 25 % )                           ;
 ; Total virtual pins              ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/08/2022 15:53:15 ;
+; Start date & time ; 06/09/2022 22:27:18 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; b16_output          ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 20184960790213.165472519400224         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 20184960790213.165483523718488         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 125                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -93,11 +93,9 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 4832 MB             ; 00:00:43                           ;
-; Fitter               ; 00:00:36     ; 1.0                     ; 6527 MB             ; 00:01:22                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 4802 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 5086 MB             ; 00:00:10                           ;
-; Total                ; 00:01:14     ; --                      ; --                  ; 00:02:22                           ;
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4833 MB             ; 00:00:44                           ;
+; Fitter               ; 00:00:03     ; 1.0                     ; 4936 MB             ; 00:00:04                           ;
+; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:48                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,8 +106,6 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Fitter               ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -118,8 +114,6 @@ refer to the applicable agreement for further details.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off b16_output -c b16_output
 quartus_fit --read_settings_files=off --write_settings_files=off b16_output -c b16_output
-quartus_asm --read_settings_files=off --write_settings_files=off b16_output -c b16_output
-quartus_sta b16_output -c b16_output
 
 
 

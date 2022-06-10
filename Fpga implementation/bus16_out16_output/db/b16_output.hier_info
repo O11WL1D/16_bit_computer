@@ -1,5 +1,5 @@
 |b16_output
-f0 <= bus16_out16_output:inst.a0
+HEX25 <= bus16_out16_output:inst.a15
 b[0] => bus16_out16_output:inst.b[0]
 b[1] => bus16_out16_output:inst.b[1]
 b[2] => bus16_out16_output:inst.b[2]
@@ -16,21 +16,21 @@ b[12] => bus16_out16_output:inst.b[12]
 b[13] => bus16_out16_output:inst.b[13]
 b[14] => bus16_out16_output:inst.b[14]
 b[15] => bus16_out16_output:inst.b[15]
-f1 <= bus16_out16_output:inst.a1
-f2 <= bus16_out16_output:inst.a2
-f3 <= bus16_out16_output:inst.a3
-f4 <= bus16_out16_output:inst.a4
-f5 <= bus16_out16_output:inst.a5
-f6 <= bus16_out16_output:inst.a6
-f7 <= bus16_out16_output:inst.a7
-f8 <= bus16_out16_output:inst.a8
-f9 <= bus16_out16_output:inst.a9
-f10 <= bus16_out16_output:inst.a10
-f11 <= bus16_out16_output:inst.a11
-f12 <= bus16_out16_output:inst.a12
-f13 <= bus16_out16_output:inst.a13
-f14 <= bus16_out16_output:inst.a14
-f15 <= bus16_out16_output:inst.a15
+HEX21 <= bus16_out16_output:inst.a14
+HEX24 <= bus16_out16_output:inst.a13
+HEX2 <= bus16_out16_output:inst.a12
+HEX23 <= bus16_out16_output:inst.a9
+HEX26 <= bus16_out16_output:inst.a10
+HEX20 <= bus16_out16_output:inst.a11
+HEX03 <= bus16_out16_output:inst.a1
+HEX06 <= bus16_out16_output:inst.a2
+HEX00 <= bus16_out16_output:inst.a3
+HEX02 <= bus16_out16_output:inst.a4
+HEX04 <= bus16_out16_output:inst.a5
+HEX01 <= bus16_out16_output:inst.a6
+HEX05 <= bus16_out16_output:inst.a7
+LEDR1 <= bus16_out16_output:inst.a0
+LEDR2 <= bus16_out16_output:inst.a8
 
 
 |b16_output|bus16_out16_output:inst
