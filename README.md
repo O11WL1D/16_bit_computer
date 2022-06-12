@@ -25,6 +25,14 @@ Once every module has been tested, and all revisions have been made, I will put 
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
 
 
+
+6/12/2022
+
+I have been trouble shooting the de0-cv all day and I have finally figured out why my designs were not being implemented on the board. I had assumed that you needed to switch the run/prog switch to the prog position when trying to program the board. Turns out you need it in the run position for programming. I am so mad. 
+
+
+
+
 6/5/2022
 
 Slightly unrelated but I have an idea for a better github updating system. Instead of creating a special program for each project I have, I can put the github repository in one of 5 update folders, which my update programs are set to change directory to. This way, I can quickly update anything that I want without needing to allocate so much time to each project’s update program. Woo. 
