@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "b[13]",
+					"strict" : false
+				},
+				{
+					"name" : "b[12]",
+					"strict" : false
+				},
+				{
+					"name" : "b[11]",
+					"strict" : false
+				},
+				{
+					"name" : "b[10]",
+					"strict" : false
+				},
+				{
+					"name" : "b[9]",
+					"strict" : false
+				},
+				{
+					"name" : "b[8]",
+					"strict" : false
+				},
+				{
+					"name" : "b[7]",
+					"strict" : false
+				},
+				{
+					"name" : "b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sw10",
+					"strict" : false
+				},
+				{
+					"name" : "sw9",
+					"strict" : false
+				},
+				{
+					"name" : "sw7",
+					"strict" : false
+				},
+				{
+					"name" : "sw6",
+					"strict" : false
+				},
+				{
+					"name" : "sw5",
+					"strict" : false
+				},
+				{
+					"name" : "sw4",
+					"strict" : false
+				},
+				{
+					"name" : "sw3",
+					"strict" : false
+				},
+				{
+					"name" : "sw2",
+					"strict" : false
+				},
+				{
+					"name" : "sw1",
+					"strict" : false
+				},
+				{
+					"name" : "sw0",
+					"strict" : false
+				},
+				{
+					"name" : "KEY3",
+					"strict" : false
+				},
+				{
+					"name" : "KEY2",
+					"strict" : false
+				},
+				{
+					"name" : "KEY1",
+					"strict" : false
+				},
+				{
+					"name" : "KEY0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

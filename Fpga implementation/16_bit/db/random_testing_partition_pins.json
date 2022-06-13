@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDR2",
+					"strict" : false
+				},
+				{
+					"name" : "HEX03",
+					"strict" : false
+				},
+				{
+					"name" : "HEX06",
+					"strict" : false
+				},
+				{
+					"name" : "HEX00",
+					"strict" : false
+				},
+				{
+					"name" : "HEX02",
+					"strict" : false
+				},
+				{
+					"name" : "HEX04",
+					"strict" : false
+				},
+				{
+					"name" : "HEX01",
+					"strict" : false
+				},
+				{
+					"name" : "HEX05",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR3",
+					"strict" : false
+				},
+				{
+					"name" : "HEX13",
+					"strict" : false
+				},
+				{
+					"name" : "HEX16",
+					"strict" : false
+				},
+				{
+					"name" : "HEX10",
+					"strict" : false
+				},
+				{
+					"name" : "HEX12",
+					"strict" : false
+				},
+				{
+					"name" : "KEY0",
+					"strict" : false
+				},
+				{
+					"name" : "KEY1",
+					"strict" : false
+				},
+				{
+					"name" : "KEY2",
+					"strict" : false
+				},
+				{
+					"name" : "KEY3",
+					"strict" : false
+				},
+				{
+					"name" : "sw0",
+					"strict" : false
+				},
+				{
+					"name" : "sw1",
+					"strict" : false
+				},
+				{
+					"name" : "sw2",
+					"strict" : false
+				},
+				{
+					"name" : "sw3",
+					"strict" : false
+				},
+				{
+					"name" : "sw4",
+					"strict" : false
+				},
+				{
+					"name" : "sw5",
+					"strict" : false
+				},
+				{
+					"name" : "sw6",
+					"strict" : false
+				},
+				{
+					"name" : "sw7",
+					"strict" : false
+				},
+				{
+					"name" : "sw9",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

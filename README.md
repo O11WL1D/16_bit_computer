@@ -28,6 +28,14 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 6/12/2022
 
+10:30
+
+I’ve almost finished up one of the 16 bit value displays. Now I need to make the other three and implement the other features of the input/output module. 
+
+
+
+X:XX
+
 I have been trouble-shooting the de0-cv all day and I have finally figured out why my designs were not being implemented on the board. I had assumed that you needed to switch the run/prog switch to the prog position when trying to program the board. Turns out you need it in the run position for programming. I am so mad. 
 
 = Also I believe I may need to go back and re-create some of my project files as I when I made some of the other Quartus projects I selected “use existing project settings”, and for some reason that doesn’t sit well with the software because I had pin assignment issues following that. 
