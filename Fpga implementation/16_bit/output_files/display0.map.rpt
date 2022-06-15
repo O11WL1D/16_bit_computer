@@ -1,5 +1,5 @@
 Analysis & Synthesis report for display0
-Sun Jun 12 19:47:44 2022
+Tue Jun 14 22:39:39 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jun 12 19:47:44 2022       ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 14 22:39:39 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; display0                                    ;
 ; Top-level Entity Name           ; display0                                    ;
@@ -195,7 +195,7 @@ refer to the applicable agreement for further details.
 ;                                             ;              ;
 ; Total DSP Blocks                            ; 0            ;
 ;                                             ;              ;
-; Maximum fan-out node                        ; LEDR2~output ;
+; Maximum fan-out node                        ; HEX03~output ;
 ; Maximum fan-out                             ; 1            ;
 ; Total fan-out                               ; 48           ;
 ; Average fan-out                             ; 0.75         ;
@@ -254,7 +254,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jun 12 19:47:28 2022
+    Info: Processing started: Tue Jun 14 22:39:14 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off display0 -c display0
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -271,9 +271,9 @@ Info (21057): Implemented 32 device resources after synthesis - the final resour
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 16 output pins
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4838 megabytes
-    Info: Processing ended: Sun Jun 12 19:47:44 2022
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:34
+    Info: Peak virtual memory: 4832 megabytes
+    Info: Processing ended: Tue Jun 14 22:39:39 2022
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:50
 
 

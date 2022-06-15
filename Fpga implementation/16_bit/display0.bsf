@@ -33,8 +33,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 144 32)
 		(output)
-		(text "LEDR2" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
-		(text "LEDR2" (rect 83 27 123 46)(font "Intel Clear" (font_size 8)))
+		(text "LEDR1" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LEDR1" (rect 83 27 123 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 144 32)(pt 128 32))
 	)
 	(port
@@ -89,8 +89,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 144 160)
 		(output)
-		(text "LEDR3" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
-		(text "LEDR3" (rect 83 155 123 174)(font "Intel Clear" (font_size 8)))
+		(text "LEDR2" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LEDR2" (rect 83 155 123 174)(font "Intel Clear" (font_size 8)))
 		(line (pt 144 160)(pt 128 160))
 	)
 	(port

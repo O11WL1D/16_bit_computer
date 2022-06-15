@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sun Jun 12 22:21:35 2022
+Analysis & Synthesis Status : Successful - Tue Jun 14 23:30:25 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : random_testing
 Top-level Entity Name : random_testing
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 30
+Total pins : 16
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

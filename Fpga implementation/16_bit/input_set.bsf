@@ -122,13 +122,6 @@ refer to the applicable agreement for further details.
 		(line (pt 0 240)(pt 16 240))
 	)
 	(port
-		(pt 0 256)
-		(input)
-		(text "sw10" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
-		(text "sw10" (rect 21 251 52 270)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 256)(pt 16 256))
-	)
-	(port
 		(pt 136 32)
 		(output)
 		(text "b[15..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))

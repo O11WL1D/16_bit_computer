@@ -28,7 +28,6 @@ sw5 => bus_split_out:inst.a9
 sw6 => bus_split_out:inst.a10
 sw7 => bus_split_out:inst.a11
 sw9 => bus_split_out:inst.a12
-sw10 => bus_split_out:inst.a13
 sw8 => ~NO_FANOUT~
 
 

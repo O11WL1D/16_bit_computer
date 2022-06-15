@@ -1,5 +1,5 @@
 Analysis & Synthesis report for random_testing
-Sun Jun 12 22:21:35 2022
+Tue Jun 14 23:30:25 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,9 +14,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  9. Parameter Settings for User Entity Instance: LPM_CONSTANT:inrfgargst5
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -42,14 +43,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jun 12 22:21:35 2022       ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 14 23:30:25 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; random_testing                              ;
 ; Top-level Entity Name           ; random_testing                              ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 30                                          ;
+; Total pins                      ; 16                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -172,7 +173,7 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
 ; random_testing.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/random_testing.bdf ;         ;
 ; bus_split.vhd                    ; yes             ; Auto-Found VHDL File               ; C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd      ;         ;
-; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File               ; C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split_out.vhd  ;         ;
+; lpm_constant.tdf                 ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_constant.tdf                                                 ;         ;
 +----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
 
 
@@ -192,14 +193,14 @@ refer to the applicable agreement for further details.
 ;                                             ;              ;
 ; Dedicated logic registers                   ; 0            ;
 ;                                             ;              ;
-; I/O pins                                    ; 30           ;
+; I/O pins                                    ; 16           ;
 ;                                             ;              ;
 ; Total DSP Blocks                            ; 0            ;
 ;                                             ;              ;
-; Maximum fan-out node                        ; LEDR2~output ;
+; Maximum fan-out node                        ; HEX03~output ;
 ; Maximum fan-out                             ; 1            ;
-; Total fan-out                               ; 43           ;
-; Average fan-out                             ; 0.72         ;
+; Total fan-out                               ; 16           ;
+; Average fan-out                             ; 0.50         ;
 +---------------------------------------------+--------------+
 
 
@@ -208,7 +209,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name    ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-; |random_testing            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 30   ; 0            ; |random_testing     ; random_testing ; work         ;
+; |random_testing            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 16   ; 0            ; |random_testing     ; random_testing ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -228,15 +229,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LPM_CONSTANT:inrfgargst5 ;
++--------------------+------------------+-------------------------------+
+; Parameter Name     ; Value            ; Type                          ;
++--------------------+------------------+-------------------------------+
+; LPM_WIDTH          ; 16               ; Untyped                       ;
+; LPM_CVALUE         ; 21845            ; Untyped                       ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                       ;
+; CBXI_PARAMETER     ; lpm_constant_md4 ; Untyped                       ;
++--------------------+------------------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
-; boundary_port         ; 30                          ;
+; arriav_lcell_comb     ; 2                           ;
+;     normal            ; 2                           ;
+;         0 data inputs ; 2                           ;
+; boundary_port         ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 0.00                        ;
 ; Average LUT depth     ; 0.00                        ;
@@ -258,37 +272,49 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jun 12 22:21:16 2022
+    Info: Processing started: Tue Jun 14 23:30:00 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off random_testing -c random_testing
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file random_testing.bdf
     Info (12023): Found entity 1: random_testing
 Info (12127): Elaborating entity "random_testing" for the top level hierarchy
-Warning (275009): Pin "sw8" not connected
+Warning (275008): Primitive "VCC" of instance "inst" not used
 Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd Line: 7
-Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst"
-Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus_split_out File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst1"
+Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:dsvSDvSFVS"
+Info (12128): Elaborating entity "LPM_CONSTANT" for hierarchy "LPM_CONSTANT:inrfgargst5"
+Info (12130): Elaborated megafunction instantiation "LPM_CONSTANT:inrfgargst5"
+Info (12133): Instantiated megafunction "LPM_CONSTANT:inrfgargst5" with the following parameter:
+    Info (12134): Parameter "LPM_CVALUE" = "21845"
+    Info (12134): Parameter "LPM_WIDTH" = "16"
 Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX03" is stuck at GND
+    Warning (13410): Pin "HEX06" is stuck at VCC
+    Warning (13410): Pin "HEX00" is stuck at GND
+    Warning (13410): Pin "HEX02" is stuck at VCC
+    Warning (13410): Pin "HEX04" is stuck at GND
+    Warning (13410): Pin "HEX01" is stuck at VCC
+    Warning (13410): Pin "HEX05" is stuck at GND
+    Warning (13410): Pin "HEX13" is stuck at GND
+    Warning (13410): Pin "HEX16" is stuck at VCC
+    Warning (13410): Pin "HEX10" is stuck at GND
+    Warning (13410): Pin "HEX12" is stuck at VCC
     Warning (13410): Pin "HEX14" is stuck at GND
-    Warning (13410): Pin "HEX11" is stuck at GND
+    Warning (13410): Pin "HEX11" is stuck at VCC
     Warning (13410): Pin "HEX15" is stuck at GND
+    Warning (13410): Pin "LEDR1" is stuck at VCC
+    Warning (13410): Pin "LEDR2" is stuck at VCC
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 30 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 14 input pins
+Info (21057): Implemented 16 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 0 input pins
     Info (21059): Implemented 16 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4838 megabytes
-    Info: Processing ended: Sun Jun 12 22:21:35 2022
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:36
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 20 warnings
+    Info: Peak virtual memory: 4842 megabytes
+    Info: Processing ended: Tue Jun 14 23:30:25 2022
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:55
 
 

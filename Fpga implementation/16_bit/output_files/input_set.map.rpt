@@ -1,5 +1,5 @@
 Analysis & Synthesis report for input_set
-Sun Jun 12 19:15:25 2022
+Tue Jun 14 22:44:27 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,14 +42,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jun 12 19:15:25 2022       ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 14 22:44:27 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; input_set                                   ;
 ; Top-level Entity Name           ; input_set                                   ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 31                                          ;
+; Total pins                      ; 30                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -191,14 +191,14 @@ refer to the applicable agreement for further details.
 ;                                             ;              ;
 ; Dedicated logic registers                   ; 0            ;
 ;                                             ;              ;
-; I/O pins                                    ; 31           ;
+; I/O pins                                    ; 30           ;
 ;                                             ;              ;
 ; Total DSP Blocks                            ; 0            ;
 ;                                             ;              ;
 ; Maximum fan-out node                        ; b[15]~output ;
 ; Maximum fan-out                             ; 1            ;
-; Total fan-out                               ; 45           ;
-; Average fan-out                             ; 0.73         ;
+; Total fan-out                               ; 43           ;
+; Average fan-out                             ; 0.72         ;
 +---------------------------------------------+--------------+
 
 
@@ -207,7 +207,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |input_set                 ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 31   ; 0            ; |input_set          ; input_set   ; work         ;
+; |input_set                 ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 30   ; 0            ; |input_set          ; input_set   ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -235,7 +235,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; arriav_lcell_comb     ; 1                           ;
 ;     normal            ; 1                           ;
 ;         0 data inputs ; 1                           ;
-; boundary_port         ; 31                          ;
+; boundary_port         ; 30                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 0.00                        ;
 ; Average LUT depth     ; 0.00                        ;
@@ -257,7 +257,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jun 12 19:15:09 2022
+    Info: Processing started: Tue Jun 14 22:44:04 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off input_set -c input_set
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -272,17 +272,18 @@ Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:in
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "b[15]" is stuck at GND
     Warning (13410): Pin "b[14]" is stuck at GND
+    Warning (13410): Pin "b[13]" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 31 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 15 input pins
+Info (21057): Implemented 30 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 14 input pins
     Info (21059): Implemented 16 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Sun Jun 12 19:15:25 2022
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:34
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Tue Jun 14 22:44:27 2022
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:48
 
 

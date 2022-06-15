@@ -4,10 +4,6 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "LEDR2",
-					"strict" : false
-				},
-				{
 					"name" : "HEX03",
 					"strict" : false
 				},
@@ -33,10 +29,6 @@
 				},
 				{
 					"name" : "HEX05",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR3",
 					"strict" : false
 				},
 				{
@@ -68,7 +60,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "a[0]",
+					"name" : "LEDR1",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR2",
 					"strict" : false
 				},
 				{
@@ -100,10 +96,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "a[8]",
-					"strict" : false
-				},
-				{
 					"name" : "a[9]",
 					"strict" : false
 				},
@@ -129,6 +121,14 @@
 				},
 				{
 					"name" : "a[15]",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "a[8]",
 					"strict" : false
 				}
 			]

@@ -56,11 +56,11 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 
 
 
-
+set_location_assignment PIN_AA1 -to LEDR1
 
 set_location_assignment PIN_W2 -to LEDR2
 
-set_location_assignment PIN_Y3 -to LEDR3
+
 
 
 

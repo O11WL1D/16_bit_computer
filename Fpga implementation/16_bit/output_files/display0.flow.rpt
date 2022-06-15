@@ -1,5 +1,5 @@
 Flow report for display0
-Sun Jun 12 19:48:21 2022
+Tue Jun 14 22:40:56 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Jun 12 19:48:14 2022       ;
+; Flow Status                     ; Successful - Tue Jun 14 22:40:39 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; display0                                    ;
 ; Top-level Entity Name           ; display0                                    ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/12/2022 19:47:29 ;
+; Start date & time ; 06/14/2022 22:39:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; display0            ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 20184960790213.165508484813580         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 20184960790213.165526795503516         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -93,11 +93,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4838 MB             ; 00:00:34                           ;
-; Fitter               ; 00:00:22     ; 1.0                     ; 6491 MB             ; 00:00:53                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4798 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 5054 MB             ; 00:00:06                           ;
-; Total                ; 00:00:48     ; --                      ; --                  ; 00:01:38                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4832 MB             ; 00:00:50                           ;
+; Fitter               ; 00:00:46     ; 1.0                     ; 6593 MB             ; 00:01:20                           ;
+; Assembler            ; 00:00:10     ; 1.0                     ; 4802 MB             ; 00:00:08                           ;
+; Timing Analyzer      ; 00:00:15     ; 1.0                     ; 5065 MB             ; 00:00:13                           ;
+; Total                ; 00:01:35     ; --                      ; --                  ; 00:02:31                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
