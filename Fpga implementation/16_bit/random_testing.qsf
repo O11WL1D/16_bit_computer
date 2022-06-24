@@ -61,11 +61,11 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 
 
 
-
+set_location_assignment PIN_AA1 -to LEDR1
 
 set_location_assignment PIN_W2 -to LEDR2
 
-set_location_assignment PIN_Y3 -to LEDR3
+
 
 
 
@@ -73,26 +73,31 @@ set_location_assignment PIN_Y3 -to LEDR3
 
 
 set_location_assignment PIN_U21 -to HEX00
+
 set_location_assignment PIN_V21 -to HEX01
+
 set_location_assignment PIN_W22 -to HEX02
+
 set_location_assignment PIN_W21 -to HEX03
 
 set_location_assignment PIN_Y22 -to HEX04
+
 set_location_assignment PIN_Y21 -to HEX05
+
 set_location_assignment PIN_AA22 -to HEX06
 
-
-
-
-
-
 set_location_assignment PIN_AA20 -to HEX10
+
 set_location_assignment PIN_AB20 -to HEX11
+
 set_location_assignment PIN_AA19 -to HEX12
+
 set_location_assignment PIN_AA18 -to HEX13
 
 set_location_assignment PIN_AB18 -to HEX14
+
 set_location_assignment PIN_AA17 -to HEX15
+
 set_location_assignment PIN_U22 -to HEX16
 
 
@@ -108,30 +113,31 @@ set_location_assignment PIN_U22 -to HEX16
 
 
 set_location_assignment PIN_U13 -to sw0
+
 set_location_assignment PIN_V13 -to sw1
+
 set_location_assignment PIN_T13 -to sw2
+
 set_location_assignment PIN_T12 -to sw3
+
 set_location_assignment PIN_AA15 -to sw4
 
 set_location_assignment PIN_AB15 -to sw5
+
 set_location_assignment PIN_AA14 -to sw6
+
 set_location_assignment PIN_AA13 -to sw7
+
 set_location_assignment PIN_AB13 -to sw8
+
 set_location_assignment PIN_AB12 -to sw9
 
 
 
 
 set_location_assignment PIN_U7 -to KEY0
-
-
 set_location_assignment PIN_W9 -to KEY1
-
-
 set_location_assignment PIN_M7 -to KEY2
-
-
-
 set_location_assignment PIN_M6 -to KEY3
 
 
@@ -153,14 +159,12 @@ set_location_assignment PIN_M6 -to KEY3
 #---------------------------------------------------input set end
 
 
+#----------------------------------------------------clock start
 
+set_location_assignment PIN_M9 -to CLOCK_50
+# is 50 megahrtz
 
-
-
-
-
-
-
+#-----------------------------------------------------clock end
 
 
 

@@ -157,6 +157,13 @@ set_location_assignment PIN_M6 -to KEY3
 #---------------------------------------------------input set end
 
 
+#----------------------------------------------------clock start
+
+set_location_assignment pin_m9 -to  CLOCK_50
+# is 50 megahrtz
+
+#-----------------------------------------------------clock end
+
 
 
 

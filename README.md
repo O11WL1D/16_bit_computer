@@ -26,6 +26,19 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+6/24/2022
+
+I am getting a strange error while working on the input/output module. Not sure what the source is, so I will be selectively deleting stuff to see where it emanates. 
+
+
+
+6/15/2022
+
+Display 0 is finished practically, I just need to invert the outputs because for some reason zeros appear as ones on the hex segments. I tried hooking up a counter to the 50 mega hrtz clock to slow it down and see the signal, but I kept encountering errors. Gotta read some documentation I guess.
+
+
+
+
 6/12/2022
 
 10:30
