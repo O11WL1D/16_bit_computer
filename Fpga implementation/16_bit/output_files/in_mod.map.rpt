@@ -1,5 +1,5 @@
 Analysis & Synthesis report for in_mod
-Fri Jun 24 14:34:33 2022
+Fri Jun 24 15:14:42 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Fri Jun 24 14:34:33 2022           ;
+; Analysis & Synthesis Status ; Failed - Fri Jun 24 15:14:42 2022           ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; in_mod                                      ;
 ; Top-level Entity Name       ; in_mod                                      ;
@@ -160,7 +160,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Jun 24 14:34:05 2022
+    Info: Processing started: Fri Jun 24 15:14:27 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off in_mod -c in_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -181,24 +181,23 @@ Warning (275008): Primitive "NOT" of instance "inst24" not used
 Warning (275008): Primitive "NOT" of instance "inst25" not used
 Warning (275008): Primitive "NOT" of instance "inst26" not used
 Warning (275008): Primitive "NOT" of instance "inst27" not used
-Warning (275008): Primitive "AND2" of instance "inst32" not used
 Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst34"
+Info (12128): Elaborating entity "74273" for hierarchy "74273:SDFSFSDF"
+Info (12130): Elaborated megafunction instantiation "74273:SDFSFSDF"
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst47"
-Info (12128): Elaborating entity "74273" for hierarchy "74273:asdasdasdvaerv"
-Info (12130): Elaborated megafunction instantiation "74273:asdasdasdvaerv"
-Error (12014): Net "gdfx_temp0", which fans out to "74273:asdasd|D1", cannot be assigned more than one value
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst"
+Error (12014): Net "gdfx_temp0", which fans out to "74273:OOGA|D1", cannot be assigned more than one value
     Error (12015): Net is fed by "bus_split:inst1|a4" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd Line: 14
     Error (12015): Net is fed by "bus_split:inst1|a5" File: C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/16_bit/bus_split.vhd Line: 14
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 3 errors, 19 warnings
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 3 errors, 18 warnings
     Error: Peak virtual memory: 4825 megabytes
-    Error: Processing ended: Fri Jun 24 14:34:33 2022
-    Error: Elapsed time: 00:00:28
-    Error: Total CPU time (on all processors): 00:01:01
+    Error: Processing ended: Fri Jun 24 15:14:42 2022
+    Error: Elapsed time: 00:00:15
+    Error: Total CPU time (on all processors): 00:00:33
 
 
