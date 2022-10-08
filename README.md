@@ -26,6 +26,22 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+10/8/2022
+
+will upload journal and other paper documents for this project soon, I have switched to a digitial notetaking system and as a result
+some of the more intellectual progress on this project will be more visible. I am attempting to increase time spent working
+on this project as of late. Who knows if it will work, but hopefully it will. 
+
+
+
+- the purpose of uploading my paper documents is both to be able to access my notes when at school, while not needing to carry around all of the notebooks associated with this 
+project, and to also demonstrate some of the soft skills cultivated by this project, i.e. organization, project conception, ect.
+
+I have yet to upload the binder I have for this project, but that is for another time.
+
+
+
+
 6/24/2022
 
 I am getting a strange error while working on the input/output module. Not sure what the source is, so I will be selectively deleting stuff to see where it emanates. 
