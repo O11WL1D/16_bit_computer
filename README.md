@@ -41,6 +41,9 @@ I have yet to upload the binder I have for this project, but that is for another
 
 
 
+-> just re-organized the 16 bit computer directory, looks much nicer now :)
+
+
 
 6/24/2022
 
