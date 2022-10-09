@@ -66,58 +66,7 @@ a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
 a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|in_mod|b16_or:inst38
-A[0] => F.IN0
-A[1] => F.IN0
-A[2] => F.IN0
-A[3] => F.IN0
-A[4] => F.IN0
-A[5] => F.IN0
-A[6] => F.IN0
-A[7] => F.IN0
-A[8] => F.IN0
-A[9] => F.IN0
-A[10] => F.IN0
-A[11] => F.IN0
-A[12] => F.IN0
-A[13] => F.IN0
-A[14] => F.IN0
-A[15] => F.IN0
-B[0] => F.IN1
-B[1] => F.IN1
-B[2] => F.IN1
-B[3] => F.IN1
-B[4] => F.IN1
-B[5] => F.IN1
-B[6] => F.IN1
-B[7] => F.IN1
-B[8] => F.IN1
-B[9] => F.IN1
-B[10] => F.IN1
-B[11] => F.IN1
-B[12] => F.IN1
-B[13] => F.IN1
-B[14] => F.IN1
-B[15] => F.IN1
-F[0] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[1] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[2] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[3] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[4] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[5] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[6] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[7] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[8] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[9] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[10] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[11] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[12] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[13] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[14] <= F.DB_MAX_OUTPUT_PORT_TYPE
-F[15] <= F.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|in_mod|b16_en:inst31
+|in_mod|b16_en:inst36
 a[0] => f.IN0
 a[1] => f.IN0
 a[2] => f.IN0
@@ -413,6 +362,76 @@ d14 => c[14].DATAIN
 d15 => c[15].DATAIN
 
 
+|in_mod|bus_split_out:inst13
+c[0] <= d0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= d1.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= d2.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= d3.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= d4.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= d5.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= d6.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= d7.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= d8.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= d9.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= d10.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= d11.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= d12.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= d13.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= d14.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= d15.DB_MAX_OUTPUT_PORT_TYPE
+d0 => c[0].DATAIN
+d1 => c[1].DATAIN
+d2 => c[2].DATAIN
+d3 => c[3].DATAIN
+d4 => c[4].DATAIN
+d5 => c[5].DATAIN
+d6 => c[6].DATAIN
+d7 => c[7].DATAIN
+d8 => c[8].DATAIN
+d9 => c[9].DATAIN
+d10 => c[10].DATAIN
+d11 => c[11].DATAIN
+d12 => c[12].DATAIN
+d13 => c[13].DATAIN
+d14 => c[14].DATAIN
+d15 => c[15].DATAIN
+
+
+|in_mod|bus_split:inst15
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
 |in_mod|eightbitff:inst4
 pxb[0] <= bus_split_out:phm.c[0]
 pxb[1] <= bus_split_out:phm.c[1]
@@ -553,55 +572,39 @@ d14 => c[14].DATAIN
 d15 => c[15].DATAIN
 
 
-|in_mod|b16_en:inst36
-a[0] => f.IN0
-a[1] => f.IN0
-a[2] => f.IN0
-a[3] => f.IN0
-a[4] => f.IN0
-a[5] => f.IN0
-a[6] => f.IN0
-a[7] => f.IN0
-a[8] => f.IN0
-a[9] => f.IN0
-a[10] => f.IN0
-a[11] => f.IN0
-a[12] => f.IN0
-a[13] => f.IN0
-a[14] => f.IN0
-a[15] => f.IN0
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-en => f.IN1
-f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[4] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[5] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[6] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[7] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[8] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[9] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[10] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[11] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[12] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[13] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[14] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[15] <= f.DB_MAX_OUTPUT_PORT_TYPE
+|in_mod|bus_split:inst31
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |in_mod|eightbitff:inst11

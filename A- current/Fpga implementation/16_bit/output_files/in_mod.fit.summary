@@ -1,11 +1,11 @@
-Fitter Status : Successful - Sun Oct 09 15:55:03 2022
+Fitter Status : Successful - Sun Oct 09 16:31:26 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : in_mod
 Top-level Entity Name : in_mod
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 8 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 10 / 18,480 ( < 1 % )
 Total registers : 18
 Total pins : 30 / 224 ( 13 % )
 Total virtual pins : 0

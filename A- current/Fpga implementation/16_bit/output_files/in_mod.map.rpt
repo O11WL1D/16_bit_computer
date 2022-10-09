@@ -1,5 +1,5 @@
 Analysis & Synthesis report for in_mod
-Sun Oct 09 15:54:47 2022
+Sun Oct 09 16:30:59 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 09 15:54:47 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 09 16:30:59 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; in_mod                                      ;
 ; Top-level Entity Name           ; in_mod                                      ;
@@ -173,7 +173,6 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
 ; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/in_mod.bdf        ;         ;
 ; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd     ;         ;
-; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd        ;         ;
 ; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd        ;         ;
 ; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd ;         ;
 ; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/eightbitff.bdf    ;         ;
@@ -185,13 +184,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Estimate of Logic utilization (ALMs needed) ; 11                   ;
+; Estimate of Logic utilization (ALMs needed) ; 12                   ;
 ;                                             ;                      ;
-; Combinational ALUT usage for logic          ; 10                   ;
+; Combinational ALUT usage for logic          ; 18                   ;
 ;     -- 7 input functions                    ; 0                    ;
 ;     -- 6 input functions                    ; 0                    ;
 ;     -- 5 input functions                    ; 0                    ;
-;     -- 4 input functions                    ; 8                    ;
+;     -- 4 input functions                    ; 16                   ;
 ;     -- <=3 input functions                  ; 2                    ;
 ;                                             ;                      ;
 ; Dedicated logic registers                   ; 18                   ;
@@ -201,9 +200,9 @@ https://fpgasoftware.intel.com/eula.
 ; Total DSP Blocks                            ; 0                    ;
 ;                                             ;                      ;
 ; Maximum fan-out node                        ; eightbitff:inst2|pxd ;
-; Maximum fan-out                             ; 10                   ;
-; Total fan-out                               ; 112                  ;
-; Average fan-out                             ; 1.27                 ;
+; Maximum fan-out                             ; 18                   ;
+; Total fan-out                               ; 152                  ;
+; Average fan-out                             ; 1.58                 ;
 +---------------------------------------------+----------------------+
 
 
@@ -212,8 +211,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
-; |in_mod                    ; 10 (2)              ; 18 (0)                    ; 0                 ; 0          ; 30   ; 0            ; |in_mod                   ; in_mod      ; work         ;
-;    |b16_or:inst38|         ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|b16_or:inst38     ; b16_or      ; work         ;
+; |in_mod                    ; 18 (2)              ; 18 (0)                    ; 0                 ; 0          ; 30   ; 0            ; |in_mod                   ; in_mod      ; work         ;
+;    |b16_en:inst36|         ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|b16_en:inst36     ; b16_en      ; work         ;
 ;    |eightbitff:inst11|     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst11 ; eightbitff  ; work         ;
 ;    |eightbitff:inst2|      ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst2  ; eightbitff  ; work         ;
 ;    |eightbitff:inst4|      ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst4  ; eightbitff  ; work         ;
@@ -243,16 +242,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 18                          ;
 ;     plain             ; 18                          ;
-; arriav_lcell_comb     ; 19                          ;
-;     normal            ; 19                          ;
-;         0 data inputs ; 2                           ;
-;         1 data inputs ; 7                           ;
+; arriav_lcell_comb     ; 32                          ;
+;     normal            ; 32                          ;
+;         1 data inputs ; 14                          ;
 ;         3 data inputs ; 2                           ;
-;         4 data inputs ; 8                           ;
+;         4 data inputs ; 16                          ;
 ; boundary_port         ; 30                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.40                        ;
+; Average LUT depth     ; 1.58                        ;
 +-----------------------+-----------------------------+
 
 
@@ -271,15 +269,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 09 15:54:38 2022
+    Info: Processing started: Sun Oct 09 16:30:49 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off in_mod -c in_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Warning (12125): Using design file in_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: in_mod
 Info (12127): Elaborating entity "in_mod" for the top level hierarchy
-Warning (275008): Primitive "NOT" of instance "inst13" not used
-Warning (275008): Primitive "NOT" of instance "inst15" not used
 Warning (275008): Primitive "NOT" of instance "inst16" not used
 Warning (275008): Primitive "NOT" of instance "inst17" not used
 Warning (275008): Primitive "NOT" of instance "inst18" not used
@@ -296,14 +292,10 @@ Warning (12125): Using design file bus_split.vhd, which is not specified as a de
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst34"
-Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 31
-    Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 8
-Info (12128): Elaborating entity "b16_or" for hierarchy "b16_or:inst38"
 Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 39
     Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 13
-Info (12128): Elaborating entity "b16_en" for hierarchy "b16_en:inst31"
+Info (12128): Elaborating entity "b16_en" for hierarchy "b16_en:inst36"
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
@@ -311,30 +303,20 @@ Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:in
 Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: eightbitff
 Info (12128): Elaborating entity "eightbitff" for hierarchy "eightbitff:inst2"
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX13" is stuck at VCC
-    Warning (13410): Pin "HEX16" is stuck at VCC
-    Warning (13410): Pin "HEX10" is stuck at VCC
-    Warning (13410): Pin "HEX12" is stuck at VCC
-    Warning (13410): Pin "HEX14" is stuck at VCC
-    Warning (13410): Pin "HEX11" is stuck at VCC
-    Warning (13410): Pin "HEX15" is stuck at VCC
-    Warning (13410): Pin "LEDR2" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 3 input pin(s) that do not drive logic
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY3"
     Warning (15610): No output dependent on input pin "sw8"
-    Warning (15610): No output dependent on input pin "sw9"
-Info (21057): Implemented 58 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 66 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 14 input pins
     Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 28 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 34 warnings
-    Info: Peak virtual memory: 4838 megabytes
-    Info: Processing ended: Sun Oct 09 15:54:47 2022
-    Info: Elapsed time: 00:00:09
+    Info (21061): Implemented 36 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Sun Oct 09 16:30:59 2022
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:20
 
 

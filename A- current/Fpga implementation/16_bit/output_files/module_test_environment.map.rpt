@@ -1,5 +1,5 @@
 Analysis & Synthesis report for module_test_environment
-Sun Oct 09 14:22:41 2022
+Sun Oct 09 17:02:56 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,14 +43,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 09 14:22:41 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 09 17:02:56 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; module_test_environment                     ;
 ; Top-level Entity Name           ; module_test_environment                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 8                                           ;
-; Total pins                      ; 30                                          ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 46                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -173,46 +173,44 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------+---------+
 ; module_test_environment.bdf      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/module_test_environment.bdf ;         ;
 ; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd               ;         ;
-; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/eightbitff.bdf              ;         ;
 ; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd           ;         ;
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 4         ;
-;                                             ;           ;
-; Combinational ALUT usage for logic          ; 0         ;
-;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 0         ;
-;     -- 5 input functions                    ; 0         ;
-;     -- 4 input functions                    ; 0         ;
-;     -- <=3 input functions                  ; 0         ;
-;                                             ;           ;
-; Dedicated logic registers                   ; 8         ;
-;                                             ;           ;
-; I/O pins                                    ; 30        ;
-;                                             ;           ;
-; Total DSP Blocks                            ; 0         ;
-;                                             ;           ;
-; Maximum fan-out node                        ; sw4~input ;
-; Maximum fan-out                             ; 8         ;
-; Total fan-out                               ; 54        ;
-; Average fan-out                             ; 0.79      ;
-+---------------------------------------------+-----------+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+; Estimate of Logic utilization (ALMs needed) ; 0          ;
+;                                             ;            ;
+; Combinational ALUT usage for logic          ; 0          ;
+;     -- 7 input functions                    ; 0          ;
+;     -- 6 input functions                    ; 0          ;
+;     -- 5 input functions                    ; 0          ;
+;     -- 4 input functions                    ; 0          ;
+;     -- <=3 input functions                  ; 0          ;
+;                                             ;            ;
+; Dedicated logic registers                   ; 0          ;
+;                                             ;            ;
+; I/O pins                                    ; 46         ;
+;                                             ;            ;
+; Total DSP Blocks                            ; 0          ;
+;                                             ;            ;
+; Maximum fan-out node                        ; KEY1~input ;
+; Maximum fan-out                             ; 2          ;
+; Total fan-out                               ; 72         ;
+; Average fan-out                             ; 0.78       ;
++---------------------------------------------+------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                       ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+-------------------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                        ; Entity Name             ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+-------------------------+--------------+
-; |module_test_environment   ; 0 (0)               ; 8 (0)                     ; 0                 ; 0          ; 30   ; 0            ; |module_test_environment                   ; module_test_environment ; work         ;
-;    |eightbitff:inst17|     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|eightbitff:inst17 ; eightbitff              ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+-------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                     ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+-------------------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name      ; Entity Name             ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+-------------------------+--------------+
+; |module_test_environment   ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 46   ; 0            ; |module_test_environment ; module_test_environment ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+-------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -221,7 +219,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 8     ;
+; Total registers                              ; 0     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -236,16 +234,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 8                           ;
-;     plain             ; 8                           ;
-; arriav_lcell_comb     ; 9                           ;
-;     normal            ; 9                           ;
-;         0 data inputs ; 2                           ;
-;         1 data inputs ; 7                           ;
-; boundary_port         ; 30                          ;
+; arriav_lcell_comb     ; 12                          ;
+;     normal            ; 12                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 11                          ;
+; boundary_port         ; 46                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.54                        ;
+; Average LUT depth     ; 0.88                        ;
 +-----------------------+-----------------------------+
 
 
@@ -264,7 +260,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 09 14:22:30 2022
+    Info: Processing started: Sun Oct 09 17:02:46 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off module_test_environment -c module_test_environment
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -276,39 +272,28 @@ Warning (12125): Using design file bus_split.vhd, which is not specified as a de
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst2"
-Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: eightbitff
-Info (12128): Elaborating entity "eightbitff" for hierarchy "eightbitff:inst17"
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "eightbitff:inst17|bus_split_out:phm"
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst"
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX13" is stuck at VCC
-    Warning (13410): Pin "HEX16" is stuck at VCC
-    Warning (13410): Pin "HEX10" is stuck at VCC
-    Warning (13410): Pin "HEX12" is stuck at VCC
     Warning (13410): Pin "HEX14" is stuck at VCC
     Warning (13410): Pin "HEX11" is stuck at VCC
     Warning (13410): Pin "HEX15" is stuck at VCC
-    Warning (13410): Pin "LEDR2" is stuck at GND
-Info (286030): Timing-Driven Synthesis is running
+    Warning (13410): Pin "HEX34" is stuck at VCC
+    Warning (13410): Pin "HEX31" is stuck at VCC
+    Warning (13410): Pin "HEX35" is stuck at VCC
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 5 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "sw5"
-    Warning (15610): No output dependent on input pin "sw6"
-    Warning (15610): No output dependent on input pin "sw7"
-    Warning (15610): No output dependent on input pin "sw9"
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 38 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 46 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 14 input pins
-    Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 8 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 4837 megabytes
-    Info: Processing ended: Sun Oct 09 14:22:41 2022
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:23
+    Info (21059): Implemented 32 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 4849 megabytes
+    Info: Processing ended: Sun Oct 09 17:02:56 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:20
 
 

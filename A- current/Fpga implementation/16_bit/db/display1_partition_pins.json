@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDR4",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR5",
+					"strict" : false
+				},
+				{
+					"name" : "HEX23",
+					"strict" : false
+				},
+				{
+					"name" : "HEX26",
+					"strict" : false
+				},
+				{
+					"name" : "HEX20",
+					"strict" : false
+				},
+				{
+					"name" : "HEX22",
+					"strict" : false
+				},
+				{
+					"name" : "HEX24",
+					"strict" : false
+				},
+				{
+					"name" : "HEX21",
+					"strict" : false
+				},
+				{
+					"name" : "HEX25",
+					"strict" : false
+				},
+				{
+					"name" : "HEX33",
+					"strict" : false
+				},
+				{
+					"name" : "HEX36",
+					"strict" : false
+				},
+				{
+					"name" : "HEX30",
+					"strict" : false
+				},
+				{
+					"name" : "HEX32",
+					"strict" : false
+				},
+				{
+					"name" : "HEX34",
+					"strict" : false
+				},
+				{
+					"name" : "HEX31",
+					"strict" : false
+				},
+				{
+					"name" : "HEX35",
+					"strict" : false
+				},
+				{
+					"name" : "pa[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pa[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
