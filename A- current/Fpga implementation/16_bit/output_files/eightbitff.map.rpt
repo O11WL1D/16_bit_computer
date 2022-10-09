@@ -1,5 +1,5 @@
 Analysis & Synthesis report for eightbitff
-Sun Oct 09 13:10:41 2022
+Sun Oct 09 14:17:47 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 09 13:10:41 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 09 14:17:47 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; eightbitff                                  ;
 ; Top-level Entity Name           ; eightbitff                                  ;
@@ -261,7 +261,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 09 13:10:30 2022
+    Info: Processing started: Sun Oct 09 14:17:35 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off eightbitff -c eightbitff
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -301,9 +301,9 @@ Info (21057): Implemented 40 device resources after synthesis - the final resour
     Info (21059): Implemented 16 output pins
     Info (21061): Implemented 8 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 20 warnings
-    Info: Peak virtual memory: 4849 megabytes
-    Info: Processing ended: Sun Oct 09 13:10:41 2022
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 4850 megabytes
+    Info: Processing ended: Sun Oct 09 14:17:47 2022
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:25
 
 
