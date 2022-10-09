@@ -1,19 +1,5 @@
 |in_mod
 HEX03 <= sdfSD.DB_MAX_OUTPUT_PORT_TYPE
-KEY0 => bus_split_out:inst.d0
-KEY1 => bus_split_out:inst.d1
-KEY2 => bus_split_out:inst.d2
-KEY3 => bus_split_out:inst.d3
-sw0 => bus_split_out:inst.d4
-sw1 => bus_split_out:inst.d5
-sw2 => bus_split_out:inst.d6
-sw3 => bus_split_out:inst.d7
-sw4 => bus_split_out:inst.d8
-sw5 => bus_split_out:inst.d9
-sw6 => bus_split_out:inst.d10
-sw7 => bus_split_out:inst.d11
-sw8 => bus_split_out:inst.d12
-sw9 => bus_split_out:inst.d13
 HEX06 <= inst45RWGrwg.DB_MAX_OUTPUT_PORT_TYPE
 HEX00 <= gawrgaw.DB_MAX_OUTPUT_PORT_TYPE
 HEX02 <= ZTHAETJA.DB_MAX_OUTPUT_PORT_TYPE
@@ -29,6 +15,20 @@ HEX11 <= ZETUZETU.DB_MAX_OUTPUT_PORT_TYPE
 HEX15 <= STEHSTJ.DB_MAX_OUTPUT_PORT_TYPE
 LEDR1 <= bus_split:inst34.a0
 LEDR2 <= bus_split:inst34.a8
+KEY0 => bus_split_out:inst.d0
+KEY1 => bus_split_out:inst.d1
+KEY2 => bus_split_out:inst.d2
+KEY3 => bus_split_out:inst.d3
+sw0 => bus_split_out:inst.d4
+sw1 => bus_split_out:inst.d5
+sw2 => bus_split_out:inst.d6
+sw3 => bus_split_out:inst.d7
+sw4 => bus_split_out:inst.d8
+sw5 => bus_split_out:inst.d9
+sw6 => bus_split_out:inst.d10
+sw7 => bus_split_out:inst.d11
+sw8 => bus_split_out:inst.d12
+sw9 => bus_split_out:inst.d13
 
 
 |in_mod|bus_split:inst34
@@ -66,74 +66,14 @@ a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
 a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|in_mod|74273:SDFSFSDF
-Q1 <= 19.DB_MAX_OUTPUT_PORT_TYPE
-CLRN => 19.ACLR
-CLRN => 18.ACLR
-CLRN => 17.ACLR
-CLRN => 16.ACLR
-CLRN => 15.ACLR
-CLRN => 14.ACLR
-CLRN => 13.ACLR
-CLRN => 12.ACLR
-CLK => 19.CLK
-CLK => 18.CLK
-CLK => 17.CLK
-CLK => 16.CLK
-CLK => 15.CLK
-CLK => 14.CLK
-CLK => 13.CLK
-CLK => 12.CLK
-D1 => 19.DATAIN
-Q2 <= 18.DB_MAX_OUTPUT_PORT_TYPE
-D2 => 18.DATAIN
-Q3 <= 17.DB_MAX_OUTPUT_PORT_TYPE
-D3 => 17.DATAIN
-Q4 <= 16.DB_MAX_OUTPUT_PORT_TYPE
-D4 => 16.DATAIN
-Q5 <= 15.DB_MAX_OUTPUT_PORT_TYPE
-D5 => 15.DATAIN
-Q6 <= 14.DB_MAX_OUTPUT_PORT_TYPE
-D6 => 14.DATAIN
-Q7 <= 13.DB_MAX_OUTPUT_PORT_TYPE
-D7 => 13.DATAIN
-Q8 <= 12.DB_MAX_OUTPUT_PORT_TYPE
-D8 => 12.DATAIN
+|in_mod|7404:clock
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
 
 
-|in_mod|bus_split:inst1
-b[0] => a0.DATAIN
-b[1] => a1.DATAIN
-b[2] => a2.DATAIN
-b[3] => a3.DATAIN
-b[4] => a4.DATAIN
-b[5] => a5.DATAIN
-b[6] => a6.DATAIN
-b[7] => a7.DATAIN
-b[8] => a8.DATAIN
-b[9] => a9.DATAIN
-b[10] => a10.DATAIN
-b[11] => a11.DATAIN
-b[12] => a12.DATAIN
-b[13] => a13.DATAIN
-b[14] => a14.DATAIN
-b[15] => a15.DATAIN
-a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
-a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
-a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
-a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
-a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
-a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
-a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
-a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
-a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
-a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
-a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
-a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
-a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
-a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
-a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
-a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
+|in_mod|7404:current_input_mode_selection
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
 
 
 |in_mod|bus_split_out:inst
@@ -171,73 +111,43 @@ d14 => c[14].DATAIN
 d15 => c[15].DATAIN
 
 
-|in_mod|74273:inst4argag
-Q1 <= 19.DB_MAX_OUTPUT_PORT_TYPE
-CLRN => 19.ACLR
-CLRN => 18.ACLR
-CLRN => 17.ACLR
-CLRN => 16.ACLR
-CLRN => 15.ACLR
-CLRN => 14.ACLR
-CLRN => 13.ACLR
-CLRN => 12.ACLR
-CLK => 19.CLK
-CLK => 18.CLK
-CLK => 17.CLK
-CLK => 16.CLK
-CLK => 15.CLK
-CLK => 14.CLK
-CLK => 13.CLK
-CLK => 12.CLK
-D1 => 19.DATAIN
-Q2 <= 18.DB_MAX_OUTPUT_PORT_TYPE
-D2 => 18.DATAIN
-Q3 <= 17.DB_MAX_OUTPUT_PORT_TYPE
-D3 => 17.DATAIN
-Q4 <= 16.DB_MAX_OUTPUT_PORT_TYPE
-D4 => 16.DATAIN
-Q5 <= 15.DB_MAX_OUTPUT_PORT_TYPE
-D5 => 15.DATAIN
-Q6 <= 14.DB_MAX_OUTPUT_PORT_TYPE
-D6 => 14.DATAIN
-Q7 <= 13.DB_MAX_OUTPUT_PORT_TYPE
-D7 => 13.DATAIN
-Q8 <= 12.DB_MAX_OUTPUT_PORT_TYPE
-D8 => 12.DATAIN
+|in_mod|bus_split:inst1
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|in_mod|74273:OOGA
-Q1 <= 19.DB_MAX_OUTPUT_PORT_TYPE
-CLRN => 19.ACLR
-CLRN => 18.ACLR
-CLRN => 17.ACLR
-CLRN => 16.ACLR
-CLRN => 15.ACLR
-CLRN => 14.ACLR
-CLRN => 13.ACLR
-CLRN => 12.ACLR
-CLK => 19.CLK
-CLK => 18.CLK
-CLK => 17.CLK
-CLK => 16.CLK
-CLK => 15.CLK
-CLK => 14.CLK
-CLK => 13.CLK
-CLK => 12.CLK
-D1 => 19.DATAIN
-Q2 <= 18.DB_MAX_OUTPUT_PORT_TYPE
-D2 => 18.DATAIN
-Q3 <= 17.DB_MAX_OUTPUT_PORT_TYPE
-D3 => 17.DATAIN
-Q4 <= 16.DB_MAX_OUTPUT_PORT_TYPE
-D4 => 16.DATAIN
-Q5 <= 15.DB_MAX_OUTPUT_PORT_TYPE
-D5 => 15.DATAIN
-Q6 <= 14.DB_MAX_OUTPUT_PORT_TYPE
-D6 => 14.DATAIN
-Q7 <= 13.DB_MAX_OUTPUT_PORT_TYPE
-D7 => 13.DATAIN
-Q8 <= 12.DB_MAX_OUTPUT_PORT_TYPE
-D8 => 12.DATAIN
+|in_mod|7404:output_to_display_0_enable
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
 
 

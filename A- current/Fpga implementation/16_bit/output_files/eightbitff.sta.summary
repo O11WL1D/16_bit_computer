@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pxa[8]'
+Slack : -0.538
+TNS   : -6.161
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pxa[8]'
+Slack : -0.538
+TNS   : -6.434
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pxa[8]'
+Slack : -0.089
+TNS   : -0.673
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pxa[8]'
+Slack : -0.092
+TNS   : -0.704
+
+------------------------------------------------------------

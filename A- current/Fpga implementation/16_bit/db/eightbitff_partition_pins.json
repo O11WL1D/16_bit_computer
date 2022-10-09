@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pxb[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pxb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

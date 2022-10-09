@@ -1,0 +1,105 @@
+|eightbitff
+pxb[0] <= bus_split_out:phm.c[0]
+pxb[1] <= bus_split_out:phm.c[1]
+pxb[2] <= bus_split_out:phm.c[2]
+pxb[3] <= bus_split_out:phm.c[3]
+pxb[4] <= bus_split_out:phm.c[4]
+pxb[5] <= bus_split_out:phm.c[5]
+pxb[6] <= bus_split_out:phm.c[6]
+pxb[7] <= bus_split_out:phm.c[7]
+pxb[8] <= bus_split_out:phm.c[8]
+pxb[9] <= bus_split_out:phm.c[9]
+pxb[10] <= bus_split_out:phm.c[10]
+pxb[11] <= bus_split_out:phm.c[11]
+pxb[12] <= bus_split_out:phm.c[12]
+pxb[13] <= bus_split_out:phm.c[13]
+pxb[14] <= bus_split_out:phm.c[14]
+pxb[15] <= bus_split_out:phm.c[15]
+pxa[0] => bus_split:phl.b[0]
+pxa[1] => bus_split:phl.b[1]
+pxa[2] => bus_split:phl.b[2]
+pxa[3] => bus_split:phl.b[3]
+pxa[4] => bus_split:phl.b[4]
+pxa[5] => bus_split:phl.b[5]
+pxa[6] => bus_split:phl.b[6]
+pxa[7] => bus_split:phl.b[7]
+pxa[8] => bus_split:phl.b[8]
+pxa[9] => bus_split:phl.b[9]
+pxa[10] => bus_split:phl.b[10]
+pxa[11] => bus_split:phl.b[11]
+pxa[12] => bus_split:phl.b[12]
+pxa[13] => bus_split:phl.b[13]
+pxa[14] => bus_split:phl.b[14]
+pxa[15] => bus_split:phl.b[15]
+
+
+|eightbitff|bus_split_out:phm
+c[0] <= d0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= d1.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= d2.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= d3.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= d4.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= d5.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= d6.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= d7.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= d8.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= d9.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= d10.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= d11.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= d12.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= d13.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= d14.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= d15.DB_MAX_OUTPUT_PORT_TYPE
+d0 => c[0].DATAIN
+d1 => c[1].DATAIN
+d2 => c[2].DATAIN
+d3 => c[3].DATAIN
+d4 => c[4].DATAIN
+d5 => c[5].DATAIN
+d6 => c[6].DATAIN
+d7 => c[7].DATAIN
+d8 => c[8].DATAIN
+d9 => c[9].DATAIN
+d10 => c[10].DATAIN
+d11 => c[11].DATAIN
+d12 => c[12].DATAIN
+d13 => c[13].DATAIN
+d14 => c[14].DATAIN
+d15 => c[15].DATAIN
+
+
+|eightbitff|bus_split:phl
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
