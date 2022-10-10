@@ -38,6 +38,23 @@ I may want to do most of my testing using the functional simulation from now on 
 at once, and reserve the displays for something like an output module, os communication output or maybe like the current value
 of one of the registers,
 
+I suppose I got so wrapped up in the idea of seeing the computer operate in real time that I neglected to think about how impractical it would be
+in execution. 
+
+
+
+-> I do not conside the inmod to be a complete waste however, as the functionality developed will be needed for both demonstrations of the computer, and 
+also for double checking results found by the functional simulation.
+
+
+
+
+
+
+new input output plan-> each module will have an input and output bus, which will be visible, and can be controlled by the functional simulation. 
+
+
+
 
 
 
