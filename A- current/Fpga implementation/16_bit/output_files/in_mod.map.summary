@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sun Oct 09 16:30:59 2022
+Analysis & Synthesis Status : Successful - Sun Oct 09 18:12:18 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : in_mod
 Top-level Entity Name : in_mod
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 18
-Total pins : 30
+Total pins : 62
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

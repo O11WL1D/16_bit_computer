@@ -68,6 +68,134 @@
 					"strict" : false
 				},
 				{
+					"name" : "LEDR4",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR5",
+					"strict" : false
+				},
+				{
+					"name" : "HEX23",
+					"strict" : false
+				},
+				{
+					"name" : "HEX26",
+					"strict" : false
+				},
+				{
+					"name" : "HEX20",
+					"strict" : false
+				},
+				{
+					"name" : "HEX22",
+					"strict" : false
+				},
+				{
+					"name" : "HEX24",
+					"strict" : false
+				},
+				{
+					"name" : "HEX21",
+					"strict" : false
+				},
+				{
+					"name" : "HEX25",
+					"strict" : false
+				},
+				{
+					"name" : "HEX33",
+					"strict" : false
+				},
+				{
+					"name" : "HEX36",
+					"strict" : false
+				},
+				{
+					"name" : "HEX30",
+					"strict" : false
+				},
+				{
+					"name" : "HEX32",
+					"strict" : false
+				},
+				{
+					"name" : "HEX34",
+					"strict" : false
+				},
+				{
+					"name" : "HEX31",
+					"strict" : false
+				},
+				{
+					"name" : "HEX35",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR7",
+					"strict" : false
+				},
+				{
+					"name" : "HEX43",
+					"strict" : false
+				},
+				{
+					"name" : "HEX46",
+					"strict" : false
+				},
+				{
+					"name" : "HEX40",
+					"strict" : false
+				},
+				{
+					"name" : "HEX42",
+					"strict" : false
+				},
+				{
+					"name" : "HEX44",
+					"strict" : false
+				},
+				{
+					"name" : "HEX41",
+					"strict" : false
+				},
+				{
+					"name" : "HEX45",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR8",
+					"strict" : false
+				},
+				{
+					"name" : "HEX53",
+					"strict" : false
+				},
+				{
+					"name" : "HEX56",
+					"strict" : false
+				},
+				{
+					"name" : "HEX50",
+					"strict" : false
+				},
+				{
+					"name" : "HEX52",
+					"strict" : false
+				},
+				{
+					"name" : "HEX54",
+					"strict" : false
+				},
+				{
+					"name" : "HEX51",
+					"strict" : false
+				},
+				{
+					"name" : "HEX55",
+					"strict" : false
+				},
+				{
 					"name" : "sw9",
 					"strict" : false
 				},

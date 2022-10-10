@@ -1,0 +1,70 @@
+|display2
+LEDR7 <= bus_split:inst.a0
+pa[0] => bus_split:inst.b[0]
+pa[1] => bus_split:inst.b[1]
+pa[2] => bus_split:inst.b[2]
+pa[3] => bus_split:inst.b[3]
+pa[4] => bus_split:inst.b[4]
+pa[5] => bus_split:inst.b[5]
+pa[6] => bus_split:inst.b[6]
+pa[7] => bus_split:inst.b[7]
+pa[8] => bus_split:inst.b[8]
+pa[9] => bus_split:inst.b[9]
+pa[10] => bus_split:inst.b[10]
+pa[11] => bus_split:inst.b[11]
+pa[12] => bus_split:inst.b[12]
+pa[13] => bus_split:inst.b[13]
+pa[14] => bus_split:inst.b[14]
+pa[15] => bus_split:inst.b[15]
+HEX43 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+HEX46 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+HEX40 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+HEX42 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+HEX44 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+HEX41 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+HEX45 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+LEDR8 <= bus_split:inst.a8
+HEX53 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+HEX56 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+HEX50 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+HEX52 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+HEX54 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+HEX51 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HEX55 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display2|bus_split:inst
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
+
+

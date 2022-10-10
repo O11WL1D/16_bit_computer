@@ -1,5 +1,5 @@
 Analysis & Synthesis report for in_mod
-Sun Oct 09 16:30:59 2022
+Sun Oct 09 18:12:18 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,14 +43,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 09 16:30:59 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 09 18:12:18 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; in_mod                                      ;
 ; Top-level Entity Name           ; in_mod                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 18                                          ;
-; Total pins                      ; 30                                          ;
+; Total pins                      ; 62                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -195,14 +195,14 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                      ;
 ; Dedicated logic registers                   ; 18                   ;
 ;                                             ;                      ;
-; I/O pins                                    ; 30                   ;
+; I/O pins                                    ; 62                   ;
 ;                                             ;                      ;
 ; Total DSP Blocks                            ; 0                    ;
 ;                                             ;                      ;
 ; Maximum fan-out node                        ; eightbitff:inst2|pxd ;
 ; Maximum fan-out                             ; 18                   ;
-; Total fan-out                               ; 152                  ;
-; Average fan-out                             ; 1.58                 ;
+; Total fan-out                               ; 216                  ;
+; Average fan-out                             ; 1.35                 ;
 +---------------------------------------------+----------------------+
 
 
@@ -211,7 +211,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
-; |in_mod                    ; 18 (2)              ; 18 (0)                    ; 0                 ; 0          ; 30   ; 0            ; |in_mod                   ; in_mod      ; work         ;
+; |in_mod                    ; 18 (2)              ; 18 (0)                    ; 0                 ; 0          ; 62   ; 0            ; |in_mod                   ; in_mod      ; work         ;
 ;    |b16_en:inst36|         ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|b16_en:inst36     ; b16_en      ; work         ;
 ;    |eightbitff:inst11|     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst11 ; eightbitff  ; work         ;
 ;    |eightbitff:inst2|      ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst2  ; eightbitff  ; work         ;
@@ -247,7 +247,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;         1 data inputs ; 14                          ;
 ;         3 data inputs ; 2                           ;
 ;         4 data inputs ; 16                          ;
-; boundary_port         ; 30                          ;
+; boundary_port         ; 62                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
 ; Average LUT depth     ; 1.58                        ;
@@ -269,7 +269,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 09 16:30:49 2022
+    Info: Processing started: Sun Oct 09 18:12:10 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off in_mod -c in_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -309,14 +309,14 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY3"
     Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 66 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 98 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 14 input pins
-    Info (21059): Implemented 16 output pins
+    Info (21059): Implemented 48 output pins
     Info (21061): Implemented 36 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 4843 megabytes
-    Info: Processing ended: Sun Oct 09 16:30:59 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Peak virtual memory: 4840 megabytes
+    Info: Processing ended: Sun Oct 09 18:12:18 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:18
 
 
