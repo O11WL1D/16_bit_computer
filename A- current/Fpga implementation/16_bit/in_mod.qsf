@@ -96,7 +96,7 @@ set_location_assignment PIN_V19 -to HEX36
 #--------------------------------------------------display 2 start 
 
 
-set_location_assignment PIN_U1 -to LEDR7 
+set_location_assignment PIN_U1 -to LEDR7
 set_location_assignment PIN_U20 -to HEX40
 set_location_assignment PIN_Y20 -to HEX41
 set_location_assignment PIN_V20 -to HEX42
@@ -119,7 +119,7 @@ set_location_assignment PIN_T14 -to HEX52
 set_location_assignment PIN_P14 -to HEX53
 set_location_assignment PIN_C1 -to HEX54
 set_location_assignment PIN_C2 -to HEX55
-set_location_assignment PIN_w19 -to HEX56
+set_location_assignment PIN_W19 -to HEX56
 
 
 

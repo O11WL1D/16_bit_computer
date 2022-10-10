@@ -27,6 +27,20 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+10-10-2022
+
+I am starting to have second thoughts about the inmodule, It would seem that if I really wanted to implement the functionality I
+had pictured, it would take me an enormous amount of time that I do not have. I might just do a reduced version of the functionality that
+I had pictured, maybe perhaps only 8 input channels, I am not sure.
+
+
+I may want to do most of my testing using the functional simulation from now on just by virtue of it displaying every value
+at once, and reserve the displays for something like an output module, os communication output or maybe like the current value
+of one of the registers,
+
+
+
+
 10/9/2022
 
 Got all three displays working, input module has come along ways now. I still need to fully implement input channel routing, but 
