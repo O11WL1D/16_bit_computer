@@ -26,6 +26,19 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+
+10/9/2022
+
+Got all three displays working, input module has come along ways now. I still need to fully implement input channel routing, but 
+I have got circuitry to make display zero route the first input signal(input set reg) to display 0 when selected.
+
+I may work on this module a little more before alternating to the alu, I plan on alternating between the inmod and other modules
+in the computer.
+
+
+
+
+
 10/8/2022
 
 will upload journal and other paper documents for this project soon, I have switched to a digitial notetaking system and as a result
