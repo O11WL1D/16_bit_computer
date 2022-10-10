@@ -1,5 +1,5 @@
 Analysis & Synthesis report for in_mod
-Sun Oct 09 18:12:18 2022
+Sun Oct 09 22:24:17 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,13 +43,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 09 18:12:18 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 09 22:24:17 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; in_mod                                      ;
 ; Top-level Entity Name           ; in_mod                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 18                                          ;
+; Total registers                 ; 26                                          ;
 ; Total pins                      ; 62                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -173,9 +173,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
 ; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/in_mod.bdf        ;         ;
 ; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd     ;         ;
+; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd        ;         ;
 ; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd        ;         ;
-; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd ;         ;
+; dec38.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/dec38.bdf                             ;         ;
 ; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/eightbitff.bdf    ;         ;
+; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd ;         ;
 +----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
@@ -184,25 +186,25 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Estimate of Logic utilization (ALMs needed) ; 12                   ;
+; Estimate of Logic utilization (ALMs needed) ; 17                   ;
 ;                                             ;                      ;
-; Combinational ALUT usage for logic          ; 18                   ;
+; Combinational ALUT usage for logic          ; 19                   ;
 ;     -- 7 input functions                    ; 0                    ;
 ;     -- 6 input functions                    ; 0                    ;
-;     -- 5 input functions                    ; 0                    ;
+;     -- 5 input functions                    ; 1                    ;
 ;     -- 4 input functions                    ; 16                   ;
 ;     -- <=3 input functions                  ; 2                    ;
 ;                                             ;                      ;
-; Dedicated logic registers                   ; 18                   ;
+; Dedicated logic registers                   ; 26                   ;
 ;                                             ;                      ;
 ; I/O pins                                    ; 62                   ;
 ;                                             ;                      ;
 ; Total DSP Blocks                            ; 0                    ;
 ;                                             ;                      ;
-; Maximum fan-out node                        ; eightbitff:inst2|pxd ;
-; Maximum fan-out                             ; 18                   ;
-; Total fan-out                               ; 216                  ;
-; Average fan-out                             ; 1.35                 ;
+; Maximum fan-out node                        ; eightbitff:inst5|pxd ;
+; Maximum fan-out                             ; 17                   ;
+; Total fan-out                               ; 229                  ;
+; Average fan-out                             ; 1.36                 ;
 +---------------------------------------------+----------------------+
 
 
@@ -211,11 +213,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
-; |in_mod                    ; 18 (2)              ; 18 (0)                    ; 0                 ; 0          ; 62   ; 0            ; |in_mod                   ; in_mod      ; work         ;
-;    |b16_en:inst36|         ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|b16_en:inst36     ; b16_en      ; work         ;
+; |in_mod                    ; 19 (3)              ; 26 (0)                    ; 0                 ; 0          ; 62   ; 0            ; |in_mod                   ; in_mod      ; work         ;
+;    |b16_en:inst84|         ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|b16_en:inst84     ; b16_en      ; work         ;
 ;    |eightbitff:inst11|     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst11 ; eightbitff  ; work         ;
 ;    |eightbitff:inst2|      ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst2  ; eightbitff  ; work         ;
 ;    |eightbitff:inst4|      ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst4  ; eightbitff  ; work         ;
+;    |eightbitff:inst5|      ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |in_mod|eightbitff:inst5  ; eightbitff  ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -225,7 +228,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 18    ;
+; Total registers                              ; 26    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -240,17 +243,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 18                          ;
-;     plain             ; 18                          ;
-; arriav_lcell_comb     ; 32                          ;
-;     normal            ; 32                          ;
-;         1 data inputs ; 14                          ;
+; arriav_ff             ; 26                          ;
+;     plain             ; 26                          ;
+; arriav_lcell_comb     ; 56                          ;
+;     normal            ; 56                          ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 35                          ;
 ;         3 data inputs ; 2                           ;
 ;         4 data inputs ; 16                          ;
+;         5 data inputs ; 1                           ;
 ; boundary_port         ; 62                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.58                        ;
+; Average LUT depth     ; 1.35                        ;
 +-----------------------+-----------------------------+
 
 
@@ -269,7 +274,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 09 18:12:10 2022
+    Info: Processing started: Sun Oct 09 22:24:08 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off in_mod -c in_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -286,37 +291,49 @@ Warning (275008): Primitive "NOT" of instance "inst22" not used
 Warning (275008): Primitive "NOT" of instance "inst23" not used
 Warning (275008): Primitive "NOT" of instance "inst24" not used
 Warning (275008): Primitive "NOT" of instance "inst25" not used
-Warning (275008): Primitive "NOT" of instance "inst26" not used
-Warning (275008): Primitive "VCC" of instance "inst5" not used
+Warning (275008): Primitive "AND2" of instance "inst71" not used
+Warning (275008): Primitive "AND2" of instance "inst72" not used
 Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst34"
+Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 31
+    Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 8
+Info (12128): Elaborating entity "b16_or" for hierarchy "b16_or:inst85"
 Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 39
     Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 13
-Info (12128): Elaborating entity "b16_en" for hierarchy "b16_en:inst36"
+Info (12128): Elaborating entity "b16_en" for hierarchy "b16_en:inst84"
+Info (12128): Elaborating entity "DEC38" for hierarchy "DEC38:inst79"
+Info (12130): Elaborated megafunction instantiation "DEC38:inst79"
+Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: eightbitff
+Info (12128): Elaborating entity "eightbitff" for hierarchy "eightbitff:inst5"
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst"
-Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: eightbitff
-Info (12128): Elaborating entity "eightbitff" for hierarchy "eightbitff:inst2"
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "eightbitff:inst5|bus_split_out:phm"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LEDR5" is stuck at GND
+    Warning (13410): Pin "HEX33" is stuck at VCC
+    Warning (13410): Pin "HEX36" is stuck at VCC
+    Warning (13410): Pin "HEX30" is stuck at VCC
+    Warning (13410): Pin "HEX32" is stuck at VCC
+    Warning (13410): Pin "HEX34" is stuck at VCC
+    Warning (13410): Pin "HEX31" is stuck at VCC
+    Warning (13410): Pin "HEX35" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY3"
-    Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 98 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 107 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 14 input pins
     Info (21059): Implemented 48 output pins
-    Info (21061): Implemented 36 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 4840 megabytes
-    Info: Processing ended: Sun Oct 09 18:12:18 2022
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:18
+    Info (21061): Implemented 45 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
+    Info: Peak virtual memory: 4848 megabytes
+    Info: Processing ended: Sun Oct 09 22:24:17 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:20
 
 

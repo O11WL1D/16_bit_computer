@@ -40,10 +40,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "pxa[8]",
-					"strict" : false
-				},
-				{
 					"name" : "pxa[6]",
 					"strict" : false
 				},
@@ -69,6 +65,14 @@
 				},
 				{
 					"name" : "pxa[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pxa[8]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
 					"strict" : false
 				}
 			]

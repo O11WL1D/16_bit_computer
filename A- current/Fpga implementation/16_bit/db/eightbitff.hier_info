@@ -31,6 +31,7 @@ pxa[12] => bus_split:phl.b[12]
 pxa[13] => bus_split:phl.b[13]
 pxa[14] => bus_split:phl.b[14]
 pxa[15] => bus_split:phl.b[15]
+clock => inst.IN1
 
 
 |eightbitff|bus_split_out:phm

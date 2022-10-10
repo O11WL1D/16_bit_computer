@@ -1,4 +1,4 @@
-Fitter Status : Successful - Sun Oct 09 14:18:10 2022
+Fitter Status : Successful - Sun Oct 09 21:38:01 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : eightbitff
 Top-level Entity Name : eightbitff
@@ -7,7 +7,7 @@ Device : 5CEBA4F23C7
 Timing Models : Final
 Logic utilization (in ALMs) : 3 / 18,480 ( < 1 % )
 Total registers : 8
-Total pins : 32 / 224 ( 14 % )
+Total pins : 33 / 224 ( 15 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )
