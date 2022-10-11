@@ -1,0 +1,561 @@
+|alumod
+generalc <= <GND>
+generald <= <GND>
+overflow <= adder16:inst5.overflow
+sub => adder16:inst5.sub
+opA[0] => adder16:inst5.a[0]
+opA[0] => alu_logic:inst.a[0]
+opA[1] => adder16:inst5.a[1]
+opA[1] => alu_logic:inst.a[1]
+opA[2] => adder16:inst5.a[2]
+opA[2] => alu_logic:inst.a[2]
+opA[3] => adder16:inst5.a[3]
+opA[3] => alu_logic:inst.a[3]
+opA[4] => adder16:inst5.a[4]
+opA[4] => alu_logic:inst.a[4]
+opA[5] => adder16:inst5.a[5]
+opA[5] => alu_logic:inst.a[5]
+opA[6] => adder16:inst5.a[6]
+opA[6] => alu_logic:inst.a[6]
+opA[7] => adder16:inst5.a[7]
+opA[7] => alu_logic:inst.a[7]
+opA[8] => adder16:inst5.a[8]
+opA[8] => alu_logic:inst.a[8]
+opA[9] => adder16:inst5.a[9]
+opA[9] => alu_logic:inst.a[9]
+opA[10] => adder16:inst5.a[10]
+opA[10] => alu_logic:inst.a[10]
+opA[11] => adder16:inst5.a[11]
+opA[11] => alu_logic:inst.a[11]
+opA[12] => adder16:inst5.a[12]
+opA[12] => alu_logic:inst.a[12]
+opA[13] => adder16:inst5.a[13]
+opA[13] => alu_logic:inst.a[13]
+opA[14] => adder16:inst5.a[14]
+opA[14] => alu_logic:inst.a[14]
+opA[15] => adder16:inst5.a[15]
+opA[15] => alu_logic:inst.a[15]
+opB[0] => adder16:inst5.b[0]
+opB[0] => alu_logic:inst.b[0]
+opB[1] => adder16:inst5.b[1]
+opB[1] => alu_logic:inst.b[1]
+opB[2] => adder16:inst5.b[2]
+opB[2] => alu_logic:inst.b[2]
+opB[3] => adder16:inst5.b[3]
+opB[3] => alu_logic:inst.b[3]
+opB[4] => adder16:inst5.b[4]
+opB[4] => alu_logic:inst.b[4]
+opB[5] => adder16:inst5.b[5]
+opB[5] => alu_logic:inst.b[5]
+opB[6] => adder16:inst5.b[6]
+opB[6] => alu_logic:inst.b[6]
+opB[7] => adder16:inst5.b[7]
+opB[7] => alu_logic:inst.b[7]
+opB[8] => adder16:inst5.b[8]
+opB[8] => alu_logic:inst.b[8]
+opB[9] => adder16:inst5.b[9]
+opB[9] => alu_logic:inst.b[9]
+opB[10] => adder16:inst5.b[10]
+opB[10] => alu_logic:inst.b[10]
+opB[11] => adder16:inst5.b[11]
+opB[11] => alu_logic:inst.b[11]
+opB[12] => adder16:inst5.b[12]
+opB[12] => alu_logic:inst.b[12]
+opB[13] => adder16:inst5.b[13]
+opB[13] => alu_logic:inst.b[13]
+opB[14] => adder16:inst5.b[14]
+opB[14] => alu_logic:inst.b[14]
+opB[15] => adder16:inst5.b[15]
+opB[15] => alu_logic:inst.b[15]
+fadder[0] <= adder16:inst5.f[0]
+fadder[1] <= adder16:inst5.f[1]
+fadder[2] <= adder16:inst5.f[2]
+fadder[3] <= adder16:inst5.f[3]
+fadder[4] <= adder16:inst5.f[4]
+fadder[5] <= adder16:inst5.f[5]
+fadder[6] <= adder16:inst5.f[6]
+fadder[7] <= adder16:inst5.f[7]
+fadder[8] <= adder16:inst5.f[8]
+fadder[9] <= adder16:inst5.f[9]
+fadder[10] <= adder16:inst5.f[10]
+fadder[11] <= adder16:inst5.f[11]
+fadder[12] <= adder16:inst5.f[12]
+fadder[13] <= adder16:inst5.f[13]
+fadder[14] <= adder16:inst5.f[14]
+fadder[15] <= adder16:inst5.f[15]
+falulogic[0] <= alu_logic:inst.f[0]
+falulogic[1] <= alu_logic:inst.f[1]
+falulogic[2] <= alu_logic:inst.f[2]
+falulogic[3] <= alu_logic:inst.f[3]
+falulogic[4] <= alu_logic:inst.f[4]
+falulogic[5] <= alu_logic:inst.f[5]
+falulogic[6] <= alu_logic:inst.f[6]
+falulogic[7] <= alu_logic:inst.f[7]
+falulogic[8] <= alu_logic:inst.f[8]
+falulogic[9] <= alu_logic:inst.f[9]
+falulogic[10] <= alu_logic:inst.f[10]
+falulogic[11] <= alu_logic:inst.f[11]
+falulogic[12] <= alu_logic:inst.f[12]
+falulogic[13] <= alu_logic:inst.f[13]
+falulogic[14] <= alu_logic:inst.f[14]
+falulogic[15] <= alu_logic:inst.f[15]
+AP[0] => alu_logic:inst.ap[0]
+AP[1] => alu_logic:inst.ap[1]
+AP[2] => alu_logic:inst.ap[2]
+AP[3] => alu_logic:inst.ap[3]
+AP[4] => alu_logic:inst.ap[4]
+AP[5] => alu_logic:inst.ap[5]
+AP[6] => alu_logic:inst.ap[6]
+AP[7] => alu_logic:inst.ap[7]
+AP[8] => alu_logic:inst.ap[8]
+AP[9] => alu_logic:inst.ap[9]
+AP[10] => alu_logic:inst.ap[10]
+AP[11] => alu_logic:inst.ap[11]
+AP[12] => alu_logic:inst.ap[12]
+AP[13] => alu_logic:inst.ap[13]
+AP[14] => alu_logic:inst.ap[14]
+AP[15] => alu_logic:inst.ap[15]
+BP[0] => alu_logic:inst.bp[0]
+BP[1] => alu_logic:inst.bp[1]
+BP[2] => alu_logic:inst.bp[2]
+BP[3] => alu_logic:inst.bp[3]
+BP[4] => alu_logic:inst.bp[4]
+BP[5] => alu_logic:inst.bp[5]
+BP[6] => alu_logic:inst.bp[6]
+BP[7] => alu_logic:inst.bp[7]
+BP[8] => alu_logic:inst.bp[8]
+BP[9] => alu_logic:inst.bp[9]
+BP[10] => alu_logic:inst.bp[10]
+BP[11] => alu_logic:inst.bp[11]
+BP[12] => alu_logic:inst.bp[12]
+BP[13] => alu_logic:inst.bp[13]
+BP[14] => alu_logic:inst.bp[14]
+BP[15] => alu_logic:inst.bp[15]
+FP[0] => alu_logic:inst.fp[0]
+FP[1] => alu_logic:inst.fp[1]
+FP[2] => alu_logic:inst.fp[2]
+FP[3] => alu_logic:inst.fp[3]
+FP[4] => alu_logic:inst.fp[4]
+FP[5] => alu_logic:inst.fp[5]
+FP[6] => alu_logic:inst.fp[6]
+FP[7] => alu_logic:inst.fp[7]
+FP[8] => alu_logic:inst.fp[8]
+FP[9] => alu_logic:inst.fp[9]
+FP[10] => alu_logic:inst.fp[10]
+FP[11] => alu_logic:inst.fp[11]
+FP[12] => alu_logic:inst.fp[12]
+FP[13] => alu_logic:inst.fp[13]
+FP[14] => alu_logic:inst.fp[14]
+FP[15] => alu_logic:inst.fp[15]
+generalb => ~NO_FANOUT~
+generala => ~NO_FANOUT~
+
+
+|alumod|adder16:inst5
+overflow <= adder:inst26.over
+sub => sethsrtjur.IN0
+sub => sthsthsrt.IN0
+sub => sthsrtust.IN0
+sub => setrhwts.IN0
+sub => adder:inst.C
+sub => asd.IN0
+sub => sD.IN0
+sub => sdgafr.IN0
+sub => argarg.IN0
+sub => DGAREGAER.IN0
+sub => dfsg.IN0
+sub => thsrtjusfy.IN0
+sub => aersysrthsy.IN0
+sub => thstrhyjus.IN0
+sub => sthstysrtu.IN0
+sub => sfbsregsert.IN0
+sub => gsrgsth.IN0
+a[0] => asd.IN1
+a[1] => sD.IN1
+a[2] => sdgafr.IN1
+a[3] => argarg.IN1
+a[4] => DGAREGAER.IN1
+a[5] => dfsg.IN1
+a[6] => thsrtjusfy.IN1
+a[7] => aersysrthsy.IN1
+a[8] => thstrhyjus.IN1
+a[9] => sthstysrtu.IN1
+a[10] => sfbsregsert.IN1
+a[11] => gsrgsth.IN1
+a[12] => sethsrtjur.IN1
+a[13] => sthsthsrt.IN1
+a[14] => sthsrtust.IN1
+a[15] => setrhwts.IN1
+b[0] => adder:inst.y
+b[1] => adder:inst2.y
+b[2] => adder:inst3.y
+b[3] => adder:inst4.y
+b[4] => adder:inst13.y
+b[5] => adder:inst7.y
+b[6] => adder:inst8.y
+b[7] => adder:inst9.y
+b[8] => adder:inst20.y
+b[9] => adder:inst15.y
+b[10] => adder:inst16.y
+b[11] => adder:inst17.y
+b[12] => adder:inst23.y
+b[13] => adder:inst24.y
+b[14] => adder:inst25.y
+b[15] => adder:inst26.y
+f[0] <= adder:inst.S
+f[1] <= adder:inst2.S
+f[2] <= adder:inst3.S
+f[3] <= adder:inst4.S
+f[4] <= adder:inst13.S
+f[5] <= adder:inst7.S
+f[6] <= adder:inst8.S
+f[7] <= adder:inst9.S
+f[8] <= adder:inst20.S
+f[9] <= adder:inst15.S
+f[10] <= adder:inst16.S
+f[11] <= adder:inst17.S
+f[12] <= adder:inst23.S
+f[13] <= adder:inst24.S
+f[14] <= adder:inst25.S
+f[15] <= adder:inst26.S
+
+
+|alumod|adder16:inst5|adder:inst26
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst25
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst24
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst23
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst2
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst3
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst4
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst13
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst7
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst8
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst9
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst20
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst15
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst17
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|adder16:inst5|adder:inst16
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alumod|alu_logic:inst
+a[0] => f.IN0
+a[1] => f.IN0
+a[2] => f.IN0
+a[3] => f.IN0
+a[4] => f.IN0
+a[5] => f.IN0
+a[6] => f.IN0
+a[7] => f.IN0
+a[8] => f.IN0
+a[9] => f.IN0
+a[10] => f.IN0
+a[11] => f.IN0
+a[12] => f.IN0
+a[13] => f.IN0
+a[14] => f.IN0
+a[15] => f.IN0
+b[0] => f.IN0
+b[1] => f.IN0
+b[2] => f.IN0
+b[3] => f.IN0
+b[4] => f.IN0
+b[5] => f.IN0
+b[6] => f.IN0
+b[7] => f.IN0
+b[8] => f.IN0
+b[9] => f.IN0
+b[10] => f.IN0
+b[11] => f.IN0
+b[12] => f.IN0
+b[13] => f.IN0
+b[14] => f.IN0
+b[15] => f.IN0
+ap[0] => f.IN1
+ap[1] => f.IN1
+ap[2] => f.IN1
+ap[3] => f.IN1
+ap[4] => f.IN1
+ap[5] => f.IN1
+ap[6] => f.IN1
+ap[7] => f.IN1
+ap[8] => f.IN1
+ap[9] => f.IN1
+ap[10] => f.IN1
+ap[11] => f.IN1
+ap[12] => f.IN1
+ap[13] => f.IN1
+ap[14] => f.IN1
+ap[15] => f.IN1
+bp[0] => f.IN1
+bp[1] => f.IN1
+bp[2] => f.IN1
+bp[3] => f.IN1
+bp[4] => f.IN1
+bp[5] => f.IN1
+bp[6] => f.IN1
+bp[7] => f.IN1
+bp[8] => f.IN1
+bp[9] => f.IN1
+bp[10] => f.IN1
+bp[11] => f.IN1
+bp[12] => f.IN1
+bp[13] => f.IN1
+bp[14] => f.IN1
+bp[15] => f.IN1
+fp[0] => f.IN1
+fp[1] => f.IN1
+fp[2] => f.IN1
+fp[3] => f.IN1
+fp[4] => f.IN1
+fp[5] => f.IN1
+fp[6] => f.IN1
+fp[7] => f.IN1
+fp[8] => f.IN1
+fp[9] => f.IN1
+fp[10] => f.IN1
+fp[11] => f.IN1
+fp[12] => f.IN1
+fp[13] => f.IN1
+fp[14] => f.IN1
+fp[15] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[4] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[5] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[6] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[7] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[8] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[9] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[10] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[11] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[12] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[13] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[14] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[15] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

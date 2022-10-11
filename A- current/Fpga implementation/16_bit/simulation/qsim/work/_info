@@ -9,20 +9,66 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim
+valumod
+Z1 !s110 1665517901
+!i10b 1
+!s100 eS9Xl[jno9VEVU@@dI43I1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I160QSAJSZ`:LX^LN`^gZg3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1665517899
+8alumod.vo
+Falumod.vo
+!i122 12
+L0 32 2872
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1665517900.000000
+!s107 alumod.vo|
+!s90 -work|work|alumod.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valumod_vlg_vec_tst
+R1
+!i10b 1
+!s100 FZnKl^Ng>>`H1323kH=Y_3
+R2
+I3VU[A>SIc6Bj^VYS:zS4n1
+R3
+R0
+w1665517898
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 13
+L0 30 638
+R4
+r1
+!s85 0
+31
+!s108 1665517901.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6
 veightbitff
-Z1 !s110 1665342157
+Z7 !s110 1665342157
 !i10b 1
 !s100 d12VE`1l1lgUG1C3nRjD^0
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R2
 IPQ:V30FMZeRj13B[=l2K71
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+R3
 R0
 w1665342155
 8eightbitff.vo
 Feightbitff.vo
 !i122 4
 L0 32 777
-Z4 OV;L;2020.1;71
+R4
 r1
 !s85 0
 31
@@ -30,10 +76,10 @@ r1
 !s107 eightbitff.vo|
 !s90 -work|work|eightbitff.vo|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+R5
+R6
 veightbitff_vlg_vec_tst
-R1
+R7
 !i10b 1
 !s100 LZRe51IFG]GkeS_M;I1Z_1
 R2

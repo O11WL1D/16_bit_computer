@@ -27,6 +27,27 @@ Here you may find a log for the overall design of the computer. Module specific 
 
 
 
+10-11-2022
+
+
+My new strategy to keep this project, and in general any intellectual hobby, which provides an enormous amount of meaning and
+purpose in my life, is to do one or two or one and a half hours of work on the project every alternating day.
+my current thinking is that if I do it in the morning, I wont rush through any school work to get to working on the project,
+I want to make sure that I give everything the attention it deserves. This also means I may need to implement a cooldown
+period to shift my focus from the computer, maybe a walk or doing a chore while listening to a podcast or something.
+
+
+on a another note, I need to find a way to make the project files more accessable to a general internet visitor, so possibly 
+addding in the read me a online website to view bdf files online and a suggested visitation list -> like a self guided tour.
+
+Unfortunately the project file could be a little hard to navigate to an untrained observer.
+
+
+
+
+
+
+
 10-10-2022
 
 I am starting to have second thoughts about the inmodule, It would seem that if I really wanted to implement the functionality I
@@ -53,6 +74,9 @@ also for double checking results found by the functional simulation.
 
 new input output plan-> each module will have an input and output bus, which will be visible, and can be controlled by the functional simulation. 
 
+
+
+I will now resume my work on the alu. 
 
 
 
