@@ -4,7 +4,7 @@
 
 
 
-# design plan
+# general design plan
 
 My plan is to create a rough preliminary design for each module. After I have an idea of how every module will interact with each other,
 I will begin looking for specific chips to use and start on a to scale design using some form of pcb software. After I have worked out
@@ -21,8 +21,9 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
-# design log
-Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder. 
+# general design log
+Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder, and
+in the computer journal+notes, which is where I keep the actively used onenote file for this project. 
 
 
 
@@ -44,6 +45,12 @@ Unfortunately the project file could be a little hard to navigate to an untraine
 
 
 
+-> I am now naming every module something like modulenamemod-> i.e alumod, every supplemental circuit will just be named what
+the circuit is. 
+
+
+-> new organization -> start every waveform file with the letter z so as to have them all located at bottom of file list.
+-> makes easier to find.
 
 
 

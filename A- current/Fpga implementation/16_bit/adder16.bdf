@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,14 +16,15 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
 	(rect 544 72 560 240)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
-	(text "a[15..0]" (rect -1 5 16 41)(font "Intel Clear" )(vertical))
+	(text "a[15..0]" (rect -1 5 16 40)(font "Intel Clear" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -40,7 +41,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 408 72 424 240)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
-	(text "sub" (rect 5 5 17 23)(font "Arial" )(vertical))
+	(text "sub" (rect 5 5 17 22)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -57,7 +58,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 624 72 640 240)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
-	(text "b[15..0]" (rect -1 5 16 41)(font "Intel Clear" )(vertical))
+	(text "b[15..0]" (rect -1 5 16 40)(font "Intel Clear" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -74,7 +75,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect 1320 48 1336 224)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "f[15..0]" (rect 1 5 13 42)(font "Arial" )(vertical))
+	(text "f[15..0]" (rect 1 5 13 41)(font "Arial" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -2169,7 +2170,7 @@ refer to the applicable agreement for further details.
 	(pt 928 904)
 )
 (connector
-	(text "b[6]" (rect 642 1032 660 1049)(font "Intel Clear" ))
+	(text "b[6]" (rect 650 1032 668 1049)(font "Intel Clear" ))
 	(pt 632 1048)
 	(pt 928 1048)
 )

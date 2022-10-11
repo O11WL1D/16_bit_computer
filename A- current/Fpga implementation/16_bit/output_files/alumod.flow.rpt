@@ -1,5 +1,5 @@
 Flow report for alumod
-Tue Oct 11 13:51:39 2022
+Tue Oct 11 14:24:49 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Oct 11 13:51:39 2022       ;
+; Flow Status                     ; Successful - Tue Oct 11 14:24:49 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; alumod                                      ;
 ; Top-level Entity Name           ; alumod                                      ;
@@ -101,7 +101,13 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4717 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4709 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4717 MB             ; 00:00:01                           ;
-; Total                ; 00:00:34     ; --                      ; --                  ; 00:00:54                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4709 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4717 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4709 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4717 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4709 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4717 MB             ; 00:00:01                           ;
+; Total                ; 00:00:40     ; --                      ; --                  ; 00:01:00                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -117,6 +123,12 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -126,6 +138,12 @@ https://fpgasoftware.intel.com/eula.
 quartus_map --read_settings_files=on --write_settings_files=off alumod -c alumod
 quartus_fit --read_settings_files=off --write_settings_files=off alumod -c alumod
 quartus_asm --read_settings_files=off --write_settings_files=off alumod -c alumod
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off alumod -c alumod --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform1.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/Waveform1.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/" alumod -c alumod
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off alumod -c alumod --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform1.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/Waveform1.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/" alumod -c alumod
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off alumod -c alumod --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform1.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/Waveform1.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/" alumod -c alumod
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off alumod -c alumod --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform1.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/Waveform1.vwf.vt"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/" alumod -c alumod
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off alumod -c alumod --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform1.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim/Waveform1.vwf.vt"

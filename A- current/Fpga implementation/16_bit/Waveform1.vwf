@@ -20,6 +20,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
@@ -38,6 +39,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 </modelsim_script_timing>
 <hdl_lang>verilog</hdl_lang>
 </simulation_settings>*/
@@ -2011,13 +2013,11 @@ TRANSITION_LIST("opA[15]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 850.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2026,13 +2026,9 @@ TRANSITION_LIST("opA[14]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 870.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2041,13 +2037,11 @@ TRANSITION_LIST("opA[13]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 850.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2056,13 +2050,11 @@ TRANSITION_LIST("opA[12]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 850.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2071,13 +2063,10 @@ TRANSITION_LIST("opA[11]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 860.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2086,13 +2075,9 @@ TRANSITION_LIST("opA[10]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 870.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2101,13 +2086,10 @@ TRANSITION_LIST("opA[9]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 860.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2116,13 +2098,9 @@ TRANSITION_LIST("opA[8]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 870.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2131,13 +2109,11 @@ TRANSITION_LIST("opA[7]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 850.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2146,13 +2122,9 @@ TRANSITION_LIST("opA[6]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 870.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2161,13 +2133,11 @@ TRANSITION_LIST("opA[5]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 850.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2176,13 +2146,11 @@ TRANSITION_LIST("opA[4]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 850.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2191,13 +2159,10 @@ TRANSITION_LIST("opA[3]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 860.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2206,13 +2171,9 @@ TRANSITION_LIST("opA[2]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 870.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2221,13 +2182,10 @@ TRANSITION_LIST("opA[1]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 860.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2236,13 +2194,9 @@ TRANSITION_LIST("opA[0]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 870.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -2251,13 +2205,8 @@ TRANSITION_LIST("opB[15]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 990.0;
 	}
 }
 
@@ -2266,13 +2215,7 @@ TRANSITION_LIST("opB[14]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2281,13 +2224,8 @@ TRANSITION_LIST("opB[13]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 990.0;
 	}
 }
 
@@ -2296,13 +2234,8 @@ TRANSITION_LIST("opB[12]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 990.0;
 	}
 }
 
@@ -2311,13 +2244,9 @@ TRANSITION_LIST("opB[11]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 
@@ -2326,13 +2255,7 @@ TRANSITION_LIST("opB[10]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2341,13 +2264,9 @@ TRANSITION_LIST("opB[9]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 
@@ -2356,13 +2275,7 @@ TRANSITION_LIST("opB[8]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2371,13 +2284,8 @@ TRANSITION_LIST("opB[7]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 990.0;
 	}
 }
 
@@ -2386,13 +2294,7 @@ TRANSITION_LIST("opB[6]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2401,13 +2303,8 @@ TRANSITION_LIST("opB[5]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 990.0;
 	}
 }
 
@@ -2416,13 +2313,8 @@ TRANSITION_LIST("opB[4]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 990.0;
 	}
 }
 
@@ -2431,13 +2323,9 @@ TRANSITION_LIST("opB[3]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 
@@ -2446,13 +2334,7 @@ TRANSITION_LIST("opB[2]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2461,13 +2343,9 @@ TRANSITION_LIST("opB[1]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 980.0;
 	}
 }
 
@@ -2476,13 +2354,7 @@ TRANSITION_LIST("opB[0]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
-		}
-		LEVEL 0 FOR 880.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 

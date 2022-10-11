@@ -10,65 +10,65 @@ z2
 cModel Technology
 Z0 dC:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim
 valumod
-Z1 !s110 1665517901
+!s110 1665519890
 !i10b 1
 !s100 eS9Xl[jno9VEVU@@dI43I1
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I160QSAJSZ`:LX^LN`^gZg3
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1665517899
+w1665519889
 8alumod.vo
 Falumod.vo
-!i122 12
+!i122 18
 L0 32 2872
-Z4 OV;L;2020.1;71
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1665517900.000000
+!s108 1665519890.000000
 !s107 alumod.vo|
 !s90 -work|work|alumod.vo|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 valumod_vlg_vec_tst
-R1
+!s110 1665519891
 !i10b 1
-!s100 FZnKl^Ng>>`H1323kH=Y_3
+!s100 4VgPI?MQiBg3`4AnH9;gC3
+R1
+I2VkR^<ZbWGPSo2d@fEEA[1
 R2
-I3VU[A>SIc6Bj^VYS:zS4n1
-R3
 R0
-w1665517898
+w1665519888
 8Waveform1.vwf.vt
 FWaveform1.vwf.vt
-!i122 13
-L0 30 638
-R4
+!i122 19
+L0 30 508
+R3
 r1
 !s85 0
 31
-!s108 1665517901.000000
+!s108 1665519891.000000
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
+R4
 R5
-R6
 veightbitff
-Z7 !s110 1665342157
+Z6 !s110 1665342157
 !i10b 1
 !s100 d12VE`1l1lgUG1C3nRjD^0
-R2
+R1
 IPQ:V30FMZeRj13B[=l2K71
-R3
+R2
 R0
 w1665342155
 8eightbitff.vo
 Feightbitff.vo
 !i122 4
 L0 32 777
-R4
+R3
 r1
 !s85 0
 31
@@ -76,22 +76,22 @@ r1
 !s107 eightbitff.vo|
 !s90 -work|work|eightbitff.vo|
 !i113 1
+R4
 R5
-R6
 veightbitff_vlg_vec_tst
-R7
+R6
 !i10b 1
 !s100 LZRe51IFG]GkeS_M;I1Z_1
-R2
+R1
 I^6PO[c236Yf6AkdJLk<z;0
-R3
+R2
 R0
 w1665342154
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 !i122 5
 L0 30 108
-R4
+R3
 r1
 !s85 0
 31
@@ -99,5 +99,5 @@ r1
 !s107 Waveform.vwf.vt|
 !s90 -work|work|Waveform.vwf.vt|
 !i113 1
+R4
 R5
-R6
