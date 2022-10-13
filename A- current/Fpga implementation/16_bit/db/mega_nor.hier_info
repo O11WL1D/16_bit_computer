@@ -1,0 +1,35 @@
+|mega_nor
+aa[0] => af.IN0
+aa[1] => af.IN1
+aa[2] => af.IN0
+aa[3] => af.IN1
+aa[4] => af.IN0
+aa[5] => af.IN1
+aa[6] => af.IN0
+aa[7] => af.IN1
+aa[8] => af.IN0
+aa[9] => af.IN1
+aa[10] => af.IN0
+aa[11] => af.IN1
+aa[12] => af.IN0
+aa[13] => af.IN1
+aa[14] => af.IN0
+aa[15] => af.IN1
+af[0] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[1] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[2] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[3] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[4] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[5] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[6] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[7] << af.DB_MAX_OUTPUT_PORT_TYPE
+af[8] << <GND>
+af[9] << <GND>
+af[10] << <GND>
+af[11] << <GND>
+af[12] << <GND>
+af[13] << <GND>
+af[14] << <GND>
+af[15] << p.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -8,6 +8,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "zero_flag",
+					"strict" : false
+				},
+				{
 					"name" : "fadder[15]",
 					"strict" : false
 				},
@@ -133,6 +137,10 @@
 				},
 				{
 					"name" : "falulogic[0]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_reg_out[0]",
 					"strict" : false
 				},
 				{
@@ -457,6 +465,10 @@
 				},
 				{
 					"name" : "BP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_reg_set",
 					"strict" : false
 				}
 			]

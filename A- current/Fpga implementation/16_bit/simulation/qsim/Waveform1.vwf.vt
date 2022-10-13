@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/13/2022 11:13:27"
+// Generated on "10/13/2022 15:24:40"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          alumod
 // 
@@ -32,6 +32,8 @@ module alumod_vlg_vec_tst();
 // general purpose registers
 reg [15:0] AP;
 reg [15:0] BP;
+reg [15:0] flag_reg_input;
+reg flag_reg_set;
 reg [15:0] FP;
 reg generala;
 reg generalb;
@@ -41,9 +43,11 @@ reg sub;
 // wires                                               
 wire [15:0] fadder;
 wire [15:0] falulogic;
+wire [15:0] flag_reg_out;
 wire generalc;
 wire generald;
 wire overflow;
+wire zero_flag;
 
 // assign statements (if any)                          
 alumod i1 (
@@ -52,6 +56,9 @@ alumod i1 (
 	.BP(BP),
 	.fadder(fadder),
 	.falulogic(falulogic),
+	.flag_reg_input(flag_reg_input),
+	.flag_reg_out(flag_reg_out),
+	.flag_reg_set(flag_reg_set),
 	.FP(FP),
 	.generala(generala),
 	.generalb(generalb),
@@ -60,11 +67,12 @@ alumod i1 (
 	.opA(opA),
 	.opB(opB),
 	.overflow(overflow),
-	.sub(sub)
+	.sub(sub),
+	.zero_flag(zero_flag)
 );
 initial 
 begin 
-#1000000 $finish;
+#1000000 $stop;
 end 
 // AP[ 15 ]
 initial

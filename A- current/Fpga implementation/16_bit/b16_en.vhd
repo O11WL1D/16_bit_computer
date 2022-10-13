@@ -40,6 +40,8 @@ ARCHITECTURE LogicFunc of b16_en is
 
 BEGIN 
 
+
+
 f(     0    ) <= (a(   0     ) AND en) ;
 f(     1    ) <= (a(   1     ) AND en) ;
 f(     2    ) <= (a(   2     ) AND en) ;
