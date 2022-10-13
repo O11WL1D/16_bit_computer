@@ -1,6 +1,6 @@
 Analysis & Synthesis report for adder16
-Sun Jun 12 18:17:58 2022
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Thu Oct 13 10:54:28 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -23,9 +23,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -35,15 +35,16 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jun 12 18:17:58 2022       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Thu Oct 13 10:54:28 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; adder16                                     ;
 ; Top-level Entity Name           ; adder16                                     ;
 ; Family                          ; Cyclone V                                   ;
@@ -155,7 +156,7 @@ refer to the applicable agreement for further details.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -165,14 +166,14 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                  ; Library ;
-+----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
-; adder16.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/adder16.bdf ;         ;
-; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/inksd/Desktop/const desktop files- do not remove/16 bit computer/Fpga implementation/alu/adder.bdf   ;         ;
-+----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                             ; Library ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------+---------+
+; adder16.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/adder16.bdf ;         ;
+; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/adder.bdf   ;         ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -180,14 +181,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 17        ;
+; Estimate of Logic utilization (ALMs needed) ; 26        ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 28        ;
+; Combinational ALUT usage for logic          ; 42        ;
 ;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 6         ;
-;     -- 5 input functions                    ; 10        ;
-;     -- 4 input functions                    ; 2         ;
-;     -- <=3 input functions                  ; 10        ;
+;     -- 6 input functions                    ; 9         ;
+;     -- 5 input functions                    ; 6         ;
+;     -- 4 input functions                    ; 1         ;
+;     -- <=3 input functions                  ; 26        ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 0         ;
 ;                                             ;           ;
@@ -197,8 +198,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; sub~input ;
 ; Maximum fan-out                             ; 20        ;
-; Total fan-out                               ; 186       ;
-; Average fan-out                             ; 1.45      ;
+; Total fan-out                               ; 219       ;
+; Average fan-out                             ; 1.54      ;
 +---------------------------------------------+-----------+
 
 
@@ -207,21 +208,21 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name   ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
-; |adder16                   ; 28 (4)              ; 0 (0)                     ; 0                 ; 0          ; 50   ; 0            ; |adder16              ; adder16     ; work         ;
-;    |adder:inst13|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst13 ; adder       ; work         ;
-;    |adder:inst15|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst15 ; adder       ; work         ;
-;    |adder:inst16|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst16 ; adder       ; work         ;
-;    |adder:inst17|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst17 ; adder       ; work         ;
-;    |adder:inst20|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst20 ; adder       ; work         ;
+; |adder16                   ; 42 (11)             ; 0 (0)                     ; 0                 ; 0          ; 50   ; 0            ; |adder16              ; adder16     ; work         ;
+;    |adder:inst13|          ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst13 ; adder       ; work         ;
+;    |adder:inst15|          ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst15 ; adder       ; work         ;
+;    |adder:inst16|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst16 ; adder       ; work         ;
+;    |adder:inst17|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst17 ; adder       ; work         ;
+;    |adder:inst20|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst20 ; adder       ; work         ;
 ;    |adder:inst23|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst23 ; adder       ; work         ;
 ;    |adder:inst24|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst24 ; adder       ; work         ;
-;    |adder:inst25|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst25 ; adder       ; work         ;
+;    |adder:inst25|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst25 ; adder       ; work         ;
 ;    |adder:inst26|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst26 ; adder       ; work         ;
 ;    |adder:inst2|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst2  ; adder       ; work         ;
-;    |adder:inst3|           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst3  ; adder       ; work         ;
+;    |adder:inst3|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst3  ; adder       ; work         ;
 ;    |adder:inst4|           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst4  ; adder       ; work         ;
-;    |adder:inst7|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst7  ; adder       ; work         ;
-;    |adder:inst8|           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst8  ; adder       ; work         ;
+;    |adder:inst7|           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst7  ; adder       ; work         ;
+;    |adder:inst8|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst8  ; adder       ; work         ;
 ;    |adder:inst9|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst9  ; adder       ; work         ;
 ;    |adder:inst|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst   ; adder       ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
@@ -248,18 +249,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 41                          ;
-;     normal            ; 41                          ;
-;         1 data inputs ; 13                          ;
-;         2 data inputs ; 5                           ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 2                           ;
-;         5 data inputs ; 10                          ;
-;         6 data inputs ; 6                           ;
+; arriav_lcell_comb     ; 43                          ;
+;     normal            ; 43                          ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 14                          ;
+;         3 data inputs ; 12                          ;
+;         4 data inputs ; 1                           ;
+;         5 data inputs ; 6                           ;
+;         6 data inputs ; 9                           ;
 ; boundary_port         ; 50                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.85                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 5.58                        ;
 +-----------------------+-----------------------------+
 
 
@@ -268,7 +269,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -277,31 +278,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jun 12 18:17:33 2022
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Oct 13 10:54:20 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off adder16 -c adder16
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file adder16.bdf
     Info (12023): Found entity 1: adder16
 Info (12127): Elaborating entity "adder16" for the top level hierarchy
 Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: adder
 Info (12128): Elaborating entity "adder" for hierarchy "adder:inst26"
+Warning (275004): Undeclared parameter CONSTANT_VALUE
+Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
 Warning (275008): Primitive "NOT" of instance "inst12" not used
 Warning (275008): Primitive "NOT" of instance "inst13" not used
 Warning (275008): Primitive "NOT" of instance "inst14" not used
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 78 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 92 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 33 input pins
     Info (21059): Implemented 17 output pins
-    Info (21061): Implemented 28 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4821 megabytes
-    Info: Processing ended: Sun Jun 12 18:17:58 2022
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:53
+    Info (21061): Implemented 42 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4810 megabytes
+    Info: Processing ended: Thu Oct 13 10:54:28 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:17
 
 

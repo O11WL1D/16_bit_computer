@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alumod
-Tue Oct 11 13:47:39 2022
+Thu Oct 13 10:56:14 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Oct 11 13:47:39 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Oct 13 10:56:14 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; alumod                                      ;
 ; Top-level Entity Name           ; alumod                                      ;
@@ -183,14 +183,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 25        ;
+; Estimate of Logic utilization (ALMs needed) ; 34        ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 44        ;
+; Combinational ALUT usage for logic          ; 58        ;
 ;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 6         ;
-;     -- 5 input functions                    ; 26        ;
-;     -- 4 input functions                    ; 2         ;
-;     -- <=3 input functions                  ; 10        ;
+;     -- 6 input functions                    ; 9         ;
+;     -- 5 input functions                    ; 22        ;
+;     -- 4 input functions                    ; 1         ;
+;     -- <=3 input functions                  ; 26        ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 0         ;
 ;                                             ;           ;
@@ -200,8 +200,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; sub~input ;
 ; Maximum fan-out                             ; 20        ;
-; Total fan-out                               ; 350       ;
-; Average fan-out                             ; 1.25      ;
+; Total fan-out                               ; 383       ;
+; Average fan-out                             ; 1.30      ;
 +---------------------------------------------+-----------+
 
 
@@ -210,22 +210,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------+-------------+--------------+
-; |alumod                    ; 44 (0)              ; 0 (0)                     ; 0                 ; 0          ; 118  ; 0            ; |alumod                            ; alumod      ; work         ;
-;    |adder16:inst5|         ; 28 (4)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5              ; adder16     ; work         ;
-;       |adder:inst13|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst13 ; adder       ; work         ;
-;       |adder:inst15|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst15 ; adder       ; work         ;
-;       |adder:inst16|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst16 ; adder       ; work         ;
-;       |adder:inst17|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst17 ; adder       ; work         ;
-;       |adder:inst20|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst20 ; adder       ; work         ;
+; |alumod                    ; 58 (0)              ; 0 (0)                     ; 0                 ; 0          ; 118  ; 0            ; |alumod                            ; alumod      ; work         ;
+;    |adder16:inst5|         ; 42 (11)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5              ; adder16     ; work         ;
+;       |adder:inst13|       ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst13 ; adder       ; work         ;
+;       |adder:inst15|       ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst15 ; adder       ; work         ;
+;       |adder:inst16|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst16 ; adder       ; work         ;
+;       |adder:inst17|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst17 ; adder       ; work         ;
+;       |adder:inst20|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst20 ; adder       ; work         ;
 ;       |adder:inst23|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst23 ; adder       ; work         ;
 ;       |adder:inst24|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst24 ; adder       ; work         ;
-;       |adder:inst25|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst25 ; adder       ; work         ;
+;       |adder:inst25|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst25 ; adder       ; work         ;
 ;       |adder:inst26|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst26 ; adder       ; work         ;
 ;       |adder:inst2|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst2  ; adder       ; work         ;
-;       |adder:inst3|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst3  ; adder       ; work         ;
+;       |adder:inst3|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst3  ; adder       ; work         ;
 ;       |adder:inst4|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst4  ; adder       ; work         ;
-;       |adder:inst7|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst7  ; adder       ; work         ;
-;       |adder:inst8|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst8  ; adder       ; work         ;
+;       |adder:inst7|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst7  ; adder       ; work         ;
+;       |adder:inst8|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst8  ; adder       ; work         ;
 ;       |adder:inst9|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst9  ; adder       ; work         ;
 ;       |adder:inst|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst   ; adder       ; work         ;
 ;    |alu_logic:inst|        ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|alu_logic:inst             ; alu_logic   ; work         ;
@@ -253,19 +253,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 58                          ;
-;     normal            ; 58                          ;
+; arriav_lcell_comb     ; 60                          ;
+;     normal            ; 60                          ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 13                          ;
-;         2 data inputs ; 5                           ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 2                           ;
-;         5 data inputs ; 26                          ;
-;         6 data inputs ; 6                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 14                          ;
+;         3 data inputs ; 12                          ;
+;         4 data inputs ; 1                           ;
+;         5 data inputs ; 22                          ;
+;         6 data inputs ; 9                           ;
 ; boundary_port         ; 118                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 1.98                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 3.46                        ;
 +-----------------------+-----------------------------+
 
 
@@ -284,7 +284,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Oct 11 13:47:29 2022
+    Info: Processing started: Thu Oct 13 10:56:06 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alumod -c alumod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -301,6 +301,8 @@ Info (12128): Elaborating entity "adder16" for hierarchy "adder16:inst5"
 Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: adder
 Info (12128): Elaborating entity "adder" for hierarchy "adder16:inst5|adder:inst26"
+Warning (275004): Undeclared parameter CONSTANT_VALUE
+Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
 Warning (275008): Primitive "NOT" of instance "inst12" not used
 Warning (275008): Primitive "NOT" of instance "inst13" not used
 Warning (275008): Primitive "NOT" of instance "inst14" not used
@@ -317,14 +319,14 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "generalb"
     Warning (15610): No output dependent on input pin "generala"
-Info (21057): Implemented 162 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 176 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 83 input pins
     Info (21059): Implemented 35 output pins
-    Info (21061): Implemented 44 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4845 megabytes
-    Info: Processing ended: Tue Oct 11 13:47:39 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:21
+    Info (21061): Implemented 58 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 19 warnings
+    Info: Peak virtual memory: 4847 megabytes
+    Info: Processing ended: Thu Oct 13 10:56:14 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:18
 
 

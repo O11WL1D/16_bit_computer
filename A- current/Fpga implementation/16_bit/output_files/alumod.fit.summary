@@ -1,11 +1,11 @@
-Fitter Status : Successful - Tue Oct 11 13:47:56 2022
+Fitter Status : Successful - Thu Oct 13 10:56:30 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : alumod
 Top-level Entity Name : alumod
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 30 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 37 / 18,480 ( < 1 % )
 Total registers : 0
 Total pins : 118 / 224 ( 53 % )
 Total virtual pins : 0

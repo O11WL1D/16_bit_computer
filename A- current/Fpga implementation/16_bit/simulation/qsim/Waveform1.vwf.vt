@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/11/2022 14:24:48"
+// Generated on "10/13/2022 11:13:27"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          alumod
 // 
@@ -311,15 +311,19 @@ initial
 begin
 	opA[15] = 1'b0;
 	opA[15] = #10000 1'b1;
-	opA[15] = #10000 1'b0;
-	opA[15] = #850000 1'b1;
+	opA[15] = #20000 1'b0;
+	opA[15] = #10000 1'b1;
+	opA[15] = #20000 1'b0;
+	opA[15] = #810000 1'b1;
 	opA[15] = #10000 1'b0;
 end 
 // opA[ 14 ]
 initial
 begin
 	opA[14] = 1'b0;
-	opA[14] = #870000 1'b1;
+	opA[14] = #60000 1'b1;
+	opA[14] = #10000 1'b0;
+	opA[14] = #800000 1'b1;
 	opA[14] = #10000 1'b0;
 end 
 // opA[ 13 ]
@@ -327,8 +331,10 @@ initial
 begin
 	opA[13] = 1'b0;
 	opA[13] = #10000 1'b1;
+	opA[13] = #20000 1'b0;
+	opA[13] = #10000 1'b1;
 	opA[13] = #10000 1'b0;
-	opA[13] = #850000 1'b1;
+	opA[13] = #820000 1'b1;
 	opA[13] = #10000 1'b0;
 end 
 // opA[ 12 ]
@@ -336,8 +342,8 @@ initial
 begin
 	opA[12] = 1'b0;
 	opA[12] = #10000 1'b1;
-	opA[12] = #10000 1'b0;
-	opA[12] = #850000 1'b1;
+	opA[12] = #20000 1'b0;
+	opA[12] = #840000 1'b1;
 	opA[12] = #10000 1'b0;
 end 
 // opA[ 11 ]
@@ -345,7 +351,11 @@ initial
 begin
 	opA[11] = 1'b1;
 	opA[11] = #10000 1'b0;
-	opA[11] = #860000 1'b1;
+	opA[11] = #10000 1'b1;
+	opA[11] = #10000 1'b0;
+	opA[11] = #10000 1'b1;
+	opA[11] = #10000 1'b0;
+	opA[11] = #820000 1'b1;
 	opA[11] = #10000 1'b0;
 end 
 // opA[ 10 ]
@@ -360,14 +370,20 @@ initial
 begin
 	opA[9] = 1'b1;
 	opA[9] = #10000 1'b0;
-	opA[9] = #860000 1'b1;
+	opA[9] = #10000 1'b1;
+	opA[9] = #10000 1'b0;
+	opA[9] = #10000 1'b1;
+	opA[9] = #10000 1'b0;
+	opA[9] = #820000 1'b1;
 	opA[9] = #10000 1'b0;
 end 
 // opA[ 8 ]
 initial
 begin
 	opA[8] = 1'b0;
-	opA[8] = #870000 1'b1;
+	opA[8] = #20000 1'b1;
+	opA[8] = #10000 1'b0;
+	opA[8] = #840000 1'b1;
 	opA[8] = #10000 1'b0;
 end 
 // opA[ 7 ]
@@ -375,8 +391,10 @@ initial
 begin
 	opA[7] = 1'b0;
 	opA[7] = #10000 1'b1;
+	opA[7] = #20000 1'b0;
+	opA[7] = #10000 1'b1;
 	opA[7] = #10000 1'b0;
-	opA[7] = #850000 1'b1;
+	opA[7] = #820000 1'b1;
 	opA[7] = #10000 1'b0;
 end 
 // opA[ 6 ]
@@ -391,8 +409,10 @@ initial
 begin
 	opA[5] = 1'b0;
 	opA[5] = #10000 1'b1;
+	opA[5] = #20000 1'b0;
+	opA[5] = #10000 1'b1;
 	opA[5] = #10000 1'b0;
-	opA[5] = #850000 1'b1;
+	opA[5] = #820000 1'b1;
 	opA[5] = #10000 1'b0;
 end 
 // opA[ 4 ]
@@ -400,8 +420,8 @@ initial
 begin
 	opA[4] = 1'b0;
 	opA[4] = #10000 1'b1;
-	opA[4] = #10000 1'b0;
-	opA[4] = #850000 1'b1;
+	opA[4] = #20000 1'b0;
+	opA[4] = #840000 1'b1;
 	opA[4] = #10000 1'b0;
 end 
 // opA[ 3 ]
@@ -409,14 +429,20 @@ initial
 begin
 	opA[3] = 1'b1;
 	opA[3] = #10000 1'b0;
-	opA[3] = #860000 1'b1;
+	opA[3] = #10000 1'b1;
+	opA[3] = #10000 1'b0;
+	opA[3] = #10000 1'b1;
+	opA[3] = #10000 1'b0;
+	opA[3] = #820000 1'b1;
 	opA[3] = #10000 1'b0;
 end 
 // opA[ 2 ]
 initial
 begin
 	opA[2] = 1'b0;
-	opA[2] = #870000 1'b1;
+	opA[2] = #30000 1'b1;
+	opA[2] = #10000 1'b0;
+	opA[2] = #830000 1'b1;
 	opA[2] = #10000 1'b0;
 end 
 // opA[ 1 ]
@@ -424,14 +450,20 @@ initial
 begin
 	opA[1] = 1'b1;
 	opA[1] = #10000 1'b0;
-	opA[1] = #860000 1'b1;
+	opA[1] = #10000 1'b1;
+	opA[1] = #10000 1'b0;
+	opA[1] = #10000 1'b1;
+	opA[1] = #10000 1'b0;
+	opA[1] = #820000 1'b1;
 	opA[1] = #10000 1'b0;
 end 
 // opA[ 0 ]
 initial
 begin
 	opA[0] = 1'b0;
-	opA[0] = #870000 1'b1;
+	opA[0] = #20000 1'b1;
+	opA[0] = #10000 1'b0;
+	opA[0] = #840000 1'b1;
 	opA[0] = #10000 1'b0;
 end 
 // opB[ 15 ]
@@ -439,16 +471,26 @@ initial
 begin
 	opB[15] = 1'b1;
 	opB[15] = #10000 1'b0;
+	opB[15] = #10000 1'b1;
+	opB[15] = #10000 1'b0;
+	opB[15] = #10000 1'b1;
+	opB[15] = #20000 1'b0;
 end 
 // opB[ 14 ]
 initial
 begin
 	opB[14] = 1'b0;
+	opB[14] = #60000 1'b1;
+	opB[14] = #10000 1'b0;
 end 
 // opB[ 13 ]
 initial
 begin
 	opB[13] = 1'b1;
+	opB[13] = #10000 1'b0;
+	opB[13] = #10000 1'b1;
+	opB[13] = #10000 1'b0;
+	opB[13] = #10000 1'b1;
 	opB[13] = #10000 1'b0;
 end 
 // opB[ 12 ]
@@ -456,11 +498,15 @@ initial
 begin
 	opB[12] = 1'b1;
 	opB[12] = #10000 1'b0;
+	opB[12] = #30000 1'b1;
+	opB[12] = #10000 1'b0;
 end 
 // opB[ 11 ]
 initial
 begin
 	opB[11] = 1'b0;
+	opB[11] = #10000 1'b1;
+	opB[11] = #20000 1'b0;
 	opB[11] = #10000 1'b1;
 	opB[11] = #10000 1'b0;
 end 
@@ -474,17 +520,25 @@ initial
 begin
 	opB[9] = 1'b0;
 	opB[9] = #10000 1'b1;
+	opB[9] = #20000 1'b0;
+	opB[9] = #10000 1'b1;
 	opB[9] = #10000 1'b0;
 end 
 // opB[ 8 ]
 initial
 begin
 	opB[8] = 1'b0;
+	opB[8] = #40000 1'b1;
+	opB[8] = #10000 1'b0;
 end 
 // opB[ 7 ]
 initial
 begin
 	opB[7] = 1'b1;
+	opB[7] = #10000 1'b0;
+	opB[7] = #10000 1'b1;
+	opB[7] = #10000 1'b0;
+	opB[7] = #10000 1'b1;
 	opB[7] = #10000 1'b0;
 end 
 // opB[ 6 ]
@@ -497,17 +551,25 @@ initial
 begin
 	opB[5] = 1'b1;
 	opB[5] = #10000 1'b0;
+	opB[5] = #10000 1'b1;
+	opB[5] = #10000 1'b0;
+	opB[5] = #10000 1'b1;
+	opB[5] = #10000 1'b0;
 end 
 // opB[ 4 ]
 initial
 begin
 	opB[4] = 1'b1;
 	opB[4] = #10000 1'b0;
+	opB[4] = #30000 1'b1;
+	opB[4] = #10000 1'b0;
 end 
 // opB[ 3 ]
 initial
 begin
 	opB[3] = 1'b0;
+	opB[3] = #10000 1'b1;
+	opB[3] = #20000 1'b0;
 	opB[3] = #10000 1'b1;
 	opB[3] = #10000 1'b0;
 end 
@@ -521,18 +583,22 @@ initial
 begin
 	opB[1] = 1'b0;
 	opB[1] = #10000 1'b1;
-	opB[1] = #10000 1'b0;
+	opB[1] = #40000 1'b0;
 end 
 // opB[ 0 ]
 initial
 begin
 	opB[0] = 1'b0;
+	opB[0] = #40000 1'b1;
+	opB[0] = #10000 1'b0;
 end 
 
 // sub
 initial
 begin
 	sub = 1'b0;
+	sub = #20000 1'b1;
+	sub = #30000 1'b0;
 end 
 endmodule
 

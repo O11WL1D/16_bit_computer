@@ -1,6 +1,6 @@
 Flow report for adder
-Sun Jun 12 16:54:26 2022
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Thu Oct 13 10:43:45 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -21,9 +21,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -33,15 +33,16 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Jun 12 16:54:13 2022       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Flow Status                     ; Successful - Thu Oct 13 10:43:40 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; adder                                       ;
 ; Top-level Entity Name           ; adder                                       ;
 ; Family                          ; Cyclone V                                   ;
@@ -49,7 +50,7 @@ refer to the applicable agreement for further details.
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; 2 / 18,480 ( < 1 % )                        ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 5 / 224 ( 2 % )                             ;
+; Total pins                      ; 6 / 224 ( 3 % )                             ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                       ;
 ; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
@@ -67,7 +68,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/12/2022 16:53:00 ;
+; Start date & time ; 10/13/2022 10:43:15 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; adder               ;
 +-------------------+---------------------+
@@ -78,7 +79,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 20184960790213.165507437915712         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 224391393303535.166567939526096        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -93,11 +94,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4818 MB             ; 00:00:52                           ;
-; Fitter               ; 00:00:40     ; 1.0                     ; 6557 MB             ; 00:01:47                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 4806 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 5057 MB             ; 00:00:10                           ;
-; Total                ; 00:01:22     ; --                      ; --                  ; 00:02:57                           ;
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4806 MB             ; 00:00:16                           ;
+; Fitter               ; 00:00:11     ; 1.0                     ; 6187 MB             ; 00:00:21                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4816 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5037 MB             ; 00:00:03                           ;
+; Total                ; 00:00:25     ; --                      ; --                  ; 00:00:43                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -106,10 +107,10 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-CK0I5JM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

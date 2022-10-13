@@ -1,0 +1,16 @@
+|adder
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+C => inst6.IN0
+C => inst3.IN1
+C => inst4.IN1
+C => inst1.IN1
+x => inst6.IN1
+x => inst3.IN0
+x => inst.IN0
+y => inst7.IN1
+y => inst4.IN0
+y => inst.IN1
+over <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+cplone <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+

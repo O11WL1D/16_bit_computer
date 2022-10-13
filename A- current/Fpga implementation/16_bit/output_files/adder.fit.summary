@@ -1,5 +1,5 @@
-Fitter Status : Successful - Sun Jun 12 16:54:03 2022
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Fitter Status : Successful - Thu Oct 13 10:43:35 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : adder
 Top-level Entity Name : adder
 Family : Cyclone V
@@ -7,7 +7,7 @@ Device : 5CEBA4F23C7
 Timing Models : Final
 Logic utilization (in ALMs) : 2 / 18,480 ( < 1 % )
 Total registers : 0
-Total pins : 5 / 224 ( 2 % )
+Total pins : 6 / 224 ( 3 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )

@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,9 +16,22 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
+(global
+	(rect 1312 800 1600 840)
+	(constant)
+	(text "CONSTANT" (rect 3 -1 69 13)(font "Arial" (font_size 8)))
+	(text " NAME" (rect 107 0 141 12)(font "Arial" ))
+	(text "ci+1" (rect 4 16 27 30)(font "Arial" (font_size 8)))
+	(text " VALUE" (rect 139 0 177 12)(font "Arial" ))
+	(text "CONSTANT_VALUE" (rect 140 16 254 30)(font "Arial" (font_size 8)))
+	(drawing
+		(line (pt 138 40)(pt 138 0))
+	)
+)
 (pin
 	(input)
 	(rect 816 432 832 600)
@@ -91,6 +104,22 @@ refer to the applicable agreement for further details.
 	(rect 1464 1360 1640 1376)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "over" (rect 90 0 112 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1504 896 1680 912)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "cplone" (rect 90 0 121 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -615,14 +644,6 @@ refer to the applicable agreement for further details.
 	(pt 1040 2136)
 )
 (connector
-	(pt 1408 904)
-	(pt 1480 904)
-)
-(connector
-	(pt 1480 904)
-	(pt 1512 904)
-)
-(connector
 	(pt 824 1048)
 	(pt 824 1152)
 )
@@ -633,6 +654,14 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 824 1408)
 	(pt 824 2136)
+)
+(connector
+	(pt 1408 904)
+	(pt 1480 904)
+)
+(connector
+	(pt 1480 904)
+	(pt 1504 904)
 )
 (junction (pt 824 672))
 (junction (pt 1040 672))
@@ -646,8 +675,8 @@ refer to the applicable agreement for further details.
 (junction (pt 824 1152))
 (junction (pt 936 1168))
 (junction (pt 1040 1248))
-(junction (pt 1480 904))
 (junction (pt 824 1408))
+(junction (pt 1480 904))
 (text "A" (rect 840 608 848 627)(font "Intel Clear" (font_size 8)))
 (text "A" (rect 952 608 960 627)(font "Intel Clear" (font_size 8)))
 (text "A" (rect 1056 608 1064 627)(font "Intel Clear" (font_size 8)))

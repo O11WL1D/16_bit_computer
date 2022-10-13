@@ -12,6 +12,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "cplone",
+					"strict" : false
+				},
+				{
 					"name" : "C",
 					"strict" : false
 				},
