@@ -6,6 +6,18 @@
 
 # general design plan
 
+-New plan 10-14-2022
+
+Create a very general version of a 16 bit computer, then slowly add advanced features such as interrupts and whatnot to existing
+architecture. This will require the creation of a program which will quickly interchange control logic, so as
+to change the control circuit with little resistance. 
+
+
+
+
+
+--Old plan
+
 My plan is to create a rough preliminary design for each module. After I have an idea of how every module will interact with each other,
 I will begin looking for specific chips to use and start on a to scale design using some form of pcb software. After I have worked out
 every detail regarding propagation time, voltages ect ect, I will begin ordering parts and boards, and test my computer module by module.
