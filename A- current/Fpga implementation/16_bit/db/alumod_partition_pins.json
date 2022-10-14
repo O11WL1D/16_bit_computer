@@ -12,6 +12,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "cout",
+					"strict" : false
+				},
+				{
 					"name" : "fadder[15]",
 					"strict" : false
 				},
@@ -140,51 +144,27 @@
 					"strict" : false
 				},
 				{
+					"name" : "flag_reg_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_reg_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_reg_out[1]",
+					"strict" : false
+				},
+				{
 					"name" : "flag_reg_out[0]",
 					"strict" : false
 				},
 				{
-					"name" : "wa[7]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[6]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[5]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[4]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[3]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[2]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[1]",
-					"strict" : false
-				},
-				{
-					"name" : "wa[0]",
+					"name" : "opB[14]",
 					"strict" : false
 				},
 				{
 					"name" : "sub",
-					"strict" : false
-				},
-				{
-					"name" : "opA[15]",
-					"strict" : false
-				},
-				{
-					"name" : "opB[14]",
 					"strict" : false
 				},
 				{
@@ -305,6 +285,10 @@
 				},
 				{
 					"name" : "opB[15]",
+					"strict" : false
+				},
+				{
+					"name" : "opA[15]",
 					"strict" : false
 				},
 				{
@@ -501,42 +485,6 @@
 				},
 				{
 					"name" : "flag_reg_set",
-					"strict" : false
-				},
-				{
-					"name" : "wb[7]",
-					"strict" : false
-				},
-				{
-					"name" : "wclk",
-					"strict" : false
-				},
-				{
-					"name" : "wb[6]",
-					"strict" : false
-				},
-				{
-					"name" : "wb[5]",
-					"strict" : false
-				},
-				{
-					"name" : "wb[4]",
-					"strict" : false
-				},
-				{
-					"name" : "wb[3]",
-					"strict" : false
-				},
-				{
-					"name" : "wb[2]",
-					"strict" : false
-				},
-				{
-					"name" : "wb[1]",
-					"strict" : false
-				},
-				{
-					"name" : "wb[0]",
 					"strict" : false
 				}
 			]

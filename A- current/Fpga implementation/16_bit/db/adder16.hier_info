@@ -49,6 +49,7 @@ b[12] => adder:inst23.y
 b[13] => adder:inst24.y
 b[14] => adder:inst25.y
 b[15] => adder:inst26.y
+cout <= adder:inst26.cplone
 f[0] <= adder:inst.S
 f[1] <= adder:inst2.S
 f[2] <= adder:inst3.S

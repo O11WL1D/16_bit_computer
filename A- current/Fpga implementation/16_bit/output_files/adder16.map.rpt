@@ -1,5 +1,5 @@
 Analysis & Synthesis report for adder16
-Thu Oct 13 10:54:28 2022
+Fri Oct 14 14:19:25 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,14 +43,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Oct 13 10:54:28 2022       ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 14 14:19:25 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; adder16                                     ;
 ; Top-level Entity Name           ; adder16                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 50                                          ;
+; Total pins                      ; 51                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -181,25 +181,25 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 26        ;
+; Estimate of Logic utilization (ALMs needed) ; 27        ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 42        ;
+; Combinational ALUT usage for logic          ; 43        ;
 ;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 9         ;
+;     -- 6 input functions                    ; 10        ;
 ;     -- 5 input functions                    ; 6         ;
 ;     -- 4 input functions                    ; 1         ;
 ;     -- <=3 input functions                  ; 26        ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 50        ;
+; I/O pins                                    ; 51        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; sub~input ;
-; Maximum fan-out                             ; 20        ;
-; Total fan-out                               ; 219       ;
-; Average fan-out                             ; 1.54      ;
+; Maximum fan-out                             ; 21        ;
+; Total fan-out                               ; 227       ;
+; Average fan-out                             ; 1.57      ;
 +---------------------------------------------+-----------+
 
 
@@ -208,7 +208,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name   ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
-; |adder16                   ; 42 (11)             ; 0 (0)                     ; 0                 ; 0          ; 50   ; 0            ; |adder16              ; adder16     ; work         ;
+; |adder16                   ; 43 (11)             ; 0 (0)                     ; 0                 ; 0          ; 51   ; 0            ; |adder16              ; adder16     ; work         ;
 ;    |adder:inst13|          ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst13 ; adder       ; work         ;
 ;    |adder:inst15|          ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst15 ; adder       ; work         ;
 ;    |adder:inst16|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst16 ; adder       ; work         ;
@@ -217,7 +217,7 @@ https://fpgasoftware.intel.com/eula.
 ;    |adder:inst23|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst23 ; adder       ; work         ;
 ;    |adder:inst24|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst24 ; adder       ; work         ;
 ;    |adder:inst25|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst25 ; adder       ; work         ;
-;    |adder:inst26|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst26 ; adder       ; work         ;
+;    |adder:inst26|          ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst26 ; adder       ; work         ;
 ;    |adder:inst2|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst2  ; adder       ; work         ;
 ;    |adder:inst3|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst3  ; adder       ; work         ;
 ;    |adder:inst4|           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adder16|adder:inst4  ; adder       ; work         ;
@@ -251,16 +251,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; arriav_lcell_comb     ; 43                          ;
 ;     normal            ; 43                          ;
-;         1 data inputs ; 1                           ;
 ;         2 data inputs ; 14                          ;
 ;         3 data inputs ; 12                          ;
 ;         4 data inputs ; 1                           ;
 ;         5 data inputs ; 6                           ;
-;         6 data inputs ; 9                           ;
-; boundary_port         ; 50                          ;
+;         6 data inputs ; 10                          ;
+; boundary_port         ; 51                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 8.00                        ;
-; Average LUT depth     ; 5.58                        ;
+; Max LUT depth         ; 7.00                        ;
+; Average LUT depth     ; 4.87                        ;
 +-----------------------+-----------------------------+
 
 
@@ -279,7 +278,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Oct 13 10:54:20 2022
+    Info: Processing started: Fri Oct 14 14:19:15 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off adder16 -c adder16
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -297,14 +296,14 @@ Warning (275008): Primitive "NOT" of instance "inst14" not used
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 92 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 94 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 33 input pins
-    Info (21059): Implemented 17 output pins
-    Info (21061): Implemented 42 logic cells
+    Info (21059): Implemented 18 output pins
+    Info (21061): Implemented 43 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4810 megabytes
-    Info: Processing ended: Thu Oct 13 10:54:28 2022
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 4801 megabytes
+    Info: Processing ended: Fri Oct 14 14:19:25 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:23
 
 

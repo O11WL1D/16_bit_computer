@@ -8,6 +8,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "cout",
+					"strict" : false
+				},
+				{
 					"name" : "f[15]",
 					"strict" : false
 				},
@@ -72,15 +76,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "sub",
-					"strict" : false
-				},
-				{
-					"name" : "a[15]",
-					"strict" : false
-				},
-				{
 					"name" : "b[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sub",
 					"strict" : false
 				},
 				{
@@ -201,6 +201,10 @@
 				},
 				{
 					"name" : "b[15]",
+					"strict" : false
+				},
+				{
+					"name" : "a[15]",
 					"strict" : false
 				}
 			]

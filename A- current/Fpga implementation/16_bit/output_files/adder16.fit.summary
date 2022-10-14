@@ -1,13 +1,13 @@
-Fitter Status : Successful - Thu Oct 13 10:54:42 2022
+Fitter Status : Successful - Fri Oct 14 14:19:50 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : adder16
 Top-level Entity Name : adder16
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 26 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 27 / 18,480 ( < 1 % )
 Total registers : 0
-Total pins : 50 / 224 ( 22 % )
+Total pins : 51 / 224 ( 23 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )
