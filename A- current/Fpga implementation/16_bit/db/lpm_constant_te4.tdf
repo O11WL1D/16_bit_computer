@@ -1,4 +1,4 @@
---lpm_constant LPM_CVALUE=F312 LPM_WIDTH=16 result
+--lpm_constant LPM_CVALUE=03F2 LPM_WIDTH=16 result
 --VERSION_BEGIN 20.1 cbx_lpm_constant 2020:11:11:17:06:45:SJ cbx_mgl 2020:11:11:17:08:38:SJ  VERSION_END
 
 
@@ -20,12 +20,12 @@
 
 
 --synthesis_resources = 
-SUBDESIGN lpm_constant_ue4
+SUBDESIGN lpm_constant_te4
 ( 
 	result[15..0]	:	output;
 ) 
 
 BEGIN 
-	result[] = B"1111001100010010";
+	result[] = B"0000001111110010";
 END;
 --VALID FILE
