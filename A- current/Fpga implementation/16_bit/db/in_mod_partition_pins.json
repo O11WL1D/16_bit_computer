@@ -4,219 +4,119 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "HEX03",
+					"name" : "output[15]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX06",
+					"name" : "output[14]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX00",
+					"name" : "output[13]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX02",
+					"name" : "output[12]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX04",
+					"name" : "output[11]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX01",
+					"name" : "output[10]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX05",
+					"name" : "output[9]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX13",
+					"name" : "output[8]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX16",
+					"name" : "output[7]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX10",
+					"name" : "output[6]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX12",
+					"name" : "output[5]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX14",
+					"name" : "output[4]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX11",
+					"name" : "output[3]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX15",
+					"name" : "output[2]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR1",
+					"name" : "output[1]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR2",
+					"name" : "output[0]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR4",
+					"name" : "inputset[11]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX23",
+					"name" : "inputset[10]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX26",
+					"name" : "inputset[9]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX20",
+					"name" : "inputset[8]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX22",
+					"name" : "inputset[7]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX24",
+					"name" : "inputset[6]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX21",
+					"name" : "inputset[5]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX25",
+					"name" : "inputset[4]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR7",
+					"name" : "inputset[2]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX43",
+					"name" : "inputset[1]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX46",
+					"name" : "inputset[12]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX40",
+					"name" : "inputset[0]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX42",
-					"strict" : false
-				},
-				{
-					"name" : "HEX44",
-					"strict" : false
-				},
-				{
-					"name" : "HEX41",
-					"strict" : false
-				},
-				{
-					"name" : "HEX45",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR8",
-					"strict" : false
-				},
-				{
-					"name" : "HEX53",
-					"strict" : false
-				},
-				{
-					"name" : "HEX56",
-					"strict" : false
-				},
-				{
-					"name" : "HEX50",
-					"strict" : false
-				},
-				{
-					"name" : "HEX52",
-					"strict" : false
-				},
-				{
-					"name" : "HEX54",
-					"strict" : false
-				},
-				{
-					"name" : "HEX51",
-					"strict" : false
-				},
-				{
-					"name" : "HEX55",
-					"strict" : false
-				},
-				{
-					"name" : "sw0",
-					"strict" : false
-				},
-				{
-					"name" : "sw1",
-					"strict" : false
-				},
-				{
-					"name" : "sw2",
-					"strict" : false
-				},
-				{
-					"name" : "sw3",
-					"strict" : false
-				},
-				{
-					"name" : "sw4",
-					"strict" : false
-				},
-				{
-					"name" : "sw5",
-					"strict" : false
-				},
-				{
-					"name" : "sw6",
-					"strict" : false
-				},
-				{
-					"name" : "sw7",
-					"strict" : false
-				},
-				{
-					"name" : "sw9",
-					"strict" : false
-				},
-				{
-					"name" : "KEY3",
-					"strict" : false
-				},
-				{
-					"name" : "sw8",
-					"strict" : false
-				},
-				{
-					"name" : "KEY1",
-					"strict" : false
-				},
-				{
-					"name" : "KEY2",
-					"strict" : false
-				},
-				{
-					"name" : "KEY0",
+					"name" : "inputset[13]",
 					"strict" : false
 				}
 			]

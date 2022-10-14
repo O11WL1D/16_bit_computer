@@ -2,68 +2,52 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY1'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputset[1]'
 Slack : -0.538
-TNS   : -7.012
+TNS   : -6.944
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY2'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputset[2]'
 Slack : -0.538
-TNS   : -6.397
+TNS   : -6.398
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY3'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputset[0]'
 Slack : -0.538
-TNS   : -6.384
+TNS   : -1.569
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY0'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputset[1]'
 Slack : -0.538
-TNS   : -1.861
+TNS   : -7.168
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY1'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputset[2]'
 Slack : -0.538
-TNS   : -7.448
+TNS   : -6.788
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY3'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputset[0]'
 Slack : -0.538
-TNS   : -6.700
+TNS   : -1.622
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.538
-TNS   : -6.392
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputset[1]'
+Slack : -0.373
+TNS   : -3.458
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY0'
-Slack : -0.538
-TNS   : -1.665
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputset[2]'
+Slack : -0.320
+TNS   : -2.562
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY1'
-Slack : -0.432
-TNS   : -4.551
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputset[0]'
+Slack : -0.058
+TNS   : -0.115
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY3'
-Slack : -0.353
-TNS   : -3.101
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputset[1]'
+Slack : -0.360
+TNS   : -3.153
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY0'
-Slack : -0.345
-TNS   : -1.004
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputset[2]'
+Slack : -0.330
+TNS   : -2.655
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY2'
-Slack : -0.313
-TNS   : -2.500
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY1'
-Slack : -0.427
-TNS   : -4.392
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY3'
-Slack : -0.370
-TNS   : -3.330
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.337
-TNS   : -2.789
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY0'
-Slack : -0.323
-TNS   : -0.855
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputset[0]'
+Slack : -0.076
+TNS   : -0.152
 
 ------------------------------------------------------------
