@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ram_mod
-Fri Oct 14 16:55:14 2022
+Fri Oct 14 17:12:04 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -50,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Oct 14 16:55:14 2022       ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 14 17:12:04 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; ram_mod                                     ;
 ; Top-level Entity Name           ; ram_mod                                     ;
@@ -170,7 +170,8 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -228,8 +229,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                 ;
 ; Maximum fan-out node                        ; dec38:inst81|26 ;
 ; Maximum fan-out                             ; 134             ;
-; Total fan-out                               ; 2618            ;
-; Average fan-out                             ; 7.63            ;
+; Total fan-out                               ; 2634            ;
+; Average fan-out                             ; 7.68            ;
 +---------------------------------------------+-----------------+
 
 
@@ -403,9 +404,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 23                          ;
 ;     plain             ; 23                          ;
-; arriav_lcell_comb     ; 97                          ;
-;     normal            ; 97                          ;
-;         0 data inputs ; 2                           ;
+; arriav_lcell_comb     ; 96                          ;
+;     normal            ; 96                          ;
+;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 28                          ;
 ;         2 data inputs ; 3                           ;
 ;         3 data inputs ; 24                          ;
@@ -415,7 +416,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block    ; 128                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.33                        ;
+; Average LUT depth     ; 2.34                        ;
 +-----------------------+-----------------------------+
 
 
@@ -434,7 +435,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct 14 16:55:04 2022
+    Info: Processing started: Fri Oct 14 17:11:54 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ram_mod -c ram_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -552,23 +553,6 @@ Warning (12125): Using design file b16_or.vhd, which is not specified as a desig
     Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 31
     Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 8
 Info (12128): Elaborating entity "b16_or" for hierarchy "in_mod:SsfvD|b16_or:inst85"
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR6" is stuck at GND
-    Warning (13410): Pin "LEDR7" is stuck at GND
-    Warning (13410): Pin "HEX27" is stuck at VCC
-    Warning (13410): Pin "HEX28" is stuck at VCC
-    Warning (13410): Pin "HEX29" is stuck at VCC
-    Warning (13410): Pin "HEX37" is stuck at VCC
-    Warning (13410): Pin "HEX38" is stuck at VCC
-    Warning (13410): Pin "HEX39" is stuck at VCC
-    Warning (13410): Pin "HEX40" is stuck at VCC
-    Warning (13410): Pin "HEX41" is stuck at VCC
-    Warning (13410): Pin "HEX42" is stuck at VCC
-    Warning (13410): Pin "HEX43" is stuck at VCC
-    Warning (13410): Pin "HEX44" is stuck at VCC
-    Warning (13410): Pin "HEX45" is stuck at VCC
-    Warning (13410): Pin "HEX46" is stuck at VCC
-    Warning (13410): Pin "HEX47" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -579,9 +563,9 @@ Info (21057): Implemented 281 device resources after synthesis - the final resou
     Info (21059): Implemented 48 output pins
     Info (21061): Implemented 91 logic cells
     Info (21064): Implemented 128 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 40 warnings
-    Info: Peak virtual memory: 4867 megabytes
-    Info: Processing ended: Fri Oct 14 16:55:14 2022
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 4879 megabytes
+    Info: Processing ended: Fri Oct 14 17:12:04 2022
     Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:21
 

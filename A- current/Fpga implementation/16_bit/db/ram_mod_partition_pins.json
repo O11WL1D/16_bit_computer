@@ -132,6 +132,70 @@
 					"strict" : false
 				},
 				{
+					"name" : "LEDR7",
+					"strict" : false
+				},
+				{
+					"name" : "HEX43",
+					"strict" : false
+				},
+				{
+					"name" : "HEX46",
+					"strict" : false
+				},
+				{
+					"name" : "HEX40",
+					"strict" : false
+				},
+				{
+					"name" : "HEX42",
+					"strict" : false
+				},
+				{
+					"name" : "HEX44",
+					"strict" : false
+				},
+				{
+					"name" : "HEX41",
+					"strict" : false
+				},
+				{
+					"name" : "HEX45",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR8",
+					"strict" : false
+				},
+				{
+					"name" : "HEX53",
+					"strict" : false
+				},
+				{
+					"name" : "HEX56",
+					"strict" : false
+				},
+				{
+					"name" : "HEX50",
+					"strict" : false
+				},
+				{
+					"name" : "HEX52",
+					"strict" : false
+				},
+				{
+					"name" : "HEX54",
+					"strict" : false
+				},
+				{
+					"name" : "HEX51",
+					"strict" : false
+				},
+				{
+					"name" : "HEX55",
+					"strict" : false
+				},
+				{
 					"name" : "KEY3",
 					"strict" : false
 				},

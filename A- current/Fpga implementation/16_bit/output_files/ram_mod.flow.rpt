@@ -1,5 +1,5 @@
 Flow report for ram_mod
-Fri Oct 14 16:56:31 2022
+Fri Oct 14 17:13:20 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Oct 14 16:56:22 2022       ;
+; Flow Status                     ; Successful - Fri Oct 14 17:13:11 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; ram_mod                                     ;
 ; Top-level Entity Name           ; ram_mod                                     ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/14/2022 16:55:05 ;
+; Start date & time ; 10/14/2022 17:11:54 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ram_mod             ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 224391393303535.166578810420632        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 224391393303535.166578911422476        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; rami.bsf                               ; --            ; --          ; --         ;
@@ -100,11 +100,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4867 MB             ; 00:00:21                           ;
-; Fitter               ; 00:01:01     ; 1.1                     ; 6359 MB             ; 00:01:38                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4846 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:08     ; 1.5                     ; 5112 MB             ; 00:00:11                           ;
-; Total                ; 00:01:23     ; --                      ; --                  ; 00:02:14                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4879 MB             ; 00:00:21                           ;
+; Fitter               ; 00:01:01     ; 1.1                     ; 6339 MB             ; 00:01:36                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4845 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.6                     ; 5114 MB             ; 00:00:11                           ;
+; Total                ; 00:01:22     ; --                      ; --                  ; 00:02:12                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
