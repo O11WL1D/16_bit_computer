@@ -201,7 +201,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 128 -168 144 32)
 	(text "INPUT" (rect 6 157 16 185)(font "Arial" (font_size 6))(vertical))
-	(text "flag_reg_input[15..0]" (rect 5 5 22 105)(font "Intel Clear" )(vertical))
+	(text "flag_reg_input[15..0]" (rect 5 5 22 104)(font "Intel Clear" )(vertical))
 	(pt 8 200)
 	(drawing
 		(line (pt 4 116)(pt 4 141))
@@ -302,7 +302,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 72 -160 88 16)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "zero_flag" (rect 2 5 19 50)(font "Intel Clear" )(vertical))
+	(text "zero_flag" (rect 2 5 19 49)(font "Intel Clear" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -422,35 +422,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 	(drawing
 		(rectangle (rect 16 16 136 80))
-	)
-)
-(symbol
-	(rect 464 544 640 640)
-	(text "eightbitff" (rect 5 0 60 19)(font "Intel Clear" (font_size 8)))
-	(text "inst1" (rect 8 75 30 92)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clock" (rect 0 0 29 19)(font "Intel Clear" (font_size 8)))
-		(text "clock" (rect 21 27 50 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "pxa[15..0]" (rect 0 0 60 19)(font "Intel Clear" (font_size 8)))
-		(text "pxa[15..0]" (rect 21 43 81 62)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 176 32)
-		(output)
-		(text "pxb[15..0]" (rect 0 0 61 19)(font "Intel Clear" (font_size 8)))
-		(text "pxb[15..0]" (rect 94 27 155 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 176 32)(pt 160 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 160 80))
 	)
 )
 (symbol
@@ -729,6 +700,35 @@ https://fpgasoftware.intel.com/eula.
 		(rectangle (rect 16 16 128 288))
 	)
 )
+(symbol
+	(rect 464 544 632 640)
+	(text "8bitdlatch" (rect 5 0 66 19)(font "Intel Clear" (font_size 8)))
+	(text "inst12" (rect 8 75 36 92)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "wclk" (rect 0 0 25 19)(font "Intel Clear" (font_size 8)))
+		(text "wclk" (rect 21 27 46 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "wb[15..0]" (rect 0 0 56 19)(font "Intel Clear" (font_size 8)))
+		(text "wb[15..0]" (rect 21 43 77 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "wa[15..0]" (rect 0 0 55 19)(font "Intel Clear" (font_size 8)))
+		(text "wa[15..0]" (rect 92 27 147 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
 (connector
 	(pt 2640 184)
 	(pt 2640 832)
@@ -900,11 +900,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 136 592)
 	(pt 464 592)
-	(bus)
-)
-(connector
-	(pt 640 576)
-	(pt 664 576)
 	(bus)
 )
 (connector
@@ -1091,6 +1086,11 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 136 592)
 	(pt 136 1072)
+	(bus)
+)
+(connector
+	(pt 632 576)
+	(pt 664 576)
 	(bus)
 )
 (junction (pt 200 1520))

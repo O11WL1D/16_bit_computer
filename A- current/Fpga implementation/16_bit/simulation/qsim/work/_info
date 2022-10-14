@@ -10,66 +10,90 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/simulation/qsim
-valumod
-Z1 !s110 1665696608
+v\8bitdlatch 
+!s110 1665774822
 !i10b 1
-!s100 R]bn_V5^44X8;z:D[UUzN1
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I?3@Q[7eWbU:j7JGK9>jg53
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 [Bmc]WT<aL<Ij=TCQGbEl3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>?Lh4c2Xl<MEk7oNP6YhA2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1665696607
-8alumod.vo
-Falumod.vo
-!i122 68
-L0 32 3925
-Z4 OV;L;2020.1;71
+w1665774821
+88bitdlatch.vo
+F8bitdlatch.vo
+!i122 88
+L0 32 542
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1665696608.000000
+!s108 1665774822.000000
+!s107 8bitdlatch.vo|
+!s90 -work|work|8bitdlatch.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@1348bitdlatch@040
+valumod
+Z6 !s110 1665775161
+!i10b 1
+!s100 _:nF:fe6^`6]dWoIm;Xi73
+R1
+I:X_6YSEZMKNVASK0JjET80
+R2
+R0
+w1665775160
+8alumod.vo
+Falumod.vo
+!i122 89
+L0 32 4618
+R3
+r1
+!s85 0
+31
+Z7 !s108 1665775161.000000
 !s107 alumod.vo|
 !s90 -work|work|alumod.vo|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
-valumod_vlg_vec_tst
-R1
-!i10b 1
-!s100 a6;nP<@Wn]8CFzh9=DcWi2
-R2
-Ie_IR]>4Wh>JTAjOCKN`_R2
-R3
-R0
-w1665696606
-8Waveform5.vwf.vt
-FWaveform5.vwf.vt
-!i122 69
-L0 30 391
 R4
+R5
+valumod_vlg_vec_tst
+R6
+!i10b 1
+!s100 hd2cVDhXT8HI:g;TkkA8J2
+R1
+IRMZV9Rc0^L`XzS?=F@95E0
+R2
+R0
+w1665775158
+8Waveform10.vwf.vt
+FWaveform10.vwf.vt
+!i122 90
+L0 30 168
+R3
 r1
 !s85 0
 31
-R5
-!s107 Waveform5.vwf.vt|
-!s90 -work|work|Waveform5.vwf.vt|
-!i113 1
-R6
 R7
+!s107 Waveform10.vwf.vt|
+!s90 -work|work|Waveform10.vwf.vt|
+!i113 1
+R4
+R5
 veightbitff
 Z8 !s110 1665342157
 !i10b 1
 !s100 d12VE`1l1lgUG1C3nRjD^0
-R2
+R1
 IPQ:V30FMZeRj13B[=l2K71
-R3
+R2
 R0
 w1665342155
 8eightbitff.vo
 Feightbitff.vo
 !i122 4
 L0 32 777
-R4
+R3
 r1
 !s85 0
 31
@@ -77,22 +101,22 @@ r1
 !s107 eightbitff.vo|
 !s90 -work|work|eightbitff.vo|
 !i113 1
-R6
-R7
+R4
+R5
 veightbitff_vlg_vec_tst
 R8
 !i10b 1
 !s100 LZRe51IFG]GkeS_M;I1Z_1
-R2
+R1
 I^6PO[c236Yf6AkdJLk<z;0
-R3
+R2
 R0
 w1665342154
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 !i122 5
 L0 30 108
-R4
+R3
 r1
 !s85 0
 31
@@ -100,8 +124,8 @@ r1
 !s107 Waveform.vwf.vt|
 !s90 -work|work|Waveform.vwf.vt|
 !i113 1
-R6
-R7
+R4
+R5
 Emega_nor
 Z9 w1665692990
 Z10 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -127,7 +151,7 @@ Z21 !s108 1665692991.000000
 Z22 !s90 -work|work|mega_nor.vho|
 Z23 !s107 mega_nor.vho|
 !i113 1
-R6
+R4
 Z24 tExplicit 1 CvgOpt 0
 Astructure
 R10
@@ -151,7 +175,7 @@ R21
 R22
 R23
 !i113 1
-R6
+R4
 R24
 Emega_nor_vhd_vec_tst
 Z25 w1665692989
@@ -173,7 +197,7 @@ R21
 Z28 !s90 -work|work|Waveform4.vwf.vht|
 Z29 !s107 Waveform4.vwf.vht|
 !i113 1
-R6
+R4
 R24
 Amega_nor_arch
 R14
@@ -192,5 +216,5 @@ R21
 R28
 R29
 !i113 1
-R6
+R4
 R24

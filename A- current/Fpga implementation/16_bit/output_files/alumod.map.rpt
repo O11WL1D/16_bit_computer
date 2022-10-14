@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alumod
-Thu Oct 13 14:46:00 2022
+Fri Oct 14 13:17:35 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,11 +13,12 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  8. User-Specified and Inferred Latches
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -44,14 +45,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Oct 13 14:46:00 2022       ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 14 13:17:35 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; alumod                                      ;
 ; Top-level Entity Name           ; alumod                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 1                                           ;
-; Total pins                      ; 152                                         ;
+; Total pins                      ; 185                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -180,6 +181,7 @@ https://fpgasoftware.intel.com/eula.
 ; alu_logic.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/alu_logic.vhd     ;         ;
 ; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/eightbitff.bdf    ;         ;
 ; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd ;         ;
+; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/8bitdlatch.bdf    ;         ;
 +----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
@@ -188,25 +190,25 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 39        ;
+; Estimate of Logic utilization (ALMs needed) ; 43        ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 64        ;
+; Combinational ALUT usage for logic          ; 72        ;
 ;     -- 7 input functions                    ; 0         ;
 ;     -- 6 input functions                    ; 14        ;
 ;     -- 5 input functions                    ; 22        ;
 ;     -- 4 input functions                    ; 3         ;
-;     -- <=3 input functions                  ; 25        ;
+;     -- <=3 input functions                  ; 33        ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 1         ;
 ;                                             ;           ;
-; I/O pins                                    ; 152       ;
+; I/O pins                                    ; 185       ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; sub~input ;
 ; Maximum fan-out                             ; 20        ;
-; Total fan-out                               ; 453       ;
-; Average fan-out                             ; 1.23      ;
+; Total fan-out                               ; 518       ;
+; Average fan-out                             ; 1.17      ;
 +---------------------------------------------+-----------+
 
 
@@ -215,7 +217,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------+-------------+--------------+
-; |alumod                    ; 64 (0)              ; 1 (0)                     ; 0                 ; 0          ; 152  ; 0            ; |alumod                            ; alumod      ; work         ;
+; |alumod                    ; 72 (0)              ; 1 (0)                     ; 0                 ; 0          ; 185  ; 0            ; |alumod                            ; alumod      ; work         ;
+;    |8bitdlatch:inst12|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|8bitdlatch:inst12          ; 8bitdlatch  ; work         ;
 ;    |adder16:inst5|         ; 43 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5              ; adder16     ; work         ;
 ;       |adder:inst13|       ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst13 ; adder       ; work         ;
 ;       |adder:inst15|       ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|adder16:inst5|adder:inst15 ; adder       ; work         ;
@@ -238,6 +241,24 @@ https://fpgasoftware.intel.com/eula.
 ;    |mega_nor:inst2|        ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alumod|mega_nor:inst2             ; mega_nor    ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                               ;
++----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
++----------------------------------------------------+---------------------+------------------------+
+; 8bitdlatch:inst12|inst4                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst9                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst3                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst8                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst2                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst7                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst1                            ; wclk                ; yes                    ;
+; 8bitdlatch:inst12|inst                             ; wclk                ; yes                    ;
+; Number of user-specified and inferred latches = 8  ;                     ;                        ;
++----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +--------------------------------------------------------------------------------+
@@ -278,19 +299,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 1                           ;
 ;     plain             ; 1                           ;
-; arriav_lcell_comb     ; 66                          ;
-;     normal            ; 66                          ;
+; arriav_lcell_comb     ; 74                          ;
+;     normal            ; 74                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
 ;         2 data inputs ; 17                          ;
-;         3 data inputs ; 8                           ;
+;         3 data inputs ; 16                          ;
 ;         4 data inputs ; 3                           ;
 ;         5 data inputs ; 22                          ;
 ;         6 data inputs ; 14                          ;
-; boundary_port         ; 152                         ;
+; boundary_port         ; 185                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 8.00                        ;
-; Average LUT depth     ; 3.73                        ;
+; Average LUT depth     ; 3.34                        ;
 +-----------------------+-----------------------------+
 
 
@@ -309,7 +330,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Oct 13 14:45:53 2022
+    Info: Processing started: Fri Oct 14 13:17:26 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alumod -c alumod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -352,6 +373,9 @@ Warning (12125): Using design file bus_split_out.vhd, which is not specified as 
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
 Info (12128): Elaborating entity "bus_split_out" for hierarchy "eightbitff:inst1|bus_split_out:phm"
+Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: 8bitdlatch
+Info (12128): Elaborating entity "8bitdlatch" for hierarchy "8bitdlatch:inst12"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "generalc" is stuck at GND
     Warning (13410): Pin "generald" is stuck at GND
@@ -370,10 +394,26 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "flag_reg_out[3]" is stuck at GND
     Warning (13410): Pin "flag_reg_out[2]" is stuck at GND
     Warning (13410): Pin "flag_reg_out[1]" is stuck at GND
+    Warning (13410): Pin "wa[15]" is stuck at GND
+    Warning (13410): Pin "wa[14]" is stuck at GND
+    Warning (13410): Pin "wa[13]" is stuck at GND
+    Warning (13410): Pin "wa[12]" is stuck at GND
+    Warning (13410): Pin "wa[11]" is stuck at GND
+    Warning (13410): Pin "wa[10]" is stuck at GND
+    Warning (13410): Pin "wa[9]" is stuck at GND
+    Warning (13410): Pin "wa[8]" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 18 input pin(s) that do not drive logic
+Warning (21074): Design contains 26 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "wb[15]"
+    Warning (15610): No output dependent on input pin "wb[14]"
+    Warning (15610): No output dependent on input pin "wb[13]"
+    Warning (15610): No output dependent on input pin "wb[12]"
+    Warning (15610): No output dependent on input pin "wb[11]"
+    Warning (15610): No output dependent on input pin "wb[10]"
+    Warning (15610): No output dependent on input pin "wb[9]"
+    Warning (15610): No output dependent on input pin "wb[8]"
     Warning (15610): No output dependent on input pin "generalb"
     Warning (15610): No output dependent on input pin "generala"
     Warning (15610): No output dependent on input pin "flag_reg_input[15]"
@@ -392,14 +432,14 @@ Warning (21074): Design contains 18 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "flag_reg_input[2]"
     Warning (15610): No output dependent on input pin "flag_reg_input[1]"
     Warning (15610): No output dependent on input pin "flag_reg_input[0]"
-Info (21057): Implemented 217 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 100 input pins
-    Info (21059): Implemented 52 output pins
-    Info (21061): Implemented 65 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 56 warnings
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Thu Oct 13 14:46:00 2022
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:16
+Info (21057): Implemented 258 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 117 input pins
+    Info (21059): Implemented 68 output pins
+    Info (21061): Implemented 73 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 73 warnings
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Fri Oct 14 13:17:35 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:20
 
 

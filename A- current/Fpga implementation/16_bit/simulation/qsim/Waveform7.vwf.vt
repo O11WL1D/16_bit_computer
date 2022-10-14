@@ -1,0 +1,212 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/14/2022 12:48:51"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          alumod
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module alumod_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [15:0] AP;
+reg [15:0] BP;
+reg [15:0] flag_reg_input;
+reg flag_reg_set;
+reg [15:0] FP;
+reg generala;
+reg generalb;
+reg [15:0] opA;
+reg [15:0] opB;
+reg sub;
+reg [15:0] wwb;
+reg wwclk;
+reg wwclrn;
+// wires                                               
+wire [15:0] fadder;
+wire [15:0] falulogic;
+wire [15:0] flag_reg_out;
+wire generalc;
+wire generald;
+wire overflow;
+wire [15:0] wwa;
+wire zero_flag;
+
+// assign statements (if any)                          
+alumod i1 (
+// port map - connection between master ports and signals/registers   
+	.AP(AP),
+	.BP(BP),
+	.fadder(fadder),
+	.falulogic(falulogic),
+	.flag_reg_input(flag_reg_input),
+	.flag_reg_out(flag_reg_out),
+	.flag_reg_set(flag_reg_set),
+	.FP(FP),
+	.generala(generala),
+	.generalb(generalb),
+	.generalc(generalc),
+	.generald(generald),
+	.opA(opA),
+	.opB(opB),
+	.overflow(overflow),
+	.sub(sub),
+	.wwa(wwa),
+	.wwb(wwb),
+	.wwclk(wwclk),
+	.wwclrn(wwclrn),
+	.zero_flag(zero_flag)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// wwb[ 15 ]
+initial
+begin
+	wwb[15] = 1'b0;
+end 
+// wwb[ 14 ]
+initial
+begin
+	wwb[14] = 1'b0;
+end 
+// wwb[ 13 ]
+initial
+begin
+	wwb[13] = 1'b0;
+end 
+// wwb[ 12 ]
+initial
+begin
+	wwb[12] = 1'b0;
+end 
+// wwb[ 11 ]
+initial
+begin
+	wwb[11] = 1'b0;
+end 
+// wwb[ 10 ]
+initial
+begin
+	wwb[10] = 1'b0;
+end 
+// wwb[ 9 ]
+initial
+begin
+	wwb[9] = 1'b0;
+end 
+// wwb[ 8 ]
+initial
+begin
+	wwb[8] = 1'b0;
+end 
+// wwb[ 7 ]
+initial
+begin
+	wwb[7] = 1'b0;
+end 
+// wwb[ 6 ]
+initial
+begin
+	wwb[6] = 1'b0;
+	wwb[6] = #640000 1'b1;
+end 
+// wwb[ 5 ]
+initial
+begin
+	wwb[5] = 1'b0;
+	wwb[5] = #320000 1'b1;
+	wwb[5] = #320000 1'b0;
+	wwb[5] = #320000 1'b1;
+end 
+// wwb[ 4 ]
+initial
+begin
+	repeat(3)
+	begin
+		wwb[4] = 1'b0;
+		wwb[4] = #160000 1'b1;
+		# 160000;
+	end
+	wwb[4] = 1'b0;
+end 
+// wwb[ 3 ]
+initial
+begin
+	repeat(6)
+	begin
+		wwb[3] = 1'b0;
+		wwb[3] = #80000 1'b1;
+		# 80000;
+	end
+	wwb[3] = 1'b0;
+end 
+// wwb[ 2 ]
+initial
+begin
+	repeat(12)
+	begin
+		wwb[2] = 1'b0;
+		wwb[2] = #40000 1'b1;
+		# 40000;
+	end
+	wwb[2] = 1'b0;
+end 
+// wwb[ 1 ]
+always
+begin
+	wwb[1] = 1'b0;
+	wwb[1] = #20000 1'b1;
+	#20000;
+end 
+// wwb[ 0 ]
+always
+begin
+	wwb[0] = 1'b0;
+	wwb[0] = #10000 1'b1;
+	#10000;
+end 
+
+// wwclk
+initial
+begin
+	wwclk = 1'b1;
+	# 20000;
+	repeat(24)
+	begin
+		wwclk = 1'b0;
+		wwclk = #20000 1'b1;
+		# 20000;
+	end
+	wwclk = 1'b0;
+end 
+
+// wwclrn
+initial
+begin
+	wwclrn = 1'b1;
+end 
+endmodule
+

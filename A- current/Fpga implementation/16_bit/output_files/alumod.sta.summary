@@ -4,18 +4,34 @@ Timing Analyzer Summary
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'flag_reg_set'
 Slack : -0.538
-TNS   : -0.809
+TNS   : -0.794
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'wclk'
+Slack : 0.317
+TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'flag_reg_set'
 Slack : -0.538
-TNS   : -0.813
+TNS   : -0.792
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'wclk'
+Slack : 0.269
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'flag_reg_set'
-Slack : -0.273
-TNS   : -0.273
+Slack : -0.257
+TNS   : -0.257
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'wclk'
+Slack : 0.018
+TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'flag_reg_set'
-Slack : -0.278
-TNS   : -0.278
+Slack : -0.263
+TNS   : -0.263
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'wclk'
+Slack : 0.011
+TNS   : 0.000
 
 ------------------------------------------------------------
