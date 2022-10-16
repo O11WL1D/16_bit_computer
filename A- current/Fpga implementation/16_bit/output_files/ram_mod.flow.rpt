@@ -1,5 +1,5 @@
 Flow report for ram_mod
-Fri Oct 14 17:13:20 2022
+Sun Oct 16 11:23:46 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,16 +41,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Oct 14 17:13:11 2022       ;
+; Flow Status                     ; Successful - Sun Oct 16 11:23:38 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; ram_mod                                     ;
 ; Top-level Entity Name           ; ram_mod                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 50 / 18,480 ( < 1 % )                       ;
-; Total registers                 ; 23                                          ;
-; Total pins                      ; 62 / 224 ( 28 % )                           ;
+; Logic utilization (in ALMs)     ; 49 / 18,480 ( < 1 % )                       ;
+; Total registers                 ; 6                                           ;
+; Total pins                      ; 68 / 224 ( 30 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 1,048,576 / 3,153,920 ( 33 % )              ;
 ; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/14/2022 17:11:54 ;
+; Start date & time ; 10/16/2022 11:23:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ram_mod             ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 224391393303535.166578911422476        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 224391393303535.166594098025188        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; rami.bsf                               ; --            ; --          ; --         ;
@@ -100,11 +100,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4879 MB             ; 00:00:21                           ;
-; Fitter               ; 00:01:01     ; 1.1                     ; 6339 MB             ; 00:01:36                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4845 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:07     ; 1.6                     ; 5114 MB             ; 00:00:11                           ;
-; Total                ; 00:01:22     ; --                      ; --                  ; 00:02:12                           ;
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4866 MB             ; 00:00:17                           ;
+; Fitter               ; 00:00:24     ; 1.2                     ; 6340 MB             ; 00:00:50                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4848 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.8                     ; 5119 MB             ; 00:00:10                           ;
+; Total                ; 00:00:43     ; --                      ; --                  ; 00:01:21                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

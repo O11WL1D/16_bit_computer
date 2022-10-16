@@ -1,0 +1,75 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all ;
+
+
+
+
+Entity bus_split is
+
+port(
+
+
+b : in std_logic_vector(15 downto 0) ;
+
+a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 : out std_logic 
+
+
+ 
+
+-- last item cannot have a semicolon 
+
+
+
+);
+
+
+end bus_split ;
+
+
+
+
+ARCHITECTURE LogicFunc of bus_split is
+Begin 
+
+
+A0<=	b0; 
+A1<=	b1; 
+A2<=	b2; 
+A3<=	b3; 
+A4<=	b4; 
+A5<=	b5; 
+A6<=	b6; 
+A7<=	b7; 
+A8<=	b8; 
+A9<=	b9; 
+A10<=	b10; 
+A11<=	b11; 
+A12<=	b12; 
+A13<=	b13; 
+A14<=	b14; 
+A15<=	b15; 
+A16<=	b16; 
+A17<=	b17; 
+A18<=	b18; 
+A19<=	b19; 
+A20<=	b20; 
+A21<=	b21; 
+A22<=	b22; 
+A23<=	b23; 
+A24<=	b24; 
+A25<=	b25; 
+A26<=	b26; 
+A27<=	b27; 
+A28<=	b28; 
+A29<=	b29; 
+A30<=	b30; 
+A31<=	b31; 
+
+
+
+
+
+
+
+
+END LogicFunc ; 

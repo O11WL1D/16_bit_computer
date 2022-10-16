@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform12.vwf
+source_file = 1, C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform13.vwf
+source_file = 1, C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform14.vwf
+source_file = 1, C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/Waveform15.vwf
+source_file = 1, C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/clock_mod.bdf
+design_name = clock_mod
+instance = comp, \oooutie~output , oooutie~output, clock_mod, 1
+instance = comp, \oooutie4~output , oooutie4~output, clock_mod, 1
+instance = comp, \oooutie5~output , oooutie5~output, clock_mod, 1
+instance = comp, \oooutie6~output , oooutie6~output, clock_mod, 1
+instance = comp, \CLOCK_50~input , CLOCK_50~input, clock_mod, 1
+instance = comp, \CLOCK2_50~input , CLOCK2_50~input, clock_mod, 1
+instance = comp, \CLOCK3_50~input , CLOCK3_50~input, clock_mod, 1
+instance = comp, \CLOCK4_50~input , CLOCK4_50~input, clock_mod, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, clock_mod, 1

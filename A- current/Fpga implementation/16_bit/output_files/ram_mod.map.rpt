@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ram_mod
-Fri Oct 14 17:12:04 2022
+Sun Oct 16 11:23:09 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -15,15 +15,14 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
   9. Analysis & Synthesis IP Cores Summary
- 10. Registers Removed During Synthesis
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Source assignments for ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated
- 14. Parameter Settings for User Entity Instance: ramo:inst54|altsyncram:altsyncram_component
- 15. altsyncram Parameter Settings by Entity Instance
- 16. Post-Synthesis Netlist Statistics for Top Partition
- 17. Elapsed Time Per Partition
- 18. Analysis & Synthesis Messages
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Source assignments for ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated
+ 13. Parameter Settings for User Entity Instance: ramo:inst54|altsyncram:altsyncram_component
+ 14. altsyncram Parameter Settings by Entity Instance
+ 15. Post-Synthesis Netlist Statistics for Top Partition
+ 16. Elapsed Time Per Partition
+ 17. Analysis & Synthesis Messages
 
 
 
@@ -50,14 +49,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Oct 14 17:12:04 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 16 11:23:08 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; ram_mod                                     ;
 ; Top-level Entity Name           ; ram_mod                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 23                                          ;
-; Total pins                      ; 62                                          ;
+; Total registers                 ; 6                                           ;
+; Total pins                      ; 68                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 1,048,576                                   ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -170,8 +169,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -182,7 +180,6 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------------------+---------+
 ; ramo.vhd                         ; yes             ; User Wizard-Generated File               ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/ramo.vhd               ;         ;
 ; ram_mod.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/ram_mod.bdf            ;         ;
-; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd          ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                               ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc                        ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                                  ;         ;
@@ -196,42 +193,36 @@ https://fpgasoftware.intel.com/eula.
 ; db/decode_dla.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/decode_dla.tdf      ;         ;
 ; db/decode_61a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/decode_61a.tdf      ;         ;
 ; db/mux_chb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/mux_chb.tdf         ;         ;
-; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd      ;         ;
-; dec38.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/dec38.bdf                                  ;         ;
-; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/in_mod.bdf             ;         ;
-; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/eightbitff.bdf         ;         ;
-; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd             ;         ;
-; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd             ;         ;
 +----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                   ;
-+---------------------------------------------+-----------------+
-; Resource                                    ; Usage           ;
-+---------------------------------------------+-----------------+
-; Estimate of Logic utilization (ALMs needed) ; 52              ;
-;                                             ;                 ;
-; Combinational ALUT usage for logic          ; 68              ;
-;     -- 7 input functions                    ; 0               ;
-;     -- 6 input functions                    ; 32              ;
-;     -- 5 input functions                    ; 0               ;
-;     -- 4 input functions                    ; 8               ;
-;     -- <=3 input functions                  ; 28              ;
-;                                             ;                 ;
-; Dedicated logic registers                   ; 23              ;
-;                                             ;                 ;
-; I/O pins                                    ; 62              ;
-; Total MLAB memory bits                      ; 0               ;
-; Total block memory bits                     ; 1048576         ;
-;                                             ;                 ;
-; Total DSP Blocks                            ; 0               ;
-;                                             ;                 ;
-; Maximum fan-out node                        ; dec38:inst81|26 ;
-; Maximum fan-out                             ; 134             ;
-; Total fan-out                               ; 2634            ;
-; Average fan-out                             ; 7.68            ;
-+---------------------------------------------+-----------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 49          ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 64          ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 32          ;
+;     -- 5 input functions                    ; 0           ;
+;     -- 4 input functions                    ; 8           ;
+;     -- <=3 input functions                  ; 24          ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 6           ;
+;                                             ;             ;
+; I/O pins                                    ; 68          ;
+; Total MLAB memory bits                      ; 0           ;
+; Total block memory bits                     ; 1048576     ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 134         ;
+; Total fan-out                               ; 4232        ;
+; Average fan-out                             ; 12.67       ;
++---------------------------------------------+-------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -239,12 +230,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                          ; Entity Name     ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |ram_mod                                  ; 68 (1)              ; 23 (0)                    ; 1048576           ; 0          ; 62   ; 0            ; |ram_mod                                                                                                     ; ram_mod         ; work         ;
-;    |dec38:inst81|                         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ram_mod|dec38:inst81                                                                                        ; dec38           ; work         ;
-;    |in_mod:SsfvD|                         ; 2 (2)               ; 17 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |ram_mod|in_mod:SsfvD                                                                                        ; in_mod          ; work         ;
-;       |eightbitff:inst11|                 ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |ram_mod|in_mod:SsfvD|eightbitff:inst11                                                                      ; eightbitff      ; work         ;
-;       |eightbitff:inst2|                  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |ram_mod|in_mod:SsfvD|eightbitff:inst2                                                                       ; eightbitff      ; work         ;
-;       |eightbitff:inst4|                  ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |ram_mod|in_mod:SsfvD|eightbitff:inst4                                                                       ; eightbitff      ; work         ;
+; |ram_mod                                  ; 64 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 68   ; 0            ; |ram_mod                                                                                                     ; ram_mod         ; work         ;
 ;    |ramo:inst54|                          ; 64 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |ram_mod|ramo:inst54                                                                                         ; ramo            ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 64 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |ram_mod|ramo:inst54|altsyncram:altsyncram_component                                                         ; altsyncram      ; work         ;
 ;          |altsyncram_nfu3:auto_generated| ; 64 (0)              ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |ram_mod|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated                          ; altsyncram_nfu3 ; work         ;
@@ -273,22 +259,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+----------------------+-----------------+
 
 
-+--------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                             ;
-+---------------------------------------+----------------------------------------+
-; Register name                         ; Reason for Removal                     ;
-+---------------------------------------+----------------------------------------+
-; in_mod:SsfvD|eightbitff:inst2|pxe     ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 1 ;                                        ;
-+---------------------------------------+----------------------------------------+
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 23    ;
+; Total registers                              ; 6     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -298,13 +274,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                      ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------+
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |ram_mod|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|mux_chb:mux3|l3_w1_n0_mux_dataout ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------+
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |ram_mod|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|mux_chb:mux3|l3_w15_n0_mux_dataout ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------+
@@ -402,21 +378,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 23                          ;
-;     plain             ; 23                          ;
-; arriav_lcell_comb     ; 96                          ;
-;     normal            ; 96                          ;
+; arriav_ff             ; 6                           ;
+;     plain             ; 6                           ;
+; arriav_lcell_comb     ; 65                          ;
+;     normal            ; 65                          ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 28                          ;
-;         2 data inputs ; 3                           ;
 ;         3 data inputs ; 24                          ;
 ;         4 data inputs ; 8                           ;
 ;         6 data inputs ; 32                          ;
-; boundary_port         ; 62                          ;
+; boundary_port         ; 68                          ;
 ; stratixv_ram_block    ; 128                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.34                        ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.53                        ;
 +-----------------------+-----------------------------+
 
 
@@ -435,7 +409,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct 14 17:11:54 2022
+    Info: Processing started: Sun Oct 16 11:23:00 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ram_mod -c ram_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -450,11 +424,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file ramo.vh
 Warning (12125): Using design file ram_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: ram_mod
 Info (12127): Elaborating entity "ram_mod" for the top level hierarchy
-Warning (275009): Pin "sw8" not connected
-Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 31
-    Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 7
-Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst2"
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
 Info (12128): Elaborating entity "ramo" for hierarchy "ramo:inst54"
 Info (12128): Elaborating entity "altsyncram" for hierarchy "ramo:inst54|altsyncram:altsyncram_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/ramo.vhd Line: 63
 Info (12130): Elaborated megafunction instantiation "ramo:inst54|altsyncram:altsyncram_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/ramo.vhd Line: 63
@@ -521,52 +492,22 @@ Info (12128): Elaborating entity "decode_61a" for hierarchy "ramo:inst54|altsync
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_chb.tdf
     Info (12023): Found entity 1: mux_chb File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/mux_chb.tdf Line: 23
 Info (12128): Elaborating entity "mux_chb" for hierarchy "ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|mux_chb:mux3" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 49
-Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:ascasc"
-Info (12128): Elaborating entity "DEC38" for hierarchy "DEC38:inst81"
-Info (12130): Elaborated megafunction instantiation "DEC38:inst81"
-Warning (12125): Using design file in_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: in_mod
-Info (12128): Elaborating entity "in_mod" for hierarchy "in_mod:SsfvD"
-Warning (275008): Primitive "NOT" of instance "inst16" not used
-Warning (275008): Primitive "NOT" of instance "inst17" not used
-Warning (275008): Primitive "NOT" of instance "inst18" not used
-Warning (275008): Primitive "NOT" of instance "inst19" not used
-Warning (275008): Primitive "NOT" of instance "inst20" not used
-Warning (275008): Primitive "NOT" of instance "inst21" not used
-Warning (275008): Primitive "NOT" of instance "inst22" not used
-Warning (275008): Primitive "NOT" of instance "inst23" not used
-Warning (275008): Primitive "NOT" of instance "inst24" not used
-Warning (275008): Primitive "NOT" of instance "inst25" not used
-Warning (275008): Primitive "AND2" of instance "inst71" not used
-Warning (275008): Primitive "AND2" of instance "inst72" not used
-Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: eightbitff
-Info (12128): Elaborating entity "eightbitff" for hierarchy "in_mod:SsfvD|eightbitff:inst4"
-Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 39
-    Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 13
-Info (12128): Elaborating entity "b16_en" for hierarchy "in_mod:SsfvD|b16_en:inst84"
-Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 31
-    Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 8
-Info (12128): Elaborating entity "b16_or" for hierarchy "in_mod:SsfvD|b16_or:inst85"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "generalc" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 281 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 14 input pins
-    Info (21059): Implemented 48 output pins
-    Info (21061): Implemented 91 logic cells
+    Warning (15610): No output dependent on input pin "generala"
+Info (21057): Implemented 266 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 51 input pins
+    Info (21059): Implemented 17 output pins
+    Info (21061): Implemented 70 logic cells
     Info (21064): Implemented 128 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 23 warnings
-    Info: Peak virtual memory: 4879 megabytes
-    Info: Processing ended: Fri Oct 14 17:12:04 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:21
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4866 megabytes
+    Info: Processing ended: Sun Oct 16 11:23:09 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:18
 
 

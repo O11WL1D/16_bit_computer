@@ -1,0 +1,7 @@
+	component this_clock is
+		port (
+			oscena : in  std_logic := 'X'; -- oscena
+			clkout : out std_logic         -- clk
+		);
+	end component this_clock;
+

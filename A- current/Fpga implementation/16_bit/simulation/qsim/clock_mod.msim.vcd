@@ -1,0 +1,62 @@
+$comment
+	File created using the following command:
+		vcd file clock_mod.msim.vcd -direction
+$end
+$date
+	Sun Oct 16 12:15:41 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module clock_mod_vlg_vec_tst $end
+$var reg 1 ! CLOCK2_50 $end
+$var reg 1 " CLOCK3_50 $end
+$var reg 1 # CLOCK4_50 $end
+$var reg 1 $ CLOCK_50 $end
+$var wire 1 % oooutie $end
+$var wire 1 & oooutie4 $end
+$var wire 1 ' oooutie5 $end
+$var wire 1 ( oooutie6 $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 0 CLOCK_50~input_o $end
+$var wire 1 1 CLOCK2_50~input_o $end
+$var wire 1 2 CLOCK3_50~input_o $end
+$var wire 1 3 CLOCK4_50~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+02
+03
+$end
+#1000000
