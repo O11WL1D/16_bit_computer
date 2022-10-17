@@ -80,8 +80,100 @@ R7
 !i113 1
 R4
 R5
+Eb16_32_merge
+Z8 w1666025165
+Z9 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z10 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z11 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z12 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z15 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+!i122 105
+R0
+Z16 8b16_32_merge.vho
+Z17 Fb16_32_merge.vho
+l0
+Z18 L37 1
+V_OfSdB@Sf0R4G7IzTZDHb0
+!s100 aMTTzmUgHfNfEMOl?0T371
+Z19 OV;C;2020.1;71
+32
+Z20 !s110 1666025166
+!i10b 1
+Z21 !s108 1666025166.000000
+Z22 !s90 -work|work|b16_32_merge.vho|
+Z23 !s107 b16_32_merge.vho|
+!i113 1
+R4
+Z24 tExplicit 1 CvgOpt 0
+Astructure
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+DEx4 work 12 b16_32_merge 0 22 _OfSdB@Sf0R4G7IzTZDHb0
+!i122 105
+l159
+L112 836
+VVFT;A^WgBQZzJ;76aJX:I0
+!s100 Y79@=man[Bj8AXLUQRc061
+R19
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R4
+R24
+Eb16_32_merge_vhd_vec_tst
+Z25 w1666025164
+R13
+R14
+!i122 106
+R0
+Z26 8Waveform17.vwf.vht
+Z27 FWaveform17.vwf.vht
+l0
+Z28 L32 1
+V379GbW`UD52djJIU8_EWH3
+!s100 X=O`6`PQaLk^z3ZDJ4VY]3
+R19
+32
+R20
+!i10b 1
+R21
+Z29 !s90 -work|work|Waveform17.vwf.vht|
+!s107 Waveform17.vwf.vht|
+!i113 1
+R4
+R24
+Ab16_32_merge_arch
+R13
+R14
+DEx4 work 24 b16_32_merge_vhd_vec_tst 0 22 379GbW`UD52djJIU8_EWH3
+!i122 106
+l47
+L34 250
+Vl8aiod>ObIMnPCeMOR`5<2
+!s100 FFAL;o_eW>7gz5NPgci4F0
+R19
+32
+R20
+!i10b 1
+R21
+R29
+Z30 !s107 Waveform17.vwf.vht|
+!i113 1
+R4
+R24
 vclock_mod
-Z8 !s110 1665944141
+Z31 !s110 1665944141
 !i10b 1
 !s100 Fjnn]C8A@mk<VgA]DQ1JU0
 R1
@@ -97,14 +189,14 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1665944141.000000
+Z32 !s108 1665944141.000000
 !s107 clock_mod.vo|
 !s90 -work|work|clock_mod.vo|
 !i113 1
 R4
 R5
 vclock_mod_vlg_vec_tst
-R8
+R31
 !i10b 1
 !s100 k1CgzcHCzFLd47hz[4?Li3
 R1
@@ -120,14 +212,14 @@ R3
 r1
 !s85 0
 31
-R9
+R32
 !s107 Waveform16.vwf.vt|
 !s90 -work|work|Waveform16.vwf.vt|
 !i113 1
 R4
 R5
 veightbitff
-Z10 !s110 1665342157
+Z33 !s110 1665342157
 !i10b 1
 !s100 d12VE`1l1lgUG1C3nRjD^0
 R1
@@ -150,7 +242,7 @@ r1
 R4
 R5
 veightbitff_vlg_vec_tst
-R10
+R33
 !i10b 1
 !s100 LZRe51IFG]GkeS_M;I1Z_1
 R1
@@ -173,94 +265,94 @@ r1
 R4
 R5
 Emega_nor
-Z11 w1665692990
-Z12 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z13 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
-Z14 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z15 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
-Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z17 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z18 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
-!i122 60
-R0
-Z19 8mega_nor.vho
-Z20 Fmega_nor.vho
-l0
-L37 1
-VbB91?;[zMLoKQj76>YX4i1
-!s100 75HjIbH_J7i:`kT1SP`M@1
-Z21 OV;C;2020.1;71
-32
-Z22 !s110 1665692991
-!i10b 1
-Z23 !s108 1665692991.000000
-Z24 !s90 -work|work|mega_nor.vho|
-Z25 !s107 mega_nor.vho|
-!i113 1
-R4
-Z26 tExplicit 1 CvgOpt 0
-Astructure
+Z34 w1665692990
+R9
+R10
+R11
 R12
 R13
 R14
 R15
-R16
-R17
+!i122 60
+R0
+Z35 8mega_nor.vho
+Z36 Fmega_nor.vho
+l0
 R18
+VbB91?;[zMLoKQj76>YX4i1
+!s100 75HjIbH_J7i:`kT1SP`M@1
+R19
+32
+Z37 !s110 1665692991
+!i10b 1
+Z38 !s108 1665692991.000000
+Z39 !s90 -work|work|mega_nor.vho|
+Z40 !s107 mega_nor.vho|
+!i113 1
+R4
+R24
+Astructure
+R9
+R10
+R11
+R12
+R13
+R14
+R15
 DEx4 work 8 mega_nor 0 22 bB91?;[zMLoKQj76>YX4i1
 !i122 60
 l144
 L79 662
 VCnj?mGmJSL:D6nY=2i6YC2
 !s100 SRkWfg3]L<JJeckXib=AW2
-R21
+R19
 32
-R22
+R37
 !i10b 1
-R23
-R24
-R25
+R38
+R39
+R40
 !i113 1
 R4
-R26
+R24
 Emega_nor_vhd_vec_tst
-Z27 w1665692989
-R16
-R17
+Z41 w1665692989
+R13
+R14
 !i122 61
 R0
-Z28 8Waveform4.vwf.vht
-Z29 FWaveform4.vwf.vht
+Z42 8Waveform4.vwf.vht
+Z43 FWaveform4.vwf.vht
 l0
-L32 1
+R28
 V6k8VADS1BYkL=96Jn^1kK2
 !s100 3PMB:BJODaRT`P<n0Q4a63
-R21
+R19
 32
-R22
+R37
 !i10b 1
-R23
-Z30 !s90 -work|work|Waveform4.vwf.vht|
-Z31 !s107 Waveform4.vwf.vht|
+R38
+Z44 !s90 -work|work|Waveform4.vwf.vht|
+Z45 !s107 Waveform4.vwf.vht|
 !i113 1
 R4
-R26
+R24
 Amega_nor_arch
-R16
-R17
+R13
+R14
 DEx4 work 20 mega_nor_vhd_vec_tst 0 22 6k8VADS1BYkL=96Jn^1kK2
 !i122 61
 l45
 L34 231
 VVOimP[FWizSZG;:nif6EH2
 !s100 0=_GQN0[2ORJbZBA?NRCz3
-R21
+R19
 32
-R22
+R37
 !i10b 1
-R23
-R30
-R31
+R38
+R44
+R45
 !i113 1
 R4
-R26
+R24
