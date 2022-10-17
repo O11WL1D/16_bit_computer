@@ -14,11 +14,11 @@ ENTITY  b16w_and IS
 
 PORT(
 
-a : IN std_Logic_Vector(15 downto 0) ;
+ina : IN std_Logic_Vector(15 downto 0) ;
 
-b : IN std_logic_vector(15 downto 0);
+inb: IN std_logic_vector(15 downto 0);
 
-f : OUT std_logic_VEctor(15 downto 0) 
+ffout : OUT std_logic_VEctor(15 downto 0) 
 
 
 
@@ -42,7 +42,7 @@ BEGIN
 
 
 
-f<=(a OR b);
+ffout<=(ina AND inb);
 
 
 
