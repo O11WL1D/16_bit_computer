@@ -1,5 +1,5 @@
 Analysis & Synthesis report for clockmod2
-Sun Oct 16 13:47:44 2022
+Mon Oct 17 14:02:15 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,15 +10,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Parameter Settings for User Entity Instance: count:inst|lpm_counter:LPM_COUNTER_component
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Messages
 
 
 
@@ -42,27 +34,22 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                  ;
-+---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 16 13:47:44 2022       ;
-; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name                   ; clockmod2                                   ;
-; Top-level Entity Name           ; clockmod2                                   ;
-; Family                          ; Cyclone V                                   ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 26                                          ;
-; Total pins                      ; 2                                           ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                              ;
++-----------------------------+---------------------------------------------+
+; Analysis & Synthesis Status ; Failed - Mon Oct 17 14:02:15 2022           ;
+; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name               ; clockmod2                                   ;
+; Top-level Entity Name       ; clockmod2                                   ;
+; Family                      ; Cyclone V                                   ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -161,152 +148,11 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                  ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------------+---------+
-; clockmod2.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/clockmod2.bdf    ;         ;
-; bus_split_32.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_32.vhd ;         ;
-; count.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd        ;         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf                        ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                       ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                         ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                        ;         ;
-; cmpconst.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cmpconst.inc                           ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                        ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                        ;         ;
-; dffeea.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/dffeea.inc                             ;         ;
-; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                         ;         ;
-; db/cntr_djh.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/cntr_djh.tdf  ;         ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------------+---------+
-
-
-+--------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                  ;
-+---------------------------------------------+----------------+
-; Resource                                    ; Usage          ;
-+---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 13             ;
-;                                             ;                ;
-; Combinational ALUT usage for logic          ; 26             ;
-;     -- 7 input functions                    ; 0              ;
-;     -- 6 input functions                    ; 0              ;
-;     -- 5 input functions                    ; 0              ;
-;     -- 4 input functions                    ; 0              ;
-;     -- <=3 input functions                  ; 26             ;
-;                                             ;                ;
-; Dedicated logic registers                   ; 26             ;
-;                                             ;                ;
-; I/O pins                                    ; 2              ;
-;                                             ;                ;
-; Total DSP Blocks                            ; 0              ;
-;                                             ;                ;
-; Maximum fan-out node                        ; CLOCK_50~input ;
-; Maximum fan-out                             ; 26             ;
-; Total fan-out                               ; 106            ;
-; Average fan-out                             ; 1.89           ;
-+---------------------------------------------+----------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                               ;
-+-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                             ; Entity Name ; Library Name ;
-+-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-------------+--------------+
-; |clockmod2                                ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 2    ; 0            ; |clockmod2                                                                      ; clockmod2   ; work         ;
-;    |count:inst|                           ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |clockmod2|count:inst                                                           ; count       ; work         ;
-;       |lpm_counter:LPM_COUNTER_component| ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |clockmod2|count:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter ; work         ;
-;          |cntr_djh:auto_generated|        ; 26 (26)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |clockmod2|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated ; cntr_djh    ; work         ;
-+-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                ;
-+----------------------------------------------------------------------------------------------+--------------------+
-; Register name                                                                                ; Reason for Removal ;
-+----------------------------------------------------------------------------------------------+--------------------+
-; count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated|counter_reg_bit[26..31] ; Lost fanout        ;
-; Total Number of Removed Registers = 6                                                        ;                    ;
-+----------------------------------------------------------------------------------------------+--------------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 26    ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+-------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: count:inst|lpm_counter:LPM_COUNTER_component ;
-+------------------------+-------------+----------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                               ;
-+------------------------+-------------+----------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                       ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                     ;
-; LPM_WIDTH              ; 32          ; Signed Integer                                     ;
-; LPM_DIRECTION          ; UP          ; Untyped                                            ;
-; LPM_MODULUS            ; 0           ; Untyped                                            ;
-; LPM_AVALUE             ; UNUSED      ; Untyped                                            ;
-; LPM_SVALUE             ; UNUSED      ; Untyped                                            ;
-; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                            ;
-; DEVICE_FAMILY          ; Cyclone V   ; Untyped                                            ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                            ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                 ;
-; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                 ;
-; CARRY_CNT_EN           ; SMART       ; Untyped                                            ;
-; LABWIDE_SCLR           ; ON          ; Untyped                                            ;
-; USE_NEW_VERSION        ; TRUE        ; Untyped                                            ;
-; CBXI_PARAMETER         ; cntr_djh    ; Untyped                                            ;
-+------------------------+-------------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_ff             ; 26                          ;
-;     plain             ; 26                          ;
-; arriav_lcell_comb     ; 26                          ;
-;     arith             ; 26                          ;
-;         1 data inputs ; 26                          ;
-; boundary_port         ; 2                           ;
-;                       ;                             ;
-; Max LUT depth         ; 3.50                        ;
-; Average LUT depth     ; 2.62                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
 
 
 +-------------------------------+
@@ -315,43 +161,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 16 13:47:34 2022
+    Info: Processing started: Mon Oct 17 14:02:06 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off clockmod2 -c clockmod2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Warning (12125): Using design file clockmod2.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: clockmod2
 Info (12127): Elaborating entity "clockmod2" for the top level hierarchy
-Warning (12125): Using design file bus_split_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_32-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_32.vhd Line: 69
-    Info (12023): Found entity 1: bus_split_32 File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_32.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_32" for hierarchy "bus_split_32:inst1"
-Warning (12125): Using design file count.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: count-SYN File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 52
-    Info (12023): Found entity 1: count File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 43
-Info (12128): Elaborating entity "count" for hierarchy "count:inst"
-Info (12128): Elaborating entity "lpm_counter" for hierarchy "count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 74
-Info (12130): Elaborated megafunction instantiation "count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 74
-Info (12133): Instantiated megafunction "count:inst|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 74
-    Info (12134): Parameter "lpm_direction" = "UP"
-    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
-    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
-    Info (12134): Parameter "lpm_width" = "32"
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_djh.tdf
-    Info (12023): Found entity 1: cntr_djh File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/cntr_djh.tdf Line: 26
-Info (12128): Elaborating entity "cntr_djh" for hierarchy "count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
-Info (286030): Timing-Driven Synthesis is running
-Info (17049): 6 registers lost all their fanouts during netlist optimizations.
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 28 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 1 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 26 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4848 megabytes
-    Info: Processing ended: Sun Oct 16 13:47:44 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:20
+Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
+Warning (275011): Block or symbol "OR8" of instance "inst17" overlaps another block or symbol
+Error (275023): Width mismatch in frequency_set -- source is ""c[15..0]" (ID bus_split_out:inst3)"
+Error (275023): Width mismatch in enableset2 -- source is ""f[15..0]" (ID b16_en:inst9)"
+Error (275044): Port "S2" of type DEC38 of instance "inst81" is missing source signal
+Error (275044): Port "S1" of type DEC38 of instance "inst81" is missing source signal
+Error (275044): Port "S0" of type DEC38 of instance "inst81" is missing source signal
+Error (275044): Port "S0" of type DEC38 of instance "inst85" is missing source signal
+Error (275044): Port "S2" of type DEC38 of instance "inst82" is missing source signal
+Error (275044): Port "S1" of type DEC38 of instance "inst82" is missing source signal
+Error (275044): Port "S0" of type DEC38 of instance "inst82" is missing source signal
+Error (275024): Width mismatch in port "b[15..0]" of instance "inst11" and type b16w_and -- source is ""enableset1""
+Error (12153): Can't elaborate top-level user hierarchy
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 11 errors, 4 warnings
+    Error: Peak virtual memory: 4766 megabytes
+    Error: Processing ended: Mon Oct 17 14:02:15 2022
+    Error: Elapsed time: 00:00:09
+    Error: Total CPU time (on all processors): 00:00:20
 
 
