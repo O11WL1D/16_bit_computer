@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Mon Oct 17 14:20:52 2022
+Analysis & Synthesis Status : Successful - Thu Oct 20 11:36:34 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : clockmod2
 Top-level Entity Name : clockmod2
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 26
-Total pins : 56
+Total registers : 34
+Total pins : 91
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

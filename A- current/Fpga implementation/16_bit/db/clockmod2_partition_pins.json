@@ -4,7 +4,43 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "main_clock_output1",
+					"strict" : false
+				},
+				{
 					"name" : "main_clock",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[7]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[6]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[5]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[4]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[3]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[2]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[1]",
+					"strict" : false
+				},
+				{
+					"name" : "current_clock_speed[0]",
 					"strict" : false
 				},
 				{
@@ -128,23 +164,51 @@
 					"strict" : false
 				},
 				{
-					"name" : "s3",
+					"name" : "manual_clock_sig",
 					"strict" : false
 				},
 				{
-					"name" : "s0",
+					"name" : "clock_reg_input[0]",
 					"strict" : false
 				},
 				{
-					"name" : "s1",
+					"name" : "clock_reg_input[3]",
 					"strict" : false
 				},
 				{
-					"name" : "s2",
+					"name" : "clock_reg_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_input[2]",
 					"strict" : false
 				},
 				{
 					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_update",
+					"strict" : false
+				},
+				{
+					"name" : "clock_reg_input[8]",
 					"strict" : false
 				}
 			]

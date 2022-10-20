@@ -1,5 +1,5 @@
 Analysis & Synthesis report for module_test_environment
-Sun Oct 09 17:02:56 2022
+Thu Oct 20 12:10:40 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,10 +13,12 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -43,14 +45,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 09 17:02:56 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Oct 20 12:10:40 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; module_test_environment                     ;
 ; Top-level Entity Name           ; module_test_environment                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 46                                          ;
+; Total registers                 ; 48                                          ;
+; Total pins                      ; 63                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -159,10 +161,11 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -173,45 +176,85 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------+---------+
 ; module_test_environment.bdf      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/module_test_environment.bdf ;         ;
 ; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd               ;         ;
+; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/in_mod.bdf                  ;         ;
 ; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd           ;         ;
+; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/eightbitff.bdf              ;         ;
+; dec38.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/dec38.bdf                                       ;         ;
+; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd                  ;         ;
+; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd                  ;         ;
+; clockmod2.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/clockmod2.bdf               ;         ;
+; b16w_and.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16w_and.vhd                ;         ;
+; bus_split_32.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_32.vhd            ;         ;
+; count.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd                   ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf                                   ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                                  ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                                    ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                   ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cmpconst.inc                                      ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                                   ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                                   ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/dffeea.inc                                        ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                           ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                    ;         ;
+; db/cntr_djh.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/cntr_djh.tdf             ;         ;
+; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                       ;         ;
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimate of Logic utilization (ALMs needed) ; 0          ;
-;                                             ;            ;
-; Combinational ALUT usage for logic          ; 0          ;
-;     -- 7 input functions                    ; 0          ;
-;     -- 6 input functions                    ; 0          ;
-;     -- 5 input functions                    ; 0          ;
-;     -- 4 input functions                    ; 0          ;
-;     -- <=3 input functions                  ; 0          ;
-;                                             ;            ;
-; Dedicated logic registers                   ; 0          ;
-;                                             ;            ;
-; I/O pins                                    ; 46         ;
-;                                             ;            ;
-; Total DSP Blocks                            ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; KEY1~input ;
-; Maximum fan-out                             ; 2          ;
-; Total fan-out                               ; 72         ;
-; Average fan-out                             ; 0.78       ;
-+---------------------------------------------+------------+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimate of Logic utilization (ALMs needed) ; 28             ;
+;                                             ;                ;
+; Combinational ALUT usage for logic          ; 34             ;
+;     -- 7 input functions                    ; 2              ;
+;     -- 6 input functions                    ; 1              ;
+;     -- 5 input functions                    ; 2              ;
+;     -- 4 input functions                    ; 0              ;
+;     -- <=3 input functions                  ; 29             ;
+;                                             ;                ;
+; Dedicated logic registers                   ; 48             ;
+;                                             ;                ;
+; I/O pins                                    ; 63             ;
+;                                             ;                ;
+; Total DSP Blocks                            ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; CLOCK_50~input ;
+; Maximum fan-out                             ; 26             ;
+; Total fan-out                               ; 266            ;
+; Average fan-out                             ; 1.28           ;
++---------------------------------------------+----------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                     ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+-------------------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name      ; Entity Name             ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+-------------------------+--------------+
-; |module_test_environment   ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 46   ; 0            ; |module_test_environment ; module_test_environment ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+-------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                             ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                            ; Entity Name             ; Library Name ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; |module_test_environment                     ; 34 (0)              ; 48 (0)                    ; 0                 ; 0          ; 63   ; 0            ; |module_test_environment                                                                                       ; module_test_environment ; work         ;
+;    |clockmod2:inst36|                        ; 32 (5)              ; 30 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|clockmod2:inst36                                                                      ; clockmod2               ; work         ;
+;       |count:inst|                           ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|clockmod2:inst36|count:inst                                                           ; count                   ; work         ;
+;          |lpm_counter:LPM_COUNTER_component| ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter             ; work         ;
+;             |cntr_djh:auto_generated|        ; 26 (26)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated ; cntr_djh                ; work         ;
+;       |eightbitff:inst15|                    ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|clockmod2:inst36|eightbitff:inst15                                                    ; eightbitff              ; work         ;
+;    |in_mod:inst|                             ; 2 (2)               ; 18 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|in_mod:inst                                                                           ; in_mod                  ; work         ;
+;       |eightbitff:inst11|                    ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|in_mod:inst|eightbitff:inst11                                                         ; eightbitff              ; work         ;
+;       |eightbitff:inst2|                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|in_mod:inst|eightbitff:inst2                                                          ; eightbitff              ; work         ;
+;       |eightbitff:inst4|                     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |module_test_environment|in_mod:inst|eightbitff:inst4                                                          ; eightbitff              ; work         ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                 ;
++---------------------------------------------------------------------------------------------------------------+--------------------+
+; Register name                                                                                                 ; Reason for Removal ;
++---------------------------------------------------------------------------------------------------------------+--------------------+
+; clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated|counter_reg_bit[26..31] ; Lost fanout        ;
+; Total Number of Removed Registers = 6                                                                         ;                    ;
++---------------------------------------------------------------------------------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -219,7 +262,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 48    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -229,19 +272,56 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+---------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                ;
++------------------------+-------------+---------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                        ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                      ;
+; LPM_WIDTH              ; 32          ; Signed Integer                                                      ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                             ;
+; LPM_MODULUS            ; 0           ; Untyped                                                             ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                             ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                             ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                             ;
+; DEVICE_FAMILY          ; Cyclone V   ; Untyped                                                             ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                             ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                  ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                  ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                             ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                             ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                             ;
+; CBXI_PARAMETER         ; cntr_djh    ; Untyped                                                             ;
++------------------------+-------------+---------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 12                          ;
-;     normal            ; 12                          ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 11                          ;
-; boundary_port         ; 46                          ;
+; arriav_ff             ; 48                          ;
+;     plain             ; 48                          ;
+; arriav_lcell_comb     ; 50                          ;
+;     arith             ; 26                          ;
+;         1 data inputs ; 26                          ;
+;     extend            ; 2                           ;
+;         7 data inputs ; 2                           ;
+;     normal            ; 22                          ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 14                          ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 2                           ;
+;         5 data inputs ; 2                           ;
+;         6 data inputs ; 1                           ;
+; boundary_port         ; 63                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.88                        ;
+; Max LUT depth         ; 3.50                        ;
+; Average LUT depth     ; 1.97                        ;
 +-----------------------+-----------------------------+
 
 
@@ -260,40 +340,129 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Oct 09 17:02:46 2022
+    Info: Processing started: Thu Oct 20 12:10:31 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off module_test_environment -c module_test_environment
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Warning (12125): Using design file module_test_environment.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: module_test_environment
 Info (12127): Elaborating entity "module_test_environment" for the top level hierarchy
-Warning (275009): Pin "sw8" not connected
 Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst2"
+Warning (12125): Using design file in_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: in_mod
+Info (12128): Elaborating entity "in_mod" for hierarchy "in_mod:inst"
+Warning (275008): Primitive "NOT" of instance "inst16" not used
+Warning (275008): Primitive "NOT" of instance "inst17" not used
+Warning (275008): Primitive "NOT" of instance "inst18" not used
+Warning (275008): Primitive "NOT" of instance "inst19" not used
+Warning (275008): Primitive "NOT" of instance "inst20" not used
+Warning (275008): Primitive "NOT" of instance "inst21" not used
+Warning (275008): Primitive "NOT" of instance "inst22" not used
+Warning (275008): Primitive "NOT" of instance "inst23" not used
+Warning (275008): Primitive "NOT" of instance "inst24" not used
+Warning (275008): Primitive "NOT" of instance "inst25" not used
+Warning (275008): Primitive "AND2" of instance "inst71" not used
+Warning (275008): Primitive "AND2" of instance "inst72" not used
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst"
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "in_mod:inst|bus_split_out:inst13"
+Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: eightbitff
+Info (12128): Elaborating entity "eightbitff" for hierarchy "in_mod:inst|eightbitff:inst4"
+Info (12128): Elaborating entity "DEC38" for hierarchy "in_mod:inst|DEC38:inst81"
+Info (12130): Elaborated megafunction instantiation "in_mod:inst|DEC38:inst81"
+Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 39
+    Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_en.vhd Line: 13
+Info (12128): Elaborating entity "b16_en" for hierarchy "in_mod:inst|b16_en:inst84"
+Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 31
+    Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_or.vhd Line: 8
+Info (12128): Elaborating entity "b16_or" for hierarchy "in_mod:inst|b16_or:inst85"
+Warning (12125): Using design file clockmod2.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: clockmod2
+Info (12128): Elaborating entity "clockmod2" for hierarchy "clockmod2:inst36"
+Warning (275011): Block or symbol "OR8" of instance "inst17" overlaps another block or symbol
+Warning (275011): Block or symbol "bus_split_out" of instance "inst13" overlaps another block or symbol
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
+Warning (275009): Pin "s0" not connected
+Warning (275009): Pin "s1" not connected
+Warning (275009): Pin "s2" not connected
+Warning (275009): Pin "s3" not connected
+Warning (12125): Using design file b16w_and.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16w_and-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16w_and.vhd Line: 39
+    Info (12023): Found entity 1: b16w_and File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16w_and.vhd Line: 13
+Info (12128): Elaborating entity "b16w_and" for hierarchy "clockmod2:inst36|b16w_and:inst11"
+Warning (12125): Using design file bus_split_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split_32-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_32.vhd Line: 69
+    Info (12023): Found entity 1: bus_split_32 File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_32.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_32" for hierarchy "clockmod2:inst36|bus_split_32:inst1"
+Warning (12125): Using design file count.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: count-SYN File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 52
+    Info (12023): Found entity 1: count File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 43
+Info (12128): Elaborating entity "count" for hierarchy "clockmod2:inst36|count:inst"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 74
+Info (12130): Elaborated megafunction instantiation "clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 74
+Info (12133): Instantiated megafunction "clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/count.vhd Line: 74
+    Info (12134): Parameter "lpm_direction" = "UP"
+    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
+    Info (12134): Parameter "lpm_width" = "32"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_djh.tdf
+    Info (12023): Found entity 1: cntr_djh File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/db/cntr_djh.tdf Line: 26
+Info (12128): Elaborating entity "cntr_djh" for hierarchy "clockmod2:inst36|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
+Info (12128): Elaborating entity "74154" for hierarchy "clockmod2:inst36|74154:inst24"
+Info (12130): Elaborated megafunction instantiation "clockmod2:inst36|74154:inst24"
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX14" is stuck at VCC
-    Warning (13410): Pin "HEX11" is stuck at VCC
-    Warning (13410): Pin "HEX15" is stuck at VCC
+    Warning (13410): Pin "LEDR5" is stuck at GND
+    Warning (13410): Pin "HEX23" is stuck at VCC
+    Warning (13410): Pin "HEX26" is stuck at VCC
+    Warning (13410): Pin "HEX20" is stuck at VCC
+    Warning (13410): Pin "HEX22" is stuck at VCC
+    Warning (13410): Pin "HEX24" is stuck at VCC
+    Warning (13410): Pin "HEX21" is stuck at VCC
+    Warning (13410): Pin "HEX25" is stuck at VCC
+    Warning (13410): Pin "HEX33" is stuck at VCC
+    Warning (13410): Pin "HEX36" is stuck at VCC
+    Warning (13410): Pin "HEX30" is stuck at VCC
+    Warning (13410): Pin "HEX32" is stuck at VCC
     Warning (13410): Pin "HEX34" is stuck at VCC
     Warning (13410): Pin "HEX31" is stuck at VCC
     Warning (13410): Pin "HEX35" is stuck at VCC
+    Warning (13410): Pin "HEX43" is stuck at VCC
+    Warning (13410): Pin "HEX46" is stuck at VCC
+    Warning (13410): Pin "HEX40" is stuck at VCC
+    Warning (13410): Pin "HEX42" is stuck at VCC
+    Warning (13410): Pin "HEX44" is stuck at VCC
+    Warning (13410): Pin "HEX41" is stuck at VCC
+    Warning (13410): Pin "HEX45" is stuck at VCC
+    Warning (13410): Pin "LEDR8" is stuck at GND
+    Warning (13410): Pin "HEX53" is stuck at VCC
+    Warning (13410): Pin "HEX56" is stuck at VCC
+    Warning (13410): Pin "HEX50" is stuck at VCC
+    Warning (13410): Pin "HEX52" is stuck at VCC
+    Warning (13410): Pin "HEX54" is stuck at VCC
+    Warning (13410): Pin "HEX51" is stuck at VCC
+    Warning (13410): Pin "HEX55" is stuck at VCC
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 6 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "sw8"
-Info (21057): Implemented 46 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 14 input pins
-    Info (21059): Implemented 32 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 4849 megabytes
-    Info: Processing ended: Sun Oct 09 17:02:56 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:20
+    Warning (15610): No output dependent on input pin "KEY3"
+Info (21057): Implemented 119 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 48 output pins
+    Info (21061): Implemented 56 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 65 warnings
+    Info: Peak virtual memory: 4861 megabytes
+    Info: Processing ended: Thu Oct 20 12:10:40 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:21
 
 

@@ -1,14 +1,42 @@
 |clockmod2
 generalc <= <GND>
-main_clock <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+main_clock_output1 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
 CLOCK_50 => count:inst.clock
-s3 => DEC38:inst85.S0
-s0 => DEC38:inst81.S2
-s0 => DEC38:inst82.S2
-s1 => DEC38:inst81.S1
-s1 => DEC38:inst82.S1
-s2 => DEC38:inst81.S0
-s2 => DEC38:inst82.S0
+clock_reg_update => eightbitff:inst15.clock
+clock_reg_input[0] => eightbitff:inst15.pxa[0]
+clock_reg_input[1] => eightbitff:inst15.pxa[1]
+clock_reg_input[2] => eightbitff:inst15.pxa[2]
+clock_reg_input[3] => eightbitff:inst15.pxa[3]
+clock_reg_input[4] => eightbitff:inst15.pxa[4]
+clock_reg_input[5] => eightbitff:inst15.pxa[5]
+clock_reg_input[6] => eightbitff:inst15.pxa[6]
+clock_reg_input[7] => eightbitff:inst15.pxa[7]
+clock_reg_input[8] => eightbitff:inst15.pxa[8]
+clock_reg_input[9] => eightbitff:inst15.pxa[9]
+clock_reg_input[10] => eightbitff:inst15.pxa[10]
+clock_reg_input[11] => eightbitff:inst15.pxa[11]
+clock_reg_input[12] => eightbitff:inst15.pxa[12]
+clock_reg_input[13] => eightbitff:inst15.pxa[13]
+clock_reg_input[14] => eightbitff:inst15.pxa[14]
+clock_reg_input[15] => eightbitff:inst15.pxa[15]
+main_clock <= asdas.DB_MAX_OUTPUT_PORT_TYPE
+manual_clock_sig => iasdasdnst27.IN1
+current_clock_speed[0] <= eightbitff:inst15.pxb[0]
+current_clock_speed[1] <= eightbitff:inst15.pxb[1]
+current_clock_speed[2] <= eightbitff:inst15.pxb[2]
+current_clock_speed[3] <= eightbitff:inst15.pxb[3]
+current_clock_speed[4] <= eightbitff:inst15.pxb[4]
+current_clock_speed[5] <= eightbitff:inst15.pxb[5]
+current_clock_speed[6] <= eightbitff:inst15.pxb[6]
+current_clock_speed[7] <= eightbitff:inst15.pxb[7]
+current_clock_speed[8] <= eightbitff:inst15.pxb[8]
+current_clock_speed[9] <= eightbitff:inst15.pxb[9]
+current_clock_speed[10] <= eightbitff:inst15.pxb[10]
+current_clock_speed[11] <= eightbitff:inst15.pxb[11]
+current_clock_speed[12] <= eightbitff:inst15.pxb[12]
+current_clock_speed[13] <= eightbitff:inst15.pxb[13]
+current_clock_speed[14] <= eightbitff:inst15.pxb[14]
+current_clock_speed[15] <= eightbitff:inst15.pxb[15]
 enableset1[0] <= b16_en:inst8.f[0]
 enableset1[1] <= b16_en:inst8.f[1]
 enableset1[2] <= b16_en:inst8.f[2]
@@ -58,6 +86,10 @@ frequency_set[13] <= bus_split_out:inst3.c[13]
 frequency_set[14] <= bus_split_out:inst3.c[14]
 frequency_set[15] <= bus_split_out:inst3.c[15]
 generala => ~NO_FANOUT~
+s0 => ~NO_FANOUT~
+s1 => ~NO_FANOUT~
+s2 => ~NO_FANOUT~
+s3 => ~NO_FANOUT~
 
 
 |clockmod2|bus_split:inst10
@@ -643,6 +675,147 @@ Y5 <= 38.DB_MAX_OUTPUT_PORT_TYPE
 Y6 <= 39.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|clockmod2|bus_split:inst22
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockmod2|eightbitff:inst15
+pxb[0] <= bus_split_out:phm.c[0]
+pxb[1] <= bus_split_out:phm.c[1]
+pxb[2] <= bus_split_out:phm.c[2]
+pxb[3] <= bus_split_out:phm.c[3]
+pxb[4] <= bus_split_out:phm.c[4]
+pxb[5] <= bus_split_out:phm.c[5]
+pxb[6] <= bus_split_out:phm.c[6]
+pxb[7] <= bus_split_out:phm.c[7]
+pxb[8] <= bus_split_out:phm.c[8]
+pxb[9] <= bus_split_out:phm.c[9]
+pxb[10] <= bus_split_out:phm.c[10]
+pxb[11] <= bus_split_out:phm.c[11]
+pxb[12] <= bus_split_out:phm.c[12]
+pxb[13] <= bus_split_out:phm.c[13]
+pxb[14] <= bus_split_out:phm.c[14]
+pxb[15] <= bus_split_out:phm.c[15]
+pxa[0] => bus_split:phl.b[0]
+pxa[1] => bus_split:phl.b[1]
+pxa[2] => bus_split:phl.b[2]
+pxa[3] => bus_split:phl.b[3]
+pxa[4] => bus_split:phl.b[4]
+pxa[5] => bus_split:phl.b[5]
+pxa[6] => bus_split:phl.b[6]
+pxa[7] => bus_split:phl.b[7]
+pxa[8] => bus_split:phl.b[8]
+pxa[9] => bus_split:phl.b[9]
+pxa[10] => bus_split:phl.b[10]
+pxa[11] => bus_split:phl.b[11]
+pxa[12] => bus_split:phl.b[12]
+pxa[13] => bus_split:phl.b[13]
+pxa[14] => bus_split:phl.b[14]
+pxa[15] => bus_split:phl.b[15]
+clock => inst.IN1
+
+
+|clockmod2|eightbitff:inst15|bus_split_out:phm
+c[0] <= d0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= d1.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= d2.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= d3.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= d4.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= d5.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= d6.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= d7.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= d8.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= d9.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= d10.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= d11.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= d12.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= d13.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= d14.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= d15.DB_MAX_OUTPUT_PORT_TYPE
+d0 => c[0].DATAIN
+d1 => c[1].DATAIN
+d2 => c[2].DATAIN
+d3 => c[3].DATAIN
+d4 => c[4].DATAIN
+d5 => c[5].DATAIN
+d6 => c[6].DATAIN
+d7 => c[7].DATAIN
+d8 => c[8].DATAIN
+d9 => c[9].DATAIN
+d10 => c[10].DATAIN
+d11 => c[11].DATAIN
+d12 => c[12].DATAIN
+d13 => c[13].DATAIN
+d14 => c[14].DATAIN
+d15 => c[15].DATAIN
+
+
+|clockmod2|eightbitff:inst15|bus_split:phl
+b[0] => a0.DATAIN
+b[1] => a1.DATAIN
+b[2] => a2.DATAIN
+b[3] => a3.DATAIN
+b[4] => a4.DATAIN
+b[5] => a5.DATAIN
+b[6] => a6.DATAIN
+b[7] => a7.DATAIN
+b[8] => a8.DATAIN
+b[9] => a9.DATAIN
+b[10] => a10.DATAIN
+b[11] => a11.DATAIN
+b[12] => a12.DATAIN
+b[13] => a13.DATAIN
+b[14] => a14.DATAIN
+b[15] => a15.DATAIN
+a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
+a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
+a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
+a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
+a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
+a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
+a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
+a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
 |clockmod2|bus_split_out:inst4
 c[0] <= d0.DB_MAX_OUTPUT_PORT_TYPE
 c[1] <= d1.DB_MAX_OUTPUT_PORT_TYPE
@@ -894,5 +1067,30 @@ Y3 <= 36.DB_MAX_OUTPUT_PORT_TYPE
 Y4 <= 37.DB_MAX_OUTPUT_PORT_TYPE
 Y5 <= 38.DB_MAX_OUTPUT_PORT_TYPE
 Y6 <= 39.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockmod2|74154:inst24
+O0N <= 32.DB_MAX_OUTPUT_PORT_TYPE
+G1N => 45.IN0
+G2N => 45.IN1
+A => 43.IN0
+B => 40.IN0
+C => 36.IN0
+D => 34.IN0
+O1N <= 31.DB_MAX_OUTPUT_PORT_TYPE
+O2N <= 30.DB_MAX_OUTPUT_PORT_TYPE
+O3N <= 29.DB_MAX_OUTPUT_PORT_TYPE
+O4N <= 28.DB_MAX_OUTPUT_PORT_TYPE
+O5N <= 27.DB_MAX_OUTPUT_PORT_TYPE
+O6N <= 26.DB_MAX_OUTPUT_PORT_TYPE
+O7N <= 25.DB_MAX_OUTPUT_PORT_TYPE
+O8N <= 24.DB_MAX_OUTPUT_PORT_TYPE
+O9N <= 23.DB_MAX_OUTPUT_PORT_TYPE
+O10N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+O11N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+O12N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+O13N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+O14N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+O15N <= 17.DB_MAX_OUTPUT_PORT_TYPE
 
 
