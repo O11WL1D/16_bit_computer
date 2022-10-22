@@ -1,0 +1,502 @@
+Analysis & Synthesis report for b16_ind_reg
+Sat Oct 22 11:39:34 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis IP Cores Summary
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: muxx:inst14|LPM_MUX:LPM_MUX_component
+ 11. Parameter Settings for User Entity Instance: muxx:inst6|LPM_MUX:LPM_MUX_component
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sat Oct 22 11:39:34 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; b16_ind_reg                                 ;
+; Top-level Entity Name           ; b16_ind_reg                                 ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 131                                         ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEBA4F23C7        ;                    ;
+; Top-level entity name                                                           ; b16_ind_reg        ; b16_ind_reg        ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                     ; Library ;
++----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; b16_ind_reg.bdf                  ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_ind_reg.bdf   ;         ;
+; muxx.vhd                         ; yes             ; User Wizard-Generated File               ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd          ;         ;
+; adder16.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder16.bdf       ;         ;
+; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder.bdf         ;         ;
+; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd ;         ;
+; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd        ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf                               ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                            ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/muxlut.inc                                ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                              ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                              ;         ;
+; db/mux_s1e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf    ;         ;
+; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd     ;         ;
+; b16bit_latch.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16bit_latch.bdf  ;         ;
+; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/8bitdlatch.bdf    ;         ;
++----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+
+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                ;
++---------------------------------------------+------------------------------+
+; Resource                                    ; Usage                        ;
++---------------------------------------------+------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 22                           ;
+;                                             ;                              ;
+; Combinational ALUT usage for logic          ; 34                           ;
+;     -- 7 input functions                    ; 0                            ;
+;     -- 6 input functions                    ; 10                           ;
+;     -- 5 input functions                    ; 6                            ;
+;     -- 4 input functions                    ; 6                            ;
+;     -- <=3 input functions                  ; 12                           ;
+;                                             ;                              ;
+; Dedicated logic registers                   ; 0                            ;
+;                                             ;                              ;
+; I/O pins                                    ; 131                          ;
+;                                             ;                              ;
+; Total DSP Blocks                            ; 0                            ;
+;                                             ;                              ;
+; Maximum fan-out node                        ; readcurrentenable14[0]~input ;
+; Maximum fan-out                             ; 7                            ;
+; Total fan-out                               ; 307                          ;
+; Average fan-out                             ; 1.04                         ;
++---------------------------------------------+------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                      ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------+-------------+--------------+
+; |b16_ind_reg               ; 34 (0)              ; 0 (0)                     ; 0                 ; 0          ; 131  ; 0            ; |b16_ind_reg                             ; b16_ind_reg ; work         ;
+;    |adder16:inst16|        ; 17 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16              ; adder16     ; work         ;
+;       |adder:inst13|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst13 ; adder       ; work         ;
+;       |adder:inst15|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst15 ; adder       ; work         ;
+;       |adder:inst16|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst16 ; adder       ; work         ;
+;       |adder:inst17|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst17 ; adder       ; work         ;
+;       |adder:inst20|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst20 ; adder       ; work         ;
+;       |adder:inst23|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst23 ; adder       ; work         ;
+;       |adder:inst24|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst24 ; adder       ; work         ;
+;       |adder:inst25|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst25 ; adder       ; work         ;
+;       |adder:inst26|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst26 ; adder       ; work         ;
+;       |adder:inst2|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst2  ; adder       ; work         ;
+;       |adder:inst3|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst3  ; adder       ; work         ;
+;       |adder:inst4|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst4  ; adder       ; work         ;
+;       |adder:inst7|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst7  ; adder       ; work         ;
+;       |adder:inst8|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst8  ; adder       ; work         ;
+;       |adder:inst9|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst16|adder:inst9  ; adder       ; work         ;
+;    |adder16:inst|          ; 17 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst                ; adder16     ; work         ;
+;       |adder:inst13|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst13   ; adder       ; work         ;
+;       |adder:inst15|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst15   ; adder       ; work         ;
+;       |adder:inst16|       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst16   ; adder       ; work         ;
+;       |adder:inst17|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst17   ; adder       ; work         ;
+;       |adder:inst20|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst20   ; adder       ; work         ;
+;       |adder:inst23|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst23   ; adder       ; work         ;
+;       |adder:inst24|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst24   ; adder       ; work         ;
+;       |adder:inst25|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst25   ; adder       ; work         ;
+;       |adder:inst26|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst26   ; adder       ; work         ;
+;       |adder:inst2|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst2    ; adder       ; work         ;
+;       |adder:inst3|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst3    ; adder       ; work         ;
+;       |adder:inst4|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst4    ; adder       ; work         ;
+;       |adder:inst7|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst7    ; adder       ; work         ;
+;       |adder:inst8|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst8    ; adder       ; work         ;
+;       |adder:inst9|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16_ind_reg|adder16:inst|adder:inst9    ; adder       ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                      ;
++--------+--------------+---------+--------------+--------------+--------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance          ; IP Include File ;
++--------+--------------+---------+--------------+--------------+--------------------------+-----------------+
+; Altera ; LPM_MUX      ; 20.1    ; N/A          ; N/A          ; |b16_ind_reg|muxx:inst6  ; muxx.vhd        ;
+; Altera ; LPM_MUX      ; 20.1    ; N/A          ; N/A          ; |b16_ind_reg|muxx:inst14 ; muxx.vhd        ;
++--------+--------------+---------+--------------+--------------+--------------------------+-----------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxx:inst14|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-----------------------------------------------+
+; Parameter Name         ; Value     ; Type                                          ;
++------------------------+-----------+-----------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                    ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                  ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                  ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                ;
+; LPM_SIZE               ; 16        ; Signed Integer                                ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                       ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                       ;
++------------------------+-----------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+----------------------------------------------+
+; Parameter Name         ; Value     ; Type                                         ;
++------------------------+-----------+----------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                      ;
++------------------------+-----------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 37                          ;
+;     normal            ; 37                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 2                           ;
+;         2 data inputs ; 6                           ;
+;         3 data inputs ; 6                           ;
+;         4 data inputs ; 6                           ;
+;         5 data inputs ; 6                           ;
+;         6 data inputs ; 10                          ;
+; boundary_port         ; 131                         ;
+;                       ;                             ;
+; Max LUT depth         ; 3.00                        ;
+; Average LUT depth     ; 2.03                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Sat Oct 22 11:39:25 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b16_ind_reg -c b16_ind_reg
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file b16_ind_reg.bdf
+    Info (12023): Found entity 1: b16_ind_reg
+Info (12021): Found 2 design units, including 1 entities, in source file muxx.vhd
+    Info (12022): Found design unit 1: muxx-SYN File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 68
+    Info (12023): Found entity 1: muxx File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 43
+Info (12127): Elaborating entity "b16_ind_reg" for the top level hierarchy
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
+Warning (12125): Using design file adder16.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: adder16
+Info (12128): Elaborating entity "adder16" for hierarchy "adder16:inst16"
+Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: adder
+Info (12128): Elaborating entity "adder" for hierarchy "adder16:inst16|adder:inst26"
+Warning (275004): Undeclared parameter CONSTANT_VALUE
+Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
+Warning (275008): Primitive "NOT" of instance "inst12" not used
+Warning (275008): Primitive "NOT" of instance "inst13" not used
+Warning (275008): Primitive "NOT" of instance "inst14" not used
+Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst15"
+Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 39
+    Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 13
+Info (12128): Elaborating entity "b16_en" for hierarchy "b16_en:inst34"
+Info (12128): Elaborating entity "muxx" for hierarchy "muxx:inst14"
+Info (12128): Elaborating entity "LPM_MUX" for hierarchy "muxx:inst14|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12130): Elaborated megafunction instantiation "muxx:inst14|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12133): Instantiated megafunction "muxx:inst14|LPM_MUX:LPM_MUX_component" with the following parameter: File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+    Info (12134): Parameter "LPM_WIDTH" = "1"
+    Info (12134): Parameter "LPM_SIZE" = "16"
+    Info (12134): Parameter "LPM_WIDTHS" = "4"
+    Info (12134): Parameter "LPM_PIPELINE" = "0"
+    Info (12134): Parameter "LPM_TYPE" = "LPM_MUX"
+    Info (12134): Parameter "LPM_HINT" = "UNUSED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_s1e.tdf
+    Info (12023): Found entity 1: mux_s1e File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf Line: 23
+Info (12128): Elaborating entity "mux_s1e" for hierarchy "muxx:inst14|LPM_MUX:LPM_MUX_component|mux_s1e:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 31
+    Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 7
+Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst9"
+Warning (12125): Using design file b16bit_latch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b16bit_latch
+Info (12128): Elaborating entity "b16bit_latch" for hierarchy "b16bit_latch:inst32"
+Warning (275011): Block or symbol "bus_split" of instance "inst3" overlaps another block or symbol
+Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
+Warning (275009): Pin "reginput" not connected
+Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: 8bitdlatch
+Info (12128): Elaborating entity "8bitdlatch" for hierarchy "b16bit_latch:inst32|8bitdlatch:inst"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "generalc" is stuck at GND
+    Warning (13410): Pin "regout[15]" is stuck at GND
+    Warning (13410): Pin "regout[14]" is stuck at GND
+    Warning (13410): Pin "regout[13]" is stuck at GND
+    Warning (13410): Pin "regout[12]" is stuck at GND
+    Warning (13410): Pin "regout[11]" is stuck at GND
+    Warning (13410): Pin "regout[10]" is stuck at GND
+    Warning (13410): Pin "regout[9]" is stuck at GND
+    Warning (13410): Pin "regout[8]" is stuck at GND
+    Warning (13410): Pin "regout[7]" is stuck at GND
+    Warning (13410): Pin "regout[6]" is stuck at GND
+    Warning (13410): Pin "regout[5]" is stuck at GND
+    Warning (13410): Pin "regout[4]" is stuck at GND
+    Warning (13410): Pin "regout[3]" is stuck at GND
+    Warning (13410): Pin "regout[2]" is stuck at GND
+    Warning (13410): Pin "regout[1]" is stuck at GND
+    Warning (13410): Pin "regout[0]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 50 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "readenableset13[15]"
+    Warning (15610): No output dependent on input pin "readenableset13[14]"
+    Warning (15610): No output dependent on input pin "readenableset13[13]"
+    Warning (15610): No output dependent on input pin "readenableset13[12]"
+    Warning (15610): No output dependent on input pin "readenableset13[11]"
+    Warning (15610): No output dependent on input pin "readenableset13[10]"
+    Warning (15610): No output dependent on input pin "readenableset13[9]"
+    Warning (15610): No output dependent on input pin "readenableset13[8]"
+    Warning (15610): No output dependent on input pin "readenableset13[7]"
+    Warning (15610): No output dependent on input pin "readenableset13[6]"
+    Warning (15610): No output dependent on input pin "readenableset13[5]"
+    Warning (15610): No output dependent on input pin "readenableset13[4]"
+    Warning (15610): No output dependent on input pin "readenableset13[3]"
+    Warning (15610): No output dependent on input pin "readenableset13[2]"
+    Warning (15610): No output dependent on input pin "readenableset13[1]"
+    Warning (15610): No output dependent on input pin "readenableset13[0]"
+    Warning (15610): No output dependent on input pin "writeenableset[15]"
+    Warning (15610): No output dependent on input pin "writeenableset[14]"
+    Warning (15610): No output dependent on input pin "writeenableset[13]"
+    Warning (15610): No output dependent on input pin "writeenableset[12]"
+    Warning (15610): No output dependent on input pin "writeenableset[11]"
+    Warning (15610): No output dependent on input pin "writeenableset[10]"
+    Warning (15610): No output dependent on input pin "writeenableset[9]"
+    Warning (15610): No output dependent on input pin "writeenableset[8]"
+    Warning (15610): No output dependent on input pin "writeenableset[7]"
+    Warning (15610): No output dependent on input pin "writeenableset[6]"
+    Warning (15610): No output dependent on input pin "writeenableset[5]"
+    Warning (15610): No output dependent on input pin "writeenableset[4]"
+    Warning (15610): No output dependent on input pin "writeenableset[3]"
+    Warning (15610): No output dependent on input pin "writeenableset[2]"
+    Warning (15610): No output dependent on input pin "writeenableset[1]"
+    Warning (15610): No output dependent on input pin "writeenableset[0]"
+    Warning (15610): No output dependent on input pin "clock"
+    Warning (15610): No output dependent on input pin "reginput[15]"
+    Warning (15610): No output dependent on input pin "reginput[14]"
+    Warning (15610): No output dependent on input pin "reginput[13]"
+    Warning (15610): No output dependent on input pin "reginput[12]"
+    Warning (15610): No output dependent on input pin "reginput[11]"
+    Warning (15610): No output dependent on input pin "reginput[10]"
+    Warning (15610): No output dependent on input pin "reginput[9]"
+    Warning (15610): No output dependent on input pin "reginput[8]"
+    Warning (15610): No output dependent on input pin "reginput[7]"
+    Warning (15610): No output dependent on input pin "reginput[6]"
+    Warning (15610): No output dependent on input pin "reginput[5]"
+    Warning (15610): No output dependent on input pin "reginput[4]"
+    Warning (15610): No output dependent on input pin "reginput[3]"
+    Warning (15610): No output dependent on input pin "reginput[2]"
+    Warning (15610): No output dependent on input pin "reginput[1]"
+    Warning (15610): No output dependent on input pin "reginput[0]"
+    Warning (15610): No output dependent on input pin "generala"
+Info (21057): Implemented 165 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 82 input pins
+    Info (21059): Implemented 49 output pins
+    Info (21061): Implemented 34 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 87 warnings
+    Info: Peak virtual memory: 4857 megabytes
+    Info: Processing ended: Sat Oct 22 11:39:34 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:22
+
+
