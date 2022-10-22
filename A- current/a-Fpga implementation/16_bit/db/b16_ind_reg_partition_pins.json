@@ -4,259 +4,131 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "readnextenable15[15]",
+					"name" : "r1ne[15]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[14]",
+					"name" : "r1ne[14]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[13]",
+					"name" : "r1ne[13]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[12]",
+					"name" : "r1ne[12]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[11]",
+					"name" : "r1ne[11]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[10]",
+					"name" : "r1ne[10]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[9]",
+					"name" : "r1ne[9]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[8]",
+					"name" : "r1ne[8]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[7]",
+					"name" : "r1ne[7]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[6]",
+					"name" : "r1ne[6]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[5]",
+					"name" : "r1ne[5]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[4]",
+					"name" : "r1ne[4]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[3]",
+					"name" : "r1ne[3]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[2]",
+					"name" : "r1ne[2]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[1]",
+					"name" : "r1ne[1]",
 					"strict" : false
 				},
 				{
-					"name" : "readnextenable15[0]",
+					"name" : "r1ne[0]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[15]",
+					"name" : "currentenable[15]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[14]",
+					"name" : "currentenable[14]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[13]",
+					"name" : "currentenable[13]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[12]",
+					"name" : "currentenable[12]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[11]",
+					"name" : "currentenable[11]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[10]",
+					"name" : "currentenable[10]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[9]",
+					"name" : "currentenable[9]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[8]",
+					"name" : "currentenable[8]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[7]",
+					"name" : "currentenable[7]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[6]",
+					"name" : "currentenable[6]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[5]",
+					"name" : "currentenable[5]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[4]",
+					"name" : "currentenable[4]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[3]",
+					"name" : "currentenable[3]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[2]",
+					"name" : "currentenable[2]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[1]",
+					"name" : "currentenable[1]",
 					"strict" : false
 				},
 				{
-					"name" : "writenextenable[0]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[15]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[14]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[13]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[12]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[11]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[10]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[9]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[8]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[7]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[6]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[5]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[4]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[3]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[2]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[1]",
-					"strict" : false
-				},
-				{
-					"name" : "readcurrentenable14[0]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[15]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[14]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[13]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[12]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[11]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[10]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[9]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[8]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[7]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[6]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[5]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[4]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[3]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[2]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[1]",
-					"strict" : false
-				},
-				{
-					"name" : "writecurrentenable[0]",
+					"name" : "currentenable[0]",
 					"strict" : false
 				}
 			]
