@@ -1,5 +1,5 @@
 Assembler report for b16_ind_reg
-Sat Oct 22 11:39:57 2022
+Sat Oct 22 16:27:32 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Oct 22 11:39:57 2022 ;
+; Assembler Status      ; Successful - Sat Oct 22 16:27:32 2022 ;
 ; Revision Name         ; b16_ind_reg                           ;
 ; Top-level Entity Name ; b16_ind_reg                           ;
 ; Family                ; Cyclone V                             ;
@@ -67,8 +67,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------+----------------------------------------------------------------------------------------------------------------------+
 ; Option         ; Setting                                                                                                              ;
 +----------------+----------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x004ED56D                                                                                                           ;
-; Checksum       ; 0x004ED56D                                                                                                           ;
+; JTAG usercode  ; 0x004E86BD                                                                                                           ;
+; Checksum       ; 0x004E86BD                                                                                                           ;
 +----------------+----------------------------------------------------------------------------------------------------------------------+
 
 
@@ -78,13 +78,13 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Oct 22 11:39:54 2022
+    Info: Processing started: Sat Oct 22 16:27:29 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off b16_ind_reg -c b16_ind_reg
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4821 megabytes
-    Info: Processing ended: Sat Oct 22 11:39:57 2022
+    Info: Processing ended: Sat Oct 22 16:27:32 2022
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
