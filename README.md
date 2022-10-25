@@ -86,6 +86,11 @@ folder, effectively eliminating the need for the update program.
 
 
 
+10:56
+let it be known, that the prtsc key is exclusively reserved for fpga photo updates, 
+and windows key+ shift + s is for general screenshots
+
+
 
 
 10-11-2022
