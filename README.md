@@ -42,11 +42,19 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
+
+
+
+
+
 # documentation
 
 Screenshots of my fpga can be found [Here](https://1drv.ms/u/s!AovYuAJ6j-05iiZyxuV3IQgVdUtE?e=UuMA8f).
 
 Other photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation).
+
+
+
 
 
 
@@ -89,6 +97,19 @@ folder, effectively eliminating the need for the update program.
 10:56
 let it be known, that the prtsc key is exclusively reserved for fpga photo updates, 
 and windows key+ shift + s is for general screenshots
+
+
+
+
+
+11:35
+
+also, with the development of the sequential decoder receiver, I now think I can finally implement the features I wanted to for the inmod,
+now establishing a decoder to enable/disable 16+ input and output signals doesnt seem like an issue. 
+
+
+
+
 
 
 
