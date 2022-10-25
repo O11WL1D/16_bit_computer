@@ -32,9 +32,33 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
+
+
+
+
+
+
+
+
+
+
 # documentation
 
-Photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation)
+Screenshots of my fpga can be found [Here](https://1drv.ms/u/s!AovYuAJ6j-05iiZyxuV3IQgVdUtE?e=UuMA8f).
+
+Other photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
