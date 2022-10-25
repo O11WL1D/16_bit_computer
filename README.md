@@ -32,10 +32,21 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
+# documentation
+
+Photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation)
+
+
+
+
+
+
+
 
 # general design log
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder, and
 in the computer journal+notes, which is where I keep the actively used onenote file for this project. 
+
 
 
 10-25-2022
@@ -44,6 +55,10 @@ the plan to work on this project every alternating day is working, finally stead
 I've set up a bash program to transfer my pc screenshots to the project directory, so that I can take quick screenshots of my 
 circuits and have them viewable without needing people to install quartus, now anyone can see my progress, without 
 documentation being a long and laborious process.
+
+10:39
+The update program now doesnt work, accesss is denied when access is attempted. I have created a link to share the screenshots 
+folder, effectively eliminating the need for the update program. 
 
 
 
