@@ -1,0 +1,233 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "write_en",
+					"strict" : false
+				},
+				{
+					"name" : "output1",
+					"strict" : false
+				},
+				{
+					"name" : "output2",
+					"strict" : false
+				},
+				{
+					"name" : "output3",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[0]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[1]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[8]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[9]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[10]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[11]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[12]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[13]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[14]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset3[15]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[2]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

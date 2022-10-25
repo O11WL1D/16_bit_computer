@@ -38,6 +38,15 @@ Here you may find a log for the overall design of the computer. Module specific 
 in the computer journal+notes, which is where I keep the actively used onenote file for this project. 
 
 
+10-25-2022
+
+the plan to work on this project every alternating day is working, finally steady progress is being made!
+I've set up a bash program to transfer my pc screenshots to the project directory, so that I can take quick screenshots of my 
+circuits and have them viewable without needing people to install quartus, now anyone can see my progress, without 
+documentation being a long and laborious process.
+
+
+
 
 
 10-11-2022
