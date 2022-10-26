@@ -129,7 +129,7 @@ enableset1[2]                : AB7       : input  : 2.5 V             :         
 enableset1[13]               : AB8       : input  : 2.5 V             :         : 3B        : N              
 GND                          : AB9       : gnd    :                   :         :           :                
 enableset1[4]                : AB10      : input  : 2.5 V             :         : 3B        : N              
-output3                      : AB11      : output : 2.5 V             :         : 3B        : N              
+inputcenable                 : AB11      : output : 2.5 V             :         : 3B        : N              
 enableset2[7]                : AB12      : input  : 2.5 V             :         : 4A        : N              
 enableset2[14]               : AB13      : input  : 2.5 V             :         : 4A        : N              
 GND                          : AB14      : gnd    :                   :         :           :                
@@ -498,7 +498,7 @@ GND                          : V2        : gnd    :                   :         
 DCLK                         : V3        :        :                   :         : 3A        :                
 GND                          : V4        : gnd    :                   :         :           :                
 TCK                          : V5        : input  :                   :         : 3A        :                
-output1                      : V6        : output : 2.5 V             :         : 3A        : N              
+inputaenable                 : V6        : output : 2.5 V             :         : 3A        : N              
 GND                          : V7        : gnd    :                   :         :           :                
 VCCPGM                       : V8        : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
 enableset1[3]                : V9        : input  : 2.5 V             :         : 3B        : N              
@@ -507,7 +507,7 @@ NC                           : V11       :        :                   :         
 GND                          : V12       : gnd    :                   :         :           :                
 currentenable[2]             : V13       : input  : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V14       :        :                   :         : 4A        :                
-output2                      : V15       : output : 2.5 V             :         : 4A        : N              
+inputbenable                 : V15       : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V16       :        :                   :         : 4A        :                
 GND                          : V17       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V18       :        :                   :         : 4A        :                

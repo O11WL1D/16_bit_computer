@@ -8,15 +8,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "output1",
+					"name" : "inputaenable",
 					"strict" : false
 				},
 				{
-					"name" : "output2",
+					"name" : "inputbenable",
 					"strict" : false
 				},
 				{
-					"name" : "output3",
+					"name" : "inputcenable",
 					"strict" : false
 				},
 				{

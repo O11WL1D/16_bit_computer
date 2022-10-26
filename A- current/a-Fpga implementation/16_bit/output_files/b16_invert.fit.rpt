@@ -1,5 +1,5 @@
 Fitter report for b16_invert
-Mon Oct 17 10:16:28 2022
+Wed Oct 26 08:22:24 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Mon Oct 17 10:16:28 2022       ;
+; Fitter Status                   ; Successful - Wed Oct 26 08:22:24 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b16_invert                                  ;
 ; Top-level Entity Name           ; b16_invert                                  ;
@@ -195,7 +195,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/output_files/b16_invert.pin.
+The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b16_invert.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -1283,17 +1283,17 @@ Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/output_files/b16_invert.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b16_invert.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6225 megabytes
-    Info: Processing ended: Mon Oct 17 10:16:29 2022
+    Info: Peak virtual memory: 6228 megabytes
+    Info: Processing ended: Wed Oct 26 08:22:25 2022
     Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/output_files/b16_invert.fit.smsg.
+The suppressed messages can be found in C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b16_invert.fit.smsg.
 
 

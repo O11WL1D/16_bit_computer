@@ -97,9 +97,9 @@ enableset3[12] => decoder_sequential_receiver:inst.enableset[12]
 enableset3[13] => decoder_sequential_receiver:inst.enableset[13]
 enableset3[14] => decoder_sequential_receiver:inst.enableset[14]
 enableset3[15] => decoder_sequential_receiver:inst.enableset[15]
-output1 <= 74154:inst24.O0N
-output2 <= 74154:inst24.O1N
-output3 <= 74154:inst24.O2N
+inputaenable <= 74154:inst24.O0N
+inputbenable <= 74154:inst24.O1N
+inputcenable <= 74154:inst24.O2N
 generala => ~NO_FANOUT~
 
 
