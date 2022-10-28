@@ -15,22 +15,10 @@ output[12] <= b16_invert:inst3.f[12]
 output[13] <= b16_invert:inst3.f[13]
 output[14] <= b16_invert:inst3.f[14]
 output[15] <= b16_invert:inst3.f[15]
-input[0] => bus_split:inst4.b[0]
-input[1] => bus_split:inst4.b[1]
-input[2] => bus_split:inst4.b[2]
-input[3] => bus_split:inst4.b[3]
-input[4] => bus_split:inst4.b[4]
-input[5] => bus_split:inst4.b[5]
-input[6] => bus_split:inst4.b[6]
-input[7] => bus_split:inst4.b[7]
-input[8] => bus_split:inst4.b[8]
-input[9] => bus_split:inst4.b[9]
-input[10] => bus_split:inst4.b[10]
-input[11] => bus_split:inst4.b[11]
-input[12] => bus_split:inst4.b[12]
-input[13] => bus_split:inst4.b[13]
-input[14] => bus_split:inst4.b[14]
-input[15] => bus_split:inst4.b[15]
+inpuuu[0] => bus4_split:inst.b[0]
+inpuuu[1] => bus4_split:inst.b[1]
+inpuuu[2] => bus4_split:inst.b[2]
+inpuuu[3] => bus4_split:inst.b[3]
 
 
 |busified_16decoder|b16_invert:inst3
@@ -128,38 +116,14 @@ O14N <= 18.DB_MAX_OUTPUT_PORT_TYPE
 O15N <= 17.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|busified_16decoder|bus_split:inst4
+|busified_16decoder|bus4_split:inst
 b[0] => a0.DATAIN
 b[1] => a1.DATAIN
 b[2] => a2.DATAIN
 b[3] => a3.DATAIN
-b[4] => a4.DATAIN
-b[5] => a5.DATAIN
-b[6] => a6.DATAIN
-b[7] => a7.DATAIN
-b[8] => a8.DATAIN
-b[9] => a9.DATAIN
-b[10] => a10.DATAIN
-b[11] => a11.DATAIN
-b[12] => a12.DATAIN
-b[13] => a13.DATAIN
-b[14] => a14.DATAIN
-b[15] => a15.DATAIN
 a0 <= b[0].DB_MAX_OUTPUT_PORT_TYPE
 a1 <= b[1].DB_MAX_OUTPUT_PORT_TYPE
 a2 <= b[2].DB_MAX_OUTPUT_PORT_TYPE
 a3 <= b[3].DB_MAX_OUTPUT_PORT_TYPE
-a4 <= b[4].DB_MAX_OUTPUT_PORT_TYPE
-a5 <= b[5].DB_MAX_OUTPUT_PORT_TYPE
-a6 <= b[6].DB_MAX_OUTPUT_PORT_TYPE
-a7 <= b[7].DB_MAX_OUTPUT_PORT_TYPE
-a8 <= b[8].DB_MAX_OUTPUT_PORT_TYPE
-a9 <= b[9].DB_MAX_OUTPUT_PORT_TYPE
-a10 <= b[10].DB_MAX_OUTPUT_PORT_TYPE
-a11 <= b[11].DB_MAX_OUTPUT_PORT_TYPE
-a12 <= b[12].DB_MAX_OUTPUT_PORT_TYPE
-a13 <= b[13].DB_MAX_OUTPUT_PORT_TYPE
-a14 <= b[14].DB_MAX_OUTPUT_PORT_TYPE
-a15 <= b[15].DB_MAX_OUTPUT_PORT_TYPE
 
 

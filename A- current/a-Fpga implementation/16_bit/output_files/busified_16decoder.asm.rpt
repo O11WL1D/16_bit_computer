@@ -1,5 +1,5 @@
 Assembler report for busified_16decoder
-Wed Oct 26 08:26:55 2022
+Fri Oct 28 12:40:42 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Oct 26 08:26:55 2022 ;
+; Assembler Status      ; Successful - Fri Oct 28 12:40:42 2022 ;
 ; Revision Name         ; busified_16decoder                    ;
 ; Top-level Entity Name ; busified_16decoder                    ;
 ; Family                ; Cyclone V                             ;
@@ -67,8 +67,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------+-----------------------------------------------------------------------------------------------------------------------------+
 ; Option         ; Setting                                                                                                                     ;
 +----------------+-----------------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x004E30E8                                                                                                                  ;
-; Checksum       ; 0x004E30E8                                                                                                                  ;
+; JTAG usercode  ; 0x004E3D3F                                                                                                                  ;
+; Checksum       ; 0x004E3D3F                                                                                                                  ;
 +----------------+-----------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Oct 26 08:26:51 2022
+    Info: Processing started: Fri Oct 28 12:40:39 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off busified_16decoder -c busified_16decoder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4821 megabytes
-    Info: Processing ended: Wed Oct 26 08:26:55 2022
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 4822 megabytes
+    Info: Processing ended: Fri Oct 28 12:40:42 2022
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 

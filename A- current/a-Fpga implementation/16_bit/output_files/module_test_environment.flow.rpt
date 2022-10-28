@@ -1,5 +1,5 @@
 Flow report for module_test_environment
-Thu Oct 20 12:11:09 2022
+Fri Oct 28 12:48:24 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -38,29 +38,29 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Oct 20 12:11:03 2022       ;
-; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name                   ; module_test_environment                     ;
-; Top-level Entity Name           ; module_test_environment                     ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CEBA4F23C7                                 ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 24 / 18,480 ( < 1 % )                       ;
-; Total registers                 ; 51                                          ;
-; Total pins                      ; 63 / 224 ( 28 % )                           ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                       ;
-; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0 / 4 ( 0 % )                               ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
-+---------------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++---------------------------------+---------------------------------------------------+
+; Flow Status                     ; Database Import Failed - Fri Oct 28 12:48:24 2022 ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition       ;
+; Revision Name                   ; module_test_environment                           ;
+; Top-level Entity Name           ; module_test_environment                           ;
+; Family                          ; Cyclone V                                         ;
+; Device                          ; 5CEBA4F23C7                                       ;
+; Timing Models                   ; Final                                             ;
+; Logic utilization (in ALMs)     ; 24 / 18,480 ( < 1 % )                             ;
+; Total registers                 ; 51                                                ;
+; Total pins                      ; 63 / 224 ( 28 % )                                 ;
+; Total virtual pins              ; 0                                                 ;
+; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                             ;
+; Total DSP Blocks                ; 0 / 66 ( 0 % )                                    ;
+; Total HSSI RX PCSs              ; 0                                                 ;
+; Total HSSI PMA RX Deserializers ; 0                                                 ;
+; Total HSSI TX PCSs              ; 0                                                 ;
+; Total HSSI PMA TX Serializers   ; 0                                                 ;
+; Total PLLs                      ; 0 / 4 ( 0 % )                                     ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                     ;
++---------------------------------+---------------------------------------------------+
 
 
 +---------------------------------------------+
@@ -98,7 +98,9 @@ https://fpgasoftware.intel.com/eula.
 ; Fitter               ; 00:00:17     ; 1.0                     ; 6264 MB             ; 00:00:26                           ;
 ; Assembler            ; 00:00:04     ; 1.0                     ; 4820 MB             ; 00:00:03                           ;
 ; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 5076 MB             ; 00:00:05                           ;
-; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:55                           ;
+; Database Import      ; 00:00:01     ; 1.0                     ; 4656 MB             ; 00:00:01                           ;
+; Database Import      ; 00:00:00     ; 1.0                     ; 4656 MB             ; 00:00:01                           ;
+; Total                ; 00:00:36     ; --                      ; --                  ; 00:00:57                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,6 +113,8 @@ https://fpgasoftware.intel.com/eula.
 ; Fitter               ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; Database Import      ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; Database Import      ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -121,6 +125,8 @@ quartus_map --read_settings_files=on --write_settings_files=off module_test_envi
 quartus_fit --read_settings_files=off --write_settings_files=off module_test_environment -c module_test_environment
 quartus_asm --read_settings_files=off --write_settings_files=off module_test_environment -c module_test_environment
 quartus_sta module_test_environment -c module_test_environment
+quartus_cdb module_test_environment -c module_test_environment --import_database=C:\Users\dudkr\Desktop\testquart
+quartus_cdb module_test_environment -c module_test_environment --import_database=C:\Users\dudkr\Desktop\testquart\export_db
 
 
 
