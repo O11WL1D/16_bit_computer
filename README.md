@@ -6,10 +6,15 @@ documentation or other files in the documentation directory every time I work on
 completed and what needs further work. The journal provides important contextual information necessary to understand the
 screenshots better.
 
+(no downloads necessary)
+
+
+
 
 For anyone more curious about my project, I would suggest using quartus prime lite (free download) to give it a more 
 in-depth viewing. However, this would entail downloading the project, so be prepared to do that :).
  
+(downloads necessary)
 
 
 
@@ -61,6 +66,9 @@ Once every module has been tested, and all revisions have been made, I will put 
 # documentation
 
 Screenshots of my fpga can be found [Here](https://1drv.ms/u/s!AovYuAJ6j-05iiZyxuV3IQgVdUtE?e=UuMA8f).
+
+Online viewable onenote notebook found [here](https://1drv.ms/u/s!AovYuAJ6j-05infzKaPIf_p7lqyg?e=FzwqDW) 
+
 
 Other photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation).
 
