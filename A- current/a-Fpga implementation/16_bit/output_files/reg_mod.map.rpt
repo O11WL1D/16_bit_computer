@@ -1,0 +1,1591 @@
+Analysis & Synthesis report for reg_mod
+Thu Nov 03 13:31:16 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 10. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 11. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 12. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 13. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 14. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 15. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 16. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 17. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 18. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 19. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 20. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 21. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 22. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 23. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 24. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 25. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 26. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 27. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 28. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 29. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 30. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 32. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 33. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 34. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 35. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 36. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 37. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 38. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 39. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 40. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 41. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 42. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 43. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 44. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 45. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 46. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 47. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 48. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 49. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 50. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 51. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 52. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 53. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 54. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 55. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 56. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 57. Post-Synthesis Netlist Statistics for Top Partition
+ 58. Elapsed Time Per Partition
+ 59. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Thu Nov 03 13:31:16 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; reg_mod                                     ;
+; Top-level Entity Name           ; reg_mod                                     ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 147                                         ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEBA4F23C7        ;                    ;
+; Top-level entity name                                                           ; reg_mod            ; reg_mod            ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                   ; Library ;
++----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; reg_mod.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/reg_mod.bdf                     ;         ;
+; b8bus_or_gate.bdf                ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b8bus_or_gate.bdf               ;         ;
+; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd                      ;         ;
+; b16_ind_reg.bdf                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_ind_reg.bdf                 ;         ;
+; decoder_sequential_receiver.bdf  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/decoder_sequential_receiver.bdf ;         ;
+; muxx.vhd                         ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd                        ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf                                             ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                          ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/muxlut.inc                                              ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                                            ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                                            ;         ;
+; db/mux_s1e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf                  ;         ;
+; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd                   ;         ;
+; adder16.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder16.bdf                     ;         ;
+; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder.bdf                       ;         ;
+; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd               ;         ;
+; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd                      ;         ;
+; b16bit_latch.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16bit_latch.bdf                ;         ;
+; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/8bitdlatch.bdf                  ;         ;
+; b_invreg_write_selector.bdf      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b_invreg_write_selector.bdf     ;         ;
+; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                             ;         ;
+; busified_16decoder.bdf           ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/busified_16decoder.bdf          ;         ;
+; b16_invert.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd                  ;         ;
+; bus4_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd                  ;         ;
+; bus16_4.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus16_4.bdf                     ;         ;
+; bus4_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd              ;         ;
+; bus8_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd                  ;         ;
+; bus8_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd              ;         ;
++----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                   ;
++---------------------------------------------+-----------------+
+; Resource                                    ; Usage           ;
++---------------------------------------------+-----------------+
+; Estimate of Logic utilization (ALMs needed) ; 0               ;
+;                                             ;                 ;
+; Combinational ALUT usage for logic          ; 0               ;
+;     -- 7 input functions                    ; 0               ;
+;     -- 6 input functions                    ; 0               ;
+;     -- 5 input functions                    ; 0               ;
+;     -- 4 input functions                    ; 0               ;
+;     -- <=3 input functions                  ; 0               ;
+;                                             ;                 ;
+; Dedicated logic registers                   ; 0               ;
+;                                             ;                 ;
+; I/O pins                                    ; 147             ;
+;                                             ;                 ;
+; Total DSP Blocks                            ; 0               ;
+;                                             ;                 ;
+; Maximum fan-out node                        ; generalc~output ;
+; Maximum fan-out                             ; 1               ;
+; Total fan-out                               ; 147             ;
+; Average fan-out                             ; 0.50            ;
++---------------------------------------------+-----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |reg_mod                   ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 147  ; 0            ; |reg_mod            ; reg_mod     ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                            ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                  ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                  ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                  ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                  ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                  ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                         ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                         ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                            ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                  ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                  ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                  ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                  ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                  ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                         ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                         ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                            ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                  ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                  ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                  ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                  ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                  ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                         ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                         ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                              ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                    ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                    ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                    ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                    ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                    ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                           ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                           ;
++------------------------+-----------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                         ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                               ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                               ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                               ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                               ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                               ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                      ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                      ;
++------------------------+-----------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                                                        ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                                              ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                                              ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                                              ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                                              ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                                              ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                                                     ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                                                     ;
++------------------------+-----------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 1                           ;
+;     normal            ; 1                           ;
+;         0 data inputs ; 1                           ;
+; boundary_port         ; 147                         ;
+;                       ;                             ;
+; Max LUT depth         ; 0.00                        ;
+; Average LUT depth     ; 0.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Nov 03 13:31:07 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off reg_mod -c reg_mod
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file reg_mod.bdf
+    Info (12023): Found entity 1: reg_mod
+Info (12127): Elaborating entity "reg_mod" for the top level hierarchy
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275011): Block or symbol "b_invreg_write_selector" of instance "inst2" overlaps another block or symbol
+Warning (275011): Block or symbol "b_invreg_write_selector" of instance "inst6" overlaps another block or symbol
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
+Warning (12125): Using design file b8bus_or_gate.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b8bus_or_gate
+Info (12128): Elaborating entity "b8bus_or_gate" for hierarchy "b8bus_or_gate:inst47"
+Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 31
+    Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 8
+Info (12128): Elaborating entity "b16_or" for hierarchy "b8bus_or_gate:inst47|b16_or:inst14"
+Warning (12125): Using design file b16_ind_reg.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b16_ind_reg
+Info (12128): Elaborating entity "b16_ind_reg" for hierarchy "b16_ind_reg:inst"
+Warning (275083): Bus "regout2[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275083): Bus "regout3[15..0]" found using same base name as "regout", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "regout" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout[15..0]" to "regout15..0"
+Warning (275080): Converted elements in bus name "regout2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
+Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
+Warning (12125): Using design file decoder_sequential_receiver.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: decoder_sequential_receiver
+Info (12128): Elaborating entity "decoder_sequential_receiver" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1"
+Warning (12125): Using design file muxx.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: muxx-SYN File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 68
+    Info (12023): Found entity 1: muxx File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 43
+Info (12128): Elaborating entity "muxx" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6"
+Info (12128): Elaborating entity "LPM_MUX" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12130): Elaborated megafunction instantiation "b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12133): Instantiated megafunction "b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component" with the following parameter: File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+    Info (12134): Parameter "LPM_WIDTH" = "1"
+    Info (12134): Parameter "LPM_SIZE" = "16"
+    Info (12134): Parameter "LPM_WIDTHS" = "4"
+    Info (12134): Parameter "LPM_PIPELINE" = "0"
+    Info (12134): Parameter "LPM_TYPE" = "LPM_MUX"
+    Info (12134): Parameter "LPM_HINT" = "UNUSED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_s1e.tdf
+    Info (12023): Found entity 1: mux_s1e File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf Line: 23
+Info (12128): Elaborating entity "mux_s1e" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component|mux_s1e:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 31
+    Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 7
+Info (12128): Elaborating entity "bus_split" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|bus_split:inst7"
+Warning (12125): Using design file adder16.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: adder16
+Info (12128): Elaborating entity "adder16" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|adder16:inst"
+Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: adder
+Info (12128): Elaborating entity "adder" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|adder16:inst|adder:inst26"
+Warning (275004): Undeclared parameter CONSTANT_VALUE
+Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
+Warning (275008): Primitive "NOT" of instance "inst12" not used
+Warning (275008): Primitive "NOT" of instance "inst13" not used
+Warning (275008): Primitive "NOT" of instance "inst14" not used
+Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "b16_ind_reg:inst|decoder_sequential_receiver:inst1|bus_split_out:inst10"
+Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 39
+    Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 13
+Info (12128): Elaborating entity "b16_en" for hierarchy "b16_ind_reg:inst|b16_en:inst34"
+Warning (12125): Using design file b16bit_latch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b16bit_latch
+Info (12128): Elaborating entity "b16bit_latch" for hierarchy "b16_ind_reg:inst|b16bit_latch:inst32"
+Warning (275011): Block or symbol "bus_split" of instance "inst3" overlaps another block or symbol
+Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
+Warning (275009): Pin "reginput" not connected
+Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: 8bitdlatch
+Info (12128): Elaborating entity "8bitdlatch" for hierarchy "b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst"
+Warning (12125): Using design file b_invreg_write_selector.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b_invreg_write_selector
+Info (12128): Elaborating entity "b_invreg_write_selector" for hierarchy "b_invreg_write_selector:inst1"
+Warning (275011): Block or symbol "NOT" of instance "inst1" overlaps another block or symbol
+Warning (275011): Block or symbol "NOT" of instance "inst3" overlaps another block or symbol
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
+Info (12128): Elaborating entity "74154" for hierarchy "b_invreg_write_selector:inst1|74154:inst24"
+Info (12130): Elaborated megafunction instantiation "b_invreg_write_selector:inst1|74154:inst24"
+Warning (12125): Using design file busified_16decoder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: busified_16decoder
+Info (12128): Elaborating entity "busified_16decoder" for hierarchy "busified_16decoder:inst24"
+Warning (12125): Using design file b16_invert.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_invert-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 39
+    Info (12023): Found entity 1: b16_invert File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 13
+Info (12128): Elaborating entity "b16_invert" for hierarchy "busified_16decoder:inst24|b16_invert:inst3"
+Warning (12125): Using design file bus4_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus4_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 31
+    Info (12023): Found entity 1: bus4_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 7
+Info (12128): Elaborating entity "bus4_split" for hierarchy "busified_16decoder:inst24|bus4_split:inst"
+Warning (12125): Using design file bus16_4.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: bus16_4
+Info (12128): Elaborating entity "bus16_4" for hierarchy "bus16_4:inst23"
+Warning (275011): Block or symbol "bus8_split_out" of instance "inst9" overlaps another block or symbol
+Warning (275011): Block or symbol "bus4_split_out" of instance "inst14" overlaps another block or symbol
+Warning (275011): Block or symbol "bus4_split_out" of instance "inst16" overlaps another block or symbol
+Warning (12125): Using design file bus4_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus4_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus4_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd Line: 7
+Info (12128): Elaborating entity "bus4_split_out" for hierarchy "bus16_4:inst23|bus4_split_out:inst14"
+Warning (12125): Using design file bus8_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus8_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd Line: 31
+    Info (12023): Found entity 1: bus8_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd Line: 7
+Info (12128): Elaborating entity "bus8_split" for hierarchy "bus16_4:inst23|bus8_split:inst12"
+Warning (12125): Using design file bus8_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus8_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus8_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 7
+Info (12128): Elaborating entity "bus8_split_out" for hierarchy "bus16_4:inst23|bus8_split_out:inst9"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "generalc" is stuck at GND
+    Warning (13410): Pin "readportout[15]" is stuck at GND
+    Warning (13410): Pin "readportout[14]" is stuck at GND
+    Warning (13410): Pin "readportout[13]" is stuck at GND
+    Warning (13410): Pin "readportout[12]" is stuck at GND
+    Warning (13410): Pin "readportout[11]" is stuck at GND
+    Warning (13410): Pin "readportout[10]" is stuck at GND
+    Warning (13410): Pin "readportout[9]" is stuck at GND
+    Warning (13410): Pin "readportout[8]" is stuck at GND
+    Warning (13410): Pin "readportout[7]" is stuck at GND
+    Warning (13410): Pin "readportout[6]" is stuck at GND
+    Warning (13410): Pin "readportout[5]" is stuck at GND
+    Warning (13410): Pin "readportout[4]" is stuck at GND
+    Warning (13410): Pin "readportout[3]" is stuck at GND
+    Warning (13410): Pin "readportout[2]" is stuck at GND
+    Warning (13410): Pin "readportout[1]" is stuck at GND
+    Warning (13410): Pin "readportout[0]" is stuck at GND
+    Warning (13410): Pin "readportoutb[15]" is stuck at GND
+    Warning (13410): Pin "readportoutb[14]" is stuck at GND
+    Warning (13410): Pin "readportoutb[13]" is stuck at GND
+    Warning (13410): Pin "readportoutb[12]" is stuck at GND
+    Warning (13410): Pin "readportoutb[11]" is stuck at GND
+    Warning (13410): Pin "readportoutb[10]" is stuck at GND
+    Warning (13410): Pin "readportoutb[9]" is stuck at GND
+    Warning (13410): Pin "readportoutb[8]" is stuck at GND
+    Warning (13410): Pin "readportoutb[7]" is stuck at GND
+    Warning (13410): Pin "readportoutb[6]" is stuck at GND
+    Warning (13410): Pin "readportoutb[5]" is stuck at GND
+    Warning (13410): Pin "readportoutb[4]" is stuck at GND
+    Warning (13410): Pin "readportoutb[3]" is stuck at GND
+    Warning (13410): Pin "readportoutb[2]" is stuck at GND
+    Warning (13410): Pin "readportoutb[1]" is stuck at GND
+    Warning (13410): Pin "readportoutb[0]" is stuck at GND
+    Warning (13410): Pin "readportoutc[15]" is stuck at GND
+    Warning (13410): Pin "readportoutc[14]" is stuck at GND
+    Warning (13410): Pin "readportoutc[13]" is stuck at GND
+    Warning (13410): Pin "readportoutc[12]" is stuck at GND
+    Warning (13410): Pin "readportoutc[11]" is stuck at GND
+    Warning (13410): Pin "readportoutc[10]" is stuck at GND
+    Warning (13410): Pin "readportoutc[9]" is stuck at GND
+    Warning (13410): Pin "readportoutc[8]" is stuck at GND
+    Warning (13410): Pin "readportoutc[7]" is stuck at GND
+    Warning (13410): Pin "readportoutc[6]" is stuck at GND
+    Warning (13410): Pin "readportoutc[5]" is stuck at GND
+    Warning (13410): Pin "readportoutc[4]" is stuck at GND
+    Warning (13410): Pin "readportoutc[3]" is stuck at GND
+    Warning (13410): Pin "readportoutc[2]" is stuck at GND
+    Warning (13410): Pin "readportoutc[1]" is stuck at GND
+    Warning (13410): Pin "readportoutc[0]" is stuck at GND
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 98 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "current_enable[15]"
+    Warning (15610): No output dependent on input pin "current_enable[14]"
+    Warning (15610): No output dependent on input pin "current_enable[13]"
+    Warning (15610): No output dependent on input pin "current_enable[12]"
+    Warning (15610): No output dependent on input pin "current_enable[11]"
+    Warning (15610): No output dependent on input pin "current_enable[10]"
+    Warning (15610): No output dependent on input pin "current_enable[9]"
+    Warning (15610): No output dependent on input pin "current_enable[8]"
+    Warning (15610): No output dependent on input pin "current_enable[7]"
+    Warning (15610): No output dependent on input pin "current_enable[6]"
+    Warning (15610): No output dependent on input pin "current_enable[5]"
+    Warning (15610): No output dependent on input pin "current_enable[4]"
+    Warning (15610): No output dependent on input pin "current_enable[3]"
+    Warning (15610): No output dependent on input pin "current_enable[2]"
+    Warning (15610): No output dependent on input pin "current_enable[1]"
+    Warning (15610): No output dependent on input pin "current_enable[0]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[15]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[14]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[13]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[12]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[11]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[10]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[9]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[8]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[7]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[6]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[5]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[4]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[3]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[2]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[1]"
+    Warning (15610): No output dependent on input pin "decoder_write_select[0]"
+    Warning (15610): No output dependent on input pin "clock"
+    Warning (15610): No output dependent on input pin "writeport_input0[15]"
+    Warning (15610): No output dependent on input pin "writeport_input0[14]"
+    Warning (15610): No output dependent on input pin "writeport_input0[13]"
+    Warning (15610): No output dependent on input pin "writeport_input0[12]"
+    Warning (15610): No output dependent on input pin "writeport_input0[11]"
+    Warning (15610): No output dependent on input pin "writeport_input0[10]"
+    Warning (15610): No output dependent on input pin "writeport_input0[9]"
+    Warning (15610): No output dependent on input pin "writeport_input0[8]"
+    Warning (15610): No output dependent on input pin "writeport_input0[7]"
+    Warning (15610): No output dependent on input pin "writeport_input0[6]"
+    Warning (15610): No output dependent on input pin "writeport_input0[5]"
+    Warning (15610): No output dependent on input pin "writeport_input0[4]"
+    Warning (15610): No output dependent on input pin "writeport_input0[3]"
+    Warning (15610): No output dependent on input pin "writeport_input0[2]"
+    Warning (15610): No output dependent on input pin "writeport_input0[1]"
+    Warning (15610): No output dependent on input pin "writeport_input0[0]"
+    Warning (15610): No output dependent on input pin "writeport_input1[15]"
+    Warning (15610): No output dependent on input pin "writeport_input1[14]"
+    Warning (15610): No output dependent on input pin "writeport_input1[13]"
+    Warning (15610): No output dependent on input pin "writeport_input1[12]"
+    Warning (15610): No output dependent on input pin "writeport_input1[11]"
+    Warning (15610): No output dependent on input pin "writeport_input1[10]"
+    Warning (15610): No output dependent on input pin "writeport_input1[9]"
+    Warning (15610): No output dependent on input pin "writeport_input1[8]"
+    Warning (15610): No output dependent on input pin "writeport_input1[7]"
+    Warning (15610): No output dependent on input pin "writeport_input1[6]"
+    Warning (15610): No output dependent on input pin "writeport_input1[5]"
+    Warning (15610): No output dependent on input pin "writeport_input1[4]"
+    Warning (15610): No output dependent on input pin "writeport_input1[3]"
+    Warning (15610): No output dependent on input pin "writeport_input1[2]"
+    Warning (15610): No output dependent on input pin "writeport_input1[1]"
+    Warning (15610): No output dependent on input pin "writeport_input1[0]"
+    Warning (15610): No output dependent on input pin "writeport_input2[15]"
+    Warning (15610): No output dependent on input pin "writeport_input2[14]"
+    Warning (15610): No output dependent on input pin "writeport_input2[13]"
+    Warning (15610): No output dependent on input pin "writeport_input2[12]"
+    Warning (15610): No output dependent on input pin "writeport_input2[11]"
+    Warning (15610): No output dependent on input pin "writeport_input2[10]"
+    Warning (15610): No output dependent on input pin "writeport_input2[9]"
+    Warning (15610): No output dependent on input pin "writeport_input2[8]"
+    Warning (15610): No output dependent on input pin "writeport_input2[7]"
+    Warning (15610): No output dependent on input pin "writeport_input2[6]"
+    Warning (15610): No output dependent on input pin "writeport_input2[5]"
+    Warning (15610): No output dependent on input pin "writeport_input2[4]"
+    Warning (15610): No output dependent on input pin "writeport_input2[3]"
+    Warning (15610): No output dependent on input pin "writeport_input2[2]"
+    Warning (15610): No output dependent on input pin "writeport_input2[1]"
+    Warning (15610): No output dependent on input pin "writeport_input2[0]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[15]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[14]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[13]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[12]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[11]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[10]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[9]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[8]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[7]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[6]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[5]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[4]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[3]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[2]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[1]"
+    Warning (15610): No output dependent on input pin "decoder_read_select[0]"
+    Warning (15610): No output dependent on input pin "generala"
+Info (21057): Implemented 147 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 98 input pins
+    Info (21059): Implemented 49 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 263 warnings
+    Info: Peak virtual memory: 4888 megabytes
+    Info: Processing ended: Thu Nov 03 13:31:16 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:18
+
+

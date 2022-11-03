@@ -98,15 +98,15 @@ NC                           : A20       :        :                   :         
 GND                          : A21       : gnd    :                   :         :           :                
 NC                           : A22       :        :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 2A        :                
-enableset3[13]               : AA2       : input  : 2.5 V             :         : 2A        : N              
+enableset1[13]               : AA2       : input  : 2.5 V             :         : 2A        : N              
 GND                          : AA3       : gnd    :                   :         :           :                
 GND                          : AA4       : gnd    :                   :         :           :                
 AS_DATA2, DATA2              : AA5       :        :                   :         : 3A        :                
 GND                          : AA6       : gnd    :                   :         :           :                
-enableset3[12]               : AA7       : input  : 2.5 V             :         : 3B        : N              
-enableset3[9]                : AA8       : input  : 2.5 V             :         : 3B        : N              
-enableset3[14]               : AA9       : input  : 2.5 V             :         : 3B        : N              
-enableset3[5]                : AA10      : input  : 2.5 V             :         : 3B        : N              
+enableset1[12]               : AA7       : input  : 2.5 V             :         : 3B        : N              
+enableset1[9]                : AA8       : input  : 2.5 V             :         : 3B        : N              
+enableset1[14]               : AA9       : input  : 2.5 V             :         : 3B        : N              
+enableset1[5]                : AA10      : input  : 2.5 V             :         : 3B        : N              
 GND                          : AA11      : gnd    :                   :         :           :                
 enableset2[12]               : AA12      : input  : 2.5 V             :         : 3B        : N              
 enableset2[0]                : AA13      : input  : 2.5 V             :         : 4A        : N              
@@ -123,12 +123,12 @@ GND                          : AB1       : gnd    :                   :         
 GND                          : AB2       : gnd    :                   :         :           :                
 AS_DATA1, DATA1              : AB3       :        :                   :         : 3A        :                
 AS_DATA0, ASDO, DATA0        : AB4       :        :                   :         : 3A        :                
-enableset3[6]                : AB5       : input  : 2.5 V             :         : 3B        : N              
-enableset1[10]               : AB6       : input  : 2.5 V             :         : 3B        : N              
-enableset1[2]                : AB7       : input  : 2.5 V             :         : 3B        : N              
-enableset1[13]               : AB8       : input  : 2.5 V             :         : 3B        : N              
+enableset1[6]                : AB5       : input  : 2.5 V             :         : 3B        : N              
+enableset3[10]               : AB6       : input  : 2.5 V             :         : 3B        : N              
+enableset3[2]                : AB7       : input  : 2.5 V             :         : 3B        : N              
+enableset3[13]               : AB8       : input  : 2.5 V             :         : 3B        : N              
 GND                          : AB9       : gnd    :                   :         :           :                
-enableset1[4]                : AB10      : input  : 2.5 V             :         : 3B        : N              
+enableset3[4]                : AB10      : input  : 2.5 V             :         : 3B        : N              
 inputcenable                 : AB11      : output : 2.5 V             :         : 3B        : N              
 enableset2[7]                : AB12      : input  : 2.5 V             :         : 4A        : N              
 enableset2[14]               : AB13      : input  : 2.5 V             :         : 4A        : N              
@@ -366,10 +366,10 @@ GND                          : M2        : gnd    :                   :         
 VCCA_FPLL                    : M3        : power  :                   : 2.5V    :           :                
 GND                          : M4        : gnd    :                   :         :           :                
 TDO                          : M5        : output :                   :         : 3A        :                
-enableset1[11]               : M6        : input  : 2.5 V             :         : 3A        : N              
-enableset1[15]               : M7        : input  : 2.5 V             :         : 3A        : N              
-enableset1[14]               : M8        : input  : 2.5 V             :         : 3B        : N              
-enableset3[10]               : M9        : input  : 2.5 V             :         : 3B        : N              
+enableset3[11]               : M6        : input  : 2.5 V             :         : 3A        : N              
+enableset3[15]               : M7        : input  : 2.5 V             :         : 3A        : N              
+enableset3[14]               : M8        : input  : 2.5 V             :         : 3B        : N              
+enableset1[10]               : M9        : input  : 2.5 V             :         : 3B        : N              
 GND                          : M10       : gnd    :                   :         :           :                
 VCC                          : M11       : power  :                   : 1.1V    :           :                
 GND                          : M12       : gnd    :                   :         :           :                
@@ -390,7 +390,7 @@ VCC                          : N4        : power  :                   : 1.1V    
 GND                          : N5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 3A        :                
 GND                          : N7        : gnd    :                   :         :           :                
-enableset3[15]               : N8        : input  : 2.5 V             :         : 3B        : N              
+enableset1[15]               : N8        : input  : 2.5 V             :         : 3B        : N              
 enableset2[4]                : N9        : input  : 2.5 V             :         : 3B        : N              
 VCC                          : N10       : power  :                   : 1.1V    :           :                
 GND                          : N11       : gnd    :                   :         :           :                
@@ -411,12 +411,12 @@ VCC                          : P3        : power  :                   : 1.1V    
 GND                          : P4        : gnd    :                   :         :           :                
 TMS                          : P5        : input  :                   :         : 3A        :                
 write_en                     : P6        : output : 2.5 V             :         : 3A        : N              
-enableset3[2]                : P7        : input  : 2.5 V             :         : 3A        : N              
-enableset1[12]               : P8        : input  : 2.5 V             :         : 3B        : N              
+enableset1[2]                : P7        : input  : 2.5 V             :         : 3A        : N              
+enableset3[12]               : P8        : input  : 2.5 V             :         : 3B        : N              
 enableset2[3]                : P9        : input  : 2.5 V             :         : 3B        : N              
 GND                          : P10       : gnd    :                   :         :           :                
 VCC                          : P11       : power  :                   : 1.1V    :           :                
-enableset1[8]                : P12       : input  : 2.5 V             :         : 3B        : N              
+enableset3[8]                : P12       : input  : 2.5 V             :         : 3B        : N              
 VCC                          : P13       : power  :                   : 1.1V    :           :                
 currentenable[10]            : P14       : input  : 2.5 V             :         : 4A        : N              
 VCC                          : P15       : power  :                   : 1.1V    :           :                
@@ -433,11 +433,11 @@ GND                          : R3        : gnd    :                   :         
 nCSO, DATA4                  : R4        :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 3A        :                
-enableset1[5]                : R7        : input  : 2.5 V             :         : 3A        : N              
+enableset3[5]                : R7        : input  : 2.5 V             :         : 3A        : N              
 VCCIO3B                      : R8        : power  :                   : 2.5V    : 3B        :                
-enableset1[0]                : R9        : input  : 2.5 V             :         : 3B        : N              
+enableset3[0]                : R9        : input  : 2.5 V             :         : 3B        : N              
 enableset2[8]                : R10       : input  : 2.5 V             :         : 3B        : N              
-enableset3[8]                : R11       : input  : 2.5 V             :         : 3B        : N              
+enableset1[8]                : R11       : input  : 2.5 V             :         : 3B        : N              
 currentenable[1]             : R12       : input  : 2.5 V             :         : 3B        : N              
 GND                          : R13       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 4A        :                
@@ -455,10 +455,10 @@ VCCA_FPLL                    : T3        : power  :                   : 2.5V    
 AS_DATA3, DATA3              : T4        :        :                   :         : 3A        :                
 VCCA_FPLL                    : T5        : power  :                   : 2.5V    :           :                
 VCCIO3A                      : T6        : power  :                   : 2.5V    : 3A        :                
-enableset3[3]                : T7        : input  : 2.5 V             :         : 3A        : N              
-enableset3[1]                : T8        : input  : 2.5 V             :         : 3A        : N              
-enableset1[6]                : T9        : input  : 2.5 V             :         : 3B        : N              
-enableset1[1]                : T10       : input  : 2.5 V             :         : 3B        : N              
+enableset1[3]                : T7        : input  : 2.5 V             :         : 3A        : N              
+enableset1[1]                : T8        : input  : 2.5 V             :         : 3A        : N              
+enableset3[6]                : T9        : input  : 2.5 V             :         : 3B        : N              
+enableset3[1]                : T10       : input  : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : T11       : power  :                   : 2.5V    : 3B        :                
 enableset2[2]                : T12       : input  : 2.5 V             :         : 4A        : N              
 enableset2[11]               : T13       : input  : 2.5 V             :         : 4A        : N              
@@ -480,9 +480,9 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : U6        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 3A        :                
 currentenable[6]             : U8        : input  : 2.5 V             :         : 3A        : N              
 GND                          : U9        : gnd    :                   :         :           :                
-enableset3[7]                : U10       : input  : 2.5 V             :         : 3B        : N              
+enableset1[7]                : U10       : input  : 2.5 V             :         : 3B        : N              
 currentenable[0]             : U11       : input  : 2.5 V             :         : 3B        : N              
-enableset3[0]                : U12       : input  : 2.5 V             :         : 3B        : N              
+enableset1[0]                : U12       : input  : 2.5 V             :         : 3B        : N              
 enableset2[6]                : U13       : input  : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : U14       : power  :                   : 2.5V    : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U15       :        :                   :         : 4A        :                
@@ -501,8 +501,8 @@ TCK                          : V5        : input  :                   :         
 inputaenable                 : V6        : output : 2.5 V             :         : 3A        : N              
 GND                          : V7        : gnd    :                   :         :           :                
 VCCPGM                       : V8        : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
-enableset1[3]                : V9        : input  : 2.5 V             :         : 3B        : N              
-enableset3[11]               : V10       : input  : 2.5 V             :         : 3B        : N              
+enableset3[3]                : V9        : input  : 2.5 V             :         : 3B        : N              
+enableset1[11]               : V10       : input  : 2.5 V             :         : 3B        : N              
 NC                           : V11       :        :                   :         :           :                
 GND                          : V12       : gnd    :                   :         :           :                
 currentenable[2]             : V13       : input  : 2.5 V             :         : 4A        : N              
@@ -522,7 +522,7 @@ GND                          : W4        : gnd    :                   :         
 TDI                          : W5        : input  :                   :         : 3A        :                
 VCCPD3A                      : W6        : power  :                   : 2.5V    : 3A        :                
 VCC_AUX                      : W7        : power  :                   : 2.5V    :           :                
-enableset1[7]                : W8        : input  : 2.5 V             :         : 3A        : N              
+enableset3[7]                : W8        : input  : 2.5 V             :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W9        :        :                   :         : 3A        :                
 VCCIO3B                      : W10       : power  :                   : 2.5V    : 3B        :                
 VCCPD3B4A                    : W11       : power  :                   : 2.5V    : 3B, 4A    :                
@@ -545,8 +545,8 @@ GND                          : Y5        : gnd    :                   :         
 NC                           : Y6        :        :                   :         :           :                
 VREFB3AN0                    : Y7        : power  :                   :         : 3A        :                
 VCCIO3A                      : Y8        : power  :                   : 2.5V    : 3A        :                
-enableset1[9]                : Y9        : input  : 2.5 V             :         : 3B        : N              
-enableset3[4]                : Y10       : input  : 2.5 V             :         : 3B        : N              
+enableset3[9]                : Y9        : input  : 2.5 V             :         : 3B        : N              
+enableset1[4]                : Y10       : input  : 2.5 V             :         : 3B        : N              
 enableset2[13]               : Y11       : input  : 2.5 V             :         : 3B        : N              
 VREFB3BN0                    : Y12       : power  :                   :         : 3B        :                
 VCCIO3B                      : Y13       : power  :                   : 2.5V    : 3B        :                

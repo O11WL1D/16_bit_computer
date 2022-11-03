@@ -1,5 +1,5 @@
 Analysis & Synthesis report for b_invreg_write_selector
-Wed Oct 26 08:13:44 2022
+Thu Nov 03 13:06:04 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Oct 26 08:13:44 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov 03 13:06:04 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b_invreg_write_selector                     ;
 ; Top-level Entity Name           ; b_invreg_write_selector                     ;
@@ -328,16 +328,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 21                          ;
-;     normal            ; 21                          ;
+; arriav_lcell_comb     ; 20                          ;
+;     normal            ; 20                          ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 2                           ;
+;         1 data inputs ; 1                           ;
 ;         3 data inputs ; 3                           ;
 ;         6 data inputs ; 15                          ;
 ; boundary_port         ; 70                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 3.93                        ;
+; Average LUT depth     ; 3.92                        ;
 +-----------------------+-----------------------------+
 
 
@@ -356,13 +356,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Oct 26 08:13:34 2022
+    Info: Processing started: Thu Nov 03 13:05:55 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b_invreg_write_selector -c b_invreg_write_selector
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file b_invreg_write_selector.bdf
     Info (12023): Found entity 1: b_invreg_write_selector
 Info (12127): Elaborating entity "b_invreg_write_selector" for the top level hierarchy
+Warning (275011): Block or symbol "NOT" of instance "inst1" overlaps another block or symbol
+Warning (275011): Block or symbol "NOT" of instance "inst3" overlaps another block or symbol
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
 Warning (12125): Using design file decoder_sequential_receiver.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
@@ -428,10 +430,10 @@ Info (21057): Implemented 88 device resources after synthesis - the final resour
     Info (21058): Implemented 65 input pins
     Info (21059): Implemented 5 output pins
     Info (21061): Implemented 18 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 30 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 32 warnings
     Info: Peak virtual memory: 4859 megabytes
-    Info: Processing ended: Wed Oct 26 08:13:44 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Processing ended: Thu Nov 03 13:06:04 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:18
 
 

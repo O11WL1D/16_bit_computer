@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Oct 20 12:10:40 2022
+Analysis & Synthesis Status : Successful - Thu Nov 03 13:46:39 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : module_test_environment
 Top-level Entity Name : module_test_environment
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 48
-Total pins : 63
+Total registers : 32
+Total pins : 62
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

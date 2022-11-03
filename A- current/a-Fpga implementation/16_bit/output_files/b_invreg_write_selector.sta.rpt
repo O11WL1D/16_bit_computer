@@ -1,5 +1,5 @@
 Timing Analyzer report for b_invreg_write_selector
-Wed Oct 26 08:14:11 2022
+Thu Nov 03 13:06:27 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -98,14 +98,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.07        ;
+; Average used               ; 1.06        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.8%      ;
-;     Processor 3            ;   2.8%      ;
-;     Processor 4            ;   1.3%      ;
+;     Processor 2            ;   2.4%      ;
+;     Processor 3            ;   2.3%      ;
+;     Processor 4            ;   0.9%      ;
 +----------------------------+-------------+
 
 
@@ -318,24 +318,24 @@ No synchronizer chains to report.
 ; currentenable[5]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; currentenable[4]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; generala          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[1]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[2]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[3]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[1]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[2]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[3]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; currentenable[0]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; currentenable[1]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[4]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[5]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[6]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[7]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[8]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[9]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[10]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[11]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[12]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[13]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[14]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset3[15]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[4]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[5]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[6]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[7]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[8]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[9]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[10]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[11]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[12]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[13]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[14]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset1[15]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; currentenable[2]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; currentenable[3]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; enableset2[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -354,22 +354,22 @@ No synchronizer chains to report.
 ; enableset2[13]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; enableset2[14]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; enableset2[15]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[4]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[8]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[12]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[1]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[5]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[9]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[13]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[2]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[6]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[10]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[14]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[3]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[7]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[11]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; enableset1[15]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[4]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[8]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[12]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[1]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[5]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[9]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[13]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[2]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[6]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[10]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[14]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[3]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[7]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[11]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; enableset3[15]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 +-------------------+--------------+-----------------+-----------------+
 
 
@@ -607,7 +607,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Oct 26 08:14:06 2022
+    Info: Processing started: Thu Nov 03 13:06:23 2022
 Info: Command: quartus_sta b_invreg_write_selector -c b_invreg_write_selector
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -667,9 +667,9 @@ Info (332140): No Minimum Pulse Width paths to report
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5039 megabytes
-    Info: Processing ended: Wed Oct 26 08:14:11 2022
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 5041 megabytes
+    Info: Processing ended: Thu Nov 03 13:06:27 2022
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 
 

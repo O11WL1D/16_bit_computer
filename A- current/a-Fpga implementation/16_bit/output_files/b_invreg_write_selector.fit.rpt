@@ -1,5 +1,5 @@
 Fitter report for b_invreg_write_selector
-Wed Oct 26 08:14:00 2022
+Thu Nov 03 13:06:18 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Wed Oct 26 08:14:00 2022       ;
+; Fitter Status                   ; Successful - Thu Nov 03 13:06:18 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b_invreg_write_selector                     ;
 ; Top-level Entity Name           ; b_invreg_write_selector                     ;
@@ -153,8 +153,8 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.4%      ;
-;     Processor 3            ;   0.4%      ;
+;     Processor 2            ;   0.3%      ;
+;     Processor 3            ;   0.3%      ;
 ;     Processor 4            ;   0.2%      ;
 +----------------------------+-------------+
 
@@ -381,22 +381,22 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; currentenable[7]  ; N1    ; 2A       ; 0            ; 19           ; 54           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; currentenable[8]  ; B7    ; 8A       ; 14           ; 45           ; 51           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; currentenable[9]  ; P16   ; 5A       ; 54           ; 17           ; 3            ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[0]     ; R9    ; 3B       ; 23           ; 0            ; 40           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[10]    ; AB6   ; 3B       ; 16           ; 0            ; 91           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[11]    ; M6    ; 3A       ; 14           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[12]    ; P8    ; 3B       ; 18           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[13]    ; AB8   ; 3B       ; 19           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[14]    ; M8    ; 3B       ; 22           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[15]    ; M7    ; 3A       ; 14           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[1]     ; T10   ; 3B       ; 23           ; 0            ; 57           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[2]     ; AB7   ; 3B       ; 18           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[3]     ; V9    ; 3B       ; 16           ; 0            ; 57           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[4]     ; AB10  ; 3B       ; 25           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[5]     ; R7    ; 3A       ; 14           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[6]     ; T9    ; 3B       ; 19           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[7]     ; W8    ; 3A       ; 11           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[8]     ; P12   ; 3B       ; 24           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset1[9]     ; Y9    ; 3B       ; 23           ; 0            ; 74           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[0]     ; U12   ; 3B       ; 24           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[10]    ; M9    ; 3B       ; 22           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[11]    ; V10   ; 3B       ; 16           ; 0            ; 40           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[12]    ; AA7   ; 3B       ; 18           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[13]    ; AA2   ; 2A       ; 0            ; 18           ; 77           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[14]    ; AA9   ; 3B       ; 22           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[15]    ; N8    ; 3B       ; 18           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[1]     ; T8    ; 3A       ; 12           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[2]     ; P7    ; 3A       ; 14           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[3]     ; T7    ; 3A       ; 12           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[4]     ; Y10   ; 3B       ; 23           ; 0            ; 91           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[5]     ; AA10  ; 3B       ; 22           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[6]     ; AB5   ; 3B       ; 16           ; 0            ; 74           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[7]     ; U10   ; 3B       ; 19           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[8]     ; R11   ; 3B       ; 25           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset1[9]     ; AA8   ; 3B       ; 19           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; enableset2[0]     ; AA13  ; 4A       ; 34           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; enableset2[10]    ; AA14  ; 4A       ; 34           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; enableset2[11]    ; T13   ; 4A       ; 34           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
@@ -413,22 +413,22 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; enableset2[7]     ; AB12  ; 4A       ; 33           ; 0            ; 74           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; enableset2[8]     ; R10   ; 3B       ; 25           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; enableset2[9]     ; AB17  ; 4A       ; 38           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[0]     ; U12   ; 3B       ; 24           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[10]    ; M9    ; 3B       ; 22           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[11]    ; V10   ; 3B       ; 16           ; 0            ; 40           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[12]    ; AA7   ; 3B       ; 18           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[13]    ; AA2   ; 2A       ; 0            ; 18           ; 77           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[14]    ; AA9   ; 3B       ; 22           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[15]    ; N8    ; 3B       ; 18           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[1]     ; T8    ; 3A       ; 12           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[2]     ; P7    ; 3A       ; 14           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[3]     ; T7    ; 3A       ; 12           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[4]     ; Y10   ; 3B       ; 23           ; 0            ; 91           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[5]     ; AA10  ; 3B       ; 22           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[6]     ; AB5   ; 3B       ; 16           ; 0            ; 74           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[7]     ; U10   ; 3B       ; 19           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[8]     ; R11   ; 3B       ; 25           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; enableset3[9]     ; AA8   ; 3B       ; 19           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[0]     ; R9    ; 3B       ; 23           ; 0            ; 40           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[10]    ; AB6   ; 3B       ; 16           ; 0            ; 91           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[11]    ; M6    ; 3A       ; 14           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[12]    ; P8    ; 3B       ; 18           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[13]    ; AB8   ; 3B       ; 19           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[14]    ; M8    ; 3B       ; 22           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[15]    ; M7    ; 3A       ; 14           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[1]     ; T10   ; 3B       ; 23           ; 0            ; 57           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[2]     ; AB7   ; 3B       ; 18           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[3]     ; V9    ; 3B       ; 16           ; 0            ; 57           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[4]     ; AB10  ; 3B       ; 25           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[5]     ; R7    ; 3A       ; 14           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[6]     ; T9    ; 3B       ; 19           ; 0            ; 17           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[7]     ; W8    ; 3A       ; 11           ; 0            ; 51           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[8]     ; P12   ; 3B       ; 24           ; 0            ; 34           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; enableset3[9]     ; Y9    ; 3B       ; 23           ; 0            ; 74           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 ; generala          ; Y16   ; 4A       ; 40           ; 0            ; 57           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 +-------------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
@@ -490,15 +490,15 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; A21      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; A22      ;            ;          ; NC                              ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AA1      ; 29         ; 2A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AA2      ; 31         ; 2A       ; enableset3[13]                  ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; AA2      ; 31         ; 2A       ; enableset1[13]                  ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; AA3      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AA4      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AA5      ; 53         ; 3A       ; ^AS_DATA2, DATA2                ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
 ; AA6      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; AA7      ; 79         ; 3B       ; enableset3[12]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; AA8      ; 82         ; 3B       ; enableset3[9]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; AA9      ; 89         ; 3B       ; enableset3[14]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; AA10     ; 87         ; 3B       ; enableset3[5]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AA7      ; 79         ; 3B       ; enableset1[12]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AA8      ; 82         ; 3B       ; enableset1[9]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AA9      ; 89         ; 3B       ; enableset1[14]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AA10     ; 87         ; 3B       ; enableset1[5]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AA11     ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AA12     ; 105        ; 3B       ; enableset2[12]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AA13     ; 113        ; 4A       ; enableset2[0]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
@@ -515,12 +515,12 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; AB2      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB3      ; 55         ; 3A       ; ^AS_DATA1, DATA1                ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
 ; AB4      ; 57         ; 3A       ; ^AS_DATA0, ASDO, DATA0          ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
-; AB5      ; 76         ; 3B       ; enableset3[6]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; AB6      ; 74         ; 3B       ; enableset1[10]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; AB7      ; 81         ; 3B       ; enableset1[2]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; AB8      ; 84         ; 3B       ; enableset1[13]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AB5      ; 76         ; 3B       ; enableset1[6]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AB6      ; 74         ; 3B       ; enableset3[10]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AB7      ; 81         ; 3B       ; enableset3[2]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AB8      ; 84         ; 3B       ; enableset3[13]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AB9      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; AB10     ; 98         ; 3B       ; enableset1[4]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AB10     ; 98         ; 3B       ; enableset3[4]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AB11     ; 100        ; 3B       ; inputcenable                    ; output ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AB12     ; 108        ; 4A       ; enableset2[7]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AB13     ; 106        ; 4A       ; enableset2[14]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
@@ -758,10 +758,10 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; M3       ;            ; --       ; VCCA_FPLL                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; M4       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; M5       ; 48         ; 3A       ; #TDO                            ; output ;              ;                     ; --           ;                 ; --       ; --           ;
-; M6       ; 70         ; 3A       ; enableset1[11]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; M7       ; 72         ; 3A       ; enableset1[15]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; M8       ; 86         ; 3B       ; enableset1[14]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; M9       ; 88         ; 3B       ; enableset3[10]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; M6       ; 70         ; 3A       ; enableset3[11]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; M7       ; 72         ; 3A       ; enableset3[15]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; M8       ; 86         ; 3B       ; enableset3[14]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; M9       ; 88         ; 3B       ; enableset1[10]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; M10      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; M11      ;            ; --       ; VCC                             ; power  ;              ; 1.1V                ; --           ;                 ; --       ; --           ;
 ; M12      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -782,7 +782,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; N5       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; N6       ; 64         ; 3A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; N7       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; N8       ; 80         ; 3B       ; enableset3[15]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; N8       ; 80         ; 3B       ; enableset1[15]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; N9       ; 104        ; 3B       ; enableset2[4]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; N10      ;            ; --       ; VCC                             ; power  ;              ; 1.1V                ; --           ;                 ; --       ; --           ;
 ; N11      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -803,12 +803,12 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; P4       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; P5       ; 50         ; 3A       ; #TMS                            ; input  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; P6       ; 62         ; 3A       ; write_en                        ; output ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; P7       ; 73         ; 3A       ; enableset3[2]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; P8       ; 78         ; 3B       ; enableset1[12]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; P7       ; 73         ; 3A       ; enableset1[2]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; P8       ; 78         ; 3B       ; enableset3[12]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; P9       ; 102        ; 3B       ; enableset2[3]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; P10      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; P11      ;            ; --       ; VCC                             ; power  ;              ; 1.1V                ; --           ;                 ; --       ; --           ;
-; P12      ; 97         ; 3B       ; enableset1[8]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; P12      ; 97         ; 3B       ; enableset3[8]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; P13      ;            ; --       ; VCC                             ; power  ;              ; 1.1V                ; --           ;                 ; --       ; --           ;
 ; P14      ; 142        ; 4A       ; currentenable[10]               ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; P15      ;            ; --       ; VCC                             ; power  ;              ; 1.1V                ; --           ;                 ; --       ; --           ;
@@ -825,11 +825,11 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; R4       ; 49         ; 3A       ; ^nCSO, DATA4                    ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
 ; R5       ; 60         ; 3A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; R6       ; 58         ; 3A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; R7       ; 71         ; 3A       ; enableset1[5]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; R7       ; 71         ; 3A       ; enableset3[5]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; R8       ;            ; 3B       ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; R9       ; 93         ; 3B       ; enableset1[0]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; R9       ; 93         ; 3B       ; enableset3[0]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; R10      ; 99         ; 3B       ; enableset2[8]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; R11      ; 101        ; 3B       ; enableset3[8]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; R11      ; 101        ; 3B       ; enableset1[8]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; R12      ; 95         ; 3B       ; currentenable[1]                ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; R13      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; R14      ; 144        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -847,10 +847,10 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; T4       ; 51         ; 3A       ; ^AS_DATA3, DATA3                ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
 ; T5       ;            ; --       ; VCCA_FPLL                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; T6       ;            ; 3A       ; VCCIO3A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; T7       ; 66         ; 3A       ; enableset3[3]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; T8       ; 68         ; 3A       ; enableset3[1]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; T9       ; 83         ; 3B       ; enableset1[6]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; T10      ; 91         ; 3B       ; enableset1[1]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; T7       ; 66         ; 3A       ; enableset1[3]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; T8       ; 68         ; 3A       ; enableset1[1]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; T9       ; 83         ; 3B       ; enableset3[6]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; T10      ; 91         ; 3B       ; enableset3[1]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; T11      ;            ; 3B       ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; T12      ; 110        ; 4A       ; enableset2[2]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; T13      ; 112        ; 4A       ; enableset2[11]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
@@ -872,9 +872,9 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; U7       ; 59         ; 3A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; U8       ; 61         ; 3A       ; currentenable[6]                ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; U9       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; U10      ; 85         ; 3B       ; enableset3[7]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; U10      ; 85         ; 3B       ; enableset1[7]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; U11      ; 94         ; 3B       ; currentenable[0]                ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; U12      ; 96         ; 3B       ; enableset3[0]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; U12      ; 96         ; 3B       ; enableset1[0]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; U13      ; 109        ; 4A       ; enableset2[6]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; U14      ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; U15      ; 128        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -893,8 +893,8 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; V6       ; 69         ; 3A       ; inputaenable                    ; output ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; V7       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V8       ;            ; --       ; VCCPGM                          ; power  ;              ; 1.8V/2.5V/3.0V/3.3V ; --           ;                 ; --       ; --           ;
-; V9       ; 75         ; 3B       ; enableset1[3]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; V10      ; 77         ; 3B       ; enableset3[11]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; V9       ; 75         ; 3B       ; enableset3[3]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; V10      ; 77         ; 3B       ; enableset1[11]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; V11      ;            ;          ; NC                              ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V12      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V13      ; 107        ; 4A       ; currentenable[2]                ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
@@ -914,7 +914,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; W5       ; 54         ; 3A       ; #TDI                            ; input  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; W6       ;            ; 3A       ; VCCPD3A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; W7       ;            ; --       ; VCC_AUX                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; W8       ; 63         ; 3A       ; enableset1[7]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; W8       ; 63         ; 3A       ; enableset3[7]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; W9       ; 65         ; 3A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; W10      ;            ; 3B       ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; W11      ;            ; 3B, 4A   ; VCCPD3B4A                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
@@ -937,8 +937,8 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; Y6       ;            ;          ; NC                              ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y7       ;            ; 3A       ; VREFB3AN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y8       ;            ; 3A       ; VCCIO3A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; Y9       ; 92         ; 3B       ; enableset1[9]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
-; Y10      ; 90         ; 3B       ; enableset3[4]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; Y9       ; 92         ; 3B       ; enableset3[9]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; Y10      ; 90         ; 3B       ; enableset1[4]                   ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; Y11      ; 103        ; 3B       ; enableset2[13]                  ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; Y12      ;            ; 3B       ; VREFB3BN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y13      ;            ; 3B       ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
@@ -978,24 +978,24 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; inputbenable      ; Incomplete set of assignments ;
 ; inputcenable      ; Incomplete set of assignments ;
 ; generala          ; Incomplete set of assignments ;
-; enableset3[0]     ; Incomplete set of assignments ;
-; enableset3[1]     ; Incomplete set of assignments ;
-; enableset3[2]     ; Incomplete set of assignments ;
-; enableset3[3]     ; Incomplete set of assignments ;
+; enableset1[0]     ; Incomplete set of assignments ;
+; enableset1[1]     ; Incomplete set of assignments ;
+; enableset1[2]     ; Incomplete set of assignments ;
+; enableset1[3]     ; Incomplete set of assignments ;
 ; currentenable[0]  ; Incomplete set of assignments ;
 ; currentenable[1]  ; Incomplete set of assignments ;
-; enableset3[4]     ; Incomplete set of assignments ;
-; enableset3[5]     ; Incomplete set of assignments ;
-; enableset3[6]     ; Incomplete set of assignments ;
-; enableset3[7]     ; Incomplete set of assignments ;
-; enableset3[8]     ; Incomplete set of assignments ;
-; enableset3[9]     ; Incomplete set of assignments ;
-; enableset3[10]    ; Incomplete set of assignments ;
-; enableset3[11]    ; Incomplete set of assignments ;
-; enableset3[12]    ; Incomplete set of assignments ;
-; enableset3[13]    ; Incomplete set of assignments ;
-; enableset3[14]    ; Incomplete set of assignments ;
-; enableset3[15]    ; Incomplete set of assignments ;
+; enableset1[4]     ; Incomplete set of assignments ;
+; enableset1[5]     ; Incomplete set of assignments ;
+; enableset1[6]     ; Incomplete set of assignments ;
+; enableset1[7]     ; Incomplete set of assignments ;
+; enableset1[8]     ; Incomplete set of assignments ;
+; enableset1[9]     ; Incomplete set of assignments ;
+; enableset1[10]    ; Incomplete set of assignments ;
+; enableset1[11]    ; Incomplete set of assignments ;
+; enableset1[12]    ; Incomplete set of assignments ;
+; enableset1[13]    ; Incomplete set of assignments ;
+; enableset1[14]    ; Incomplete set of assignments ;
+; enableset1[15]    ; Incomplete set of assignments ;
 ; currentenable[2]  ; Incomplete set of assignments ;
 ; currentenable[3]  ; Incomplete set of assignments ;
 ; enableset2[0]     ; Incomplete set of assignments ;
@@ -1014,22 +1014,22 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; enableset2[13]    ; Incomplete set of assignments ;
 ; enableset2[14]    ; Incomplete set of assignments ;
 ; enableset2[15]    ; Incomplete set of assignments ;
-; enableset1[0]     ; Incomplete set of assignments ;
-; enableset1[4]     ; Incomplete set of assignments ;
-; enableset1[8]     ; Incomplete set of assignments ;
-; enableset1[12]    ; Incomplete set of assignments ;
-; enableset1[1]     ; Incomplete set of assignments ;
-; enableset1[5]     ; Incomplete set of assignments ;
-; enableset1[9]     ; Incomplete set of assignments ;
-; enableset1[13]    ; Incomplete set of assignments ;
-; enableset1[2]     ; Incomplete set of assignments ;
-; enableset1[6]     ; Incomplete set of assignments ;
-; enableset1[10]    ; Incomplete set of assignments ;
-; enableset1[14]    ; Incomplete set of assignments ;
-; enableset1[3]     ; Incomplete set of assignments ;
-; enableset1[7]     ; Incomplete set of assignments ;
-; enableset1[11]    ; Incomplete set of assignments ;
-; enableset1[15]    ; Incomplete set of assignments ;
+; enableset3[0]     ; Incomplete set of assignments ;
+; enableset3[4]     ; Incomplete set of assignments ;
+; enableset3[8]     ; Incomplete set of assignments ;
+; enableset3[12]    ; Incomplete set of assignments ;
+; enableset3[1]     ; Incomplete set of assignments ;
+; enableset3[5]     ; Incomplete set of assignments ;
+; enableset3[9]     ; Incomplete set of assignments ;
+; enableset3[13]    ; Incomplete set of assignments ;
+; enableset3[2]     ; Incomplete set of assignments ;
+; enableset3[6]     ; Incomplete set of assignments ;
+; enableset3[10]    ; Incomplete set of assignments ;
+; enableset3[14]    ; Incomplete set of assignments ;
+; enableset3[3]     ; Incomplete set of assignments ;
+; enableset3[7]     ; Incomplete set of assignments ;
+; enableset3[11]    ; Incomplete set of assignments ;
+; enableset3[15]    ; Incomplete set of assignments ;
 ; generalc          ; Missing location assignment   ;
 ; write_en          ; Missing location assignment   ;
 ; currentenable[15] ; Missing location assignment   ;
@@ -1048,24 +1048,24 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; inputbenable      ; Missing location assignment   ;
 ; inputcenable      ; Missing location assignment   ;
 ; generala          ; Missing location assignment   ;
-; enableset3[0]     ; Missing location assignment   ;
-; enableset3[1]     ; Missing location assignment   ;
-; enableset3[2]     ; Missing location assignment   ;
-; enableset3[3]     ; Missing location assignment   ;
+; enableset1[0]     ; Missing location assignment   ;
+; enableset1[1]     ; Missing location assignment   ;
+; enableset1[2]     ; Missing location assignment   ;
+; enableset1[3]     ; Missing location assignment   ;
 ; currentenable[0]  ; Missing location assignment   ;
 ; currentenable[1]  ; Missing location assignment   ;
-; enableset3[4]     ; Missing location assignment   ;
-; enableset3[5]     ; Missing location assignment   ;
-; enableset3[6]     ; Missing location assignment   ;
-; enableset3[7]     ; Missing location assignment   ;
-; enableset3[8]     ; Missing location assignment   ;
-; enableset3[9]     ; Missing location assignment   ;
-; enableset3[10]    ; Missing location assignment   ;
-; enableset3[11]    ; Missing location assignment   ;
-; enableset3[12]    ; Missing location assignment   ;
-; enableset3[13]    ; Missing location assignment   ;
-; enableset3[14]    ; Missing location assignment   ;
-; enableset3[15]    ; Missing location assignment   ;
+; enableset1[4]     ; Missing location assignment   ;
+; enableset1[5]     ; Missing location assignment   ;
+; enableset1[6]     ; Missing location assignment   ;
+; enableset1[7]     ; Missing location assignment   ;
+; enableset1[8]     ; Missing location assignment   ;
+; enableset1[9]     ; Missing location assignment   ;
+; enableset1[10]    ; Missing location assignment   ;
+; enableset1[11]    ; Missing location assignment   ;
+; enableset1[12]    ; Missing location assignment   ;
+; enableset1[13]    ; Missing location assignment   ;
+; enableset1[14]    ; Missing location assignment   ;
+; enableset1[15]    ; Missing location assignment   ;
 ; currentenable[2]  ; Missing location assignment   ;
 ; currentenable[3]  ; Missing location assignment   ;
 ; enableset2[0]     ; Missing location assignment   ;
@@ -1084,22 +1084,22 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; enableset2[13]    ; Missing location assignment   ;
 ; enableset2[14]    ; Missing location assignment   ;
 ; enableset2[15]    ; Missing location assignment   ;
-; enableset1[0]     ; Missing location assignment   ;
-; enableset1[4]     ; Missing location assignment   ;
-; enableset1[8]     ; Missing location assignment   ;
-; enableset1[12]    ; Missing location assignment   ;
-; enableset1[1]     ; Missing location assignment   ;
-; enableset1[5]     ; Missing location assignment   ;
-; enableset1[9]     ; Missing location assignment   ;
-; enableset1[13]    ; Missing location assignment   ;
-; enableset1[2]     ; Missing location assignment   ;
-; enableset1[6]     ; Missing location assignment   ;
-; enableset1[10]    ; Missing location assignment   ;
-; enableset1[14]    ; Missing location assignment   ;
-; enableset1[3]     ; Missing location assignment   ;
-; enableset1[7]     ; Missing location assignment   ;
-; enableset1[11]    ; Missing location assignment   ;
-; enableset1[15]    ; Missing location assignment   ;
+; enableset3[0]     ; Missing location assignment   ;
+; enableset3[4]     ; Missing location assignment   ;
+; enableset3[8]     ; Missing location assignment   ;
+; enableset3[12]    ; Missing location assignment   ;
+; enableset3[1]     ; Missing location assignment   ;
+; enableset3[5]     ; Missing location assignment   ;
+; enableset3[9]     ; Missing location assignment   ;
+; enableset3[13]    ; Missing location assignment   ;
+; enableset3[2]     ; Missing location assignment   ;
+; enableset3[6]     ; Missing location assignment   ;
+; enableset3[10]    ; Missing location assignment   ;
+; enableset3[14]    ; Missing location assignment   ;
+; enableset3[3]     ; Missing location assignment   ;
+; enableset3[7]     ; Missing location assignment   ;
+; enableset3[11]    ; Missing location assignment   ;
+; enableset3[15]    ; Missing location assignment   ;
 +-------------------+-------------------------------+
 
 
@@ -1149,24 +1149,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; inputbenable      ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; inputcenable      ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; generala          ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[0]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[1]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[2]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[3]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[0]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[1]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[2]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[3]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; currentenable[0]  ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; currentenable[1]  ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[4]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[5]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[6]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[7]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[8]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[9]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[10]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[11]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[12]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[13]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[14]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset3[15]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[4]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[5]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[6]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[7]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[8]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[9]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[10]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[11]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[12]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[13]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[14]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset1[15]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; currentenable[2]  ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; currentenable[3]  ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; enableset2[0]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
@@ -1185,22 +1185,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; enableset2[13]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; enableset2[14]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; enableset2[15]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[0]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[4]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[8]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[12]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[1]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[5]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[9]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[13]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[2]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[6]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[10]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[14]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[3]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[7]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[11]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; enableset1[15]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[0]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[4]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[8]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[12]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[1]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[5]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[9]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[13]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[2]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[6]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[10]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[14]    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[3]     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[7]     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[11]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; enableset3[15]    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 +-------------------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
@@ -1222,13 +1222,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; currentenable[5]                                                                                                            ;                   ;         ;
 ; currentenable[4]                                                                                                            ;                   ;         ;
 ; generala                                                                                                                    ;                   ;         ;
-; enableset3[0]                                                                                                               ;                   ;         ;
+; enableset1[0]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0  ; 0                 ; 0       ;
-; enableset3[1]                                                                                                               ;                   ;         ;
+; enableset1[1]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0  ; 1                 ; 0       ;
-; enableset3[2]                                                                                                               ;                   ;         ;
+; enableset1[2]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0  ; 0                 ; 0       ;
-; enableset3[3]                                                                                                               ;                   ;         ;
+; enableset1[3]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0  ; 1                 ; 0       ;
 ; currentenable[0]                                                                                                            ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0  ; 0                 ; 0       ;
@@ -1250,29 +1250,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - decoder_sequential_receiver:inst4|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2 ; 0                 ; 0       ;
 ;      - decoder_sequential_receiver:inst4|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 0                 ; 0       ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~4 ; 0                 ; 0       ;
-; enableset3[4]                                                                                                               ;                   ;         ;
+; enableset1[4]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1  ; 0                 ; 0       ;
-; enableset3[5]                                                                                                               ;                   ;         ;
+; enableset1[5]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1  ; 1                 ; 0       ;
-; enableset3[6]                                                                                                               ;                   ;         ;
+; enableset1[6]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1  ; 1                 ; 0       ;
-; enableset3[7]                                                                                                               ;                   ;         ;
+; enableset1[7]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1  ; 1                 ; 0       ;
-; enableset3[8]                                                                                                               ;                   ;         ;
+; enableset1[8]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2  ; 0                 ; 0       ;
-; enableset3[9]                                                                                                               ;                   ;         ;
+; enableset1[9]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2  ; 1                 ; 0       ;
-; enableset3[10]                                                                                                              ;                   ;         ;
+; enableset1[10]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2  ; 1                 ; 0       ;
-; enableset3[11]                                                                                                              ;                   ;         ;
+; enableset1[11]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2  ; 0                 ; 0       ;
-; enableset3[12]                                                                                                              ;                   ;         ;
+; enableset1[12]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3  ; 1                 ; 0       ;
-; enableset3[13]                                                                                                              ;                   ;         ;
+; enableset1[13]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3  ; 0                 ; 0       ;
-; enableset3[14]                                                                                                              ;                   ;         ;
+; enableset1[14]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3  ; 1                 ; 0       ;
-; enableset3[15]                                                                                                              ;                   ;         ;
+; enableset1[15]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3  ; 1                 ; 0       ;
 ; currentenable[2]                                                                                                            ;                   ;         ;
 ;      - decoder_sequential_receiver:inst|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~4  ; 0                 ; 0       ;
@@ -1320,37 +1320,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - decoder_sequential_receiver:inst4|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 0                 ; 0       ;
 ; enableset2[15]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst4|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 0                 ; 0       ;
-; enableset1[0]                                                                                                               ;                   ;         ;
+; enableset3[0]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0 ; 0                 ; 0       ;
-; enableset1[4]                                                                                                               ;                   ;         ;
+; enableset3[4]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0 ; 0                 ; 0       ;
-; enableset1[8]                                                                                                               ;                   ;         ;
+; enableset3[8]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0 ; 0                 ; 0       ;
-; enableset1[12]                                                                                                              ;                   ;         ;
+; enableset3[12]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~0 ; 1                 ; 0       ;
-; enableset1[1]                                                                                                               ;                   ;         ;
+; enableset3[1]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1 ; 0                 ; 0       ;
-; enableset1[5]                                                                                                               ;                   ;         ;
+; enableset3[5]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1 ; 0                 ; 0       ;
-; enableset1[9]                                                                                                               ;                   ;         ;
+; enableset3[9]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1 ; 0                 ; 0       ;
-; enableset1[13]                                                                                                              ;                   ;         ;
+; enableset3[13]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~1 ; 1                 ; 0       ;
-; enableset1[2]                                                                                                               ;                   ;         ;
+; enableset3[2]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2 ; 1                 ; 0       ;
-; enableset1[6]                                                                                                               ;                   ;         ;
+; enableset3[6]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2 ; 1                 ; 0       ;
-; enableset1[10]                                                                                                              ;                   ;         ;
+; enableset3[10]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2 ; 0                 ; 0       ;
-; enableset1[14]                                                                                                              ;                   ;         ;
+; enableset3[14]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~2 ; 1                 ; 0       ;
-; enableset1[3]                                                                                                               ;                   ;         ;
+; enableset3[3]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 0                 ; 0       ;
-; enableset1[7]                                                                                                               ;                   ;         ;
+; enableset3[7]                                                                                                               ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 1                 ; 0       ;
-; enableset1[11]                                                                                                              ;                   ;         ;
+; enableset3[11]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 0                 ; 0       ;
-; enableset1[15]                                                                                                              ;                   ;         ;
+; enableset3[15]                                                                                                              ;                   ;         ;
 ;      - decoder_sequential_receiver:inst5|muxx:inst6|lpm_mux:LPM_MUX_component|mux_s1e:auto_generated|l4_w0_n0_mux_dataout~3 ; 0                 ; 0       ;
 +-----------------------------------------------------------------------------------------------------------------------------+-------------------+---------+
 
@@ -1457,24 +1457,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; inputbenable       ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; inputcenable       ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; generala           ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[0]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[1]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[2]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[3]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[0]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[1]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[2]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[3]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; currentenable[0]   ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; currentenable[1]   ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[4]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[5]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[6]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[7]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[8]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[9]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[10]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[11]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[12]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[13]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[14]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset3[15]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[4]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[5]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[6]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[7]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[8]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[9]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[10]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[11]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[12]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[13]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[14]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset1[15]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; currentenable[2]   ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; currentenable[3]   ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; enableset2[0]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -1493,22 +1493,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; enableset2[13]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; enableset2[14]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; enableset2[15]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[0]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[4]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[8]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[12]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[1]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[5]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[9]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[13]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[2]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[6]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[10]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[14]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[3]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[7]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[11]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; enableset1[15]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[0]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[4]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[8]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[12]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[1]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[5]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[9]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[13]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[2]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[6]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[10]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[14]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[3]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[7]      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[11]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; enableset3[15]     ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 
 
@@ -1572,7 +1572,7 @@ Info (184021): Fitter periphery placement operations ending: elapsed time is 00:
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:04
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:03
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'b_invreg_write_selector.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
@@ -1593,18 +1593,18 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.12 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.11 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b_invreg_write_selector.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6195 megabytes
-    Info: Processing ended: Wed Oct 26 08:14:00 2022
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 6198 megabytes
+    Info: Processing ended: Thu Nov 03 13:06:18 2022
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:25
 
 
 +----------------------------+

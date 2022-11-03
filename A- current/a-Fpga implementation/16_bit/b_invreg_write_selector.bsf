@@ -48,15 +48,15 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 80)
 		(input)
-		(text "enableset3[15..0]" (rect 0 0 105 19)(font "Intel Clear" (font_size 8)))
-		(text "enableset3[15..0]" (rect 21 75 126 94)(font "Intel Clear" (font_size 8)))
+		(text "enableset1[15..0]" (rect 0 0 105 19)(font "Intel Clear" (font_size 8)))
+		(text "enableset1[15..0]" (rect 21 75 126 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 0 96)
 		(input)
-		(text "enableset1[15..0]" (rect 0 0 105 19)(font "Intel Clear" (font_size 8)))
-		(text "enableset1[15..0]" (rect 21 91 126 110)(font "Intel Clear" (font_size 8)))
+		(text "enableset3[15..0]" (rect 0 0 105 19)(font "Intel Clear" (font_size 8)))
+		(text "enableset3[15..0]" (rect 21 91 126 110)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port

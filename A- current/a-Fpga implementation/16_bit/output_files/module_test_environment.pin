@@ -369,7 +369,7 @@ TDO                          : M5        : output :                   :         
 KEY3                         : M6        : input  : 2.5 V             :         : 3A        : Y              
 KEY2                         : M7        : input  : 2.5 V             :         : 3A        : Y              
 HEX51                        : M8        : output : 2.5 V             :         : 3B        : Y              
-CLOCK_50                     : M9        : input  : 2.5 V             :         : 3B        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M9        :        :                   :         : 3B        :                
 GND                          : M10       : gnd    :                   :         :           :                
 VCC                          : M11       : power  :                   : 1.1V    :           :                
 GND                          : M12       : gnd    :                   :         :           :                
