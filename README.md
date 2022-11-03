@@ -1,4 +1,15 @@
-﻿
+﻿# start here
+
+For a general viewer, I would suggest visiting the documentation section (down below in bold) and view the screenshots of my fpga
+designs, along with viewing the onenote journal I've produced for this computer. I update the onenote journal, read me
+documentation or other files in the documentation directory every time I work on this project to keep track of what was
+completed and what needs further work. The journal provides important contextual information necessary to understand the
+screenshots better.
+
+
+For anyone more curious about my project, I would suggest using quartus prime lite (free download) to give it a more 
+in-depth viewing. However, this would entail downloading the project, so be prepared to do that :).
+ 
 
 
 
