@@ -6,7 +6,13 @@ documentation or other files in the documentation directory every time I work on
 completed and what needs further work. The journal provides important contextual information necessary to understand the
 screenshots better.
 
+-Please note that when viewing the fpga design screenshots, the name of the current module can be seen at the
+top of the page. 
+
+
 (no downloads necessary)
+
+
 
 
 
