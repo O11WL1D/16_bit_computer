@@ -75,6 +75,7 @@ Screenshots of my fpga can be found [Here](https://1drv.ms/u/s!AovYuAJ6j-05iiZyx
 
 Online viewable onenote notebook found [here](https://1drv.ms/u/s!AovYuAJ6j-05infzKaPIf_p7lqyg?e=FzwqDW) 
 
+Pre onenote notes found [here](https://github.com/O11WL1D/16_bit_computer/tree/master/Written%20notes%2B%20computer%20journal)
 
 Other photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation).
 
