@@ -72,6 +72,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "inputset[2]",
+					"strict" : false
+				},
+				{
 					"name" : "inputset[10]",
 					"strict" : false
 				},
@@ -100,23 +104,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "inputset[2]",
-					"strict" : false
-				},
-				{
 					"name" : "inputset[1]",
-					"strict" : false
-				},
-				{
-					"name" : "inputset[12]",
-					"strict" : false
-				},
-				{
-					"name" : "inputset[0]",
-					"strict" : false
-				},
-				{
-					"name" : "inputset[13]",
 					"strict" : false
 				}
 			]

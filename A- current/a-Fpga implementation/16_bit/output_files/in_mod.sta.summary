@@ -4,50 +4,34 @@ Timing Analyzer Summary
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputset[1]'
 Slack : -0.538
-TNS   : -6.944
+TNS   : -7.191
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputset[2]'
 Slack : -0.538
-TNS   : -6.398
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputset[0]'
-Slack : -0.538
-TNS   : -1.569
+TNS   : -6.272
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputset[1]'
 Slack : -0.538
-TNS   : -7.168
+TNS   : -7.662
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputset[2]'
 Slack : -0.538
-TNS   : -6.788
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputset[0]'
-Slack : -0.538
-TNS   : -1.622
+TNS   : -6.636
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputset[1]'
-Slack : -0.373
-TNS   : -3.458
+Slack : -0.066
+TNS   : -0.511
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputset[2]'
-Slack : -0.320
-TNS   : -2.562
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputset[0]'
-Slack : -0.058
-TNS   : -0.115
+Slack : -0.062
+TNS   : -0.472
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputset[1]'
-Slack : -0.360
-TNS   : -3.153
+Slack : -0.090
+TNS   : -0.705
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputset[2]'
-Slack : -0.330
-TNS   : -2.655
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputset[0]'
 Slack : -0.076
-TNS   : -0.152
+TNS   : -0.597
 
 ------------------------------------------------------------
