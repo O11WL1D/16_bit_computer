@@ -248,12 +248,12 @@ R24
 Ab16_ind_reg_arch
 R13
 R14
-Z44 DEx4 work 23 b16_ind_reg_vhd_vec_tst 0 22 `JFLI3kS??n<YK_nlYM<D1
+DEx4 work 23 b16_ind_reg_vhd_vec_tst 0 22 `JFLI3kS??n<YK_nlYM<D1
 !i122 120
 l53
-Z45 L34 243
-Z46 V89[TB:V>bX<o<lGZd;l]^1
-Z47 !s100 390=kKOA`mdFIi><T8HI73
+L34 243
+V89[TB:V>bX<o<lGZd;l]^1
+!s100 390=kKOA`mdFIi><T8HI73
 R19
 32
 R35
@@ -264,8 +264,54 @@ R43
 !i113 1
 R4
 R24
+vb16bit_latch
+Z44 !s110 1667530500
+!i10b 1
+!s100 Ld1@2^PSGmJW]H9]Dg?5>1
+R1
+I^DXjnMnOZPPg_=FMl^JBS0
+R2
+R32
+w1667530499
+8b16bit_latch.vo
+Fb16bit_latch.vo
+!i122 125
+L0 32 942
+R3
+r1
+!s85 0
+31
+Z45 !s108 1667530500.000000
+!s107 b16bit_latch.vo|
+!s90 -work|work|b16bit_latch.vo|
+!i113 1
+R4
+R5
+vb16bit_latch_vlg_vec_tst
+R44
+!i10b 1
+!s100 bn1VEIWhX2DzAHN8JCl:Y1
+R1
+IE:kCA7BQWZ5O`gZigeB>J2
+R2
+R32
+w1667530498
+8Waveform22.vwf.vt
+FWaveform22.vwf.vt
+!i122 126
+L0 30 140
+R3
+r1
+!s85 0
+31
+R45
+!s107 Waveform22.vwf.vt|
+!s90 -work|work|Waveform22.vwf.vt|
+!i113 1
+R4
+R5
 vclock_mod
-Z48 !s110 1665944141
+Z46 !s110 1665944141
 !i10b 1
 !s100 Fjnn]C8A@mk<VgA]DQ1JU0
 R1
@@ -281,14 +327,14 @@ R3
 r1
 !s85 0
 31
-Z49 !s108 1665944141.000000
+Z47 !s108 1665944141.000000
 !s107 clock_mod.vo|
 !s90 -work|work|clock_mod.vo|
 !i113 1
 R4
 R5
 vclock_mod_vlg_vec_tst
-R48
+R46
 !i10b 1
 !s100 k1CgzcHCzFLd47hz[4?Li3
 R1
@@ -304,14 +350,14 @@ R3
 r1
 !s85 0
 31
-R49
+R47
 !s107 Waveform16.vwf.vt|
 !s90 -work|work|Waveform16.vwf.vt|
 !i113 1
 R4
 R5
 vclockmod2
-Z50 !s110 1666039169
+Z48 !s110 1666039169
 !i10b 1
 !s100 af8cg2H7_SmkT7UVjUHf<2
 R1
@@ -327,14 +373,14 @@ R3
 r1
 !s85 0
 31
-Z51 !s108 1666039169.000000
+Z49 !s108 1666039169.000000
 !s107 clockmod2.vo|
 !s90 -work|work|clockmod2.vo|
 !i113 1
 R4
 R5
 vclockmod2_vlg_vec_tst
-R50
+R48
 !i10b 1
 !s100 NlgY=DoIFYgTok[`fm<jN3
 R1
@@ -350,14 +396,14 @@ R3
 r1
 !s85 0
 31
-R51
+R49
 !s107 Waveform18.vwf.vt|
 !s90 -work|work|Waveform18.vwf.vt|
 !i113 1
 R4
 R5
 veightbitff
-Z52 !s110 1665342157
+Z50 !s110 1665342157
 !i10b 1
 !s100 d12VE`1l1lgUG1C3nRjD^0
 R1
@@ -380,7 +426,7 @@ r1
 R4
 R5
 veightbitff_vlg_vec_tst
-R52
+R50
 !i10b 1
 !s100 LZRe51IFG]GkeS_M;I1Z_1
 R1
@@ -403,7 +449,7 @@ r1
 R4
 R5
 Emega_nor
-Z53 w1665692990
+Z51 w1665692990
 R9
 R10
 R11
@@ -413,19 +459,19 @@ R14
 R15
 !i122 60
 R0
-Z54 8mega_nor.vho
-Z55 Fmega_nor.vho
+Z52 8mega_nor.vho
+Z53 Fmega_nor.vho
 l0
 R18
 VbB91?;[zMLoKQj76>YX4i1
 !s100 75HjIbH_J7i:`kT1SP`M@1
 R19
 32
-Z56 !s110 1665692991
+Z54 !s110 1665692991
 !i10b 1
-Z57 !s108 1665692991.000000
-Z58 !s90 -work|work|mega_nor.vho|
-Z59 !s107 mega_nor.vho|
+Z55 !s108 1665692991.000000
+Z56 !s90 -work|work|mega_nor.vho|
+Z57 !s107 mega_nor.vho|
 !i113 1
 R4
 R24
@@ -445,33 +491,33 @@ VCnj?mGmJSL:D6nY=2i6YC2
 !s100 SRkWfg3]L<JJeckXib=AW2
 R19
 32
-R56
+R54
 !i10b 1
+R55
+R56
 R57
-R58
-R59
 !i113 1
 R4
 R24
 Emega_nor_vhd_vec_tst
-Z60 w1665692989
+Z58 w1665692989
 R13
 R14
 !i122 61
 R0
-Z61 8Waveform4.vwf.vht
-Z62 FWaveform4.vwf.vht
+Z59 8Waveform4.vwf.vht
+Z60 FWaveform4.vwf.vht
 l0
 R28
 V6k8VADS1BYkL=96Jn^1kK2
 !s100 3PMB:BJODaRT`P<n0Q4a63
 R19
 32
-R56
+R54
 !i10b 1
-R57
-Z63 !s90 -work|work|Waveform4.vwf.vht|
-Z64 !s107 Waveform4.vwf.vht|
+R55
+Z61 !s90 -work|work|Waveform4.vwf.vht|
+Z62 !s107 Waveform4.vwf.vht|
 !i113 1
 R4
 R24
@@ -486,11 +532,57 @@ VVOimP[FWizSZG;:nif6EH2
 !s100 0=_GQN0[2ORJbZBA?NRCz3
 R19
 32
-R56
+R54
 !i10b 1
-R57
-R63
-R64
+R55
+R61
+R62
 !i113 1
 R4
 R24
+vsimple_module_test_environment
+Z63 !s110 1667531749
+!i10b 1
+!s100 3GPo2QS7n^4YQ:O=3?II]3
+R1
+I76Rfhh5R>i?7MUohColeb0
+R2
+R32
+w1667531748
+8simple_module_test_environment.vo
+Fsimple_module_test_environment.vo
+!i122 135
+L0 32 15844
+R3
+r1
+!s85 0
+31
+Z64 !s108 1667531749.000000
+!s107 simple_module_test_environment.vo|
+!s90 -work|work|simple_module_test_environment.vo|
+!i113 1
+R4
+R5
+vsimple_module_test_environment_vlg_vec_tst
+R63
+!i10b 1
+!s100 XlXSmZd8J1of1?nAgAD5>2
+R1
+I[00<Y2HlaF:KRF=kjZ81]0
+R2
+R32
+w1667531747
+8Waveform23.vwf.vt
+FWaveform23.vwf.vt
+!i122 136
+L0 30 587
+R3
+r1
+!s85 0
+31
+R64
+!s107 Waveform23.vwf.vt|
+!s90 -work|work|Waveform23.vwf.vt|
+!i113 1
+R4
+R5

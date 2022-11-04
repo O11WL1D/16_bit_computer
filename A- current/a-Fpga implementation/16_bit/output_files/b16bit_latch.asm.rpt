@@ -1,5 +1,5 @@
 Assembler report for b16bit_latch
-Fri Oct 21 17:10:25 2022
+Thu Nov 03 19:59:53 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/output_files/b16bit_latch.sof
+  5. Assembler Device Options: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b16bit_latch.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 21 17:10:25 2022 ;
+; Assembler Status      ; Successful - Thu Nov 03 19:59:53 2022 ;
 ; Revision Name         ; b16bit_latch                          ;
 ; Top-level Entity Name ; b16bit_latch                          ;
 ; Family                ; Cyclone V                             ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                  ;
-+------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                  ;
-+------------------------------------------------------------------------------------------------------------+
-; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/output_files/b16bit_latch.sof ;
-+------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                    ;
++--------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                    ;
++--------------------------------------------------------------------------------------------------------------+
+; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b16bit_latch.sof ;
++--------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/output_files/b16bit_latch.sof ;
-+----------------+---------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                             ;
-+----------------+---------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x004DE7A9                                                                                                          ;
-; Checksum       ; 0x004DE7A9                                                                                                          ;
-+----------------+---------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/b16bit_latch.sof ;
++----------------+-----------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                               ;
++----------------+-----------------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x004E29D2                                                                                                            ;
+; Checksum       ; 0x004E29D2                                                                                                            ;
++----------------+-----------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct 21 17:10:21 2022
+    Info: Processing started: Thu Nov 03 19:59:50 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off b16bit_latch -c b16bit_latch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4824 megabytes
-    Info: Processing ended: Fri Oct 21 17:10:25 2022
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 4817 megabytes
+    Info: Processing ended: Thu Nov 03 19:59:53 2022
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 

@@ -2,7 +2,492 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "readportout[15]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[14]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "readportout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[15]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[14]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[13]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[12]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[11]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[10]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[9]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[8]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[7]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[6]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[5]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[4]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[3]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[15]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[14]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[13]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[12]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[11]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[10]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[9]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[8]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "readportoutc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[4]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[5]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[7]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[6]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[8]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[9]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[11]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_read_select[10]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[15]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[4]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[5]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[7]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[6]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[8]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[9]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[11]",
+					"strict" : false
+				},
+				{
+					"name" : "decoder_write_select[10]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[14]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[13]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[12]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[11]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[10]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[9]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[8]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "writeport_input2[0]",
+					"strict" : false
+				}
+			]
 		}
 	]
 }

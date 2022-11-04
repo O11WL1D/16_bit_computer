@@ -1,13 +1,13 @@
-Fitter Status : Successful - Tue Oct 25 09:36:14 2022
+Fitter Status : Successful - Thu Nov 03 20:51:42 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : b16_ind_reg
 Top-level Entity Name : b16_ind_reg
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 12 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 75 / 18,480 ( < 1 % )
 Total registers : 0
-Total pins : 148 / 224 ( 66 % )
+Total pins : 183 / 224 ( 82 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )

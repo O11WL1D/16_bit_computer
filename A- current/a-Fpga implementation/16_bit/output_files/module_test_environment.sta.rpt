@@ -1,5 +1,5 @@
 Timing Analyzer report for module_test_environment
-Thu Nov 03 13:47:04 2022
+Thu Nov 03 20:01:35 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -50,9 +50,11 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  42. Report RSKM
  43. Unconstrained Paths Summary
  44. Clock Status Summary
- 45. Unconstrained Output Ports
+ 45. Unconstrained Input Ports
  46. Unconstrained Output Ports
- 47. Timing Analyzer Messages
+ 47. Unconstrained Input Ports
+ 48. Unconstrained Output Ports
+ 49. Timing Analyzer Messages
 
 
 
@@ -98,35 +100,37 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.04        ;
+; Average used               ; 1.14        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   1.7%      ;
-;     Processor 3            ;   1.7%      ;
-;     Processor 4            ;   0.7%      ;
+;     Processor 2            ;   4.7%      ;
+;     Processor 3            ;   4.6%      ;
+;     Processor 4            ;   4.6%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Clocks                                                                                                                                                                          ;
-+------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
-; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets ;
-+------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
-; sw8        ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { sw8 } ;
-; sw9        ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { sw9 } ;
-+------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                                                 ;
++------------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+----------------------------------------+
+; Clock Name                         ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                                ;
++------------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+----------------------------------------+
+; in_mod:inst53|eightbitff:inst4|pxd ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { in_mod:inst53|eightbitff:inst4|pxd } ;
+; KEY0                               ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { KEY0 }                               ;
+; KEY1                               ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { KEY1 }                               ;
+; KEY2                               ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { KEY2 }                               ;
+; KEY3                               ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { KEY3 }                               ;
++------------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+----------------------------------------+
 
 
-+--------------------------------------------------+
-; Slow 1100mV 85C Model Fmax Summary               ;
-+------------+-----------------+------------+------+
-; Fmax       ; Restricted Fmax ; Clock Name ; Note ;
-+------------+-----------------+------------+------+
-; 413.39 MHz ; 413.39 MHz      ; sw8        ;      ;
-; 413.56 MHz ; 413.56 MHz      ; sw9        ;      ;
-+------------+-----------------+------------+------+
++--------------------------------------------------------------------------+
+; Slow 1100mV 85C Model Fmax Summary                                       ;
++------------+-----------------+------------------------------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name                         ; Note ;
++------------+-----------------+------------------------------------+------+
+; 138.85 MHz ; 138.85 MHz      ; in_mod:inst53|eightbitff:inst4|pxd ;      ;
++------------+-----------------+------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
 
@@ -136,24 +140,26 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 HTML report is unavailable in plain text report export.
 
 
-+-------------------------------------+
-; Slow 1100mV 85C Model Setup Summary ;
-+-------+--------+--------------------+
-; Clock ; Slack  ; End Point TNS      ;
-+-------+--------+--------------------+
-; sw8   ; -1.419 ; -26.505            ;
-; sw9   ; -1.418 ; -28.476            ;
-+-------+--------+--------------------+
++-------------------------------------------------------------+
+; Slow 1100mV 85C Model Setup Summary                         ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; in_mod:inst53|eightbitff:inst4|pxd ; -7.652 ; -110.879      ;
+; KEY2                               ; -5.479 ; -90.002       ;
+; KEY1                               ; -5.269 ; -102.587      ;
++------------------------------------+--------+---------------+
 
 
-+------------------------------------+
-; Slow 1100mV 85C Model Hold Summary ;
-+-------+-------+--------------------+
-; Clock ; Slack ; End Point TNS      ;
-+-------+-------+--------------------+
-; sw8   ; 0.442 ; 0.000              ;
-; sw9   ; 0.443 ; 0.000              ;
-+-------+-------+--------------------+
++-------------------------------------------------------------+
+; Slow 1100mV 85C Model Hold Summary                          ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.659 ; -1.025        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.515  ; 0.000         ;
+; KEY2                               ; 1.035  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 ------------------------------------------
@@ -168,14 +174,17 @@ No paths to report.
 No paths to report.
 
 
-+---------------------------------------------------+
-; Slow 1100mV 85C Model Minimum Pulse Width Summary ;
-+-------+--------+----------------------------------+
-; Clock ; Slack  ; End Point TNS                    ;
-+-------+--------+----------------------------------+
-; sw9   ; -0.538 ; -21.910                          ;
-; sw8   ; -0.538 ; -20.367                          ;
-+-------+--------+----------------------------------+
++-------------------------------------------------------------+
+; Slow 1100mV 85C Model Minimum Pulse Width Summary           ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.538 ; -24.212       ;
+; KEY2                               ; -0.538 ; -19.243       ;
+; KEY3                               ; -0.538 ; -3.102        ;
+; KEY0                               ; -0.538 ; -1.731        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.079  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 -----------------------------------------------
@@ -184,35 +193,36 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+--------------------------------------------------+
-; Slow 1100mV 0C Model Fmax Summary                ;
-+------------+-----------------+------------+------+
-; Fmax       ; Restricted Fmax ; Clock Name ; Note ;
-+------------+-----------------+------------+------+
-; 384.02 MHz ; 384.02 MHz      ; sw8        ;      ;
-; 384.02 MHz ; 384.02 MHz      ; sw9        ;      ;
-+------------+-----------------+------------+------+
++--------------------------------------------------------------------------+
+; Slow 1100mV 0C Model Fmax Summary                                        ;
++------------+-----------------+------------------------------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name                         ; Note ;
++------------+-----------------+------------------------------------+------+
+; 141.04 MHz ; 141.04 MHz      ; in_mod:inst53|eightbitff:inst4|pxd ;      ;
++------------+-----------------+------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
 
-+------------------------------------+
-; Slow 1100mV 0C Model Setup Summary ;
-+-------+--------+-------------------+
-; Clock ; Slack  ; End Point TNS     ;
-+-------+--------+-------------------+
-; sw9   ; -1.604 ; -32.146           ;
-; sw8   ; -1.604 ; -29.829           ;
-+-------+--------+-------------------+
++-------------------------------------------------------------+
+; Slow 1100mV 0C Model Setup Summary                          ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; in_mod:inst53|eightbitff:inst4|pxd ; -7.461 ; -109.263      ;
+; KEY2                               ; -5.239 ; -86.917       ;
+; KEY1                               ; -5.063 ; -98.886       ;
++------------------------------------+--------+---------------+
 
 
-+-----------------------------------+
-; Slow 1100mV 0C Model Hold Summary ;
-+-------+-------+-------------------+
-; Clock ; Slack ; End Point TNS     ;
-+-------+-------+-------------------+
-; sw8   ; 0.447 ; 0.000             ;
-; sw9   ; 0.447 ; 0.000             ;
-+-------+-------+-------------------+
++-------------------------------------------------------------+
+; Slow 1100mV 0C Model Hold Summary                           ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.639 ; -1.035        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.413  ; 0.000         ;
+; KEY2                               ; 0.878  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 -----------------------------------------
@@ -227,14 +237,17 @@ No paths to report.
 No paths to report.
 
 
-+--------------------------------------------------+
-; Slow 1100mV 0C Model Minimum Pulse Width Summary ;
-+-------+--------+---------------------------------+
-; Clock ; Slack  ; End Point TNS                   ;
-+-------+--------+---------------------------------+
-; sw9   ; -0.538 ; -21.532                         ;
-; sw8   ; -0.538 ; -19.990                         ;
-+-------+--------+---------------------------------+
++-------------------------------------------------------------+
+; Slow 1100mV 0C Model Minimum Pulse Width Summary            ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.538 ; -25.245       ;
+; KEY2                               ; -0.538 ; -20.065       ;
+; KEY3                               ; -0.538 ; -3.140        ;
+; KEY0                               ; -0.538 ; -1.606        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.072  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 ----------------------------------------------
@@ -243,24 +256,26 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+-------------------------------------+
-; Fast 1100mV 85C Model Setup Summary ;
-+-------+--------+--------------------+
-; Clock ; Slack  ; End Point TNS      ;
-+-------+--------+--------------------+
-; sw9   ; -0.082 ; -0.409             ;
-; sw8   ; -0.080 ; -0.380             ;
-+-------+--------+--------------------+
++-------------------------------------------------------------+
+; Fast 1100mV 85C Model Setup Summary                         ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; in_mod:inst53|eightbitff:inst4|pxd ; -3.742 ; -53.593       ;
+; KEY2                               ; -2.849 ; -43.360       ;
+; KEY1                               ; -2.755 ; -50.189       ;
++------------------------------------+--------+---------------+
 
 
-+------------------------------------+
-; Fast 1100mV 85C Model Hold Summary ;
-+-------+-------+--------------------+
-; Clock ; Slack ; End Point TNS      ;
-+-------+-------+--------------------+
-; sw9   ; 0.202 ; 0.000              ;
-; sw8   ; 0.204 ; 0.000              ;
-+-------+-------+--------------------+
++-------------------------------------------------------------+
+; Fast 1100mV 85C Model Hold Summary                          ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.538 ; -0.936        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.269  ; 0.000         ;
+; KEY2                               ; 0.427  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 ------------------------------------------
@@ -275,14 +290,17 @@ No paths to report.
 No paths to report.
 
 
-+---------------------------------------------------+
-; Fast 1100mV 85C Model Minimum Pulse Width Summary ;
-+-------+--------+----------------------------------+
-; Clock ; Slack  ; End Point TNS                    ;
-+-------+--------+----------------------------------+
-; sw9   ; -0.265 ; -7.176                           ;
-; sw8   ; -0.254 ; -6.345                           ;
-+-------+--------+----------------------------------+
++-------------------------------------------------------------+
+; Fast 1100mV 85C Model Minimum Pulse Width Summary           ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.433 ; -13.324       ;
+; KEY2                               ; -0.381 ; -7.732        ;
+; KEY0                               ; -0.291 ; -0.732        ;
+; KEY3                               ; -0.286 ; -1.142        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.139  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 -----------------------------------------------
@@ -291,24 +309,26 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+------------------------------------+
-; Fast 1100mV 0C Model Setup Summary ;
-+-------+--------+-------------------+
-; Clock ; Slack  ; End Point TNS     ;
-+-------+--------+-------------------+
-; sw9   ; -0.066 ; -0.268            ;
-; sw8   ; -0.065 ; -0.261            ;
-+-------+--------+-------------------+
++-------------------------------------------------------------+
+; Fast 1100mV 0C Model Setup Summary                          ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; in_mod:inst53|eightbitff:inst4|pxd ; -3.436 ; -49.643       ;
+; KEY2                               ; -2.460 ; -36.783       ;
+; KEY1                               ; -2.372 ; -42.147       ;
++------------------------------------+--------+---------------+
 
 
-+-----------------------------------+
-; Fast 1100mV 0C Model Hold Summary ;
-+-------+-------+-------------------+
-; Clock ; Slack ; End Point TNS     ;
-+-------+-------+-------------------+
-; sw9   ; 0.190 ; 0.000             ;
-; sw8   ; 0.191 ; 0.000             ;
-+-------+-------+-------------------+
++-------------------------------------------------------------+
+; Fast 1100mV 0C Model Hold Summary                           ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.537 ; -0.957        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.298  ; 0.000         ;
+; KEY2                               ; 0.321  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 -----------------------------------------
@@ -323,14 +343,17 @@ No paths to report.
 No paths to report.
 
 
-+--------------------------------------------------+
-; Fast 1100mV 0C Model Minimum Pulse Width Summary ;
-+-------+--------+---------------------------------+
-; Clock ; Slack  ; End Point TNS                   ;
-+-------+--------+---------------------------------+
-; sw9   ; -0.254 ; -6.868                          ;
-; sw8   ; -0.239 ; -5.955                          ;
-+-------+--------+---------------------------------+
++-------------------------------------------------------------+
+; Fast 1100mV 0C Model Minimum Pulse Width Summary            ;
++------------------------------------+--------+---------------+
+; Clock                              ; Slack  ; End Point TNS ;
++------------------------------------+--------+---------------+
+; KEY1                               ; -0.445 ; -13.992       ;
+; KEY2                               ; -0.388 ; -8.216        ;
+; KEY3                               ; -0.302 ; -1.206        ;
+; KEY0                               ; -0.277 ; -0.669        ;
+; in_mod:inst53|eightbitff:inst4|pxd ; 0.197  ; 0.000         ;
++------------------------------------+--------+---------------+
 
 
 ----------------------------------------------
@@ -339,18 +362,24 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+-------------------------------------------------------------------------------+
-; Multicorner Timing Analysis Summary                                           ;
-+------------------+---------+-------+----------+---------+---------------------+
-; Clock            ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
-+------------------+---------+-------+----------+---------+---------------------+
-; Worst-case Slack ; -1.604  ; 0.190 ; N/A      ; N/A     ; -0.538              ;
-;  sw8             ; -1.604  ; 0.191 ; N/A      ; N/A     ; -0.538              ;
-;  sw9             ; -1.604  ; 0.190 ; N/A      ; N/A     ; -0.538              ;
-; Design-wide TNS  ; -61.975 ; 0.0   ; 0.0      ; 0.0     ; -42.277             ;
-;  sw8             ; -29.829 ; 0.000 ; N/A      ; N/A     ; -20.367             ;
-;  sw9             ; -32.146 ; 0.000 ; N/A      ; N/A     ; -21.910             ;
-+------------------+---------+-------+----------+---------+---------------------+
++----------------------------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                                                ;
++-------------------------------------+----------+--------+----------+---------+---------------------+
+; Clock                               ; Setup    ; Hold   ; Recovery ; Removal ; Minimum Pulse Width ;
++-------------------------------------+----------+--------+----------+---------+---------------------+
+; Worst-case Slack                    ; -7.652   ; -0.659 ; N/A      ; N/A     ; -0.538              ;
+;  KEY0                               ; N/A      ; N/A    ; N/A      ; N/A     ; -0.538              ;
+;  KEY1                               ; -5.269   ; -0.659 ; N/A      ; N/A     ; -0.538              ;
+;  KEY2                               ; -5.479   ; 0.321  ; N/A      ; N/A     ; -0.538              ;
+;  KEY3                               ; N/A      ; N/A    ; N/A      ; N/A     ; -0.538              ;
+;  in_mod:inst53|eightbitff:inst4|pxd ; -7.652   ; 0.269  ; N/A      ; N/A     ; 0.072               ;
+; Design-wide TNS                     ; -303.468 ; -1.035 ; 0.0      ; 0.0     ; -50.056             ;
+;  KEY0                               ; N/A      ; N/A    ; N/A      ; N/A     ; -1.731              ;
+;  KEY1                               ; -102.587 ; -1.035 ; N/A      ; N/A     ; -25.245             ;
+;  KEY2                               ; -90.002  ; 0.000  ; N/A      ; N/A     ; -20.065             ;
+;  KEY3                               ; N/A      ; N/A    ; N/A      ; N/A     ; -3.140              ;
+;  in_mod:inst53|eightbitff:inst4|pxd ; -110.879 ; 0.000  ; N/A      ; N/A     ; 0.000               ;
++-------------------------------------+----------+--------+----------+---------+---------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -414,10 +443,6 @@ No synchronizer chains to report.
 +------+--------------+-----------------+-----------------+
 ; Pin  ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
 +------+--------------+-----------------+-----------------+
-; KEY0 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; KEY1 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; KEY2 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; KEY3 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw0  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw1  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw2  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -428,6 +453,10 @@ No synchronizer chains to report.
 ; sw7  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw8  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw9  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; KEY1 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; KEY2 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; KEY3 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; KEY0 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 +------+--------------+-----------------+-----------------+
 
 
@@ -655,25 +684,31 @@ No synchronizer chains to report.
 +-------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
-+-------------------------------------------------------------------+
-; Setup Transfers                                                   ;
-+------------+----------+----------+----------+----------+----------+
-; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+------------+----------+----------+----------+----------+----------+
-; sw8        ; sw8      ; 216      ; 0        ; 0        ; 0        ;
-; sw9        ; sw9      ; 228      ; 0        ; 0        ; 0        ;
-+------------+----------+----------+----------+----------+----------+
++---------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                     ;
++------------------------------------+------------------------------------+----------+----------+----------+----------+
+; From Clock                         ; To Clock                           ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------------------------------+------------------------------------+----------+----------+----------+----------+
+; in_mod:inst53|eightbitff:inst4|pxd ; in_mod:inst53|eightbitff:inst4|pxd ; 0        ; 0        ; 16       ; 16       ;
+; KEY1                               ; in_mod:inst53|eightbitff:inst4|pxd ; 0        ; 0        ; 0        ; 56       ;
+; KEY2                               ; in_mod:inst53|eightbitff:inst4|pxd ; 0        ; 0        ; 0        ; 24       ;
+; KEY3                               ; KEY1                               ; 0        ; 0        ; 0        ; 116      ;
+; KEY3                               ; KEY2                               ; 0        ; 0        ; 0        ; 96       ;
++------------------------------------+------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
-+-------------------------------------------------------------------+
-; Hold Transfers                                                    ;
-+------------+----------+----------+----------+----------+----------+
-; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+------------+----------+----------+----------+----------+----------+
-; sw8        ; sw8      ; 216      ; 0        ; 0        ; 0        ;
-; sw9        ; sw9      ; 228      ; 0        ; 0        ; 0        ;
-+------------+----------+----------+----------+----------+----------+
++---------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                      ;
++------------------------------------+------------------------------------+----------+----------+----------+----------+
+; From Clock                         ; To Clock                           ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------------------------------+------------------------------------+----------+----------+----------+----------+
+; in_mod:inst53|eightbitff:inst4|pxd ; in_mod:inst53|eightbitff:inst4|pxd ; 0        ; 0        ; 16       ; 16       ;
+; KEY1                               ; in_mod:inst53|eightbitff:inst4|pxd ; 0        ; 0        ; 0        ; 56       ;
+; KEY2                               ; in_mod:inst53|eightbitff:inst4|pxd ; 0        ; 0        ; 0        ; 24       ;
+; KEY3                               ; KEY1                               ; 0        ; 0        ; 0        ; 116      ;
+; KEY3                               ; KEY2                               ; 0        ; 0        ; 0        ; 96       ;
++------------------------------------+------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
@@ -696,21 +731,42 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 0     ; 0    ;
-; Unconstrained Input Port Paths  ; 0     ; 0    ;
-; Unconstrained Output Ports      ; 32    ; 32   ;
-; Unconstrained Output Port Paths ; 32    ; 32   ;
+; Unconstrained Input Ports       ; 10    ; 10   ;
+; Unconstrained Input Port Paths  ; 59    ; 59   ;
+; Unconstrained Output Ports      ; 39    ; 39   ;
+; Unconstrained Output Port Paths ; 140   ; 140  ;
 +---------------------------------+-------+------+
 
 
-+-------------------------------------+
-; Clock Status Summary                ;
-+--------+-------+------+-------------+
-; Target ; Clock ; Type ; Status      ;
-+--------+-------+------+-------------+
-; sw8    ; sw8   ; Base ; Constrained ;
-; sw9    ; sw9   ; Base ; Constrained ;
-+--------+-------+------+-------------+
++----------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                         ;
++------------------------------------+------------------------------------+------+-------------+
+; Target                             ; Clock                              ; Type ; Status      ;
++------------------------------------+------------------------------------+------+-------------+
+; KEY0                               ; KEY0                               ; Base ; Constrained ;
+; KEY1                               ; KEY1                               ; Base ; Constrained ;
+; KEY2                               ; KEY2                               ; Base ; Constrained ;
+; KEY3                               ; KEY3                               ; Base ; Constrained ;
+; in_mod:inst53|eightbitff:inst4|pxd ; in_mod:inst53|eightbitff:inst4|pxd ; Base ; Constrained ;
++------------------------------------+------------------------------------+------+-------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; sw0        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw1        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw2        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw3        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw4        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw5        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw6        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw7        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw8        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw9        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -718,6 +774,20 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------+---------------------------------------------------------------------------------------+
 ; Output Port ; Comment                                                                               ;
 +-------------+---------------------------------------------------------------------------------------+
+; HEX00       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX01       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX02       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX03       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX04       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX05       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX06       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX10       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX11       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX12       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX13       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX14       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX15       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX16       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX20       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX21       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX22       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -732,25 +802,36 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; HEX34       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX35       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX36       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX40       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX41       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX42       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX43       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX44       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX45       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX46       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX50       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX51       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX52       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX53       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX54       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX55       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX56       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; LEDR1       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; LEDR2       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LEDR4       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LEDR5       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LEDR7       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; LEDR8       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +-------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; sw0        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw1        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw2        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw3        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw4        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw5        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw6        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw7        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw8        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; sw9        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -758,6 +839,20 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------+---------------------------------------------------------------------------------------+
 ; Output Port ; Comment                                                                               ;
 +-------------+---------------------------------------------------------------------------------------+
+; HEX00       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX01       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX02       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX03       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX04       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX05       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX06       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX10       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX11       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX12       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX13       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX14       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX15       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX16       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX20       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX21       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX22       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -772,24 +867,17 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; HEX34       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX35       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX36       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX40       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX41       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX42       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX43       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX44       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX45       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX46       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX50       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX51       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX52       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX53       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX54       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX55       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX56       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; LEDR1       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; LEDR2       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LEDR4       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LEDR5       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LEDR7       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; LEDR8       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +-------------+---------------------------------------------------------------------------------------+
 
 
@@ -799,114 +887,138 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Nov 03 13:47:00 2022
+    Info: Processing started: Thu Nov 03 20:01:30 2022
 Info: Command: quartus_sta module_test_environment -c module_test_environment
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
+Warning (335093): The Timing Analyzer is analyzing 16 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'module_test_environment.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
 Info (332105): Deriving Clocks
-    Info (332105): create_clock -period 1.000 -name sw8 sw8
-    Info (332105): create_clock -period 1.000 -name sw9 sw9
+    Info (332105): create_clock -period 1.000 -name KEY1 KEY1
+    Info (332105): create_clock -period 1.000 -name KEY3 KEY3
+    Info (332105): create_clock -period 1.000 -name KEY0 KEY0
+    Info (332105): create_clock -period 1.000 -name in_mod:inst53|eightbitff:inst4|pxd in_mod:inst53|eightbitff:inst4|pxd
+    Info (332105): create_clock -period 1.000 -name KEY2 KEY2
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -1.419
+Info (332146): Worst-case setup slack is -7.652
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.419             -26.505 sw8 
-    Info (332119):    -1.418             -28.476 sw9 
-Info (332146): Worst-case hold slack is 0.442
+    Info (332119):    -7.652            -110.879 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):    -5.479             -90.002 KEY2 
+    Info (332119):    -5.269            -102.587 KEY1 
+Info (332146): Worst-case hold slack is -0.659
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.442               0.000 sw8 
-    Info (332119):     0.443               0.000 sw9 
+    Info (332119):    -0.659              -1.025 KEY1 
+    Info (332119):     0.515               0.000 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):     1.035               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.538             -21.910 sw9 
-    Info (332119):    -0.538             -20.367 sw8 
+    Info (332119):    -0.538             -24.212 KEY1 
+    Info (332119):    -0.538             -19.243 KEY2 
+    Info (332119):    -0.538              -3.102 KEY3 
+    Info (332119):    -0.538              -1.731 KEY0 
+    Info (332119):     0.079               0.000 in_mod:inst53|eightbitff:inst4|pxd 
 Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -1.604
+Info (332146): Worst-case setup slack is -7.461
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.604             -32.146 sw9 
-    Info (332119):    -1.604             -29.829 sw8 
-Info (332146): Worst-case hold slack is 0.447
+    Info (332119):    -7.461            -109.263 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):    -5.239             -86.917 KEY2 
+    Info (332119):    -5.063             -98.886 KEY1 
+Info (332146): Worst-case hold slack is -0.639
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.447               0.000 sw8 
-    Info (332119):     0.447               0.000 sw9 
+    Info (332119):    -0.639              -1.035 KEY1 
+    Info (332119):     0.413               0.000 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):     0.878               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.538             -21.532 sw9 
-    Info (332119):    -0.538             -19.990 sw8 
+    Info (332119):    -0.538             -25.245 KEY1 
+    Info (332119):    -0.538             -20.065 KEY2 
+    Info (332119):    -0.538              -3.140 KEY3 
+    Info (332119):    -0.538              -1.606 KEY0 
+    Info (332119):     0.072               0.000 in_mod:inst53|eightbitff:inst4|pxd 
 Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.082
+Info (332146): Worst-case setup slack is -3.742
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.082              -0.409 sw9 
-    Info (332119):    -0.080              -0.380 sw8 
-Info (332146): Worst-case hold slack is 0.202
+    Info (332119):    -3.742             -53.593 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):    -2.849             -43.360 KEY2 
+    Info (332119):    -2.755             -50.189 KEY1 
+Info (332146): Worst-case hold slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.202               0.000 sw9 
-    Info (332119):     0.204               0.000 sw8 
+    Info (332119):    -0.538              -0.936 KEY1 
+    Info (332119):     0.269               0.000 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):     0.427               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is -0.265
+Info (332146): Worst-case minimum pulse width slack is -0.433
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.265              -7.176 sw9 
-    Info (332119):    -0.254              -6.345 sw8 
+    Info (332119):    -0.433             -13.324 KEY1 
+    Info (332119):    -0.381              -7.732 KEY2 
+    Info (332119):    -0.291              -0.732 KEY0 
+    Info (332119):    -0.286              -1.142 KEY3 
+    Info (332119):     0.139               0.000 in_mod:inst53|eightbitff:inst4|pxd 
 Info: Analyzing Fast 1100mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.066
+Info (332146): Worst-case setup slack is -3.436
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.066              -0.268 sw9 
-    Info (332119):    -0.065              -0.261 sw8 
-Info (332146): Worst-case hold slack is 0.190
+    Info (332119):    -3.436             -49.643 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):    -2.460             -36.783 KEY2 
+    Info (332119):    -2.372             -42.147 KEY1 
+Info (332146): Worst-case hold slack is -0.537
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.190               0.000 sw9 
-    Info (332119):     0.191               0.000 sw8 
+    Info (332119):    -0.537              -0.957 KEY1 
+    Info (332119):     0.298               0.000 in_mod:inst53|eightbitff:inst4|pxd 
+    Info (332119):     0.321               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is -0.254
+Info (332146): Worst-case minimum pulse width slack is -0.445
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.254              -6.868 sw9 
-    Info (332119):    -0.239              -5.955 sw8 
+    Info (332119):    -0.445             -13.992 KEY1 
+    Info (332119):    -0.388              -8.216 KEY2 
+    Info (332119):    -0.302              -1.206 KEY3 
+    Info (332119):    -0.277              -0.669 KEY0 
+    Info (332119):     0.197               0.000 in_mod:inst53|eightbitff:inst4|pxd 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5072 megabytes
-    Info: Processing ended: Thu Nov 03 13:47:04 2022
-    Info: Elapsed time: 00:00:04
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 5071 megabytes
+    Info: Processing ended: Thu Nov 03 20:01:35 2022
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
 

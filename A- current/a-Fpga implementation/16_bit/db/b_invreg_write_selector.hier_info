@@ -97,9 +97,9 @@ enableset1[12] => decoder_sequential_receiver:inst.enableset[12]
 enableset1[13] => decoder_sequential_receiver:inst.enableset[13]
 enableset1[14] => decoder_sequential_receiver:inst.enableset[14]
 enableset1[15] => decoder_sequential_receiver:inst.enableset[15]
-inputaenable <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-inputbenable <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-inputcenable <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+inputaenable <= decoder_sequential_receiver:inst.enableee
+inputbenable <= decoder_sequential_receiver:inst4.enableee
+inputcenable <= decoder_sequential_receiver:inst5.enableee
 generala => ~NO_FANOUT~
 
 
@@ -1901,30 +1901,5 @@ d12 => c[12].DATAIN
 d13 => c[13].DATAIN
 d14 => c[14].DATAIN
 d15 => c[15].DATAIN
-
-
-|b_invreg_write_selector|74154:inst24
-O0N <= 32.DB_MAX_OUTPUT_PORT_TYPE
-G1N => 45.IN0
-G2N => 45.IN1
-A => 43.IN0
-B => 40.IN0
-C => 36.IN0
-D => 34.IN0
-O1N <= 31.DB_MAX_OUTPUT_PORT_TYPE
-O2N <= 30.DB_MAX_OUTPUT_PORT_TYPE
-O3N <= 29.DB_MAX_OUTPUT_PORT_TYPE
-O4N <= 28.DB_MAX_OUTPUT_PORT_TYPE
-O5N <= 27.DB_MAX_OUTPUT_PORT_TYPE
-O6N <= 26.DB_MAX_OUTPUT_PORT_TYPE
-O7N <= 25.DB_MAX_OUTPUT_PORT_TYPE
-O8N <= 24.DB_MAX_OUTPUT_PORT_TYPE
-O9N <= 23.DB_MAX_OUTPUT_PORT_TYPE
-O10N <= 22.DB_MAX_OUTPUT_PORT_TYPE
-O11N <= 21.DB_MAX_OUTPUT_PORT_TYPE
-O12N <= 20.DB_MAX_OUTPUT_PORT_TYPE
-O13N <= 19.DB_MAX_OUTPUT_PORT_TYPE
-O14N <= 18.DB_MAX_OUTPUT_PORT_TYPE
-O15N <= 17.DB_MAX_OUTPUT_PORT_TYPE
 
 

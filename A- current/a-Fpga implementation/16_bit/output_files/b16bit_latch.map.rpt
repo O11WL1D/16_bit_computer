@@ -1,5 +1,5 @@
 Analysis & Synthesis report for b16bit_latch
-Fri Oct 21 17:10:04 2022
+Thu Nov 03 19:59:35 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,10 +13,11 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -43,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Oct 21 17:10:04 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov 03 19:59:35 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b16bit_latch                                ;
 ; Top-level Entity Name           ; b16bit_latch                                ;
@@ -166,53 +167,81 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                   ;
-+----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                   ; Library ;
-+----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
-; b16bit_latch.bdf                 ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16bit_latch.bdf  ;         ;
-; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd ;         ;
-; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd     ;         ;
-; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/8bitdlatch.bdf    ;         ;
-+----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                     ; Library ;
++----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; b16bit_latch.bdf                 ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16bit_latch.bdf  ;         ;
+; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd ;         ;
+; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd     ;         ;
+; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/8bitdlatch.bdf    ;         ;
++----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                     ;
-+---------------------------------------------+-------------------+
-; Resource                                    ; Usage             ;
-+---------------------------------------------+-------------------+
-; Estimate of Logic utilization (ALMs needed) ; 0                 ;
-;                                             ;                   ;
-; Combinational ALUT usage for logic          ; 0                 ;
-;     -- 7 input functions                    ; 0                 ;
-;     -- 6 input functions                    ; 0                 ;
-;     -- 5 input functions                    ; 0                 ;
-;     -- 4 input functions                    ; 0                 ;
-;     -- <=3 input functions                  ; 0                 ;
-;                                             ;                   ;
-; Dedicated logic registers                   ; 0                 ;
-;                                             ;                   ;
-; I/O pins                                    ; 33                ;
-;                                             ;                   ;
-; Total DSP Blocks                            ; 0                 ;
-;                                             ;                   ;
-; Maximum fan-out node                        ; regout[15]~output ;
-; Maximum fan-out                             ; 1                 ;
-; Total fan-out                               ; 33                ;
-; Average fan-out                             ; 0.50              ;
-+---------------------------------------------+-------------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 8           ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 16          ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 0           ;
+;     -- 5 input functions                    ; 0           ;
+;     -- 4 input functions                    ; 0           ;
+;     -- <=3 input functions                  ; 16          ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 33          ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 16          ;
+; Total fan-out                               ; 97          ;
+; Average fan-out                             ; 1.18        ;
++---------------------------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+--------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name  ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+--------------+--------------+
-; |b16bit_latch              ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 33   ; 0            ; |b16bit_latch       ; b16bit_latch ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+--------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+--------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name            ; Entity Name  ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+--------------+--------------+
+; |b16bit_latch              ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 33   ; 0            ; |b16bit_latch                  ; b16bit_latch ; work         ;
+;    |8bitdlatch:inst1|      ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16bit_latch|8bitdlatch:inst1 ; 8bitdlatch   ; work         ;
+;    |8bitdlatch:inst|       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b16bit_latch|8bitdlatch:inst  ; 8bitdlatch   ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+--------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; 8bitdlatch:inst1|inst4                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst9                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst3                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst8                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst2                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst7                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst1                              ; clock               ; yes                    ;
+; 8bitdlatch:inst1|inst                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst4                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst9                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst3                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst8                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst2                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst7                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst1                               ; clock               ; yes                    ;
+; 8bitdlatch:inst|inst                                ; clock               ; yes                    ;
+; Number of user-specified and inferred latches = 16  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -235,13 +264,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
+; arriav_lcell_comb     ; 16                          ;
+;     normal            ; 16                          ;
+;         3 data inputs ; 16                          ;
 ; boundary_port         ; 33                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
 +-----------------------+-----------------------------+
 
 
@@ -260,7 +289,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct 21 17:09:54 2022
+    Info: Processing started: Thu Nov 03 19:59:27 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b16bit_latch -c b16bit_latch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -269,62 +298,28 @@ Info (12021): Found 1 design units, including 1 entities, in source file b16bit_
 Info (12127): Elaborating entity "b16bit_latch" for the top level hierarchy
 Warning (275011): Block or symbol "bus_split" of instance "inst3" overlaps another block or symbol
 Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
-Warning (275009): Pin "reginput" not connected
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split_out.vhd Line: 7
+    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
 Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst5"
 Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 31
-    Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/bus_split.vhd Line: 7
+    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 31
+    Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst3"
 Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: 8bitdlatch
 Info (12128): Elaborating entity "8bitdlatch" for hierarchy "8bitdlatch:inst"
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "regout[15]" is stuck at GND
-    Warning (13410): Pin "regout[14]" is stuck at GND
-    Warning (13410): Pin "regout[13]" is stuck at GND
-    Warning (13410): Pin "regout[12]" is stuck at GND
-    Warning (13410): Pin "regout[11]" is stuck at GND
-    Warning (13410): Pin "regout[10]" is stuck at GND
-    Warning (13410): Pin "regout[9]" is stuck at GND
-    Warning (13410): Pin "regout[8]" is stuck at GND
-    Warning (13410): Pin "regout[7]" is stuck at GND
-    Warning (13410): Pin "regout[6]" is stuck at GND
-    Warning (13410): Pin "regout[5]" is stuck at GND
-    Warning (13410): Pin "regout[4]" is stuck at GND
-    Warning (13410): Pin "regout[3]" is stuck at GND
-    Warning (13410): Pin "regout[2]" is stuck at GND
-    Warning (13410): Pin "regout[1]" is stuck at GND
-    Warning (13410): Pin "regout[0]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 17 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "clock"
-    Warning (15610): No output dependent on input pin "reginput[15]"
-    Warning (15610): No output dependent on input pin "reginput[14]"
-    Warning (15610): No output dependent on input pin "reginput[13]"
-    Warning (15610): No output dependent on input pin "reginput[12]"
-    Warning (15610): No output dependent on input pin "reginput[11]"
-    Warning (15610): No output dependent on input pin "reginput[10]"
-    Warning (15610): No output dependent on input pin "reginput[9]"
-    Warning (15610): No output dependent on input pin "reginput[8]"
-    Warning (15610): No output dependent on input pin "reginput[7]"
-    Warning (15610): No output dependent on input pin "reginput[6]"
-    Warning (15610): No output dependent on input pin "reginput[5]"
-    Warning (15610): No output dependent on input pin "reginput[4]"
-    Warning (15610): No output dependent on input pin "reginput[3]"
-    Warning (15610): No output dependent on input pin "reginput[2]"
-    Warning (15610): No output dependent on input pin "reginput[1]"
-    Warning (15610): No output dependent on input pin "reginput[0]"
-Info (21057): Implemented 33 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 49 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 16 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 42 warnings
-    Info: Peak virtual memory: 4843 megabytes
-    Info: Processing ended: Fri Oct 21 17:10:04 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:21
+    Info (21061): Implemented 16 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4839 megabytes
+    Info: Processing ended: Thu Nov 03 19:59:35 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:17
 
 

@@ -1,5 +1,5 @@
 Fitter report for inmod_2
-Thu Nov 03 15:21:07 2022
+Thu Nov 03 16:35:00 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Thu Nov 03 15:21:07 2022       ;
+; Fitter Status                   ; Successful - Thu Nov 03 16:35:00 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; inmod_2                                     ;
 ; Top-level Entity Name           ; inmod_2                                     ;
@@ -159,9 +159,9 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.5%      ;
-;     Processor 3            ;   0.5%      ;
-;     Processor 4            ;   0.5%      ;
+;     Processor 2            ;   0.7%      ;
+;     Processor 3            ;   0.7%      ;
+;     Processor 4            ;   0.7%      ;
 +----------------------------+-------------+
 
 
@@ -231,12 +231,12 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 +-------------------------------------------------------------+--------------------+-------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 22 / 18,480        ; < 1 % ;
 ; ALMs needed [=A-B+C]                                        ; 22                 ;       ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 36 / 18,480        ; < 1 % ;
-;         [a] ALMs used for LUT logic and registers           ; 8                  ;       ;
-;         [b] ALMs used for LUT logic                         ; 9                  ;       ;
-;         [c] ALMs used for registers                         ; 19                 ;       ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 33 / 18,480        ; < 1 % ;
+;         [a] ALMs used for LUT logic and registers           ; 11                 ;       ;
+;         [b] ALMs used for LUT logic                         ; 6                  ;       ;
+;         [c] ALMs used for registers                         ; 16                 ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                  ;       ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 14 / 18,480        ; < 1 % ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 11 / 18,480        ; < 1 % ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 18,480         ; 0 %   ;
 ;         [a] Due to location constrained logic               ; 0                  ;       ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                  ;       ;
@@ -255,7 +255,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ;     -- 5 input functions                                    ; 0                  ;       ;
 ;     -- 4 input functions                                    ; 0                  ;       ;
 ;     -- <=3 input functions                                  ; 32                 ;       ;
-; Combinational ALUT usage for route-throughs                 ; 18                 ;       ;
+; Combinational ALUT usage for route-throughs                 ; 13                 ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 52                 ;       ;
 ;     -- By type:                                             ;                    ;       ;
@@ -290,11 +290,11 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; Oscillator blocks                                           ; 0 / 1              ; 0 %   ;
 ; Impedance control blocks                                    ; 0 / 3              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.2% / 0.2% / 0.2% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 2.3% / 2.4% / 2.1% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 2.6% / 2.7% / 2.6% ;       ;
 ; Maximum fan-out                                             ; 30                 ;       ;
 ; Highest non-global fan-out                                  ; 30                 ;       ;
-; Total fan-out                                               ; 328                ;       ;
-; Average fan-out                                             ; 1.42               ;       ;
+; Total fan-out                                               ; 323                ;       ;
+; Average fan-out                                             ; 1.43               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -305,12 +305,12 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 +-------------------------------------------------------------+----------------------+--------------------------------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 22 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
 ; ALMs needed [=A-B+C]                                        ; 22                   ; 0                              ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 36 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
-;         [a] ALMs used for LUT logic and registers           ; 8                    ; 0                              ;
-;         [b] ALMs used for LUT logic                         ; 9                    ; 0                              ;
-;         [c] ALMs used for registers                         ; 19                   ; 0                              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 33 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
+;         [a] ALMs used for LUT logic and registers           ; 11                   ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 6                    ; 0                              ;
+;         [c] ALMs used for registers                         ; 16                   ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                    ; 0                              ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 14 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 11 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 18480 ( 0 % )    ; 0 / 18480 ( 0 % )              ;
 ;         [a] Due to location constrained logic               ; 0                    ; 0                              ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                    ; 0                              ;
@@ -329,7 +329,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ;     -- 5 input functions                                    ; 0                    ; 0                              ;
 ;     -- 4 input functions                                    ; 0                    ; 0                              ;
 ;     -- <=3 input functions                                  ; 32                   ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 18                   ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 13                   ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
 ;     -- 32-address deep                                      ; 0                    ; 0                              ;
@@ -357,7 +357,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 328                  ; 0                              ;
+;     -- Total Connections                                    ; 323                  ; 0                              ;
 ;     -- Registered Connections                               ; 110                  ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
@@ -401,10 +401,10 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; sw3      ; T12   ; 4A       ; 34           ; 0            ; 17           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; sw4      ; AA15  ; 4A       ; 36           ; 0            ; 34           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; sw5      ; AB15  ; 4A       ; 36           ; 0            ; 51           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; sw6      ; AA14  ; 4A       ; 34           ; 0            ; 51           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; sw7      ; AA13  ; 4A       ; 34           ; 0            ; 34           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; sw8      ; AB13  ; 4A       ; 33           ; 0            ; 91           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; sw9      ; AB12  ; 4A       ; 33           ; 0            ; 74           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; sw6      ; AA14  ; 4A       ; 34           ; 0            ; 51           ; 4                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; sw7      ; AA13  ; 4A       ; 34           ; 0            ; 34           ; 4                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; sw8      ; AB13  ; 4A       ; 33           ; 0            ; 91           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; sw9      ; AB12  ; 4A       ; 33           ; 0            ; 74           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
 
@@ -461,7 +461,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; LEDR5    ; N1    ; 2A       ; 0            ; 19           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; LEDR7    ; U1    ; 2A       ; 0            ; 19           ; 20           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; LEDR8    ; L2    ; 2A       ; 0            ; 20           ; 37           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; generalc ; A5    ; 8A       ; 16           ; 45           ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; Fitter               ; -                    ; -                   ;
+; generalc ; G18   ; 7A       ; 48           ; 45           ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; Fitter               ; -                    ; -                   ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -476,8 +476,8 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; 4A       ; 46 / 48 ( 96 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 5A       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 5B       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 7A       ; 0 / 48 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 8A       ; 1 / 32 ( 3 % )   ; 2.5V          ; --           ; 2.5V          ;
+; 7A       ; 1 / 48 ( 2 % )   ; 2.5V          ; --           ; 2.5V          ;
+; 8A       ; 0 / 32 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 +----------+------------------+---------------+--------------+---------------+
 
 
@@ -490,7 +490,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; A2       ; 288        ; 9A       ; ^MSEL2                          ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; A3       ;            ; --       ; VCCBAT                          ; power  ;              ; 1.2V                ; --           ;                 ; --       ; --           ;
 ; A4       ; 290        ; 9A       ; ^nCONFIG                        ;        ;              ;                     ; --           ;                 ; --       ; --           ;
-; A5       ; 264        ; 8A       ; generalc                        ; output ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; A5       ; 264        ; 8A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; A6       ;            ; 8A       ; VCCIO8A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; A7       ; 273        ; 8A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; A8       ; 271        ; 8A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -679,7 +679,7 @@ The pin-out file can be found in C:/Users/dudkr/Desktop/16 bit computer/A- curre
 ; G15      ; 224        ; 7A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; G16      ; 210        ; 7A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; G17      ; 208        ; 7A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; G18      ; 211        ; 7A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; G18      ; 211        ; 7A       ; generalc                        ; output ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; G19      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; G20      ;            ;          ; NC                              ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; G21      ;            ;          ; NC                              ;        ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -1037,12 +1037,12 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; sw6      ; Incomplete set of assignments ;
 ; sw7      ; Incomplete set of assignments ;
 ; sw0      ; Incomplete set of assignments ;
-; sw8      ; Incomplete set of assignments ;
-; sw9      ; Incomplete set of assignments ;
 ; KEY1     ; Incomplete set of assignments ;
 ; KEY2     ; Incomplete set of assignments ;
 ; KEY3     ; Incomplete set of assignments ;
+; sw9      ; Incomplete set of assignments ;
 ; KEY0     ; Incomplete set of assignments ;
+; sw8      ; Incomplete set of assignments ;
 ; generalc ; Missing location assignment   ;
 ; generala ; Missing location assignment   ;
 +----------+-------------------------------+
@@ -1053,21 +1053,21 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                      ; Entity Name ; Library Name ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------------------+-------------+--------------+
-; |inmod_2                   ; 22.0 (0.8)           ; 34.5 (1.0)                       ; 12.5 (0.2)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 32 (2)              ; 52 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 64   ; 0            ; |inmod_2                                 ; inmod_2     ; work         ;
-;    |b16_or:inst21|         ; 4.1 (4.1)            ; 4.1 (4.1)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|b16_or:inst21                   ; b16_or      ; work         ;
-;    |b16_or:inst33|         ; 3.7 (3.7)            ; 3.7 (3.7)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|b16_or:inst33                   ; b16_or      ; work         ;
+; |inmod_2                   ; 21.5 (0.8)           ; 31.5 (1.0)                       ; 10.0 (0.2)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 32 (2)              ; 52 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 64   ; 0            ; |inmod_2                                 ; inmod_2     ; work         ;
+;    |b16_or:inst21|         ; 3.4 (3.4)            ; 3.4 (3.4)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|b16_or:inst21                   ; b16_or      ; work         ;
+;    |b16_or:inst33|         ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|b16_or:inst33                   ; b16_or      ; work         ;
 ;    |b16_or:inst42|         ; 3.7 (3.7)            ; 3.7 (3.7)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|b16_or:inst42                   ; b16_or      ; work         ;
 ;    |eightbitff:inst3|      ; 0.2 (0.2)            ; 1.0 (1.0)                        ; 0.8 (0.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 2 (2)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|eightbitff:inst3                ; eightbitff  ; work         ;
-;    |eightbitff:inst4|      ; 0.7 (0.7)            ; 1.0 (1.0)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 2 (2)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|eightbitff:inst4                ; eightbitff  ; work         ;
-;    |in_mod:inst|           ; 3.5 (0.0)            ; 6.5 (0.0)                        ; 3.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 16 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst                     ; in_mod      ; work         ;
-;       |eightbitff:inst11|  ; 1.5 (1.5)            ; 2.8 (2.8)                        ; 1.3 (1.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst|eightbitff:inst11   ; eightbitff  ; work         ;
-;       |eightbitff:inst4|   ; 2.0 (2.0)            ; 3.7 (3.7)                        ; 1.7 (1.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst|eightbitff:inst4    ; eightbitff  ; work         ;
-;    |in_mod:inst24|         ; 2.5 (0.0)            ; 5.8 (0.0)                        ; 3.3 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 16 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst24                   ; in_mod      ; work         ;
-;       |eightbitff:inst11|  ; 1.0 (1.0)            ; 3.0 (3.0)                        ; 2.0 (2.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst24|eightbitff:inst11 ; eightbitff  ; work         ;
-;       |eightbitff:inst4|   ; 1.5 (1.5)            ; 2.8 (2.8)                        ; 1.3 (1.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst24|eightbitff:inst4  ; eightbitff  ; work         ;
-;    |in_mod:inst36|         ; 0.0 (0.0)            ; 7.7 (0.0)                        ; 7.7 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 16 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst36                   ; in_mod      ; work         ;
-;       |eightbitff:inst11|  ; 0.0 (0.0)            ; 4.0 (4.0)                        ; 4.0 (4.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst36|eightbitff:inst11 ; eightbitff  ; work         ;
-;       |eightbitff:inst4|   ; 0.0 (0.0)            ; 3.7 (3.7)                        ; 3.7 (3.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst36|eightbitff:inst4  ; eightbitff  ; work         ;
+;    |eightbitff:inst4|      ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 2 (2)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|eightbitff:inst4                ; eightbitff  ; work         ;
+;    |in_mod:inst|           ; 2.0 (0.0)            ; 5.5 (0.0)                        ; 3.5 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 16 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst                     ; in_mod      ; work         ;
+;       |eightbitff:inst11|  ; 1.0 (1.0)            ; 3.0 (3.0)                        ; 2.0 (2.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst|eightbitff:inst11   ; eightbitff  ; work         ;
+;       |eightbitff:inst4|   ; 1.0 (1.0)            ; 2.5 (2.5)                        ; 1.5 (1.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst|eightbitff:inst4    ; eightbitff  ; work         ;
+;    |in_mod:inst24|         ; 3.5 (0.0)            ; 6.8 (0.0)                        ; 3.3 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 16 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst24                   ; in_mod      ; work         ;
+;       |eightbitff:inst11|  ; 1.5 (1.5)            ; 3.1 (3.1)                        ; 1.6 (1.6)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst24|eightbitff:inst11 ; eightbitff  ; work         ;
+;       |eightbitff:inst4|   ; 2.0 (2.0)            ; 3.7 (3.7)                        ; 1.7 (1.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst24|eightbitff:inst4  ; eightbitff  ; work         ;
+;    |in_mod:inst36|         ; 0.0 (0.0)            ; 5.7 (0.0)                        ; 5.7 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 16 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst36                   ; in_mod      ; work         ;
+;       |eightbitff:inst11|  ; 0.0 (0.0)            ; 2.7 (2.7)                        ; 2.7 (2.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst36|eightbitff:inst11 ; eightbitff  ; work         ;
+;       |eightbitff:inst4|   ; 0.0 (0.0)            ; 3.0 (3.0)                        ; 3.0 (3.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |inmod_2|in_mod:inst36|eightbitff:inst4  ; eightbitff  ; work         ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1129,18 +1129,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; generala ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; sw1      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; sw2      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; sw3      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; sw3      ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; sw4      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; sw5      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; sw5      ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; sw6      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; sw7      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; sw0      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; sw8      ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; sw9      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; KEY1     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; KEY2     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; KEY2     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; KEY3     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; sw9      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; KEY0     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; sw8      ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 +----------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
@@ -1159,18 +1159,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - b16_or:inst33|F[6]          ; 0                 ; 0       ;
 ;      - b16_or:inst42|F[6]          ; 0                 ; 0       ;
 ; sw3                                ;                   ;         ;
-;      - b16_or:inst21|F[7]          ; 0                 ; 0       ;
-;      - b16_or:inst33|F[7]          ; 0                 ; 0       ;
-;      - b16_or:inst42|F[7]          ; 0                 ; 0       ;
+;      - b16_or:inst21|F[7]          ; 1                 ; 0       ;
+;      - b16_or:inst33|F[7]          ; 1                 ; 0       ;
+;      - b16_or:inst42|F[7]          ; 1                 ; 0       ;
 ; sw4                                ;                   ;         ;
 ;      - b16_or:inst21|F[8]          ; 0                 ; 0       ;
 ;      - b16_or:inst33|F[8]          ; 0                 ; 0       ;
 ;      - b16_or:inst42|F[8]          ; 0                 ; 0       ;
 ; sw5                                ;                   ;         ;
-;      - b16_or:inst21|F[9]          ; 0                 ; 0       ;
-;      - b16_or:inst33|F[9]          ; 0                 ; 0       ;
-;      - b16_or:inst42|F[9]          ; 0                 ; 0       ;
+;      - b16_or:inst21|F[9]          ; 1                 ; 0       ;
+;      - b16_or:inst33|F[9]          ; 1                 ; 0       ;
+;      - b16_or:inst42|F[9]          ; 1                 ; 0       ;
 ; sw6                                ;                   ;         ;
+;      - eightbitff:inst4|pxd        ; 0                 ; 0       ;
 ;      - b16_or:inst21|F[10]         ; 0                 ; 0       ;
 ;      - b16_or:inst33|F[10]         ; 0                 ; 0       ;
 ;      - b16_or:inst42|F[10]         ; 0                 ; 0       ;
@@ -1178,45 +1179,44 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - b16_or:inst21|F[11]         ; 0                 ; 0       ;
 ;      - b16_or:inst33|F[11]         ; 0                 ; 0       ;
 ;      - b16_or:inst42|F[11]         ; 0                 ; 0       ;
+;      - eightbitff:inst4|pxe~feeder ; 0                 ; 0       ;
 ; sw0                                ;                   ;         ;
 ;      - b16_or:inst21|F[4]          ; 0                 ; 0       ;
 ;      - b16_or:inst33|F[4]          ; 0                 ; 0       ;
 ;      - b16_or:inst42|F[4]          ; 0                 ; 0       ;
-; sw8                                ;                   ;         ;
-;      - eightbitff:inst4|pxd        ; 1                 ; 0       ;
-;      - eightbitff:inst3|pxd~feeder ; 1                 ; 0       ;
-; sw9                                ;                   ;         ;
-;      - eightbitff:inst4|pxe        ; 0                 ; 0       ;
-;      - eightbitff:inst3|pxe~feeder ; 0                 ; 0       ;
 ; KEY1                               ;                   ;         ;
 ;      - b16_or:inst21|F[1]          ; 1                 ; 0       ;
 ;      - b16_or:inst33|F[1]          ; 1                 ; 0       ;
 ;      - b16_or:inst42|F[1]          ; 1                 ; 0       ;
 ; KEY2                               ;                   ;         ;
-;      - b16_or:inst21|F[2]          ; 0                 ; 0       ;
-;      - b16_or:inst33|F[2]          ; 0                 ; 0       ;
-;      - b16_or:inst42|F[2]          ; 0                 ; 0       ;
+;      - b16_or:inst21|F[2]          ; 1                 ; 0       ;
+;      - b16_or:inst33|F[2]          ; 1                 ; 0       ;
+;      - b16_or:inst42|F[2]          ; 1                 ; 0       ;
 ; KEY3                               ;                   ;         ;
 ;      - inst37                      ; 0                 ; 0       ;
+; sw9                                ;                   ;         ;
+;      - eightbitff:inst3|pxe~feeder ; 0                 ; 0       ;
 ; KEY0                               ;                   ;         ;
 ;      - KEY0~inputCLKENA0           ; 1                 ; 0       ;
+; sw8                                ;                   ;         ;
+;      - eightbitff:inst3|pxd~feeder ; 1                 ; 0       ;
 +------------------------------------+-------------------+---------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                          ;
-+--------------------+--------------------+---------+-------+--------+----------------------+------------------+---------------------------+
-; Name               ; Location           ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+--------------------+--------------------+---------+-------+--------+----------------------+------------------+---------------------------+
-; KEY0               ; PIN_U7             ; 2       ; Clock ; yes    ; Global Clock         ; GCLK4            ; --                        ;
-; b16_or:inst21|F[1] ; LABCELL_X39_Y3_N54 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
-; b16_or:inst21|F[2] ; LABCELL_X40_Y3_N15 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
-; b16_or:inst33|F[1] ; LABCELL_X41_Y3_N36 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
-; b16_or:inst33|F[2] ; LABCELL_X41_Y3_N45 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
-; b16_or:inst42|F[1] ; LABCELL_X40_Y3_N57 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
-; b16_or:inst42|F[2] ; LABCELL_X40_Y3_N42 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
-; inst37             ; LABCELL_X20_Y3_N27 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-+--------------------+--------------------+---------+-------+--------+----------------------+------------------+---------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                           ;
++--------------------+---------------------+---------+-------+--------+----------------------+------------------+---------------------------+
+; Name               ; Location            ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++--------------------+---------------------+---------+-------+--------+----------------------+------------------+---------------------------+
+; KEY0               ; PIN_U7              ; 2       ; Clock ; yes    ; Global Clock         ; GCLK4            ; --                        ;
+; b16_or:inst21|F[1] ; LABCELL_X36_Y3_N51  ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
+; b16_or:inst21|F[2] ; LABCELL_X36_Y3_N18  ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
+; b16_or:inst33|F[1] ; LABCELL_X35_Y3_N30  ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
+; b16_or:inst33|F[2] ; MLABCELL_X37_Y3_N27 ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
+; b16_or:inst42|F[1] ; LABCELL_X36_Y4_N24  ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
+; b16_or:inst42|F[2] ; LABCELL_X36_Y4_N0   ; 8       ; Clock ; no     ; --                   ; --               ; --                        ;
+; inst37             ; MLABCELL_X18_Y3_N27 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
++--------------------+---------------------+---------+-------+--------+----------------------+------------------+---------------------------+
 
 
 +-------------------------------------------------------------------------------------------------+
@@ -1233,21 +1233,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+-------------------------+
 ; Routing Resource Type        ; Usage                   ;
 +------------------------------+-------------------------+
-; Block interconnects          ; 153 / 140,056 ( < 1 % ) ;
-; C12 interconnects            ; 3 / 6,048 ( < 1 % )     ;
-; C2 interconnects             ; 82 / 54,648 ( < 1 % )   ;
-; C4 interconnects             ; 89 / 25,920 ( < 1 % )   ;
+; Block interconnects          ; 148 / 140,056 ( < 1 % ) ;
+; C12 interconnects            ; 11 / 6,048 ( < 1 % )    ;
+; C2 interconnects             ; 70 / 54,648 ( < 1 % )   ;
+; C4 interconnects             ; 87 / 25,920 ( < 1 % )   ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )          ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )          ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )          ;
 ; Direct links                 ; 2 / 140,056 ( < 1 % )   ;
 ; Global clocks                ; 1 / 16 ( 6 % )          ;
-; Local interconnects          ; 7 / 36,960 ( < 1 % )    ;
+; Local interconnects          ; 9 / 36,960 ( < 1 % )    ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )          ;
-; R14 interconnects            ; 43 / 5,984 ( < 1 % )    ;
-; R14/C12 interconnect drivers ; 40 / 9,504 ( < 1 % )    ;
-; R3 interconnects             ; 138 / 60,192 ( < 1 % )  ;
-; R6 interconnects             ; 109 / 127,072 ( < 1 % ) ;
+; R14 interconnects            ; 56 / 5,984 ( < 1 % )    ;
+; R14/C12 interconnect drivers ; 59 / 9,504 ( < 1 % )    ;
+; R3 interconnects             ; 129 / 60,192 ( < 1 % )  ;
+; R6 interconnects             ; 117 / 127,072 ( < 1 % ) ;
 ; Spine clocks                 ; 1 / 120 ( < 1 % )       ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )       ;
 +------------------------------+-------------------------+
@@ -1370,12 +1370,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; sw6                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; sw7                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; sw0                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; sw8                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; sw9                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; KEY1               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; KEY2               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; KEY3               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; sw9                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; KEY0               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; sw8                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 
 
@@ -1428,29 +1428,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
 ; KEY3            ; KEY1,KEY2            ; 41.2              ;
-; KEY3,I/O        ; KEY1                 ; 24.2              ;
-; KEY3,I/O        ; KEY2                 ; 19.2              ;
+; KEY3,I/O        ; KEY2                 ; 21.1              ;
+; KEY3,I/O        ; KEY1                 ; 19.7              ;
 +-----------------+----------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
 
 
-+-------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                 ;
-+----------------------+------------------------------------+-------------------+
-; Source Register      ; Destination Register               ; Delay Added in ns ;
-+----------------------+------------------------------------+-------------------+
-; eightbitff:inst4|pxd ; in_mod:inst36|eightbitff:inst4|pxi ; 2.366             ;
-; eightbitff:inst4|pxe ; in_mod:inst36|eightbitff:inst4|pxi ; 2.320             ;
-; sw0                  ; in_mod:inst36|eightbitff:inst4|pxd ; 1.407             ;
-; sw1                  ; in_mod:inst36|eightbitff:inst4|pxe ; 1.394             ;
-; sw3                  ; in_mod:inst36|eightbitff:inst4|pxg ; 1.378             ;
-; sw5                  ; in_mod:inst36|eightbitff:inst4|pxi ; 1.319             ;
-; sw4                  ; in_mod:inst36|eightbitff:inst4|pxh ; 1.267             ;
-; sw7                  ; in_mod:inst|eightbitff:inst4|phk   ; 1.157             ;
-; sw2                  ; in_mod:inst36|eightbitff:inst4|pxf ; 1.116             ;
-; sw6                  ; in_mod:inst|eightbitff:inst4|pxj   ; 1.091             ;
-+----------------------+------------------------------------+-------------------+
++--------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                  ;
++----------------------+-------------------------------------+-------------------+
+; Source Register      ; Destination Register                ; Delay Added in ns ;
++----------------------+-------------------------------------+-------------------+
+; eightbitff:inst4|pxd ; in_mod:inst|eightbitff:inst4|pxh    ; 2.151             ;
+; eightbitff:inst4|pxe ; in_mod:inst|eightbitff:inst4|pxh    ; 2.134             ;
+; sw4                  ; in_mod:inst|eightbitff:inst4|pxh    ; 1.227             ;
+; sw0                  ; in_mod:inst24|eightbitff:inst11|pxd ; 1.151             ;
+; sw7                  ; in_mod:inst|eightbitff:inst4|phk    ; 1.076             ;
+; sw6                  ; in_mod:inst|eightbitff:inst4|pxj    ; 1.060             ;
+; sw1                  ; in_mod:inst|eightbitff:inst4|pxe    ; 1.058             ;
+; sw2                  ; in_mod:inst|eightbitff:inst4|pxf    ; 1.049             ;
+; sw5                  ; in_mod:inst|eightbitff:inst4|pxi    ; 1.047             ;
+; sw3                  ; in_mod:inst|eightbitff:inst4|pxg    ; 1.041             ;
++----------------------+-------------------------------------+-------------------+
 Note: This table only shows the top 10 path(s) that have the largest delay added for hold.
 
 
@@ -1484,7 +1484,7 @@ Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "CLOCK_50" is assigned to location or region, but does not exist in design
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:04
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
@@ -1496,20 +1496,20 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 2% of the available device resources in the region that extends from location X33_Y0 to location X43_Y10
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.30 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
+Info (11888): Total time spent on timing analysis during the Fitter is 0.37 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:04
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/inmod_2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 6222 megabytes
-    Info: Processing ended: Thu Nov 03 15:21:07 2022
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:28
+    Info: Peak virtual memory: 6265 megabytes
+    Info: Processing ended: Thu Nov 03 16:35:01 2022
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:37
 
 
 +----------------------------+

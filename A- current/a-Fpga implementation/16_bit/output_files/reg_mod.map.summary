@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Nov 03 13:31:16 2022
+Analysis & Synthesis Status : Successful - Thu Nov 03 20:52:51 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : reg_mod
 Top-level Entity Name : reg_mod
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 147
+Total pins : 131
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

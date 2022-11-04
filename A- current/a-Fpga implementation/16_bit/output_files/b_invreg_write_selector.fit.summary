@@ -1,11 +1,11 @@
-Fitter Status : Successful - Thu Nov 03 13:06:18 2022
+Fitter Status : Successful - Thu Nov 03 20:49:42 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : b_invreg_write_selector
 Top-level Entity Name : b_invreg_write_selector
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 17 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 16 / 18,480 ( < 1 % )
 Total registers : 0
 Total pins : 70 / 224 ( 31 % )
 Total virtual pins : 0

@@ -1,5 +1,5 @@
 Flow report for b_invreg_write_selector
-Thu Nov 03 13:06:27 2022
+Thu Nov 03 20:49:50 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,14 +41,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Nov 03 13:06:22 2022       ;
+; Flow Status                     ; Successful - Thu Nov 03 20:49:46 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b_invreg_write_selector                     ;
 ; Top-level Entity Name           ; b_invreg_write_selector                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 17 / 18,480 ( < 1 % )                       ;
+; Logic utilization (in ALMs)     ; 16 / 18,480 ( < 1 % )                       ;
 ; Total registers                 ; 0                                           ;
 ; Total pins                      ; 70 / 224 ( 31 % )                           ;
 ; Total virtual pins              ; 0                                           ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+-------------------------+
 ; Option            ; Setting                 ;
 +-------------------+-------------------------+
-; Start date & time ; 11/03/2022 13:05:56     ;
+; Start date & time ; 11/03/2022 20:49:20     ;
 ; Main task         ; Compilation             ;
 ; Revision Name     ; b_invreg_write_selector ;
 +-------------------+-------------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 224391393303535.166750235625284        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 224391393303535.166753015918996        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,10 +95,10 @@ https://fpgasoftware.intel.com/eula.
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4859 MB             ; 00:00:18                           ;
-; Fitter               ; 00:00:13     ; 1.0                     ; 6198 MB             ; 00:00:24                           ;
+; Fitter               ; 00:00:13     ; 1.0                     ; 6246 MB             ; 00:00:22                           ;
 ; Assembler            ; 00:00:03     ; 1.0                     ; 4820 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5041 MB             ; 00:00:04                           ;
-; Total                ; 00:00:29     ; --                      ; --                  ; 00:00:49                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 5062 MB             ; 00:00:04                           ;
+; Total                ; 00:00:28     ; --                      ; --                  ; 00:00:47                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

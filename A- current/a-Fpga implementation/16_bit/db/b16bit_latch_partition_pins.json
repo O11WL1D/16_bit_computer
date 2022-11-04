@@ -2,7 +2,140 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "regout[15]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[14]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "regout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reginput[0]",
+					"strict" : false
+				}
+			]
 		}
 	]
 }

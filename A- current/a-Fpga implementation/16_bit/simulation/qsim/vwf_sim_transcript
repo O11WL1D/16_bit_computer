@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off b16_ind_reg -c b16_ind_reg --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform20.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform20.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off simple_module_test_environment -c simple_module_test_environment --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform23.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform23.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,15 +26,19 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Sat Oct 22 11:23:50 2022
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off b16_ind_reg -c b16_ind_reg --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform20.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform20.vwf.vht"
+    Info: Processing started: Thu Nov 03 21:15:46 2022
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off simple_module_test_environment -c simple_module_test_environment --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform23.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform23.vwf.vt"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+e file when writing test bench files
+
+Completed successfully. 
 
 Completed successfully. 
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" b16_ind_reg -c b16_ind_reg
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" simple_module_test_environment -c simple_module_test_environment
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -53,13 +57,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Sat Oct 22 11:23:51 2022
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" b16_ind_reg -c b16_ind_reg
+    Info: Processing started: Thu Nov 03 21:15:47 2022
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" simple_module_test_environment -c simple_module_test_environment
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file b16_ind_reg.vho in folder "C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file simple_module_test_environment.vo in folder "C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4718 megabytes
-    Info: Processing ended: Sat Oct 22 11:23:52 2022
+    Info: Peak virtual memory: 4728 megabytes
+    Info: Processing ended: Thu Nov 03 21:15:48 2022
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -67,81 +71,67 @@ Completed successfully.
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/b16_ind_reg.do generated.
+C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/simple_module_test_environment.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do b16_ind_reg.do
+c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do simple_module_test_environment.do
 
 Reading pref.tcl
 
-
 # 2020.1
 
-# do b16_ind_reg.do
+# do simple_module_test_environment.do
+
 # ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:15:49 on Nov 03,2022
+# vlog -work work simple_module_test_environment.vo 
+# -- Compiling module simple_module_test_environment
 
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:23:53 on Oct 22,2022
-# vcom -work work b16_ind_reg.vho 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package altera_lnsim_components
-# -- Loading package VITAL_Timing
-# -- Loading package VITAL_Primitives
-# -- Loading package cyclonev_atom_pack
-# -- Loading package cyclonev_components
-# -- Compiling entity b16_ind_reg
-# -- Compiling architecture structure of b16_ind_reg
-
-# End time: 11:23:53 on Oct 22,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:23:53 on Oct 22,2022
-# vcom -work work Waveform20.vwf.vht 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity b16_ind_reg_vhd_vec_tst
-# -- Compiling architecture b16_ind_reg_arch of b16_ind_reg_vhd_vec_tst
-# End time: 11:23:53 on Oct 22,2022, Elapsed time: 0:00:00
+# 
+# Top level modules:
+# 	simple_module_test_environment
+# End time: 21:15:49 on Nov 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.b16_ind_reg_vhd_vec_tst 
-# Start time: 11:23:53 on Oct 22,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.b16_ind_reg_vhd_vec_tst(b16_ind_reg_arch)
-# Loading altera_lnsim.altera_lnsim_components
-# Loading ieee.vital_timing(body)
-# Loading ieee.vital_primitives(body)
-# Loading cyclonev.cyclonev_atom_pack(body)
-# Loading cyclonev.cyclonev_components
-# Loading work.b16_ind_reg(structure)
-# Loading ieee.std_logic_arith(body)
-# Loading cyclonev.cyclonev_io_obuf(arch)
-# Loading cyclonev.cyclonev_io_ibuf(arch)
-# Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
-# after#32
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:15:49 on Nov 03,2022
+# vlog -work work Waveform23.vwf.vt 
+# -- Compiling module simple_module_test_environment_vlg_vec_tst
+# 
+# Top level modules:
+# 	simple_module_test_environment_vlg_vec_tst
+# End time: 21:15:49 on Nov 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 
-# End time: 11:23:54 on Oct 22,2022, Elapsed time: 0:00:01
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.simple_module_test_environment_vlg_vec_tst 
+# Start time: 21:15:49 on Nov 03,2022
+# Loading work.simple_module_test_environment_vlg_vec_tst
+# Loading work.simple_module_test_environment
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#25
+
+# ** Note: $finish    : Waveform23.vwf.vt(59)
+#    Time: 1 us  Iteration: 0  Instance: /simple_module_test_environment_vlg_vec_tst
+# End time: 21:15:50 on Nov 03,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform20.vwf...
+Reading C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform23.vwf...
 
-Reading C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/b16_ind_reg.msim.vcd...
+Reading C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/simple_module_test_environment.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/b16_ind_reg_20221022112354.sim.vwf
+Writing the resulting VWF to C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/simple_module_test_environment_20221103211550.sim.vwf
 
 Finished VCD to VWF conversion.
 

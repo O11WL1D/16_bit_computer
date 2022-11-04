@@ -1,5 +1,5 @@
 Analysis & Synthesis report for reg_mod
-Thu Nov 03 13:31:16 2022
+Thu Nov 03 20:52:51 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,58 +13,59 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 10. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 11. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 12. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 13. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 14. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 15. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 16. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 17. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 18. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 19. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 20. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 21. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 22. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 23. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 24. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 25. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 26. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 27. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 28. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 29. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 30. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 31. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 32. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 33. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 34. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 35. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 36. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 37. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 38. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 39. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 40. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 41. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 42. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 43. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 44. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 45. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 46. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 47. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 48. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 49. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 50. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 51. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 52. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 53. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 54. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 55. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 56. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 57. Post-Synthesis Netlist Statistics for Top Partition
- 58. Elapsed Time Per Partition
- 59. Analysis & Synthesis Messages
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 11. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 12. Parameter Settings for User Entity Instance: b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 13. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 14. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 15. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 16. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 17. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 18. Parameter Settings for User Entity Instance: b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 19. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 20. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 21. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 22. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 23. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 24. Parameter Settings for User Entity Instance: b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 25. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 26. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 27. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 28. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 29. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 30. Parameter Settings for User Entity Instance: b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 32. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 33. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 34. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 35. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 36. Parameter Settings for User Entity Instance: b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 37. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 38. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 39. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 40. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 41. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 42. Parameter Settings for User Entity Instance: b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 43. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 44. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 45. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 46. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 47. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 48. Parameter Settings for User Entity Instance: b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 49. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 50. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 51. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 52. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 53. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 54. Parameter Settings for User Entity Instance: b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 55. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 56. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 57. Parameter Settings for User Entity Instance: b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 58. Post-Synthesis Netlist Statistics for Top Partition
+ 59. Elapsed Time Per Partition
+ 60. Analysis & Synthesis Messages
 
 
 
@@ -91,14 +92,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Nov 03 13:31:16 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov 03 20:52:51 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; reg_mod                                     ;
 ; Top-level Entity Name           ; reg_mod                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 147                                         ;
+; Total pins                      ; 131                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -238,10 +239,11 @@ https://fpgasoftware.intel.com/eula.
 ; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd                      ;         ;
 ; b16bit_latch.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16bit_latch.bdf                ;         ;
 ; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/8bitdlatch.bdf                  ;         ;
+; constt.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/constt.bdf                      ;         ;
 ; b_invreg_write_selector.bdf      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b_invreg_write_selector.bdf     ;         ;
-; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                             ;         ;
 ; busified_16decoder.bdf           ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/busified_16decoder.bdf          ;         ;
 ; b16_invert.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd                  ;         ;
+; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                             ;         ;
 ; bus4_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd                  ;         ;
 ; bus16_4.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus16_4.bdf                     ;         ;
 ; bus4_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd              ;         ;
@@ -250,41 +252,211 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                   ;
-+---------------------------------------------+-----------------+
-; Resource                                    ; Usage           ;
-+---------------------------------------------+-----------------+
-; Estimate of Logic utilization (ALMs needed) ; 0               ;
-;                                             ;                 ;
-; Combinational ALUT usage for logic          ; 0               ;
-;     -- 7 input functions                    ; 0               ;
-;     -- 6 input functions                    ; 0               ;
-;     -- 5 input functions                    ; 0               ;
-;     -- 4 input functions                    ; 0               ;
-;     -- <=3 input functions                  ; 0               ;
-;                                             ;                 ;
-; Dedicated logic registers                   ; 0               ;
-;                                             ;                 ;
-; I/O pins                                    ; 147             ;
-;                                             ;                 ;
-; Total DSP Blocks                            ; 0               ;
-;                                             ;                 ;
-; Maximum fan-out node                        ; generalc~output ;
-; Maximum fan-out                             ; 1               ;
-; Total fan-out                               ; 147             ;
-; Average fan-out                             ; 0.50            ;
-+---------------------------------------------+-----------------+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                ;
++---------------------------------------------+------------------------------+
+; Resource                                    ; Usage                        ;
++---------------------------------------------+------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 424                          ;
+;                                             ;                              ;
+; Combinational ALUT usage for logic          ; 528                          ;
+;     -- 7 input functions                    ; 0                            ;
+;     -- 6 input functions                    ; 320                          ;
+;     -- 5 input functions                    ; 0                            ;
+;     -- 4 input functions                    ; 80                           ;
+;     -- <=3 input functions                  ; 128                          ;
+;                                             ;                              ;
+; Dedicated logic registers                   ; 0                            ;
+;                                             ;                              ;
+; I/O pins                                    ; 131                          ;
+;                                             ;                              ;
+; Total DSP Blocks                            ; 0                            ;
+;                                             ;                              ;
+; Maximum fan-out node                        ; decoder_read_select[0]~input ;
+; Maximum fan-out                             ; 64                           ;
+; Total fan-out                               ; 2803                         ;
+; Average fan-out                             ; 3.55                         ;
++---------------------------------------------+------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |reg_mod                   ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 147  ; 0            ; |reg_mod            ; reg_mod     ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                            ;
++--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------+--------------------+--------------+
+; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                              ; Entity Name        ; Library Name ;
++--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------+--------------------+--------------+
+; |reg_mod                       ; 528 (0)             ; 0 (0)                     ; 0                 ; 0          ; 131  ; 0            ; |reg_mod                                                         ; reg_mod            ; work         ;
+;    |b16_ind_reg:inst40|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst40                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst40|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst40|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst40|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst41|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst41                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst41|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst41|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst41|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst42|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst42                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst42|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst42|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst42|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst43|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst43                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst43|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst43|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst43|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst44|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst44                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst44|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst44|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst44|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst45|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst45                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst45|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst45|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst45|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst46|        ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst46                                      ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst46|b16bit_latch:inst32                  ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1 ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst  ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst46|b8bus_or_gate:inst11                 ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst46|b8bus_or_gate:inst11|b16_or:inst14   ; b16_or             ; work         ;
+;    |b16_ind_reg:inst|          ; 33 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst                                        ; b16_ind_reg        ; work         ;
+;       |b16bit_latch:inst32|    ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst|b16bit_latch:inst32                    ; b16bit_latch       ; work         ;
+;          |8bitdlatch:inst1|    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1   ; 8bitdlatch         ; work         ;
+;          |8bitdlatch:inst|     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst    ; 8bitdlatch         ; work         ;
+;       |b8bus_or_gate:inst11|   ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst|b8bus_or_gate:inst11                   ; b8bus_or_gate      ; work         ;
+;          |b16_or:inst14|       ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b16_ind_reg:inst|b8bus_or_gate:inst11|b16_or:inst14     ; b16_or             ; work         ;
+;    |b8bus_or_gate:inst47|      ; 80 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b8bus_or_gate:inst47                                    ; b8bus_or_gate      ; work         ;
+;       |b16_or:inst14|          ; 80 (80)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b8bus_or_gate:inst47|b16_or:inst14                      ; b16_or             ; work         ;
+;    |b8bus_or_gate:inst48|      ; 80 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b8bus_or_gate:inst48                                    ; b8bus_or_gate      ; work         ;
+;       |b16_or:inst14|          ; 80 (80)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b8bus_or_gate:inst48|b16_or:inst14                      ; b16_or             ; work         ;
+;    |b8bus_or_gate:inst49|      ; 80 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b8bus_or_gate:inst49                                    ; b8bus_or_gate      ; work         ;
+;       |b16_or:inst14|          ; 80 (80)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|b8bus_or_gate:inst49|b16_or:inst14                      ; b16_or             ; work         ;
+;    |busified_16decoder:inst24| ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|busified_16decoder:inst24                               ; busified_16decoder ; work         ;
+;       |74154:inst24|           ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|busified_16decoder:inst24|74154:inst24                  ; 74154              ; work         ;
+;    |busified_16decoder:inst26| ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|busified_16decoder:inst26                               ; busified_16decoder ; work         ;
+;       |74154:inst24|           ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|busified_16decoder:inst26|74154:inst24                  ; 74154              ; work         ;
+;    |busified_16decoder:inst28| ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|busified_16decoder:inst28                               ; busified_16decoder ; work         ;
+;       |74154:inst24|           ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |reg_mod|busified_16decoder:inst28|74154:inst24                  ; 74154              ; work         ;
++--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                ;
++---------------------------------------------------------------+---------------------------+------------------------+
+; Latch Name                                                    ; Latch Enable Signal       ; Free of Timing Hazards ;
++---------------------------------------------------------------+---------------------------+------------------------+
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst4   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst4 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst9   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst9 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst3   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst3 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst8   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst8 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst2   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst2 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst7   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst7 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst1   ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst1 ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst    ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst  ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst4    ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst4  ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst9    ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst9  ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst3    ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst3  ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst8    ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst43|inst10 ; yes                    ;
+; b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst44|inst10 ; yes                    ;
+; b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst45|inst10 ; yes                    ;
+; b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst8  ; b16_ind_reg:inst46|inst10 ; yes                    ;
+; b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst2    ; b16_ind_reg:inst|inst10   ; yes                    ;
+; b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst2  ; b16_ind_reg:inst40|inst10 ; yes                    ;
+; b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst2  ; b16_ind_reg:inst41|inst10 ; yes                    ;
+; b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst2  ; b16_ind_reg:inst42|inst10 ; yes                    ;
+; Number of user-specified and inferred latches = 128           ;                           ;                        ;
++---------------------------------------------------------------+---------------------------+------------------------+
+Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -1219,13 +1391,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
+; arriav_lcell_comb     ; 529                         ;
+;     normal            ; 529                         ;
 ;         0 data inputs ; 1                           ;
-; boundary_port         ; 147                         ;
+;         3 data inputs ; 128                         ;
+;         4 data inputs ; 80                          ;
+;         6 data inputs ; 320                         ;
+; boundary_port         ; 131                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
+; Max LUT depth         ; 3.00                        ;
+; Average LUT depth     ; 2.41                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1244,7 +1419,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Nov 03 13:31:07 2022
+    Info: Processing started: Thu Nov 03 20:52:42 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off reg_mod -c reg_mod
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1315,8 +1490,8 @@ Warning (275080): Converted elements in bus name "regout2" using legacy naming r
     Warning (275081): Converted element name(s) from "regout2[15..0]" to "regout215..0"
 Warning (275080): Converted elements in bus name "regout3" using legacy naming rules. Make any assignments on the new names, not on the original names.
     Warning (275081): Converted element name(s) from "regout3[15..0]" to "regout315..0"
-Warning (275011): Block or symbol "b_invreg_write_selector" of instance "inst2" overlaps another block or symbol
-Warning (275011): Block or symbol "b_invreg_write_selector" of instance "inst6" overlaps another block or symbol
+Warning (275011): Block or symbol "b16_ind_reg" of instance "inst41" overlaps another block or symbol
+Warning (275011): Block or symbol "b16_ind_reg" of instance "inst45" overlaps another block or symbol
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
 Warning (12125): Using design file b8bus_or_gate.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
@@ -1386,19 +1561,18 @@ Warning (12125): Using design file b16bit_latch.bdf, which is not specified as a
 Info (12128): Elaborating entity "b16bit_latch" for hierarchy "b16_ind_reg:inst|b16bit_latch:inst32"
 Warning (275011): Block or symbol "bus_split" of instance "inst3" overlaps another block or symbol
 Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
-Warning (275009): Pin "reginput" not connected
 Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: 8bitdlatch
 Info (12128): Elaborating entity "8bitdlatch" for hierarchy "b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst"
+Warning (12125): Using design file constt.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: constt
+Info (12128): Elaborating entity "constt" for hierarchy "b16_ind_reg:inst|constt:inst4"
+Warning (275011): Block or symbol "bus_split_out" of instance "inst3" overlaps another block or symbol
 Warning (12125): Using design file b_invreg_write_selector.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: b_invreg_write_selector
 Info (12128): Elaborating entity "b_invreg_write_selector" for hierarchy "b_invreg_write_selector:inst1"
-Warning (275011): Block or symbol "NOT" of instance "inst1" overlaps another block or symbol
-Warning (275011): Block or symbol "NOT" of instance "inst3" overlaps another block or symbol
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
-Info (12128): Elaborating entity "74154" for hierarchy "b_invreg_write_selector:inst1|74154:inst24"
-Info (12130): Elaborated megafunction instantiation "b_invreg_write_selector:inst1|74154:inst24"
 Warning (12125): Using design file busified_16decoder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: busified_16decoder
 Info (12128): Elaborating entity "busified_16decoder" for hierarchy "busified_16decoder:inst24"
@@ -1406,6 +1580,8 @@ Warning (12125): Using design file b16_invert.vhd, which is not specified as a d
     Info (12022): Found design unit 1: b16_invert-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 39
     Info (12023): Found entity 1: b16_invert File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 13
 Info (12128): Elaborating entity "b16_invert" for hierarchy "busified_16decoder:inst24|b16_invert:inst3"
+Info (12128): Elaborating entity "74154" for hierarchy "busified_16decoder:inst24|74154:inst24"
+Info (12130): Elaborated megafunction instantiation "busified_16decoder:inst24|74154:inst24"
 Warning (12125): Using design file bus4_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: bus4_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 31
     Info (12023): Found entity 1: bus4_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 7
@@ -1428,163 +1604,284 @@ Warning (12125): Using design file bus8_split_out.vhd, which is not specified as
     Info (12022): Found design unit 1: bus8_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus8_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 7
 Info (12128): Elaborating entity "bus8_split_out" for hierarchy "bus16_4:inst23|bus8_split_out:inst9"
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst1|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst9 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst8 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst7 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
+Warning (13012): Latch b16_ind_reg:inst|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|32
+Warning (13012): Latch b16_ind_reg:inst40|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|31
+Warning (13012): Latch b16_ind_reg:inst41|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|30
+Warning (13012): Latch b16_ind_reg:inst42|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|29
+Warning (13012): Latch b16_ind_reg:inst43|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|28
+Warning (13012): Latch b16_ind_reg:inst44|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|27
+Warning (13012): Latch b16_ind_reg:inst45|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|26
+Warning (13012): Latch b16_ind_reg:inst46|b16bit_latch:inst32|8bitdlatch:inst|inst has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal busified_16decoder:inst24|74154:inst24|25
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "generalc" is stuck at GND
-    Warning (13410): Pin "readportout[15]" is stuck at GND
-    Warning (13410): Pin "readportout[14]" is stuck at GND
-    Warning (13410): Pin "readportout[13]" is stuck at GND
-    Warning (13410): Pin "readportout[12]" is stuck at GND
-    Warning (13410): Pin "readportout[11]" is stuck at GND
-    Warning (13410): Pin "readportout[10]" is stuck at GND
-    Warning (13410): Pin "readportout[9]" is stuck at GND
-    Warning (13410): Pin "readportout[8]" is stuck at GND
-    Warning (13410): Pin "readportout[7]" is stuck at GND
-    Warning (13410): Pin "readportout[6]" is stuck at GND
-    Warning (13410): Pin "readportout[5]" is stuck at GND
-    Warning (13410): Pin "readportout[4]" is stuck at GND
-    Warning (13410): Pin "readportout[3]" is stuck at GND
-    Warning (13410): Pin "readportout[2]" is stuck at GND
-    Warning (13410): Pin "readportout[1]" is stuck at GND
-    Warning (13410): Pin "readportout[0]" is stuck at GND
-    Warning (13410): Pin "readportoutb[15]" is stuck at GND
-    Warning (13410): Pin "readportoutb[14]" is stuck at GND
-    Warning (13410): Pin "readportoutb[13]" is stuck at GND
-    Warning (13410): Pin "readportoutb[12]" is stuck at GND
-    Warning (13410): Pin "readportoutb[11]" is stuck at GND
-    Warning (13410): Pin "readportoutb[10]" is stuck at GND
-    Warning (13410): Pin "readportoutb[9]" is stuck at GND
-    Warning (13410): Pin "readportoutb[8]" is stuck at GND
-    Warning (13410): Pin "readportoutb[7]" is stuck at GND
-    Warning (13410): Pin "readportoutb[6]" is stuck at GND
-    Warning (13410): Pin "readportoutb[5]" is stuck at GND
-    Warning (13410): Pin "readportoutb[4]" is stuck at GND
-    Warning (13410): Pin "readportoutb[3]" is stuck at GND
-    Warning (13410): Pin "readportoutb[2]" is stuck at GND
-    Warning (13410): Pin "readportoutb[1]" is stuck at GND
-    Warning (13410): Pin "readportoutb[0]" is stuck at GND
-    Warning (13410): Pin "readportoutc[15]" is stuck at GND
-    Warning (13410): Pin "readportoutc[14]" is stuck at GND
-    Warning (13410): Pin "readportoutc[13]" is stuck at GND
-    Warning (13410): Pin "readportoutc[12]" is stuck at GND
-    Warning (13410): Pin "readportoutc[11]" is stuck at GND
-    Warning (13410): Pin "readportoutc[10]" is stuck at GND
-    Warning (13410): Pin "readportoutc[9]" is stuck at GND
-    Warning (13410): Pin "readportoutc[8]" is stuck at GND
-    Warning (13410): Pin "readportoutc[7]" is stuck at GND
-    Warning (13410): Pin "readportoutc[6]" is stuck at GND
-    Warning (13410): Pin "readportoutc[5]" is stuck at GND
-    Warning (13410): Pin "readportoutc[4]" is stuck at GND
-    Warning (13410): Pin "readportoutc[3]" is stuck at GND
-    Warning (13410): Pin "readportoutc[2]" is stuck at GND
-    Warning (13410): Pin "readportoutc[1]" is stuck at GND
-    Warning (13410): Pin "readportoutc[0]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 98 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "current_enable[15]"
-    Warning (15610): No output dependent on input pin "current_enable[14]"
-    Warning (15610): No output dependent on input pin "current_enable[13]"
-    Warning (15610): No output dependent on input pin "current_enable[12]"
-    Warning (15610): No output dependent on input pin "current_enable[11]"
-    Warning (15610): No output dependent on input pin "current_enable[10]"
-    Warning (15610): No output dependent on input pin "current_enable[9]"
-    Warning (15610): No output dependent on input pin "current_enable[8]"
-    Warning (15610): No output dependent on input pin "current_enable[7]"
-    Warning (15610): No output dependent on input pin "current_enable[6]"
-    Warning (15610): No output dependent on input pin "current_enable[5]"
-    Warning (15610): No output dependent on input pin "current_enable[4]"
-    Warning (15610): No output dependent on input pin "current_enable[3]"
-    Warning (15610): No output dependent on input pin "current_enable[2]"
-    Warning (15610): No output dependent on input pin "current_enable[1]"
-    Warning (15610): No output dependent on input pin "current_enable[0]"
+Warning (21074): Design contains 9 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "decoder_write_select[15]"
     Warning (15610): No output dependent on input pin "decoder_write_select[14]"
     Warning (15610): No output dependent on input pin "decoder_write_select[13]"
     Warning (15610): No output dependent on input pin "decoder_write_select[12]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[11]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[10]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[9]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[8]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[7]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[6]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[5]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[4]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[3]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[2]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[1]"
-    Warning (15610): No output dependent on input pin "decoder_write_select[0]"
-    Warning (15610): No output dependent on input pin "clock"
-    Warning (15610): No output dependent on input pin "writeport_input0[15]"
-    Warning (15610): No output dependent on input pin "writeport_input0[14]"
-    Warning (15610): No output dependent on input pin "writeport_input0[13]"
-    Warning (15610): No output dependent on input pin "writeport_input0[12]"
-    Warning (15610): No output dependent on input pin "writeport_input0[11]"
-    Warning (15610): No output dependent on input pin "writeport_input0[10]"
-    Warning (15610): No output dependent on input pin "writeport_input0[9]"
-    Warning (15610): No output dependent on input pin "writeport_input0[8]"
-    Warning (15610): No output dependent on input pin "writeport_input0[7]"
-    Warning (15610): No output dependent on input pin "writeport_input0[6]"
-    Warning (15610): No output dependent on input pin "writeport_input0[5]"
-    Warning (15610): No output dependent on input pin "writeport_input0[4]"
-    Warning (15610): No output dependent on input pin "writeport_input0[3]"
-    Warning (15610): No output dependent on input pin "writeport_input0[2]"
-    Warning (15610): No output dependent on input pin "writeport_input0[1]"
-    Warning (15610): No output dependent on input pin "writeport_input0[0]"
-    Warning (15610): No output dependent on input pin "writeport_input1[15]"
-    Warning (15610): No output dependent on input pin "writeport_input1[14]"
-    Warning (15610): No output dependent on input pin "writeport_input1[13]"
-    Warning (15610): No output dependent on input pin "writeport_input1[12]"
-    Warning (15610): No output dependent on input pin "writeport_input1[11]"
-    Warning (15610): No output dependent on input pin "writeport_input1[10]"
-    Warning (15610): No output dependent on input pin "writeport_input1[9]"
-    Warning (15610): No output dependent on input pin "writeport_input1[8]"
-    Warning (15610): No output dependent on input pin "writeport_input1[7]"
-    Warning (15610): No output dependent on input pin "writeport_input1[6]"
-    Warning (15610): No output dependent on input pin "writeport_input1[5]"
-    Warning (15610): No output dependent on input pin "writeport_input1[4]"
-    Warning (15610): No output dependent on input pin "writeport_input1[3]"
-    Warning (15610): No output dependent on input pin "writeport_input1[2]"
-    Warning (15610): No output dependent on input pin "writeport_input1[1]"
-    Warning (15610): No output dependent on input pin "writeport_input1[0]"
-    Warning (15610): No output dependent on input pin "writeport_input2[15]"
-    Warning (15610): No output dependent on input pin "writeport_input2[14]"
-    Warning (15610): No output dependent on input pin "writeport_input2[13]"
-    Warning (15610): No output dependent on input pin "writeport_input2[12]"
-    Warning (15610): No output dependent on input pin "writeport_input2[11]"
-    Warning (15610): No output dependent on input pin "writeport_input2[10]"
-    Warning (15610): No output dependent on input pin "writeport_input2[9]"
-    Warning (15610): No output dependent on input pin "writeport_input2[8]"
-    Warning (15610): No output dependent on input pin "writeport_input2[7]"
-    Warning (15610): No output dependent on input pin "writeport_input2[6]"
-    Warning (15610): No output dependent on input pin "writeport_input2[5]"
-    Warning (15610): No output dependent on input pin "writeport_input2[4]"
-    Warning (15610): No output dependent on input pin "writeport_input2[3]"
-    Warning (15610): No output dependent on input pin "writeport_input2[2]"
-    Warning (15610): No output dependent on input pin "writeport_input2[1]"
-    Warning (15610): No output dependent on input pin "writeport_input2[0]"
     Warning (15610): No output dependent on input pin "decoder_read_select[15]"
     Warning (15610): No output dependent on input pin "decoder_read_select[14]"
     Warning (15610): No output dependent on input pin "decoder_read_select[13]"
     Warning (15610): No output dependent on input pin "decoder_read_select[12]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[11]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[10]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[9]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[8]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[7]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[6]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[5]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[4]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[3]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[2]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[1]"
-    Warning (15610): No output dependent on input pin "decoder_read_select[0]"
     Warning (15610): No output dependent on input pin "generala"
-Info (21057): Implemented 147 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 98 input pins
+Info (21057): Implemented 659 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 82 input pins
     Info (21059): Implemented 49 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 263 warnings
-    Info: Peak virtual memory: 4888 megabytes
-    Info: Processing ended: Thu Nov 03 13:31:16 2022
+    Info (21061): Implemented 528 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 381 warnings
+    Info: Peak virtual memory: 4891 megabytes
+    Info: Processing ended: Thu Nov 03 20:52:51 2022
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:18
 

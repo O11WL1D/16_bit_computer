@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Tue Oct 25 09:35:51 2022
+Analysis & Synthesis Status : Successful - Thu Nov 03 20:51:26 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : b16_ind_reg
 Top-level Entity Name : b16_ind_reg
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 148
+Total pins : 183
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

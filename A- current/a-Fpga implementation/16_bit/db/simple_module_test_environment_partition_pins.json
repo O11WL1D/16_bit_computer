@@ -1,0 +1,493 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "arasegportout[15]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[14]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "arasegportout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aregportout2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[4]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[5]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[7]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[6]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[8]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[9]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[11]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_read_select[10]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[15]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[4]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[5]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[7]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[6]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[8]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[9]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[11]",
+					"strict" : false
+				},
+				{
+					"name" : "adecoder_write_select[10]",
+					"strict" : false
+				},
+				{
+					"name" : "aclock",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[14]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[13]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[12]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[11]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[10]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[9]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[8]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "awriteport_input2[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for b_invreg_write_selector
-Thu Nov 03 13:06:04 2022
+Thu Nov 03 20:49:28 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Nov 03 13:06:04 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov 03 20:49:28 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b_invreg_write_selector                     ;
 ; Top-level Entity Name           ; b_invreg_write_selector                     ;
@@ -188,7 +188,6 @@ https://fpgasoftware.intel.com/eula.
 ; adder16.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder16.bdf                     ;         ;
 ; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder.bdf                       ;         ;
 ; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd               ;         ;
-; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                             ;         ;
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
 
 
@@ -197,14 +196,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 17                     ;
+; Estimate of Logic utilization (ALMs needed) ; 16                     ;
 ;                                             ;                        ;
-; Combinational ALUT usage for logic          ; 18                     ;
+; Combinational ALUT usage for logic          ; 16                     ;
 ;     -- 7 input functions                    ; 0                      ;
 ;     -- 6 input functions                    ; 15                     ;
 ;     -- 5 input functions                    ; 0                      ;
 ;     -- 4 input functions                    ; 0                      ;
-;     -- <=3 input functions                  ; 3                      ;
+;     -- <=3 input functions                  ; 1                      ;
 ;                                             ;                        ;
 ; Dedicated logic registers                   ; 0                      ;
 ;                                             ;                        ;
@@ -214,8 +213,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                        ;
 ; Maximum fan-out node                        ; currentenable[0]~input ;
 ; Maximum fan-out                             ; 9                      ;
-; Total fan-out                               ; 173                    ;
-; Average fan-out                             ; 1.09                   ;
+; Total fan-out                               ; 167                    ;
+; Average fan-out                             ; 1.07                   ;
 +---------------------------------------------+------------------------+
 
 
@@ -224,8 +223,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------+--------------+
 ; Compilation Hierarchy Node             ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                    ; Entity Name                 ; Library Name ;
 +----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------+--------------+
-; |b_invreg_write_selector               ; 18 (1)              ; 0 (0)                     ; 0                 ; 0          ; 70   ; 0            ; |b_invreg_write_selector                                                                                               ; b_invreg_write_selector     ; work         ;
-;    |74154:inst24|                      ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b_invreg_write_selector|74154:inst24                                                                                  ; 74154                       ; work         ;
+; |b_invreg_write_selector               ; 16 (1)              ; 0 (0)                     ; 0                 ; 0          ; 70   ; 0            ; |b_invreg_write_selector                                                                                               ; b_invreg_write_selector     ; work         ;
 ;    |decoder_sequential_receiver:inst4| ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b_invreg_write_selector|decoder_sequential_receiver:inst4                                                             ; decoder_sequential_receiver ; work         ;
 ;       |muxx:inst6|                     ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b_invreg_write_selector|decoder_sequential_receiver:inst4|muxx:inst6                                                  ; muxx                        ; work         ;
 ;          |lpm_mux:LPM_MUX_component|   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |b_invreg_write_selector|decoder_sequential_receiver:inst4|muxx:inst6|lpm_mux:LPM_MUX_component                        ; lpm_mux                     ; work         ;
@@ -328,16 +326,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 20                          ;
-;     normal            ; 20                          ;
+; arriav_lcell_comb     ; 17                          ;
+;     normal            ; 17                          ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 1                           ;
-;         3 data inputs ; 3                           ;
+;         3 data inputs ; 1                           ;
 ;         6 data inputs ; 15                          ;
 ; boundary_port         ; 70                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 3.92                        ;
+; Max LUT depth         ; 3.00                        ;
+; Average LUT depth     ; 2.96                        ;
 +-----------------------+-----------------------------+
 
 
@@ -346,7 +343,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -356,15 +353,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Nov 03 13:05:55 2022
+    Info: Processing started: Thu Nov 03 20:49:19 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b_invreg_write_selector -c b_invreg_write_selector
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file b_invreg_write_selector.bdf
     Info (12023): Found entity 1: b_invreg_write_selector
 Info (12127): Elaborating entity "b_invreg_write_selector" for the top level hierarchy
-Warning (275011): Block or symbol "NOT" of instance "inst1" overlaps another block or symbol
-Warning (275011): Block or symbol "NOT" of instance "inst3" overlaps another block or symbol
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
 Warning (12125): Using design file decoder_sequential_receiver.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
@@ -405,8 +400,6 @@ Warning (12125): Using design file bus_split_out.vhd, which is not specified as 
     Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
     Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
 Info (12128): Elaborating entity "bus_split_out" for hierarchy "decoder_sequential_receiver:inst4|bus_split_out:inst10"
-Info (12128): Elaborating entity "74154" for hierarchy "74154:inst24"
-Info (12130): Elaborated megafunction instantiation "74154:inst24"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "generalc" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
@@ -426,13 +419,13 @@ Warning (21074): Design contains 13 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "currentenable[5]"
     Warning (15610): No output dependent on input pin "currentenable[4]"
     Warning (15610): No output dependent on input pin "generala"
-Info (21057): Implemented 88 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 86 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 65 input pins
     Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 18 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 32 warnings
+    Info (21061): Implemented 16 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 30 warnings
     Info: Peak virtual memory: 4859 megabytes
-    Info: Processing ended: Thu Nov 03 13:06:04 2022
+    Info: Processing ended: Thu Nov 03 20:49:28 2022
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:18
 

@@ -20,86 +20,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "enableset1[0]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[1]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[2]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[3]",
-					"strict" : false
-				},
-				{
-					"name" : "currentenable[0]",
-					"strict" : false
-				},
-				{
-					"name" : "currentenable[1]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[4]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[5]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[6]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[7]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[8]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[9]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[10]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[11]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[12]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[13]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[14]",
-					"strict" : false
-				},
-				{
-					"name" : "enableset1[15]",
-					"strict" : false
-				},
-				{
-					"name" : "currentenable[2]",
-					"strict" : false
-				},
-				{
-					"name" : "currentenable[3]",
-					"strict" : false
-				},
-				{
 					"name" : "enableset2[0]",
 					"strict" : false
 				},
@@ -113,6 +33,14 @@
 				},
 				{
 					"name" : "enableset2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[0]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[1]",
 					"strict" : false
 				},
 				{
@@ -161,6 +89,14 @@
 				},
 				{
 					"name" : "enableset2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[2]",
+					"strict" : false
+				},
+				{
+					"name" : "currentenable[3]",
 					"strict" : false
 				},
 				{
@@ -225,6 +161,70 @@
 				},
 				{
 					"name" : "enableset3[15]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "enableset1[15]",
 					"strict" : false
 				}
 			]

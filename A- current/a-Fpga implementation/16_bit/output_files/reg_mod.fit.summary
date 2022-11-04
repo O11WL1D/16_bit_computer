@@ -1,13 +1,13 @@
-Fitter Status : Successful - Thu Nov 03 13:31:31 2022
+Fitter Status : Successful - Thu Nov 03 20:53:12 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : reg_mod
 Top-level Entity Name : reg_mod
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 1 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 337 / 18,480 ( 2 % )
 Total registers : 0
-Total pins : 147 / 224 ( 66 % )
+Total pins : 131 / 224 ( 58 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )

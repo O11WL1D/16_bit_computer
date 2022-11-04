@@ -1,5 +1,5 @@
 Timing Analyzer report for inmod_2
-Thu Nov 03 15:21:17 2022
+Thu Nov 03 16:35:10 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -100,14 +100,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.09        ;
+; Average used               ; 1.10        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   3.0%      ;
-;     Processor 3            ;   3.0%      ;
-;     Processor 4            ;   2.9%      ;
+;     Processor 2            ;   3.2%      ;
+;     Processor 3            ;   3.2%      ;
+;     Processor 4            ;   3.2%      ;
 +----------------------------+-------------+
 
 
@@ -140,8 +140,8 @@ HTML report is unavailable in plain text report export.
 +-------+--------+--------------------+
 ; Clock ; Slack  ; End Point TNS      ;
 +-------+--------+--------------------+
-; KEY1  ; -3.617 ; -81.680            ;
-; KEY2  ; -3.283 ; -72.180            ;
+; KEY2  ; -3.912 ; -86.767            ;
+; KEY1  ; -3.740 ; -81.291            ;
 +-------+--------+--------------------+
 
 
@@ -150,8 +150,8 @@ HTML report is unavailable in plain text report export.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; KEY2  ; 0.704 ; 0.000              ;
-; KEY1  ; 1.156 ; 0.000              ;
+; KEY1  ; 1.018 ; 0.000              ;
+; KEY2  ; 1.200 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -172,10 +172,10 @@ No paths to report.
 +-------+--------+----------------------------------+
 ; Clock ; Slack  ; End Point TNS                    ;
 +-------+--------+----------------------------------+
-; KEY1  ; -0.538 ; -20.423                          ;
-; KEY2  ; -0.538 ; -20.335                          ;
+; KEY2  ; -0.538 ; -20.357                          ;
+; KEY1  ; -0.538 ; -19.642                          ;
+; KEY3  ; -0.538 ; -1.728                           ;
 ; KEY0  ; -0.538 ; -1.580                           ;
-; KEY3  ; -0.538 ; -1.563                           ;
 +-------+--------+----------------------------------+
 
 
@@ -196,8 +196,8 @@ No paths to report.
 +-------+--------+-------------------+
 ; Clock ; Slack  ; End Point TNS     ;
 +-------+--------+-------------------+
-; KEY1  ; -3.542 ; -79.290           ;
-; KEY2  ; -3.212 ; -70.056           ;
+; KEY2  ; -3.765 ; -83.689           ;
+; KEY1  ; -3.617 ; -79.335           ;
 +-------+--------+-------------------+
 
 
@@ -206,8 +206,8 @@ No paths to report.
 +-------+-------+-------------------+
 ; Clock ; Slack ; End Point TNS     ;
 +-------+-------+-------------------+
-; KEY2  ; 0.711 ; 0.000             ;
-; KEY1  ; 1.036 ; 0.000             ;
+; KEY1  ; 0.972 ; 0.000             ;
+; KEY2  ; 1.091 ; 0.000             ;
 +-------+-------+-------------------+
 
 
@@ -228,10 +228,10 @@ No paths to report.
 +-------+--------+---------------------------------+
 ; Clock ; Slack  ; End Point TNS                   ;
 +-------+--------+---------------------------------+
-; KEY2  ; -0.538 ; -21.423                         ;
-; KEY1  ; -0.538 ; -20.248                         ;
-; KEY0  ; -0.538 ; -1.581                          ;
-; KEY3  ; -0.538 ; -1.548                          ;
+; KEY2  ; -0.538 ; -20.975                         ;
+; KEY1  ; -0.538 ; -20.530                         ;
+; KEY3  ; -0.538 ; -1.738                          ;
+; KEY0  ; -0.538 ; -1.584                          ;
 +-------+--------+---------------------------------+
 
 
@@ -246,8 +246,8 @@ No synchronizer chains to report.
 +-------+--------+--------------------+
 ; Clock ; Slack  ; End Point TNS      ;
 +-------+--------+--------------------+
-; KEY1  ; -1.791 ; -38.510            ;
-; KEY2  ; -1.671 ; -31.989            ;
+; KEY2  ; -1.828 ; -38.712            ;
+; KEY1  ; -1.685 ; -35.124            ;
 +-------+--------+--------------------+
 
 
@@ -256,8 +256,8 @@ No synchronizer chains to report.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; KEY2  ; 0.136 ; 0.000              ;
-; KEY1  ; 0.414 ; 0.000              ;
+; KEY1  ; 0.297 ; 0.000              ;
+; KEY2  ; 0.356 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -278,10 +278,10 @@ No paths to report.
 +-------+--------+----------------------------------+
 ; Clock ; Slack  ; End Point TNS                    ;
 +-------+--------+----------------------------------+
-; KEY2  ; -0.452 ; -12.025                          ;
-; KEY1  ; -0.376 ; -9.351                           ;
-; KEY0  ; -0.243 ; -0.538                           ;
-; KEY3  ; -0.213 ; -0.453                           ;
+; KEY2  ; -0.465 ; -10.528                          ;
+; KEY1  ; -0.399 ; -10.835                          ;
+; KEY0  ; -0.242 ; -0.539                           ;
+; KEY3  ; -0.191 ; -0.382                           ;
 +-------+--------+----------------------------------+
 
 
@@ -296,8 +296,8 @@ No synchronizer chains to report.
 +-------+--------+-------------------+
 ; Clock ; Slack  ; End Point TNS     ;
 +-------+--------+-------------------+
-; KEY1  ; -1.501 ; -32.388           ;
-; KEY2  ; -1.400 ; -26.901           ;
+; KEY2  ; -1.554 ; -32.901           ;
+; KEY1  ; -1.425 ; -29.595           ;
 +-------+--------+-------------------+
 
 
@@ -306,8 +306,8 @@ No synchronizer chains to report.
 +-------+-------+-------------------+
 ; Clock ; Slack ; End Point TNS     ;
 +-------+-------+-------------------+
-; KEY2  ; 0.080 ; 0.000             ;
-; KEY1  ; 0.322 ; 0.000             ;
+; KEY1  ; 0.226 ; 0.000             ;
+; KEY2  ; 0.268 ; 0.000             ;
 +-------+-------+-------------------+
 
 
@@ -328,10 +328,10 @@ No paths to report.
 +-------+--------+---------------------------------+
 ; Clock ; Slack  ; End Point TNS                   ;
 +-------+--------+---------------------------------+
-; KEY2  ; -0.458 ; -12.260                         ;
-; KEY1  ; -0.405 ; -10.259                         ;
-; KEY0  ; -0.251 ; -0.565                          ;
-; KEY3  ; -0.219 ; -0.439                          ;
+; KEY2  ; -0.468 ; -11.096                         ;
+; KEY1  ; -0.410 ; -11.252                         ;
+; KEY0  ; -0.250 ; -0.564                          ;
+; KEY3  ; -0.207 ; -0.414                          ;
 +-------+--------+---------------------------------+
 
 
@@ -341,22 +341,22 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+-------------------------------------------------------------------------------+
-; Multicorner Timing Analysis Summary                                           ;
-+------------------+---------+-------+----------+---------+---------------------+
-; Clock            ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
-+------------------+---------+-------+----------+---------+---------------------+
-; Worst-case Slack ; -3.617  ; 0.080 ; N/A      ; N/A     ; -0.538              ;
-;  KEY0            ; N/A     ; N/A   ; N/A      ; N/A     ; -0.538              ;
-;  KEY1            ; -3.617  ; 0.322 ; N/A      ; N/A     ; -0.538              ;
-;  KEY2            ; -3.283  ; 0.080 ; N/A      ; N/A     ; -0.538              ;
-;  KEY3            ; N/A     ; N/A   ; N/A      ; N/A     ; -0.538              ;
-; Design-wide TNS  ; -153.86 ; 0.0   ; 0.0      ; 0.0     ; -44.8               ;
-;  KEY0            ; N/A     ; N/A   ; N/A      ; N/A     ; -1.581              ;
-;  KEY1            ; -81.680 ; 0.000 ; N/A      ; N/A     ; -20.423             ;
-;  KEY2            ; -72.180 ; 0.000 ; N/A      ; N/A     ; -21.423             ;
-;  KEY3            ; N/A     ; N/A   ; N/A      ; N/A     ; -1.563              ;
-+------------------+---------+-------+----------+---------+---------------------+
++--------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                            ;
++------------------+----------+-------+----------+---------+---------------------+
+; Clock            ; Setup    ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+----------+-------+----------+---------+---------------------+
+; Worst-case Slack ; -3.912   ; 0.226 ; N/A      ; N/A     ; -0.538              ;
+;  KEY0            ; N/A      ; N/A   ; N/A      ; N/A     ; -0.538              ;
+;  KEY1            ; -3.740   ; 0.226 ; N/A      ; N/A     ; -0.538              ;
+;  KEY2            ; -3.912   ; 0.268 ; N/A      ; N/A     ; -0.538              ;
+;  KEY3            ; N/A      ; N/A   ; N/A      ; N/A     ; -0.538              ;
+; Design-wide TNS  ; -168.058 ; 0.0   ; 0.0      ; 0.0     ; -44.827             ;
+;  KEY0            ; N/A      ; N/A   ; N/A      ; N/A     ; -1.584              ;
+;  KEY1            ; -81.291  ; 0.000 ; N/A      ; N/A     ; -20.530             ;
+;  KEY2            ; -86.767  ; 0.000 ; N/A      ; N/A     ; -20.975             ;
+;  KEY3            ; N/A      ; N/A   ; N/A      ; N/A     ; -1.738              ;
++------------------+----------+-------+----------+---------+---------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -430,12 +430,12 @@ No synchronizer chains to report.
 ; sw6      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw7      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; sw0      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; sw8      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; sw9      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; KEY1     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; KEY2     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; KEY3     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; sw9      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; KEY0     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; sw8      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 +----------+--------------+-----------------+-----------------+
 
 
@@ -444,7 +444,7 @@ No synchronizer chains to report.
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin      ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0492 V           ; 0.181 V                              ; 0.116 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0492 V          ; 0.181 V                             ; 0.116 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
+; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.19e-07 V                   ; 2.4 V               ; -0.039 V            ; 0.21 V                               ; 0.145 V                              ; 4.67e-10 s                  ; 4.63e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.19e-07 V                  ; 2.4 V              ; -0.039 V           ; 0.21 V                              ; 0.145 V                             ; 4.67e-10 s                 ; 4.63e-10 s                 ; No                        ; Yes                       ;
 ; HEX03    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0492 V           ; 0.181 V                              ; 0.116 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0492 V          ; 0.181 V                             ; 0.116 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
 ; HEX06    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0492 V           ; 0.181 V                              ; 0.116 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0492 V          ; 0.181 V                             ; 0.116 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
 ; HEX00    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0495 V           ; 0.18 V                               ; 0.115 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0495 V          ; 0.18 V                              ; 0.115 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
@@ -501,7 +501,7 @@ No synchronizer chains to report.
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin      ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.032 V            ; 0.204 V                              ; 0.181 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.032 V           ; 0.204 V                             ; 0.181 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
+; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.56e-05 V                   ; 2.38 V              ; -0.026 V            ; 0.249 V                              ; 0.089 V                              ; 4.95e-10 s                  ; 6.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.56e-05 V                  ; 2.38 V             ; -0.026 V           ; 0.249 V                             ; 0.089 V                             ; 4.95e-10 s                 ; 6.01e-10 s                 ; No                        ; Yes                       ;
 ; HEX03    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.032 V            ; 0.204 V                              ; 0.181 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.032 V           ; 0.204 V                             ; 0.181 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
 ; HEX06    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.032 V            ; 0.204 V                              ; 0.181 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.032 V           ; 0.204 V                             ; 0.181 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
 ; HEX00    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.0315 V           ; 0.205 V                              ; 0.182 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.0315 V          ; 0.205 V                             ; 0.182 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
@@ -558,7 +558,7 @@ No synchronizer chains to report.
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin      ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
 ; HEX03    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; HEX06    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; HEX00    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
@@ -615,7 +615,7 @@ No synchronizer chains to report.
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin      ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +----------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; generalc ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
 ; HEX03    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
 ; HEX06    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
 ; HEX00    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
@@ -881,7 +881,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Nov 03 15:21:12 2022
+    Info: Processing started: Thu Nov 03 16:35:05 2022
 Info: Command: quartus_sta inmod_2 -c inmod_2
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -902,25 +902,25 @@ Info: Analyzing Slow 1100mV 85C Model
 Info (332140): No fmax paths to report
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.617
+Info (332146): Worst-case setup slack is -3.912
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.617             -81.680 KEY1 
-    Info (332119):    -3.283             -72.180 KEY2 
-Info (332146): Worst-case hold slack is 0.704
+    Info (332119):    -3.912             -86.767 KEY2 
+    Info (332119):    -3.740             -81.291 KEY1 
+Info (332146): Worst-case hold slack is 1.018
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.704               0.000 KEY2 
-    Info (332119):     1.156               0.000 KEY1 
+    Info (332119):     1.018               0.000 KEY1 
+    Info (332119):     1.200               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.538             -20.423 KEY1 
-    Info (332119):    -0.538             -20.335 KEY2 
+    Info (332119):    -0.538             -20.357 KEY2 
+    Info (332119):    -0.538             -19.642 KEY1 
+    Info (332119):    -0.538              -1.728 KEY3 
     Info (332119):    -0.538              -1.580 KEY0 
-    Info (332119):    -0.538              -1.563 KEY3 
 Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
@@ -928,78 +928,78 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Tim
 Info (332140): No fmax paths to report
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.542
+Info (332146): Worst-case setup slack is -3.765
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.542             -79.290 KEY1 
-    Info (332119):    -3.212             -70.056 KEY2 
-Info (332146): Worst-case hold slack is 0.711
+    Info (332119):    -3.765             -83.689 KEY2 
+    Info (332119):    -3.617             -79.335 KEY1 
+Info (332146): Worst-case hold slack is 0.972
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.711               0.000 KEY2 
-    Info (332119):     1.036               0.000 KEY1 
+    Info (332119):     0.972               0.000 KEY1 
+    Info (332119):     1.091               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.538             -21.423 KEY2 
-    Info (332119):    -0.538             -20.248 KEY1 
-    Info (332119):    -0.538              -1.581 KEY0 
-    Info (332119):    -0.538              -1.548 KEY3 
+    Info (332119):    -0.538             -20.975 KEY2 
+    Info (332119):    -0.538             -20.530 KEY1 
+    Info (332119):    -0.538              -1.738 KEY3 
+    Info (332119):    -0.538              -1.584 KEY0 
 Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -1.791
+Info (332146): Worst-case setup slack is -1.828
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.791             -38.510 KEY1 
-    Info (332119):    -1.671             -31.989 KEY2 
-Info (332146): Worst-case hold slack is 0.136
+    Info (332119):    -1.828             -38.712 KEY2 
+    Info (332119):    -1.685             -35.124 KEY1 
+Info (332146): Worst-case hold slack is 0.297
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.136               0.000 KEY2 
-    Info (332119):     0.414               0.000 KEY1 
+    Info (332119):     0.297               0.000 KEY1 
+    Info (332119):     0.356               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is -0.452
+Info (332146): Worst-case minimum pulse width slack is -0.465
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.452             -12.025 KEY2 
-    Info (332119):    -0.376              -9.351 KEY1 
-    Info (332119):    -0.243              -0.538 KEY0 
-    Info (332119):    -0.213              -0.453 KEY3 
+    Info (332119):    -0.465             -10.528 KEY2 
+    Info (332119):    -0.399             -10.835 KEY1 
+    Info (332119):    -0.242              -0.539 KEY0 
+    Info (332119):    -0.191              -0.382 KEY3 
 Info: Analyzing Fast 1100mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -1.501
+Info (332146): Worst-case setup slack is -1.554
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.501             -32.388 KEY1 
-    Info (332119):    -1.400             -26.901 KEY2 
-Info (332146): Worst-case hold slack is 0.080
+    Info (332119):    -1.554             -32.901 KEY2 
+    Info (332119):    -1.425             -29.595 KEY1 
+Info (332146): Worst-case hold slack is 0.226
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.080               0.000 KEY2 
-    Info (332119):     0.322               0.000 KEY1 
+    Info (332119):     0.226               0.000 KEY1 
+    Info (332119):     0.268               0.000 KEY2 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is -0.458
+Info (332146): Worst-case minimum pulse width slack is -0.468
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.458             -12.260 KEY2 
-    Info (332119):    -0.405             -10.259 KEY1 
-    Info (332119):    -0.251              -0.565 KEY0 
-    Info (332119):    -0.219              -0.439 KEY3 
+    Info (332119):    -0.468             -11.096 KEY2 
+    Info (332119):    -0.410             -11.252 KEY1 
+    Info (332119):    -0.250              -0.564 KEY0 
+    Info (332119):    -0.207              -0.414 KEY3 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5076 megabytes
-    Info: Processing ended: Thu Nov 03 15:21:17 2022
+    Info: Peak virtual memory: 5068 megabytes
+    Info: Processing ended: Thu Nov 03 16:35:10 2022
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
