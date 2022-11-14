@@ -76,7 +76,7 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 Screenshots of my fpga can be found [Here](https://1drv.ms/u/s!AovYuAJ6j-05iiZyxuV3IQgVdUtE?e=UuMA8f).
 
-Online viewable onenote notebook found [here](https://1drv.ms/u/s!AovYuAJ6j-05infzKaPIf_p7lqyg?e=FzwqDW) 
+Online viewable onenote notebook found [here](https://1drv.ms/u/s!AovYuAJ6j-05i1pXVn8fNj3wXU7-?e=myZffd) 
 
 Pre onenote notes found [here](https://github.com/O11WL1D/16_bit_computer/tree/master/Written%20notes%2B%20computer%20journal)
 
