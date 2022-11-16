@@ -1,6 +1,6 @@
 
 
-
+import re
 
 
 
@@ -131,7 +131,7 @@ def generate(iinput):
 def stridx(sstring,index):
 
 	#hard coded symbol separator list
-	symbols=["e","+","*",";"]
+	symbols=["e","+","*",";","|"]
 	sindex=0
 	eindex=0
 
@@ -160,7 +160,7 @@ def stridx(sstring,index):
 def sstridx(sstring,index):
 
 	#hard coded symbol separator list
-	symbols=["e","+","*",";",":"]
+	symbols=["e","+","*",";",":","|"]
 	sindex=0
 	eindex=0
 
@@ -185,7 +185,9 @@ def sstridx(sstring,index):
 
 	return ssindex+1
 	#if inaccessable index is provided as arguement, return instead the length of the "string"
+
 def tstridx(sstring,index):
+	#returns the symbol following any given indices
 
 	#hard coded symbol separator list
 	symbols=["+","*","|"]
@@ -220,8 +222,14 @@ def tstridx(sstring,index):
 
 def astridx(sstring,index,mmode):
 
+
 	#hard coded symbol separator list
 	symbols=["e","+","*",";"]
+
+	if mmode==2:
+		symbols=[":"]
+
+
 	sindex=0
 	eindex=0
 
@@ -258,6 +266,30 @@ def astridx(sstring,index,mmode):
 
 
 
+def access(sstring,iinput):
+	#this function returns the string referenced by a set of string indices
+
+	sstring=re.sub(" ","",sstring)
+	sstring=" "+sstring+" : "
+	#print(sstring)
+	#print(sstridx(sstring,0))
+	#print(sstridx(sstring,1))
+
+	m=int(sstridx(sstring,0))
+	n=int(sstridx(sstring,1))
+
+	#print(iinput[m+1:n])
+
+
+	return(iinput[m+1:n])
+
+
+
+
+
+
+
+
 
 
 
@@ -275,10 +307,18 @@ iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
 iinput="(((a)(b)(c))+(((a)(b))((c))))"
 #when adding another pair of parenthesis to c, is the same as
-#previous input but tier 3 gains another variable, which is c. 
+#previous input but tier 3 gains another variable, which is c.
 
 
 iinput="(((a)(b)(c))+(((a)(b))(c)))"
+
+iinput="(((a)(b)(c))+((a)(b)(c)))"
+
+
+
+#print("ACCESS")
+#access(" 2:7 ",iinput   )
+
 
 
 
@@ -293,7 +333,12 @@ sm=generate(iinput)
 
 
 am=[" "]*10
+vam=[" "]*10
 #abstract map-> contains string with generated variables for each tier.
+
+#vam is used exclusively for vhdl code generation, whereas the am is actively
+#used in boolean analysis.
+
 
 
 
@@ -306,12 +351,25 @@ for x in range(10):
 	#is 'a' in ascii minus 1 , will be incremented per symbol generation.
 
 
+
+	#this is placed right here so that the indices and symbol indices map
+	#is reset for each tier's string.
+	im=[" "]*20
+	sim=[None]*20
+	imsp=0
+	#stack pointer for indices and indices symbol map
+
+
+
+
+
+
 	if len(sm[x])!=1:
 
 
 		for y in range(stridx(sm[x],-5) ):
 			#print(y)
-			print(stridx(sm[x],y))
+			#print(stridx(sm[x],y))
 
 
 
@@ -337,7 +395,7 @@ for x in range(10):
 				#print( abs((m-n)))
 				if((abs((m-n))>=3)):
 
-					print("genvar")
+					#print("genvar")
 					print(astridx(sm[x],y,1))
 					f=   sm[x][0:astridx(sm[x],y,1)]
 					a=   sm[x][astridx(sm[x],y,1)+1:]
@@ -345,12 +403,88 @@ for x in range(10):
 					sm[x]=f+"|"+a
 
 
+
+
+
+
+
+
 			chhar+=1
-			am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
+
+			current=access(stridx(sm[x],y),iinput)
+
+			print("CURRENT STRING")
+			print(current)
+
+			jjj=1
+			Supindex=0
+
+			for i in range(imsp+1):
+				if(len(im[i])>1):
+					if(access(im[i],iinput)==current):
+							jjj=0
+							Supindex=i
+
+			#else, if the current value of the string is not a duplicate, add to index map.
+			#in this case, the newly generated symbol should be added to the abstract map.
+
+
+			if(jjj):
+				im[imsp]=stridx(sm[x],y)
+				sim[imsp]=chhar
+				imsp+=1
+				#add newly generated symbol to am
+
+				am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
+
+
+				if(str(tstridx(sm[x],y))=="+"):
+					vam[x]=vam[x]+(chr(chhar)+ " OR " )
+				if(str(tstridx(sm[x],y))=="*"):
+					vam[x]=vam[x]+(chr(chhar)+ " AND " )
+				if(str(tstridx(sm[x],y))=="|"):
+					vam[x]=vam[x]+(chr(chhar)+ tstridx(sm[x],y) )
 
 
 
 
+
+
+
+
+
+			#here a repeat occurance has been found, with Supindex indicating the index
+			# in the im and sim maps where this symbol has been found. use the corresponding symbol
+			# for am generation.
+
+			else:
+
+				am[x]=am[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
+				#print("ohh")
+				#print(tstridx(sm[x],y))
+
+				if(str(tstridx(sm[x],y))=="+"):
+					vam[x]=vam[x]+(chr(sim[Supindex])+ " OR " )
+				if(str(tstridx(sm[x],y))=="*"):
+					vam[x]=vam[x]+(chr(sim[Supindex])+ " AND " )
+				if(str(tstridx(sm[x],y))=="|"):
+					vam[x]=vam[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
+
+
+
+
+
+
+
+
+
+
+
+
+	print("IM MAP HAHAH")
+	print(im)
+	print("SYMBOL IM MAP")
+	print(sim)
 					#indicates when new variable should be generated,
 				#	chhar+=1
 				#	am[x]=am[x]+(chr(chhar)+str(iinput[m+1]))
@@ -363,7 +497,45 @@ for x in range(10):
 
 
 print(am)
+print(vam)
 print(sm)
+
+
+
+
+
+
+
+
+for x in range(len(am)):
+
+
+
+	for y in range(len(am[x])):
+
+		if(len(am[x])>1):
+			ww=0
+			#print(y)
+			#print(am[x][y])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
