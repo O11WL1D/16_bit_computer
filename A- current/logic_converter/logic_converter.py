@@ -45,14 +45,14 @@ class node:
 
 
 
-def generate(iinput):
+def generate(iiinput):
 
 
 
 
 
 
-	input=iinput
+	input=iiinput
 
 	#sliced form :  start+1:end
 
@@ -65,7 +65,7 @@ def generate(iinput):
 
 	#symbol map used in initial tree creation.
 
-	sm=[" "]*10
+	wsm=[" "]*10
 
 	#first value in each tier is the stack pointer for said tier
 
@@ -110,7 +110,7 @@ def generate(iinput):
 
 
 
-			sm[prevsp]=sm[prevsp]+  str( str(stackval)+":"+str(x)  )      +" "+str(connector)+" "
+			wsm[prevsp]=wsm[prevsp]+  str( str(stackval)+":"+str(x)  )      +" "+str(connector)+" "
 
 
 
@@ -119,11 +119,10 @@ def generate(iinput):
 
 
 
-	print(sm)
+	print(wsm)
 	#print(stack)
 
-	return sm
-
+	return wsm
 
 
 
@@ -286,6 +285,42 @@ def access(sstring,iinput):
 
 
 
+def clean(abmap,ret):
+	#this function cleans the produced abstract map, makes the last and or or go away.
+
+	if(ret==0):
+
+		for x in range(len(abmap)):
+
+			if(len(abmap[x])!=1):
+
+
+				end=len(abmap[x])-1
+				sstrn=abmap[x]
+				#print(end)
+				#print(sstrn[0:end-3])
+
+				abmap[x]=sstrn[0:end-3]
+
+		return abmap
+
+	if(ret==1):
+
+
+		for x in range(len(abmap)):
+
+			if(len(abmap[x])!=1):
+
+
+				end=len(abmap[x])-1
+				sstrn=abmap[x]
+				#print(end)
+				#print(sstrn[0:end-3])
+
+				abmap[x]=sstrn[0:end]
+
+		return abmap
+
 
 
 
@@ -312,6 +347,12 @@ iinput="(((a)(b)(c))+(((a)(b))((c))))"
 
 iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
+
+
+
+
+
+
 iinput="(((a)(b)(c))+((a)(b)(c)))"
 
 
@@ -322,9 +363,6 @@ iinput="(((a)(b)(c))+((a)(b)(c)))"
 
 
 
-sm=generate(iinput)
-
-
 
 
 #print( "w"+str(stridx(sm[2],-5))+"w"   )
@@ -332,147 +370,153 @@ sm=generate(iinput)
 
 
 
-am=[" "]*10
-vam=[" "]*10
-#abstract map-> contains string with generated variables for each tier.
 
-#vam is used exclusively for vhdl code generation, whereas the am is actively
-#used in boolean analysis.
+	#ret==0: returns am
+	#ret ==1 returns vam
+	#ret==2 returns sm
 
 
 
+def genam(iiinput,ssm):
 
+		sm=ssm
+		iinput=iiinput
 
 
+		am=[" "]*10
+		vam=[" "]*10
+		#abstract map-> contains string with generated variables for each tier.
 
-for x in range(10):
+		#vam is used exclusively for vhdl code generation, whereas the am is actively
+		#used in boolean analysis.
 
-	chhar=96
-	#is 'a' in ascii minus 1 , will be incremented per symbol generation.
 
 
 
-	#this is placed right here so that the indices and symbol indices map
-	#is reset for each tier's string.
-	im=[" "]*20
-	sim=[None]*20
-	imsp=0
-	#stack pointer for indices and indices symbol map
+		for x in range(10):
 
+			chhar=96
+			#is 'a' in ascii minus 1 , will be incremented per symbol generation.
 
 
 
+			#this is placed right here so that the indices and symbol indices map
+			#is reset for each tier's string.
+			im=[" "]*20
+			sim=[None]*20
+			imsp=0
+			#stack pointer for indices and indices symbol map
 
 
-	if len(sm[x])!=1:
 
 
-		for y in range(stridx(sm[x],-5) ):
-			#print(y)
-			#print(stridx(sm[x],y))
 
 
+			if len(sm[x])!=1:
 
-#			chhar+=1
-#			am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
 
+				for y in range(stridx(sm[x],-5) ):
+					#print(y)
+					#print(stridx(sm[x],y))
 
 
 
+		#			chhar+=1
+		#			am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
 
 
 
-			if((y+1))<=(stridx(sm[x],-5)-1):
 
-				m=int( sstridx(sm[x], ((y+1)*(2) )-1     )    )
-				n=int( sstridx(sm[x], (( (y+1 )   +1)*(2) -1   )-1     )    )
 
-				#print("m,n")
-				#print(m)
-				#print(n)
 
-				#print("diff")
-				#print( abs((m-n)))
-				if((abs((m-n))>=3)):
 
-					#print("genvar")
-					print(astridx(sm[x],y,1))
-					f=   sm[x][0:astridx(sm[x],y,1)]
-					a=   sm[x][astridx(sm[x],y,1)+1:]
+					if((y+1))<=(stridx(sm[x],-5)-1):
 
-					sm[x]=f+"|"+a
+						m=int( sstridx(sm[x], ((y+1)*(2) )-1     )    )
+						n=int( sstridx(sm[x], (( (y+1 )   +1)*(2) -1   )-1     )    )
 
+						#print("m,n")
+						#print(m)
+						#print(n)
 
+						#print("diff")
+						#print( abs((m-n)))
+						if((abs((m-n))>=3)):
 
+							#print("genvar")
+							#print(astridx(sm[x],y,1))
+							f=   sm[x][0:astridx(sm[x],y,1)]
+							a=   sm[x][astridx(sm[x],y,1)+1:]
 
+							sm[x]=f+"|"+a
 
 
 
 
-			chhar+=1
 
-			current=access(stridx(sm[x],y),iinput)
 
-			print("CURRENT STRING")
-			print(current)
 
-			jjj=1
-			Supindex=0
 
-			for i in range(imsp+1):
-				if(len(im[i])>1):
-					if(access(im[i],iinput)==current):
-							jjj=0
-							Supindex=i
+					chhar+=1
 
-			#else, if the current value of the string is not a duplicate, add to index map.
-			#in this case, the newly generated symbol should be added to the abstract map.
+					current=access(stridx(sm[x],y),iinput)
 
+					#print("CURRENT STRING")
+					#print(current)
 
-			if(jjj):
-				im[imsp]=stridx(sm[x],y)
-				sim[imsp]=chhar
-				imsp+=1
-				#add newly generated symbol to am
+					jjj=1
+					Supindex=0
 
-				am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
+					for i in range(imsp+1):
+						if(len(im[i])>1):
+							if(access(im[i],iinput)==current):
+									jjj=0
+									Supindex=i
 
+					#else, if the current value of the string is not a duplicate, add to index map.
+					#in this case, the newly generated symbol should be added to the abstract map.
 
-				if(str(tstridx(sm[x],y))=="+"):
-					vam[x]=vam[x]+(chr(chhar)+ " OR " )
-				if(str(tstridx(sm[x],y))=="*"):
-					vam[x]=vam[x]+(chr(chhar)+ " AND " )
-				if(str(tstridx(sm[x],y))=="|"):
-					vam[x]=vam[x]+(chr(chhar)+ tstridx(sm[x],y) )
 
+					if(jjj):
+						im[imsp]=stridx(sm[x],y)
+						sim[imsp]=chhar
+						imsp+=1
+						#add newly generated symbol to am
 
+						am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
 
 
+						if(str(tstridx(sm[x],y))=="+"):
+							vam[x]=vam[x]+(chr(chhar)+ " OR " )
+						if(str(tstridx(sm[x],y))=="*"):
+							vam[x]=vam[x]+(chr(chhar)+ " AND " )
+						if(str(tstridx(sm[x],y))=="|"):
+							vam[x]=vam[x]+(chr(chhar)+ tstridx(sm[x],y) )
 
 
 
 
 
-			#here a repeat occurance has been found, with Supindex indicating the index
-			# in the im and sim maps where this symbol has been found. use the corresponding symbol
-			# for am generation.
 
-			else:
 
-				am[x]=am[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
-				#print("ohh")
-				#print(tstridx(sm[x],y))
 
-				if(str(tstridx(sm[x],y))=="+"):
-					vam[x]=vam[x]+(chr(sim[Supindex])+ " OR " )
-				if(str(tstridx(sm[x],y))=="*"):
-					vam[x]=vam[x]+(chr(sim[Supindex])+ " AND " )
-				if(str(tstridx(sm[x],y))=="|"):
-					vam[x]=vam[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
 
+					#here a repeat occurance has been found, with Supindex indicating the index
+					# in the im and sim maps where this symbol has been found. use the corresponding symbol
+					# for am generation.
 
+					else:
 
+						am[x]=am[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
+						#print("ohh")
+						#print(tstridx(sm[x],y))
 
+						if(str(tstridx(sm[x],y))=="+"):
+							vam[x]=vam[x]+(chr(sim[Supindex])+ " OR " )
+						if(str(tstridx(sm[x],y))=="*"):
+							vam[x]=vam[x]+(chr(sim[Supindex])+ " AND " )
+						if(str(tstridx(sm[x],y))=="|"):
+							vam[x]=vam[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
 
 
 
@@ -481,40 +525,246 @@ for x in range(10):
 
 
 
-	print("IM MAP HAHAH")
-	print(im)
-	print("SYMBOL IM MAP")
-	print(sim)
-					#indicates when new variable should be generated,
-				#	chhar+=1
-				#	am[x]=am[x]+(chr(chhar)+str(iinput[m+1]))
 
 
 
 
+			#print("IM MAP HAHAH")
+			#print(im)
+			#print("SYMBOL IM MAP")
+			#print(sim)
+							#indicates when new variable should be generated,
+						#	chhar+=1
+						#	am[x]=am[x]+(chr(chhar)+str(iinput[m+1]))
 
 
+		vam=clean(vam,0)
 
+		am=clean(am,1)
 
-print(am)
-print(vam)
-print(sm)
 
 
 
 
 
 
+		#print(vam)
+		#print(am)
+		#print(sm)
 
 
-for x in range(len(am)):
 
 
+		retlist=[" "," "]
+		retlist.append(vam)
+		retlist.append(am)
+		retlist.append(sm)
 
-	for y in range(len(am[x])):
+		return retlist
 
-		if(len(am[x])>1):
-			ww=0
+
+
+
+
+wwm=generate(iinput)
+
+
+
+wm=wwm
+rrr=genam(iinput,wm)
+
+print(rrr[2])
+print(rrr[3])
+print(rrr[4])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#successive calls with the same input will cause the symbol map to get messed up,
+#not sure why this happens but successive calls with unique inputs each time do not get
+#messed up.
+
+#so long a unique input call to genam preceeds it, symbol map is not damaged for some reason.
+
+#the input is not changed after a call, so it must be something else.
+
+
+
+
+
+#here it can be seen that when wm is assigned wwm, it becomes a pointer to wwm. This can be
+#observed by the fact that when wwm is made a tuple, which is immutable, in genam any attempt to
+#modify sm throws an error. This must mean that in the assignment, sm is given by the parameter passed by wm, meaning that
+#wm must be a pointer to wwm. Again, very weird, but There is a workaround, just call generate and refresh the value of wwm
+#with every use.
+
+#wwm=generate(iinput)
+
+#wwm=tuple(wwm)
+
+
+
+#wm=wwm
+#rrr=genam(iinput,wm)
+
+#print(rrr[2])
+##print(rrr[3])
+#print(rrr[4])
+
+
+
+#wm=wwm
+#rrr=genam(iinput,wm)
+
+#print(rrr[2])
+##print(rrr[3])
+#print(rrr[4])
+
+
+
+#wm=wwm
+#rrr=genam(iinput,wm)
+
+#print(rrr[2])
+#print(rrr[3])
+#print(rrr[4])
+
+
+#print("wwm test")
+
+#print(wwm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#-> works when new inputs are generated.
+
+
+
+#iinput="(((a)(b)(c))+(((a)(b))(c)))"
+
+#print("New call")
+
+#wm=generate(iinput)
+#rrr=genam(iinput,wm)
+
+#print(rrr[2])
+#print(rrr[3])
+#print(rrr[4])
+
+
+
+
+#iinput="(((a)(b)(c))+((a)(b)(c)))"
+#wm=generate(iinput)
+#rrr=genam(iinput,wm)
+
+#print(rrr[2])
+#print(rrr[3])
+#print(rrr[4])
+
+
+
+
+
+
+
+
+
+
+
+#for x in range(len(am)):
+
+
+
+#	for y in range(len(am[x])):
+
+#		if(len(am[x])>1):
+#			ww=0
 			#print(y)
 			#print(am[x][y])
 
