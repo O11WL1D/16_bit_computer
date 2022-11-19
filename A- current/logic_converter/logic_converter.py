@@ -226,7 +226,9 @@ def astridx(sstring,index,mmode):
 	symbols=["e","+","*",";"]
 
 	if mmode==2:
-		symbols=[":"]
+		#mode 2-> used to create vhdl parameterization
+
+		symbols=["|"]
 
 
 	sindex=0
@@ -257,10 +259,20 @@ def astridx(sstring,index,mmode):
 					return sstring[sindex+1:eindex]
 				if mode==1:
 					return x
+				if mode==2:
+					return sstring[sindex+1:eindex]
+
+
 
 
 	return ssindex+1
 	#if inaccessable index is provided as arguement, return instead the length of the "string"
+
+
+
+
+
+
 
 
 
@@ -300,12 +312,15 @@ def clean(abmap,ret):
 				#print(end)
 				#print(sstrn[0:end-3])
 
-				abmap[x]=sstrn[0:end-3]
+				abmap[x]=sstrn[0:end-4]
+
+				abmap[x]=abmap[x]+ "|"
 
 		return abmap
 
 	if(ret==1):
 
+		#if being used for genral access operations
 
 		for x in range(len(abmap)):
 
@@ -318,6 +333,7 @@ def clean(abmap,ret):
 				#print(sstrn[0:end-3])
 
 				abmap[x]=sstrn[0:end]
+				abmap[x]=abmap[x]+"|"
 
 		return abmap
 
@@ -538,9 +554,12 @@ def genam(iiinput,ssm):
 						#	am[x]=am[x]+(chr(chhar)+str(iinput[m+1]))
 
 
-		vam=clean(vam,0)
+
+
 
 		am=clean(am,1)
+
+		vam=clean(vam,0)
 
 
 
@@ -572,10 +591,21 @@ wwm=generate(iinput)
 
 wm=wwm
 rrr=genam(iinput,wm)
+rrr[2][1]=" a "
+
+
 
 print(rrr[2])
 print(rrr[3])
 print(rrr[4])
+
+print(astridx(rrr[3][3],1,2))
+
+
+
+
+#for x in range(len(vam)):
+#	if(len(vam)!=1):
 
 
 
