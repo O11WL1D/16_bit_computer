@@ -387,6 +387,13 @@ def clean(abmap,ret):
 
 
 
+def isinverse(charr):
+	val=ord(charr)
+
+	if(val-97>=0):
+		return False
+	else:
+		return True
 
 
 
@@ -416,7 +423,7 @@ iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
 
 
-iinput="(((a)(b)(c))+((a}(b)(c)))"
+iinput="(((a}(b}(c))+((a}(b)(c}})"
 
 
 
@@ -460,7 +467,7 @@ def genam(iiinput,ssm):
 
 			chhar=96
 			#is 'a' in ascii minus 1 , will be incremented per symbol generation.
-			cchar=64
+
 
 
 			#this is placed right here so that the indices and symbol indices map
@@ -518,15 +525,27 @@ def genam(iiinput,ssm):
 
 
 
+
+
+
+
+
+
+
+					chhar+=1
+
 					current=access(stridx(sm[x],y),iinput)
 
 
 
 
-					currentx=stridx(sm[x],y)+":"
-					currentxindex=int(sstridx(currentx,1))
-					print("CURRENTXINDEX")
-					print(currentxindex)
+
+					currentxindex=int(sstridx(stridx(sm[x],y)+":",1))
+
+
+					#print("CURRENTXINDEX")
+					#print(currentxindex)
+
 
 
 
@@ -541,64 +560,50 @@ def genam(iiinput,ssm):
 						if(iinput[currentxindex]=="}"):
 							print("hell yeah")
 							inverse=1
-							cchar+=1
 
 
 
 
-					chhar+=1
 
 
 
-					#print("CURRENT STRING")
-					#print(current)
+					print("CURRENT STRING")
+					print(current)
 
 					jjj=1
 					Supindex=0
 
-					#this is to check for if an identical expression is found,
-					#with the exception of the last character which indicates if
-					# an expression is inverted.
-
 
 					for i in range(imsp+1):
+
 						if(len(im[i])>1):
 							if(access(im[i],iinput)==current):
 									jjj=0
 									Supindex=i
 
 
-							#if(access(im[i],iinput)==(current+"^"))or((access(im[i],iinput)==(current[:len(current)-1]))):
-								#print("Duplicate FOUND!")
-
-
 
 					#else, if the current value of the string is not a duplicate, add to index map.
 					#in this case, the newly generated symbol should be added to the abstract map.
 
-					gensim=0
 
-					#if not duplicate
 					if(jjj):
+
 						im[imsp]=stridx(sm[x],y)
 
+
+
 						sim[imsp]=chhar
-						#gensim=chhar
-
-
-						#if(inverse):
-						#	sim[imsp]=cchar
-						#	gensim=cchar
-						#else:
-						#	sim[imsp]=chhar
-						#	gensim=chhar
-
+						gensim=chhar
 
 
 						imsp+=1
 						#add newly generated symbol to am
 
-						am[x]=am[x]+(chr(chhar)+ tstridx(sm[x],y) )
+						if(inverse):
+							am[x]=am[x]+(chr(gensim-32)+ tstridx(sm[x],y) )
+						else:
+							am[x]=am[x]+(chr(gensim)+ tstridx(sm[x],y) )
 
 
 						if(str(tstridx(sm[x],y))=="+"):
@@ -622,7 +627,12 @@ def genam(iiinput,ssm):
 
 					else:
 
-						am[x]=am[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
+						if(inverse):
+							am[x]=am[x]+(chr(sim[Supindex]-32)+tstridx(sm[x],y))
+						else:
+							am[x]=am[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
+
+
 						#print("ohh")
 						#print(tstridx(sm[x],y))
 
@@ -632,6 +642,9 @@ def genam(iiinput,ssm):
 							vam[x]=vam[x]+(chr(sim[Supindex])+ " AND " )
 						if(str(tstridx(sm[x],y))=="|"):
 							vam[x]=vam[x]+(chr(sim[Supindex])+tstridx(sm[x],y))
+
+
+
 
 
 
@@ -770,7 +783,12 @@ def convert(rrr):
 
 						#print(  currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:])
 
-						currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
+						if(isinverse(currentstring[start])):
+							currentstring=currentstring[:start]+"("+ str(filling)  +"}"+currentstring[start+1:]
+						else:
+							currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
+
+
 
 						print("Current STRING ")
 						print(currentstring)
@@ -808,7 +826,11 @@ def convert(rrr):
 
 			index=astridx(returnedstring,x,4)
 			print(returnedstring[index])
-			returnedstring=returnedstring[:index]+"("+ returnedstring[index]  +")"+returnedstring[index+1:]
+			if(isinverse(returnedstring[index])):
+				returnedstring=returnedstring[:index]+"("+ chr(ord(returnedstring[index])+32)  +"}"+returnedstring[index+1:]
+			else:
+				returnedstring=returnedstring[:index]+"("+ returnedstring[index]  +")"+returnedstring[index+1:]
+
 			print(returnedstring)
 
 
@@ -855,6 +877,11 @@ print(rrr[3])
 print(rrr[4])
 
 iinput=convert(rrr)
+
+
+wwm=generate(iinput)
+
+
 
 
 
