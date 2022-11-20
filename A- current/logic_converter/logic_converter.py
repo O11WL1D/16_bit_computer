@@ -81,7 +81,7 @@ def generate(iiinput):
 
 
 
-		if input[x]==")":
+		if input[x]==")" or input[x]=="}":
 
 			stackval=stack[sp]
 			prevsp=sp
@@ -100,7 +100,7 @@ def generate(iiinput):
 
 
 
-			if (connector=="(") or (connector == ")"):
+			if (connector=="(") or (connector == ")") or (connector == "}") :
 				connector="*"
 
 
@@ -238,7 +238,7 @@ def astridx(sstring,index,mmode):
 	if mmode==4:
 		#inverse search, find characters
 		#that are not equal to defined separators in mode 3
-		symbols=["+","*","|"," ","(",")"]
+		symbols=["+","*","|"," ","(",")","}"]
 
 
 	sindex=0
@@ -403,20 +403,20 @@ iiinput="    (       ( (a)(b)(c) )     +        (  ((a)(b))  (  (c)  ) )        
 
 iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
-iinput="(((a)(b)(c))+(((a)(b))((c))))"
+#iinput="(((a)(b)(c))+(((a)(b))((c))))"
 #when adding another pair of parenthesis to c, is the same as
 #previous input but tier 3 gains another variable, which is c.
 
 
-iinput="(((a)(b)(c))+(((a)(b))(c)))"
+#iinput="(((a)(b)(c))+(((a)(b))(c)))"
+
+
+#iiinput="    (       ( (a)(b)(c) )     +        (  ((a)(b))  (  ((c))  ) )           )"
 
 
 
 
-
-
-
-iinput="(((a)(b)(c))+((a)(b)(c)))"
+iinput="(((a)(b)(c))+((a}(b)(c)))"
 
 
 
@@ -460,7 +460,7 @@ def genam(iiinput,ssm):
 
 			chhar=96
 			#is 'a' in ascii minus 1 , will be incremented per symbol generation.
-
+			cchar=64
 
 
 			#this is placed right here so that the indices and symbol indices map
@@ -518,11 +518,37 @@ def genam(iiinput,ssm):
 
 
 
+					current=access(stridx(sm[x],y),iinput)
+
+
+
+
+					currentx=stridx(sm[x],y)+":"
+					currentxindex=int(sstridx(currentx,1))
+					print("CURRENTXINDEX")
+					print(currentxindex)
+
+
+
+
+
+
+					#check if current expression is an inverse
+					inverse=0
+					if(currentxindex+1<=len(iinput)-1):
+
+						print(iinput[currentxindex])
+						if(iinput[currentxindex]=="}"):
+							print("hell yeah")
+							inverse=1
+							cchar+=1
+
+
 
 
 					chhar+=1
 
-					current=access(stridx(sm[x],y),iinput)
+
 
 					#print("CURRENT STRING")
 					#print(current)
@@ -530,19 +556,45 @@ def genam(iiinput,ssm):
 					jjj=1
 					Supindex=0
 
+					#this is to check for if an identical expression is found,
+					#with the exception of the last character which indicates if
+					# an expression is inverted.
+
+
 					for i in range(imsp+1):
 						if(len(im[i])>1):
 							if(access(im[i],iinput)==current):
 									jjj=0
 									Supindex=i
 
+
+							#if(access(im[i],iinput)==(current+"^"))or((access(im[i],iinput)==(current[:len(current)-1]))):
+								#print("Duplicate FOUND!")
+
+
+
 					#else, if the current value of the string is not a duplicate, add to index map.
 					#in this case, the newly generated symbol should be added to the abstract map.
 
+					gensim=0
 
+					#if not duplicate
 					if(jjj):
 						im[imsp]=stridx(sm[x],y)
+
 						sim[imsp]=chhar
+						#gensim=chhar
+
+
+						#if(inverse):
+						#	sim[imsp]=cchar
+						#	gensim=cchar
+						#else:
+						#	sim[imsp]=chhar
+						#	gensim=chhar
+
+
+
 						imsp+=1
 						#add newly generated symbol to am
 
@@ -631,9 +683,166 @@ def genam(iiinput,ssm):
 
 
 
+def convert(rrr):
+
+
+
+
+
+		currentstring=" a|"
+
+
+		print("NEW TEST ")
+
+		print(astridx(currentstring,0,4) )
+
+
+		for x in range(len(rrr[3])):
+
+			currenttier=x
+			if(len(rrr[3][x])!=1):
+
+
+
+				if(currenttier+1 != len(rrr[3] ) ) :
+
+
+
+					orgincopy=currentstring
+					addon=0
+
+					for y in range( stridx(currentstring,-5)):
+
+
+						#print("YVALUE")
+						#print(y)
+
+						#-> is index of each variable in current string.
+						#print(currentstring[astridx(currentstring,y,3)-1])
+
+						#start=astridx(currentstring,y,4)
+						filling= astridx( rrr[3][currenttier+1],y,2)
+
+
+						if(not(isinstance(filling,str))):
+							break
+
+
+
+						start=astridx(orgincopy,y,4)
+
+
+
+
+						if(x!=1):
+							print("gottem	")
+							start=astridx(orgincopy,y,4)+addon
+
+
+
+
+						#fillinglen=astridx(filling,-5,4)
+
+						#addon+=fillinglen
+
+						#if(fillinglen!=1):
+						#	start=astridx(currentstring,y+addon,4)
+
+
+
+
+
+
+
+
+						print("CURRENT STRING START")
+						print(start)
+						print("FILLING")
+						print(filling)
+						print("filling len")
+						print(addon)
+
+						#print("DE TEST")
+
+
+
+
+
+						#print(  currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:])
+
+						currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
+
+						print("Current STRING ")
+						print(currentstring)
+
+						if(isinstance(filling,str)):
+
+							addon+=len(filling)
+							addon+=1
+						else:
+							break
+
+
+
+
+
+					print("NEW ITERATION")
+
+					#print(stridx(currentstring,y))
+
+
+
+
+
+
+
+		print(currentstring)
+
+
+
+		returnedstring=currentstring
+
+
+
+		for x in range(astridx(returnedstring,-5,4)):
+
+			index=astridx(returnedstring,x,4)
+			print(returnedstring[index])
+			returnedstring=returnedstring[:index]+"("+ returnedstring[index]  +")"+returnedstring[index+1:]
+			print(returnedstring)
+
+
+
+		returnedstringa=""
+
+		for x in range(len(returnedstring)):
+
+			if(returnedstring[x]!='*')and((returnedstring[x]!='|')):
+				returnedstringa=returnedstringa + returnedstring[x]
+
+
+
+		#this is a string returned to the orginal form it came in through iinput.
+		print(returnedstringa)
+		return returnedstringa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 wwm=generate(iinput)
-
 
 
 wm=wwm
@@ -641,110 +850,28 @@ rrr=genam(iinput,wm)
 rrr[2][1]=" a|"
 
 
-
 #print(rrr[2])
 print(rrr[3])
 print(rrr[4])
 
+iinput=convert(rrr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #print(astridx(rrr[3][3],1,2))
-
-
-
-
-currentstring=" a|"
-
-
-print("NEW TEST ")
-
-print(astridx(currentstring,0,4) )
-
-
-for x in range(len(rrr[3])):
-
-	currenttier=x
-	if(len(rrr[3][x])!=1):
-
-
-
-		if(currenttier+1 != len(rrr[3] ) ):
-
-
-
-			orgincopy=currentstring
-			addon=0
-
-			for y in range( stridx(currentstring,-5)):
-				#print("YVALUE")
-				#print(y)
-
-				#-> is index of each variable in current string.
-				#print(currentstring[astridx(currentstring,y,3)-1])
-
-				#start=astridx(currentstring,y,4)
-				filling= astridx( rrr[3][currenttier+1],y,2)
-
-
-				start=astridx(orgincopy,y,4)
-
-
-
-
-				if(x!=1):
-					print("gottem	")
-					start=astridx(orgincopy,y,4)+addon
-
-
-
-
-				#fillinglen=astridx(filling,-5,4)
-
-				#addon+=fillinglen
-
-				#if(fillinglen!=1):
-				#	start=astridx(currentstring,y+addon,4)
-
-
-
-
-
-
-
-
-				print("CURRENT STRING START")
-				print(start)
-				print("FILLING")
-				print(filling)
-				print("filling len")
-				print(addon)
-
-				#print("DE TEST")
-
-
-
-
-
-				#print(  currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:])
-
-				currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
-
-				print("Current STRING ")
-				print(currentstring)
-
-
-				addon+=len(filling)
-				addon+=1
-
-
-
-
-
-			print("NEW ITERATION")
-
-			#print(stridx(currentstring,y))
-
-
-
-
 
 
 
