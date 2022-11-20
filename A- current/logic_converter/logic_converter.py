@@ -219,6 +219,7 @@ def tstridx(sstring,index):
 	#if inaccessable index is provided as arguement, return instead the length of the "string"
 
 
+
 def astridx(sstring,index,mmode):
 
 
@@ -229,6 +230,15 @@ def astridx(sstring,index,mmode):
 		#mode 2-> used to create vhdl parameterization
 
 		symbols=["|"]
+
+	if mmode==3:
+		symbols=["+","*","|"]
+
+
+	if mmode==4:
+		#inverse search, find characters
+		#that are not equal to defined separators in mode 3
+		symbols=["+","*","|"," ","(",")"]
 
 
 	sindex=0
@@ -244,23 +254,60 @@ def astridx(sstring,index,mmode):
 
 
 
+
 	for x in range(len(sstring)):
+		check=0
+
+
 
 		for y in range(len(symbols)):
 
-			if sstring[x]==symbols[y]:
-				sindex=eindex
-				eindex=x
-				ssindex+=1
+			if(mode==4):
+				#print("YVAL")
+				#print(y)
+				if sstring[x]==symbols[y]:
+					check=1
+				#print("check val")
+				#print(check)
+
+			else:
+				if sstring[x]==symbols[y]:
+					sindex=eindex
+					eindex=x
+					ssindex+=1
 
 
-			if ssindex==index:
-				if mode==0:
-					return sstring[sindex+1:eindex]
-				if mode==1:
-					return x
-				if mode==2:
-					return sstring[sindex+1:eindex]
+
+
+
+		if(mode==4):
+			if(check!=1):
+			  sindex=eindex
+			  eindex=x
+			  ssindex+=1
+
+
+
+
+
+		if ssindex==index:
+			if mode==0:
+				return sstring[sindex+1:eindex]
+			if mode==1:
+				#return the string index at which a symbol from symbol list was found
+				return x
+			if mode==2:
+				return sstring[sindex+1:eindex]
+
+			if mode==3:
+				#does the same with mode one but with different symbol list
+				return x
+
+			if mode==4:
+				#returns the same as mode 3
+				return x
+
+
 
 
 
@@ -591,21 +638,113 @@ wwm=generate(iinput)
 
 wm=wwm
 rrr=genam(iinput,wm)
-rrr[2][1]=" a "
+rrr[2][1]=" a|"
 
 
 
-print(rrr[2])
+#print(rrr[2])
 print(rrr[3])
 print(rrr[4])
 
-print(astridx(rrr[3][3],1,2))
+#print(astridx(rrr[3][3],1,2))
 
 
 
 
-#for x in range(len(vam)):
-#	if(len(vam)!=1):
+currentstring=" a|"
+
+
+print("NEW TEST ")
+
+print(astridx(currentstring,0,4) )
+
+
+for x in range(len(rrr[3])):
+
+	currenttier=x
+	if(len(rrr[3][x])!=1):
+
+
+
+		if(currenttier+1 != len(rrr[3] ) ):
+
+
+
+			orgincopy=currentstring
+			addon=0
+
+			for y in range( stridx(currentstring,-5)):
+				#print("YVALUE")
+				#print(y)
+
+				#-> is index of each variable in current string.
+				#print(currentstring[astridx(currentstring,y,3)-1])
+
+				#start=astridx(currentstring,y,4)
+				filling= astridx( rrr[3][currenttier+1],y,2)
+
+
+				start=astridx(orgincopy,y,4)
+
+
+
+
+				if(x!=1):
+					print("gottem	")
+					start=astridx(orgincopy,y,4)+addon
+
+
+
+
+				#fillinglen=astridx(filling,-5,4)
+
+				#addon+=fillinglen
+
+				#if(fillinglen!=1):
+				#	start=astridx(currentstring,y+addon,4)
+
+
+
+
+
+
+
+
+				print("CURRENT STRING START")
+				print(start)
+				print("FILLING")
+				print(filling)
+				print("filling len")
+				print(addon)
+
+				#print("DE TEST")
+
+
+
+
+
+				#print(  currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:])
+
+				currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
+
+				print("Current STRING ")
+				print(currentstring)
+
+
+				addon+=len(filling)
+				addon+=1
+
+
+
+
+
+			print("NEW ITERATION")
+
+			#print(stridx(currentstring,y))
+
+
+
+
 
 
 
