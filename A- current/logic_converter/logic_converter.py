@@ -45,11 +45,14 @@ class node:
 
 
 
-def generate(iiinput):
+def generate(iiinput,ret):
 
 
+	#this is if a single variable is surrounded by more
+	#than one parenthesis
 
 
+	condition=0
 
 
 	input=iiinput
@@ -95,13 +98,33 @@ def generate(iiinput):
 
 			if x!=(len(input)-1):
 				connector=input[x+1]
+
+
+			#if x<=(len(input)-1)-2 :
+			#	connectorb=input[x+2]
+
+
+
+
 			else:
 				connector="e"
 
 
 
+
 			if (connector=="(") or (connector == ")") or (connector == "}") :
 				connector="*"
+
+
+			#if )) occurs, then indicate condition which disables
+			#or notifies the | generator.
+
+			#if(connector==connectorb):
+			#	condition=1
+			#	connector=")"
+
+
+
 
 
 
@@ -121,6 +144,10 @@ def generate(iiinput):
 
 	print(wsm)
 	#print(stack)
+
+	if(ret==0):
+		return condition
+
 
 	return wsm
 
@@ -385,6 +412,32 @@ def clean(abmap,ret):
 		return abmap
 
 
+	if(ret==2):
+
+
+		for x in range(len(abmap)):
+
+			if(len(abmap[x])!=1):
+
+
+				end=len(abmap[x])-1
+				sstrn=abmap[x]
+				#print(end)
+				#print(sstrn[0:end-3])
+
+				abmap[x]=sstrn[0:end-1]
+				abmap[x]=abmap[x]+"|"
+
+		return abmap
+
+
+
+
+
+
+
+
+
 
 
 def isinverse(charr):
@@ -404,8 +457,12 @@ def isinverse(charr):
 #-----------------------------------------------main program execution
 
 
-iiinput="    (       ( (a)(b)(c) )     +        (  ((a)(b))  (c) )           )"
-iiinput="    (       ( (a)(b)(c) )     +        (  ((a)(b))  (  (c)  ) )           )"
+iinput="    (       ( (a)(b)(c) )     +        (  ((a)(b))  (c) )           )"
+iinput="    (       ( (a)(b)(c) )     +        (  ((a)(b))  (  (c)  ) )           )"
+
+
+
+#iinput="((a)(b))+((a)+((a)(b)))"
 
 
 iinput="(((a)(b)(c))+(((a)(b))(c)))"
@@ -423,7 +480,26 @@ iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
 
 
-iinput="(((a}(b}(c))+((a}(b)(c}})"
+#iinput="(((a}(b}(c))+((a}(b)(c}})"
+
+iinput="(((a)(b)(c))+(((a)(b))((c)))"
+
+
+iinput="((a)+(b)+((a)(b)))"
+
+
+
+
+iinput="(((a)(b)(c))+(((a)(b))(c)))"
+
+
+iinput="((((a)+(b)))+(b)+(((c)+(b))))"
+
+#iinput="(((a))+((b))+((a)(b)))"
+
+
+# iinput="(((a))+((b))+((c))+((a)+(b)))"
+
 
 
 
@@ -567,8 +643,8 @@ def genam(iiinput,ssm):
 
 
 
-					print("CURRENT STRING")
-					print(current)
+					#print("CURRENT STRING")
+					#print(current)
 
 					jjj=1
 					Supindex=0
@@ -673,6 +749,8 @@ def genam(iiinput,ssm):
 
 		vam=clean(vam,0)
 
+		sm=clean(sm,2)
+
 
 
 
@@ -681,7 +759,8 @@ def genam(iiinput,ssm):
 
 		#print(vam)
 		#print(am)
-		#print(sm)
+		print("SYMBOL MAP")
+		print(sm)
 
 
 
@@ -705,12 +784,15 @@ def convert(rrr):
 		currentstring=" a|"
 
 
-		print("NEW TEST ")
+		#print("NEW TEST ")
 
-		print(astridx(currentstring,0,4) )
+		#print(astridx(currentstring,0,4) )
 
 
 		for x in range(len(rrr[3])):
+			# is x value of am map
+			print("!----------------------------------------------------------xVALUEE, or current x value of sm")
+			print(x)
 
 			currenttier=x
 			if(len(rrr[3][x])!=1):
@@ -722,9 +804,21 @@ def convert(rrr):
 
 
 					orgincopy=currentstring
+					#is unedited version of string, for
+					#reference as to what variable to replace next.
+
+
+
 					addon=0
 
 					for y in range( stridx(currentstring,-5)):
+
+						print("!-----------------------------------YVALUE, or current variable in string")
+						print(y)
+						#for variables in the current string.
+						#y is the value of the currently edited variable.
+
+
 
 
 						#print("YVALUE")
@@ -743,6 +837,8 @@ def convert(rrr):
 
 
 						start=astridx(orgincopy,y,4)
+						#is index of current variable.
+
 
 
 
@@ -761,6 +857,11 @@ def convert(rrr):
 						#if(fillinglen!=1):
 						#	start=astridx(currentstring,y+addon,4)
 
+
+						if(x>=2):
+
+							print("CURRENT STRING MATCH")
+							print(matchindex(rrr[4],x+1,y))
 
 
 
@@ -792,6 +893,7 @@ def convert(rrr):
 
 						print("Current STRING ")
 						print(currentstring)
+
 
 						if(isinstance(filling,str)):
 
@@ -855,6 +957,53 @@ def convert(rrr):
 
 
 
+def matchindex(ssm,xval,yval):
+
+
+
+
+
+	#ssm is the symbol map to be used.
+	#xval is the tier value of the symbol map to be operated on
+	#yval is the index of the any given set of variables,
+	# which are separated by the | symbol
+
+	#print("!__________MATCH index output begin")
+
+
+	#the passed variable is the currently unmatched
+	#varset.
+
+	varset=" "+str(astridx(ssm[xval],yval,2))
+	#print("VARSET")
+	#is string segment from selected yval
+	#print(varset)
+
+	selected=int(sstridx(varset,0))
+
+	#is first index from selected yval.
+	#print("SELECTED VALUE, OR FIRST INDEX")
+	#print(selected)
+
+
+	for x in range(stridx(ssm[xval-1],-5) ):
+		#print(x)
+
+		#for each item in the previous x value.
+
+		#print(" "+stridx(ssm[xval-1],x))
+		county=int( sstridx(" "+stridx(ssm[xval-1],x),0))
+
+
+
+
+		if(county==selected-1):
+			#print("FOUND MATCH, returning index!!")
+			#print("!__________MATCH index output end")
+			return (x)
+
+
+		#print("!__________MATCH index output end")
 
 
 
@@ -864,8 +1013,19 @@ def convert(rrr):
 
 
 
-wwm=generate(iinput)
 
+
+
+
+
+
+
+
+
+
+wwm=generate(iinput,1)
+
+print("CONDITION")
 
 wm=wwm
 rrr=genam(iinput,wm)
@@ -876,10 +1036,28 @@ rrr[2][1]=" a|"
 print(rrr[3])
 print(rrr[4])
 
+print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
+
+xval=4
+
+
+print(matchindex(rrr[4],4,1))
+print("RETURNED VALUE")
+#symbolmap, x value in symbol map, yth set
+
+#for y in range( astridx(rrr[4][4],-5,2) ):
+#	matchindex(rrr[4],xval,y)
+
+
+
+
+print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
+
+
 iinput=convert(rrr)
 
 
-wwm=generate(iinput)
+wwm=generate(iinput,1)
 
 
 
