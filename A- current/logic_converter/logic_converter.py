@@ -495,6 +495,14 @@ iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
 iinput="((((a)+(b)))+(b)+(((c)+(b))))"
 
+iinput="(((a)+(b))+(b)+((c)+(b)))"
+
+
+
+
+
+#iinput="((((a)(b)(c))+(((a)(b))((c))))"
+
 #iinput="(((a))+((b))+((a)(b)))"
 
 
@@ -775,10 +783,29 @@ def genam(iiinput,ssm):
 
 
 
+def replacestring(currentstring,start,filling):
+
+	#if(isinverse(currentstring[start])):
+		#currentstring=currentstring[:start]+"("+ str(filling)  +"}"+currentstring[start+1:]
+
+	#else:
+	currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
+
+
+
+
+	return currentstring
+
+
+
+
+
+
+
+
+
+
 def convert(rrr):
-
-
-
 
 
 		currentstring=" a|"
@@ -811,10 +838,70 @@ def convert(rrr):
 
 					addon=0
 
-					for y in range( stridx(currentstring,-5)):
+					for y in range( astridx(rrr[3][x+1],-5,2)):
+
+						#for y in range of replacable segments in the next tier
+
+
+
+
+
+
+						filling=(  astridx(rrr[3][x+1],y,2) )
+						print("FILLING")
+						print(filling)
+
+
+						mi=matchindex(rrr[4],x+1,y)
+						print("MATCH INDEX")
+
+						mi+=addon
+						print(mi)
+
+
+
+
+
+						print("start value")
+						start=astridx(currentstring,mi,4)
+						print(start)
+
+						print("pre-replacement current string")
+						print(currentstring)
+
+						print("PREVARS")
+						prevars=astridx(currentstring,-5,4)
+						print(prevars)
+
+						currentstring=replacestring(currentstring,start,filling)
+
+						print("postvars")
+						postvars=astridx(currentstring,-5,4)
+						print(postvars)
+
+						diff=abs(prevars-postvars)
+						addon+=diff
+
+						print("addon")
+
+						print(addon)
+
+
+
+
+						print("post-replacement current string")
+						print(currentstring)
+
+
+
+
+
 
 						print("!-----------------------------------YVALUE, or current variable in string")
 						print(y)
+
+
+
 						#for variables in the current string.
 						#y is the value of the currently edited variable.
 
@@ -828,25 +915,56 @@ def convert(rrr):
 						#print(currentstring[astridx(currentstring,y,3)-1])
 
 						#start=astridx(currentstring,y,4)
-						filling= astridx( rrr[3][currenttier+1],y,2)
+						#filling= astridx( rrr[3][currenttier+1],y,2)
 
 
-						if(not(isinstance(filling,str))):
-							break
+						#if(not(isinstance(filling,str))):
+						#	break
 
 
 
-						start=astridx(orgincopy,y,4)
+						#start=astridx(orgincopy,y,4)
 						#is index of current variable.
+						#as y increments, so does the position
+						#of each variable referenced
+						#by the orgincopy.
 
 
 
 
 
-						if(x!=1):
-							print("gottem	")
-							start=astridx(orgincopy,y,4)+addon
 
+						#if(x>=2):
+
+						#print("CURRENT STRING MATCH")
+
+
+						#print(mi)
+						#start=astridx(orgincopy,mi,4)
+
+						#print("WHAT THE START VALUE COULD POSSIBLY BE?? ")
+						#print(astridx(orgincopy,mi,4))
+
+
+						#start=astridx(orgincopy,mi,4)
+
+
+
+
+
+
+
+
+
+
+						#if(x!=1):
+						#	print("gottem	")
+						#	start=astridx(orgincopy,y,4)+addon
+
+
+
+						#print("POST START VALUE")
+						#print(start)
 
 
 
@@ -858,10 +976,6 @@ def convert(rrr):
 						#	start=astridx(currentstring,y+addon,4)
 
 
-						if(x>=2):
-
-							print("CURRENT STRING MATCH")
-							print(matchindex(rrr[4],x+1,y))
 
 
 
@@ -869,16 +983,25 @@ def convert(rrr):
 
 
 
-						print("CURRENT STRING START index")
-						print(start)
-						print("current string start value")
-						print(currentstring[start])
-						print("FILLING")
-						print(filling)
-						print("filling len")
-						print(addon)
+						#print("CURRENT STRING START index")
+						#print(start)
+						#print("current string start value")
+						#print(currentstring[start])
+						#print("FILLING")
+						#print(filling)
+						#print("filling len")
+						#print(addon)
 
 						#print("DE TEST")
+
+
+						#if(isinstance(filling,str)):
+
+						#	addon+=len(filling)
+						#	addon+=1
+						#else:
+						#	break
+
 
 
 
@@ -886,31 +1009,36 @@ def convert(rrr):
 
 						#print(  currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:])
 
-						if(isinverse(currentstring[start])):
-							currentstring=currentstring[:start]+"("+ str(filling)  +"}"+currentstring[start+1:]
-						else:
-							currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
 
 
 
-						print("Current STRING ")
-						print(currentstring)
 
+						#if(isinverse(currentstring[start])):
+							#currentstring=currentstring[:start]+"("+ str(filling)  +"}"+currentstring[start+1:]
 
-						if(isinstance(filling,str)):
-
-							addon+=len(filling)
-							addon+=1
-						else:
-							break
+						#else:
+							#currentstring=currentstring[:start]+"("+ str(filling)  +")"+currentstring[start+1:]
 
 
 
 
 
-					print("NEW ITERATION")
+
+						#print("Current STRING ")
+						#print(currentstring)
+
+
+
+
+
+
+
+					#print("NEW ITERATION")
 
 					#print(stridx(currentstring,y))
+
+
+
 
 
 
@@ -1059,7 +1187,11 @@ print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
 iinput=convert(rrr)
 
 
-wwm=generate(iinput,1)
+
+
+
+
+#wwm=generate(iinput,1)
 
 
 
