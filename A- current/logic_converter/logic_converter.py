@@ -869,8 +869,10 @@ def convert(rrr):
 
 
 
-						print("CURRENT STRING START")
+						print("CURRENT STRING START index")
 						print(start)
+						print("current string start value")
+						print(currentstring[start])
 						print("FILLING")
 						print(filling)
 						print("filling len")
