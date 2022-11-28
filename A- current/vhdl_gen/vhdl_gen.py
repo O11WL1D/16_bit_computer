@@ -1,6 +1,3 @@
-print("hello")
-
-print("hello")
 
 
 def gentruthtable(n):
@@ -133,6 +130,55 @@ def tstridx(sstring,index):
 
 
 
+
+
+
+
+
+
+
+
+#will generate a truth table.
+
+#next function to be made will take a truth table index and generate a matching sop expression for that value.
+
+# this will be followed by a function which geneates an expression for every one found in a passed table, and concationates
+#this expression to previous expressions, separated by a "+"
+
+#The variables generated will be in increasing order of the alphabet.
+
+
+def gensop(index,table):
+
+    chhar=96
+    #print(table)
+    #print(table[index])
+
+    currentstring="("
+
+
+    for x in range(len(table[index])):
+        #print(x)
+
+        chhar+=1
+
+        if(table[index][x]=="1"):
+            currentstring=currentstring+"("+chr(chhar)+")"
+        else:
+            currentstring=currentstring+"("+chr(chhar)+"}"
+
+
+    currentstring=currentstring+")"
+
+    #print(currentstring)
+    return(currentstring)
+
+
+
+
+
+
+
 def astridx(sstring,index,mmode):
 
 
@@ -152,6 +198,10 @@ def astridx(sstring,index,mmode):
 		#inverse search, find characters
 		#that are not equal to defined separators in mode 3
 		symbols=["+","*","|"," ","(",")","}"]
+
+	if mmode==5:
+		symbols=["	"]
+
 
 
 	sindex=0
@@ -222,6 +272,9 @@ def astridx(sstring,index,mmode):
 
 
 
+			if mode==5:
+				return sstring[sindex+1:eindex]
+
 
 
 
@@ -236,40 +289,20 @@ def astridx(sstring,index,mmode):
 
 
 
-#will generate a truth table.
-
-#next function to be made will take a truth table index and generate a matching sop expression for that value.
-
-# this will be followed by a function which geneates an expression for every one found in a passed table, and concationates
-#this expression to previous expressions, separated by a "+"
-
-#The variables generated will be in increasing order of the alphabet.
 
 
-def gensop(index,table):
-
-    chhar=96
-    #print(table)
-    #print(table[index])
-
-    currentstring="("
 
 
-    for x in range(len(table[index])):
-        #print(x)
-
-        chhar+=1
-
-        if(table[index][x]=="1"):
-            currentstring=currentstring+"("+chr(chhar)+")"
-        else:
-            currentstring=currentstring+"("+chr(chhar)+"}"
 
 
-    currentstring=currentstring+")"
 
-    #print(currentstring)
-    return(currentstring)
+
+
+
+
+
+
+
 
 
 
@@ -306,8 +339,9 @@ def genexpression(truthtable,ftable):
 
 
 
-    currentstring=currentstring+")"            
-    print(currentstring)
+    currentstring=currentstring+")"
+    #print(currentstring)
+    return(currentstring)
 
 
 
@@ -331,4 +365,35 @@ ftable[2]="1"
 
 
 
-genexpression(taable,ftable)
+expression=genexpression(taable,ftable)
+
+
+print(expression)
+
+
+
+
+
+string="ffA1"
+
+
+convert=int(string,16)
+
+print(convert)
+
+
+
+#this is a demonstration of how data can be stored in
+#excel, copy and pasted, and then accessed by this program.
+# so long as astridx is in mode 5 data is accessable
+
+#just copy what you see in excel, and follow the same format and
+#you should be golden.
+
+datainput=[" "]*2
+
+#datainput.append(			"w	0ffff	f1a3	"	)
+#datainput.append(			"w	a132	3332	"	)
+
+#print(astridx(datainput[2],1,5))
+#print(astridx(datainput[3],1,5))
