@@ -249,14 +249,14 @@ def astridx(sstring,index,mmode):
 def gensop(index,table):
 
     chhar=96
-    print(table)
-    print(table[index])
+    #print(table)
+    #print(table[index])
 
     currentstring="("
 
 
     for x in range(len(table[index])):
-        print(x)
+        #print(x)
 
         chhar+=1
 
@@ -268,10 +268,46 @@ def gensop(index,table):
 
     currentstring=currentstring+")"
 
+    #print(currentstring)
+    return(currentstring)
+
+
+
+
+def genexpression(truthtable,ftable):
+
+    #ftable is the table containing the values of an output expression, and truthtable is the standard truthtable (lhs)
+
+
+    currentstring="("
+
+
+    start=1
+
+    for x in range(len(ftable)):
+
+        expression=gensop(x,truthtable)
+        #print(expression)
+
+
+
+        if(ftable[x]=="1"):
+
+
+            if(start):
+
+                currentstring=currentstring+expression
+                start-=1
+
+            else:
+                currentstring=currentstring+"+"+expression
+
+
+
+
+
+    currentstring=currentstring+")"            
     print(currentstring)
-
-
-
 
 
 
@@ -285,3 +321,14 @@ n=4
 
 taable=gentruthtable(n)
 gensop(3,taable)
+
+
+ftable=["0"]*16
+ftable[15]="1"
+
+
+ftable[2]="1"
+
+
+
+genexpression(taable,ftable)
