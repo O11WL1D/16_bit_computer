@@ -500,18 +500,6 @@ def add(stringa,stringb):
 
 
 
-    #if not(currentstring in strings):
-    #    strings.append(currentstring)
-    #    lists.append(genfinaltruthtable(0,n,stringb))
-
-
-
-    #set stringA to equal to stringb
-
-
-
-    #if not(currentstring in lists):
-    #    lists.append(currentstring)
 
 
 
