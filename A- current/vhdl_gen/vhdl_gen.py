@@ -306,7 +306,6 @@ def astridx(sstring,index,mmode):
 
 
 
-
 def genexpression(truthtable,ftable):
 
     #ftable is the table containing the values of an output expression, and truthtable is the standard truthtable (lhs)
@@ -345,6 +344,18 @@ def genexpression(truthtable,ftable):
 
 
 
+def genemptytable(n):
+
+    table=["0"]*(2**n)
+    return table
+
+
+
+
+def hex_int(input):
+        return int(input,16)
+
+
 
 
 
@@ -374,12 +385,51 @@ print(expression)
 
 
 
+
 string="ffA1"
 
+print(hex_int(string))
 
-convert=int(string,16)
 
-print(convert)
+
+
+
+
+nnull=genemptytable(n)
+
+print(nnull)
+
+
+
+
+
+def genemptytableset(hexstring):
+
+    converted=hex_int(hexstring)
+    #print(converted)
+
+    bienval=f'{converted:b}'
+    #print(bienval)
+
+    empty=genemptytable(n)
+
+    emptytableset=[empty]*(len(bienval))
+
+    return emptytableset
+
+
+
+print(len(genemptytableset("fa")))
+
+
+
+
+
+
+genemptytableset("fa")
+
+
+
 
 
 
@@ -392,8 +442,17 @@ print(convert)
 
 datainput=[" "]*2
 
-#datainput.append(			"w	0ffff	f1a3	"	)
-#datainput.append(			"w	a132	3332	"	)
+datainput.append(			"w	0ffff	f1a3	"	)
+datainput.append(			"w	a132	3332	"	)
+
+
+
+
+
+
+
+
+
 
 #print(astridx(datainput[2],1,5))
 #print(astridx(datainput[3],1,5))
