@@ -655,9 +655,9 @@ def genam(iiinput,ssm):
 					inverse=0
 					if(currentxindex+1<=len(iinput)-1):
 
-						print(iinput[currentxindex])
+						#print(iinput[currentxindex])
 						if(iinput[currentxindex]=="}"):
-							print("hell yeah")
+							#print("hell yeah")
 							inverse=1
 
 
@@ -833,8 +833,8 @@ def convert(rrr):
 
 		for x in range(len(rrr[3])):
 			# is x value of am map
-			print("!----------------------------------------------------------xVALUEE, or current x value of sm")
-			print(x)
+			#print("!----------------------------------------------------------xVALUEE, or current x value of sm")
+			#print(x)
 
 			currenttier=x
 			if(len(rrr[3][x])!=1):
@@ -863,57 +863,57 @@ def convert(rrr):
 
 
 						filling=(  astridx(rrr[3][x+1],y,2) )
-						print("FILLING")
-						print(filling)
+						#print("FILLING")
+						#print(filling)
 
 
 						mi=matchindex(rrr[4],x+1,y)
-						print("MATCH INDEX")
+						#print("MATCH INDEX")
 
 						mi+=addon
-						print(mi)
+						#print(mi)
 
 
 
 
 
-						print("start value")
+						#print("start value")
 						start=astridx(currentstring,mi,4)
-						print(start)
+						#print(start)
 
-						print("pre-replacement current string")
-						print(currentstring)
+						#print("pre-replacement current string")
+						#print(currentstring)
 
-						print("PREVARS")
+						#print("PREVARS")
 						prevars=astridx(currentstring,-5,4)
-						print(prevars)
+						#print(prevars)
 
 						currentstring=replacestring(currentstring,start,filling)
 
-						print("postvars")
+						#print("postvars")
 						postvars=astridx(currentstring,-5,4)
-						print(postvars)
+						#print(postvars)
 
 						diff=abs(prevars-postvars)
 						addon+=diff
 
-						print("addon")
+						#print("addon")
 
-						print(addon)
-
-
-
-
-						print("post-replacement current string")
-						print(currentstring)
+						#print(addon)
 
 
 
 
+						#print("post-replacement current string")
+						#print(currentstring)
 
 
-						print("!-----------------------------------YVALUE, or current variable in string")
-						print(y)
+
+
+
+
+						#print("!-----------------------------------YVALUE, or current variable in string")
+						#print(y)
 
 
 
@@ -1061,7 +1061,7 @@ def convert(rrr):
 
 
 
-		print(currentstring)
+		#print(currentstring)
 
 
 
@@ -1072,13 +1072,13 @@ def convert(rrr):
 		for x in range(astridx(returnedstring,-5,4)):
 
 			index=astridx(returnedstring,x,4)
-			print(returnedstring[index])
+			#print(returnedstring[index])
 			if(isinverse(returnedstring[index])):
 				returnedstring=returnedstring[:index]+"("+ chr(ord(returnedstring[index])+32)  +"}"+returnedstring[index+1:]
 			else:
 				returnedstring=returnedstring[:index]+"("+ returnedstring[index]  +")"+returnedstring[index+1:]
 
-			print(returnedstring)
+			#print(returnedstring)
 
 
 
@@ -1207,12 +1207,6 @@ iinput=convert(rrr)
 
 
 #wwm=generate(iinput,1)
-
-
-
-
-
-
 
 
 
