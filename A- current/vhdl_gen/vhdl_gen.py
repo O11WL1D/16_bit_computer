@@ -2,6 +2,8 @@
 
 def gentruthtable(n):
 
+    #this generates the lhs of a truth table
+
     truthtable=[" "]*((2**n))
     #print(truthtable)
 
@@ -34,8 +36,6 @@ def format(n,currentstring):
     #print(currentstring)
     return currentstring
 #
-
-
 
 def stridx(sstring,index):
 
@@ -130,14 +130,6 @@ def tstridx(sstring,index):
 
 
 
-
-
-
-
-
-
-
-
 #will generate a truth table.
 
 #next function to be made will take a truth table index and generate a matching sop expression for that value.
@@ -149,6 +141,8 @@ def tstridx(sstring,index):
 
 
 def gensop(index,table):
+
+    #is what produces a single sop expression for a given lhs table
 
     chhar=96
     #print(table)
@@ -172,10 +166,6 @@ def gensop(index,table):
 
     #print(currentstring)
     return(currentstring)
-
-
-
-
 
 
 
@@ -282,33 +272,10 @@ def astridx(sstring,index,mmode):
 	#if inaccessable index is provided as arguement, return instead the length of the "string"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def genexpression(truthtable,ftable):
 
     #ftable is the table containing the values of an output expression, and truthtable is the standard truthtable (lhs)
+    #
 
 
     currentstring="("
@@ -357,59 +324,43 @@ def hex_int(input):
 
 
 
+def int_bin(input):
+    input=int(input)
+    return( f'{input:b}')
 
+def format(n,currentstring):
 
+    length=len( f'{((2**n)-1):b}' )
 
+    while(len(currentstring)<length):
+        currentstring="0"+currentstring
 
-
-n=4
-
-taable=gentruthtable(n)
-gensop(3,taable)
-
-
-ftable=["0"]*16
-ftable[15]="1"
-
-
-ftable[2]="1"
-
-
-
-expression=genexpression(taable,ftable)
-
-
-print(expression)
-
-
-
-
-
-
-string="ffA1"
-
-print(hex_int(string))
-
-
-
-
-
-
-nnull=genemptytable(n)
-
-print(nnull)
-
-
+    return currentstring
 
 
 
 def genemptytableset(hexstring):
 
+
+    #this generates a list of
+    #empty tables, based on the hex string you pass
+
+
     converted=hex_int(hexstring)
-    #print(converted)
+    print("CONVERTED!!")
+    print(converted)
 
     bienval=f'{converted:b}'
-    #print(bienval)
+    print("BIENVAL!!")
+    print(bienval)
+
+    passedn=4*len(hexstring)
+
+
+    bienval=format(passedn,bienval)
+
+    print("NEW BIENVAL")
+    print(bienval)
 
     empty=genemptytable(n)
 
@@ -419,16 +370,51 @@ def genemptytableset(hexstring):
 
 
 
+
+
+#print(int_bin("64"))
+
+
+n=4
+
+taable=gentruthtable(n)
+
+#this generates a single intermediate term in sop expression, used in genexpression function
+print(gensop(3,taable))
+
+
+#rhs table
+
+ftable=["0"]*16
+ftable[15]="1"
+
+ftable[2]="1"
+
+
+expression=genexpression(taable,ftable)
+
+#genexpression generates a complete sop expression
+#based on the truth table passed to it - both lhs and rhs
+
+
+print(expression)
+
+
+string="ffA1"
+
+print(hex_int(string))
+
+
+nnull=genemptytable(n)
+
+print(nnull)
+
+
 print(len(genemptytableset("fa")))
 
 
 
-
-
-
-genemptytableset("fa")
-
-
+genemptytableset("00")
 
 
 
@@ -440,19 +426,69 @@ genemptytableset("fa")
 #just copy what you see in excel, and follow the same format and
 #you should be golden.
 
+
+
+print("\n\n TEST CODE OUTPUT END\n\n")
+
+
+taable=gentruthtable(n)
+#generates lhs truthtable
+
+
+n=4
+
 datainput=[" "]*2
+datainput.pop()
+datainput.pop()
 
-datainput.append(			"w	0ffff	f1a3	"	)
-datainput.append(			"w	a132	3332	"	)
-
-
-
-
+#datainput.append(			"w	0ffff	f1a3	"	)
+#datainput.append(			"w	a132	3332	"	)
 
 
+datainput.append(			"w	f	5	"	)
+datainput.append(			"w	7	b	"	)
+datainput.append(			"w	a	8	"	)
+
+
+
+#it will be assumed that there is a consistancy in
+#the bit width of our inputs.
+
+rhstable=genemptytableset(str(astridx(datainput[0],2,5)))
+
+print("RHS!"+astridx(datainput[0],2,5))
+
+
+
+#print(len(rhstable))
+#print(rhstable[3])
+
+
+
+ww=2
+
+input_index=astridx(datainput[ww],1,5)
+
+input_index=hex_int(input_index)
+
+print("INPUT INDEX!")
+print(input_index)
 
 
 
 
-#print(astridx(datainput[2],1,5))
-#print(astridx(datainput[3],1,5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+#print(astridx(datainput[0],1,5))
+#print(astridx(datainput[1],1,5))
