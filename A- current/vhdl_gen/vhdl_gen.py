@@ -347,26 +347,122 @@ def genemptytableset(hexstring):
 
 
     converted=hex_int(hexstring)
-    print("CONVERTED!!")
-    print(converted)
+    #print("CONVERTED!!")
+    #print(converted)
 
     bienval=f'{converted:b}'
-    print("BIENVAL!!")
-    print(bienval)
+    #print("BIENVAL!!")
+    #print(bienval)
 
     passedn=4*len(hexstring)
 
 
     bienval=format(passedn,bienval)
 
-    print("NEW BIENVAL")
-    print(bienval)
+    #print("NEW BIENVAL")
+    #print(bienval)
 
     empty=genemptytable(n)
 
     emptytableset=[empty]*(len(bienval))
 
     return emptytableset
+
+
+def insert_value(rhstable,w):
+
+
+
+    ww=w
+
+    input_index=astridx(datainput[ww],1,5)
+    input_index=hex_int(input_index)
+
+
+    input_input=astridx(datainput[ww],2,5)
+    input_input=str(hex_int(input_input))
+    input_input=str(int_bin(input_input))
+    input_input=format(n,input_input)
+
+
+    print("INPUT INPUT!1")
+    print(input_input)
+
+
+    print("INPUT INDEX!")
+    print(input_index)
+    print(taable[input_index])
+
+    new_rhstable=["0"]*2
+    new_rhstable.pop()
+    new_rhstable.pop()
+
+    currenttable=["0"]*2
+    currenttable.pop()
+    currenttable.pop()
+
+
+
+    for x in range(len(rhstable)):
+
+
+        currentstring=["0"]*2
+        currentstring.pop()
+        currentstring.pop()
+
+        for y in range(len(rhstable[x])):
+             currentstring.append(rhstable[x][y])
+
+        #print("CURRENT STRING")
+        #print(currentstring)
+
+        #print("New currentstring")
+        currentstring[input_index]=input_input[x]
+        #print(currentstring)
+
+
+        currenttable.append(currentstring)
+
+
+        #print("rhstable old string")
+
+        #print(currenttable)
+
+        #print("rhstable new string")
+
+        #currenttable[input_index]=input_input[x]
+        #print(currenttable)
+
+        #new_rhstable.append(currenttable)
+
+
+
+    #new_rhstable
+
+    rhstable=currenttable
+
+    #for y in range(len(currenttable)):
+    #    print("\ntable: "+str(y))
+
+    #    for x in range(len(currenttable[y])):
+    #        print(currenttable[y][x])
+
+
+
+    #for y in range(len(rhstable)):
+    #    print("\ntable: "+str(y))
+
+    #    for x in range(len(rhstable[y])):
+    #        print(rhstable[y][x])
+
+
+    return rhstable
+
+
+def printtable(table,truthtable):
+    for x in range(len(table)):
+        print( truthtable[x]+"    "+table[x])
+
 
 
 
@@ -431,6 +527,12 @@ genemptytableset("00")
 print("\n\n TEST CODE OUTPUT END\n\n")
 
 
+
+
+
+
+
+
 taable=gentruthtable(n)
 #generates lhs truthtable
 
@@ -445,14 +547,29 @@ datainput.pop()
 #datainput.append(			"w	a132	3332	"	)
 
 
+
+
+
+#!________________________________________________________________PROGRAM HARDCODED INPUT SECTION
+
+
+
 datainput.append(			"w	f	5	"	)
 datainput.append(			"w	7	b	"	)
-datainput.append(			"w	a	8	"	)
+datainput.append(			"w	a	a	"	)
+
+
+
+#________________________________________________________________PROGRAM HARDCODED INPUT SECTION END
 
 
 
 #it will be assumed that there is a consistancy in
 #the bit width of our inputs.
+
+
+
+
 
 rhstable=genemptytableset(str(astridx(datainput[0],2,5)))
 
@@ -460,32 +577,22 @@ print("RHS!"+astridx(datainput[0],2,5))
 
 
 
-#print(len(rhstable))
+print(len(rhstable))
 #print(rhstable[3])
 
 
 
-ww=2
 
-input_index=astridx(datainput[ww],1,5)
 
-input_index=hex_int(input_index)
-
-print("INPUT INDEX!")
-print(input_index)
+for x in range(len(datainput)):
+    rhstable=insert_value(rhstable,x)
 
 
 
 
-
-
-
-
-
-
-
-
-
+for x in range(len(rhstable)):
+    print("\n\nTABLE: "+str(x) )
+    printtable(rhstable[x],taable)
 
 
 
