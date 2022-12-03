@@ -8,6 +8,12 @@ import re
 
 class node:
 
+	#description:
+	#I was initially going to use a node based approach but
+	#in the process of brainstorming for this project I kinda screwed myself
+	#over and did a text/string/arrray based approach
+
+
 	def __init__(self,vara,ti,inn,out):
 
 
@@ -54,6 +60,21 @@ class node:
 
 
 def generate(iiinput,ret):
+
+
+	#this returns a
+	#symbol map, which consists of
+	#indices on multiple tiers. The
+	# point of this is to be able to give everything within a set of parenthesis
+	# a variable, as nested parenthesis can contain their own logic expressions,
+	# For example, below on tier one there would be a single variable
+	#and on tier two there would be two variables
+	# ( () +  ()    )
+	#
+
+	#the code below is implemented with a stack.
+
+
 
 
 	#this is if a single variable is surrounded by more
@@ -124,6 +145,9 @@ def generate(iiinput,ret):
 				connector="*"
 
 
+			#ignore below, unfruitful idea
+
+
 			#if )) occurs, then indicate condition which disables
 			#or notifies the | generator.
 
@@ -164,6 +188,10 @@ def generate(iiinput,ret):
 
 def stridx(sstring,index):
 
+	#this function returns the string located at
+	#a given index, if the symbols below separate each "element"
+
+
 	#hard coded symbol separator list
 	symbols=["e","+","*",";","|"]
 	sindex=0
@@ -193,6 +221,11 @@ def stridx(sstring,index):
 
 def sstridx(sstring,index):
 
+
+	#this function contains : as a symbol, the symbol which
+	#separates the values of the indices provided by the generate symbol map.
+	#this makes for more fine value selection
+
 	#hard coded symbol separator list
 	symbols=["e","+","*",";",":","|"]
 	sindex=0
@@ -221,6 +254,8 @@ def sstridx(sstring,index):
 	#if inaccessable index is provided as arguement, return instead the length of the "string"
 
 def tstridx(sstring,index):
+
+
 	#returns the symbol following any given indices
 
 	#hard coded symbol separator list
@@ -256,6 +291,11 @@ def tstridx(sstring,index):
 
 
 def astridx(sstring,index,mmode):
+
+	#this is a multi-function
+	#version of the other stridx functions.
+	#each mode denotes a different functionality,
+
 
 
 	#hard coded symbol separator list
@@ -451,6 +491,11 @@ def clean(abmap,ret):
 def isinverse(charr):
 	val=ord(charr)
 
+	#this was used to determine if a variable was the inverted form of said variable,
+	#so the prime of a given variable, by checking if the variable was uppercase
+	#in the program, there used to be some working code which switched expressions
+	# that looked like (} with variables with capital letters
+
 	if(val-97>=0):
 		return False
 	else:
@@ -490,7 +535,7 @@ iinput="(((a)(b)(c))+(((a)(b))(c)))"
 
 #iinput="(((a}(b}(c))+((a}(b)(c}})"
 
-iinput="(((a)(b)(c))+(((a)(b))((c)))"
+
 
 
 iinput="((a)+(b)+((a)(b)))"
@@ -506,11 +551,16 @@ iinput="(((a)+(b))+(b)+((c)+(b)))"
 iinput="(((a)+(b))+(b)+(b)+((c)+(b))+(d)+(f))"
 
 
+iinput="(((a)(b)(c))+(((a)(b))((c)))"
 
 
+#iinput="(((a)(b)(c))+((a)(b)(c))   )"
 
 
 #iinput="((a)(((b)(c))+((c)(b))))"
+
+
+iinput="(((a)(b)(c))+((a)(b)(c)))"
 
 
 
@@ -547,6 +597,12 @@ iinput="(((a)+(b))+(b)+(b)+((c)+(b))+(d)+(f))"
 
 
 def genam(iiinput,ssm):
+
+
+		#this function assigns variables for each set of indices in the generate symbol map.
+		#It also has some functionality to detect identical expressions, so that
+		# boolean functions like a+a could be simplified to just (a)
+		#
 
 		sm=ssm
 		iinput=iiinput
@@ -821,6 +877,16 @@ def replacestring(currentstring,start,filling):
 
 
 def convert(rrr):
+
+
+		#this function re-constructs the string that was originally provided.
+		#this was intended on being used to perform recursive like
+		#function calls, and be able to produce vhdl code
+		#but that kinda fell face-fowards
+
+		#there is quite a bit of code here to hanle inverse expressions but is now commented out
+
+
 
 
 		currentstring=" a|"
@@ -1104,6 +1170,11 @@ def convert(rrr):
 
 def matchindex(ssm,xval,yval):
 
+	#this is a function used to make sure that in the convert function
+	#variables in the symbol map are properly matched to where they come from
+	#in their parent tier. This is only relevant if there isnt
+	#an equal number of children expressions for each parent expression.
+	#without this function the very first variable would be replaced in the convert function.
 
 
 
@@ -1170,7 +1241,7 @@ def matchindex(ssm,xval,yval):
 
 wwm=generate(iinput,1)
 
-print("CONDITION")
+#print("CONDITION")
 
 wm=wwm
 rrr=genam(iinput,wm)
@@ -1181,13 +1252,13 @@ rrr[2][1]=" a|"
 print(rrr[3])
 print(rrr[4])
 
-print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
+#print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
 
 xval=4
 
 
 print(matchindex(rrr[4],4,1))
-print("RETURNED VALUE")
+#print("RETURNED VALUE")
 #symbolmap, x value in symbol map, yth set
 
 #for y in range( astridx(rrr[4][4],-5,2) ):
@@ -1196,7 +1267,7 @@ print("RETURNED VALUE")
 
 
 
-print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
+#print("!!!!!!------------------NEW TESTING----------------!!!!!!!")
 
 
 iinput=convert(rrr)
