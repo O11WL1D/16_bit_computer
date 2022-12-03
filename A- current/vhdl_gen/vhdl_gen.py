@@ -593,6 +593,9 @@ for x in range(len(datainput)):
 for x in range(len(rhstable)):
     print("\n\nTABLE: "+str(x) )
     printtable(rhstable[x],taable)
+    print("\n\nEXPRESSION:")
+    currentexpression=genexpression(taable,rhstable[x])
+    print(currentexpression)
 
 
 
