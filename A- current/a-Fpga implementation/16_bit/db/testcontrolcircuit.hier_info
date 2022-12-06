@@ -1,0 +1,28 @@
+|testcontrolcircuit
+a => fffa.IN0
+a => fffa.IN0
+a => fffa.IN0
+a => fffa.IN0
+b => fffa.IN1
+b => fffa.IN1
+b => fffa.IN1
+b => fffa.IN1
+c => fffa.IN1
+c => fffa.IN1
+c => fffa.IN1
+c => fffa.IN1
+d => fffa.IN1
+d => fffa.IN1
+d => fffg.IN1
+d => fffa.IN1
+d => fffa.IN1
+fffa <= fffa.DB_MAX_OUTPUT_PORT_TYPE
+fffb <= fffb.DB_MAX_OUTPUT_PORT_TYPE
+fffc <= fffc.DB_MAX_OUTPUT_PORT_TYPE
+fffd <= fffd.DB_MAX_OUTPUT_PORT_TYPE
+fffe <= fffa.DB_MAX_OUTPUT_PORT_TYPE
+ffff <= ffff.DB_MAX_OUTPUT_PORT_TYPE
+fffg <= fffg.DB_MAX_OUTPUT_PORT_TYPE
+fffh <= fffh.DB_MAX_OUTPUT_PORT_TYPE
+
+

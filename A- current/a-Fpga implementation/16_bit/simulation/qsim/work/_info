@@ -586,3 +586,95 @@ R64
 !i113 1
 R4
 R5
+Etestcontrolcircuit
+Z65 w1670367457
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+!i122 141
+R32
+Z66 8testcontrolcircuit.vho
+Z67 Ftestcontrolcircuit.vho
+l0
+R18
+Vd^;_;^>^HCIWIUM;VQ]6i1
+!s100 hzTh`l_eY:fJ`FI>0i`4V0
+R19
+32
+Z68 !s110 1670367458
+!i10b 1
+Z69 !s108 1670367458.000000
+Z70 !s90 -work|work|testcontrolcircuit.vho|
+Z71 !s107 testcontrolcircuit.vho|
+!i113 1
+R4
+R24
+Astructure
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+DEx4 work 18 testcontrolcircuit 0 22 d^;_;^>^HCIWIUM;VQ]6i1
+!i122 141
+l106
+L69 309
+VOQN]=AhS5bz^@`ICe4C=[0
+!s100 Kj8cPi=`dYQi3CdCbzU`@0
+R19
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R4
+R24
+Etestcontrolcircuit_vhd_vec_tst
+Z72 w1670367456
+R13
+R14
+!i122 142
+R32
+Z73 8Waveform25.vwf.vht
+Z74 FWaveform25.vwf.vht
+l0
+R28
+Vo<BLdJzNnP@dAYDR;aD<g2
+!s100 P^gEgCdi_edeGh<Ii6`RZ3
+R19
+32
+R68
+!i10b 1
+R69
+Z75 !s90 -work|work|Waveform25.vwf.vht|
+Z76 !s107 Waveform25.vwf.vht|
+!i113 1
+R4
+R24
+Atestcontrolcircuit_arch
+R13
+R14
+Z77 DEx4 work 30 testcontrolcircuit_vhd_vec_tst 0 22 o<BLdJzNnP@dAYDR;aD<g2
+!i122 142
+l65
+Z78 L34 99
+Z79 VO0R4cPT14GA8=T>2m4a]h1
+Z80 !s100 6N[TQ?Z=ln]Yo25<J3?:n3
+R19
+32
+R68
+!i10b 1
+R69
+R75
+R76
+!i113 1
+R4
+R24
