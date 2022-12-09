@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Thu Dec 08 20:12:08 2022
+Analysis & Synthesis Status : Successful - Thu Dec 08 22:46:01 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : processor
 Top-level Entity Name : processor
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 38
+Total registers : 53
 Total pins : 65
 Total virtual pins : 0
 Total block memory bits : 0

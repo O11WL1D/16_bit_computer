@@ -1,5 +1,5 @@
 Analysis & Synthesis report for b16_32_merge
-Mon Oct 17 10:44:02 2022
+Thu Dec 08 21:28:18 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 17 10:44:02 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 08 21:28:18 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b16_32_merge                                ;
 ; Top-level Entity Name           ; b16_32_merge                                ;
@@ -166,40 +166,40 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                  ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------+---------+
-; b16_32_merge.vhd                 ; yes             ; User VHDL File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_32_merge.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                           ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                    ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------+---------+
+; b16_32_merge.vhd                 ; yes             ; User VHDL File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimate of Logic utilization (ALMs needed) ; 0     ;
-;                                             ;       ;
-; Combinational ALUT usage for logic          ; 0     ;
-;     -- 7 input functions                    ; 0     ;
-;     -- 6 input functions                    ; 0     ;
-;     -- 5 input functions                    ; 0     ;
-;     -- 4 input functions                    ; 0     ;
-;     -- <=3 input functions                  ; 0     ;
-;                                             ;       ;
-; Dedicated logic registers                   ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 64    ;
-;                                             ;       ;
-; Total DSP Blocks                            ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; a[15] ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 95    ;
-; Average fan-out                             ; 0.74  ;
-+---------------------------------------------+-------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 0           ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 0           ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 0           ;
+;     -- 5 input functions                    ; 0           ;
+;     -- 4 input functions                    ; 0           ;
+;     -- <=3 input functions                  ; 0           ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 64          ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; f[0]~output ;
+; Maximum fan-out                             ; 1           ;
+; Total fan-out                               ; 96          ;
+; Average fan-out                             ; 0.75        ;
++---------------------------------------------+-------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -229,17 +229,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
-; boundary_port         ; 64                          ;
-;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
-+-----------------------+-----------------------------+
++-------------------+---------------------------------+
+; Type              ; Count                           ;
++-------------------+---------------------------------+
+; boundary_port     ; 64                              ;
+;                   ;                                 ;
+; Max LUT depth     ; 0.00                            ;
+; Average LUT depth ; 0.00                            ;
++-------------------+---------------------------------+
 
 
 +-------------------------------+
@@ -257,28 +254,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Oct 17 10:43:53 2022
+    Info: Processing started: Thu Dec 08 21:28:11 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b16_32_merge -c b16_32_merge
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file b16_32_merge.vhd
-    Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
-    Info (12023): Found entity 1: b16_32_merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
+    Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
+    Info (12023): Found entity 1: b16_32_merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
 Info (12127): Elaborating entity "b16_32_merge" for the top level hierarchy
-Warning (10034): Output port "f[31]" at b16_32_merge.vhd(14) has no driver File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_32_merge.vhd Line: 14
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "f[31]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_32_merge.vhd Line: 14
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "a[15]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/Fpga implementation/16_bit/b16_32_merge.vhd Line: 13
 Info (21057): Implemented 64 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 32 input pins
     Info (21059): Implemented 32 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4840 megabytes
-    Info: Processing ended: Mon Oct 17 10:44:02 2022
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:20
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4847 megabytes
+    Info: Processing ended: Thu Dec 08 21:28:18 2022
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:17
 
 

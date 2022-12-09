@@ -1,5 +1,5 @@
 Analysis & Synthesis report for b16_64_merge
-Thu Dec 08 17:58:21 2022
+Thu Dec 08 21:32:56 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Dec 08 17:58:21 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 08 21:32:56 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b16_64_merge                                ;
 ; Top-level Entity Name           ; b16_64_merge                                ;
@@ -199,8 +199,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;               ;
 ; Maximum fan-out node                        ; ee[63]~output ;
 ; Maximum fan-out                             ; 1             ;
-; Total fan-out                               ; 174           ;
-; Average fan-out                             ; 0.68          ;
+; Total fan-out                               ; 192           ;
+; Average fan-out                             ; 0.75          ;
 +---------------------------------------------+---------------+
 
 
@@ -231,17 +231,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
-; boundary_port         ; 128                         ;
-;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
-+-----------------------+-----------------------------+
++-------------------+---------------------------------+
+; Type              ; Count                           ;
++-------------------+---------------------------------+
+; boundary_port     ; 128                             ;
+;                   ;                                 ;
+; Max LUT depth     ; 0.00                            ;
+; Average LUT depth ; 0.00                            ;
++-------------------+---------------------------------+
 
 
 +-------------------------------+
@@ -259,7 +256,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Dec 08 17:58:12 2022
+    Info: Processing started: Thu Dec 08 21:32:48 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b16_64_merge -c b16_64_merge
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -270,59 +267,19 @@ Warning (12125): Using design file b32_64merge.vhd, which is not specified as a 
     Info (12022): Found design unit 1: b32_64merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 35
     Info (12023): Found entity 1: b32_64merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 7
 Info (12128): Elaborating entity "b32_64merge" for hierarchy "b32_64merge:inst1"
-Warning (10034): Output port "f[63..47]" at b32_64merge.vhd(14) has no driver File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
 Warning (12125): Using design file b16_32_merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
     Info (12023): Found entity 1: b16_32_merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
 Info (12128): Elaborating entity "b16_32_merge" for hierarchy "b16_32_merge:inst2"
-Warning (10034): Output port "f[31]" at b16_32_merge.vhd(14) has no driver File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 14
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "ee[63]" is stuck at GND
-    Warning (13410): Pin "ee[62]" is stuck at GND
-    Warning (13410): Pin "ee[61]" is stuck at GND
-    Warning (13410): Pin "ee[60]" is stuck at GND
-    Warning (13410): Pin "ee[59]" is stuck at GND
-    Warning (13410): Pin "ee[58]" is stuck at GND
-    Warning (13410): Pin "ee[57]" is stuck at GND
-    Warning (13410): Pin "ee[56]" is stuck at GND
-    Warning (13410): Pin "ee[55]" is stuck at GND
-    Warning (13410): Pin "ee[54]" is stuck at GND
-    Warning (13410): Pin "ee[53]" is stuck at GND
-    Warning (13410): Pin "ee[52]" is stuck at GND
-    Warning (13410): Pin "ee[51]" is stuck at GND
-    Warning (13410): Pin "ee[50]" is stuck at GND
-    Warning (13410): Pin "ee[49]" is stuck at GND
-    Warning (13410): Pin "ee[48]" is stuck at GND
-    Warning (13410): Pin "ee[47]" is stuck at GND
-    Warning (13410): Pin "ee[46]" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 18 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "dd[15]"
-    Warning (15610): No output dependent on input pin "cc[15]"
-    Warning (15610): No output dependent on input pin "cc[14]"
-    Warning (15610): No output dependent on input pin "cc[13]"
-    Warning (15610): No output dependent on input pin "cc[12]"
-    Warning (15610): No output dependent on input pin "cc[11]"
-    Warning (15610): No output dependent on input pin "cc[10]"
-    Warning (15610): No output dependent on input pin "cc[9]"
-    Warning (15610): No output dependent on input pin "cc[8]"
-    Warning (15610): No output dependent on input pin "cc[7]"
-    Warning (15610): No output dependent on input pin "cc[6]"
-    Warning (15610): No output dependent on input pin "cc[5]"
-    Warning (15610): No output dependent on input pin "cc[4]"
-    Warning (15610): No output dependent on input pin "cc[3]"
-    Warning (15610): No output dependent on input pin "cc[2]"
-    Warning (15610): No output dependent on input pin "cc[1]"
-    Warning (15610): No output dependent on input pin "cc[0]"
-    Warning (15610): No output dependent on input pin "bb[15]"
 Info (21057): Implemented 128 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 64 input pins
     Info (21059): Implemented 64 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 43 warnings
-    Info: Peak virtual memory: 4838 megabytes
-    Info: Processing ended: Thu Dec 08 17:58:21 2022
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:20
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4847 megabytes
+    Info: Processing ended: Thu Dec 08 21:32:56 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:19
 
 

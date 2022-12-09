@@ -1,5 +1,5 @@
 Analysis & Synthesis report for processor
-Thu Dec 08 20:12:08 2022
+Thu Dec 08 22:46:01 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -16,60 +16,60 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   8. Registers Removed During Synthesis
   9. General Register Statistics
  10. Source assignments for ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated
- 11. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component
- 12. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component
- 13. Parameter Settings for User Entity Instance: clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component
- 14. Parameter Settings for User Entity Instance: ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component
- 15. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 16. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 17. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 18. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 19. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 20. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 21. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 22. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 23. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 24. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 25. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 26. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 27. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 28. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 29. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 30. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 31. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 32. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 33. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 34. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 35. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 36. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 37. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 38. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 39. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 40. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 41. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 42. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 43. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 44. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 45. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 46. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 47. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 48. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 49. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 50. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 51. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 52. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 53. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 54. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 55. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 56. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 57. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 58. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 59. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 60. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 61. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 62. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 63. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst35|muxx:inst6|LPM_MUX:LPM_MUX_component
- 64. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 11. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 12. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst35|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 13. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 14. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 15. Parameter Settings for User Entity Instance: clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component
+ 16. Parameter Settings for User Entity Instance: ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component
+ 17. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 18. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 19. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 20. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 21. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 22. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 23. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 24. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 25. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 26. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 27. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 28. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 29. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 30. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 32. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 33. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 34. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 35. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 36. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 37. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 38. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 39. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 40. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 41. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 42. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 43. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 44. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 45. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 46. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 47. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 48. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 49. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 50. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 51. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 52. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 53. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 54. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 55. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 56. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 57. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 58. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 59. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 60. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 61. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 62. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 63. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 64. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
  65. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst52|muxx:inst6|LPM_MUX:LPM_MUX_component
  66. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst60|muxx:inst6|LPM_MUX:LPM_MUX_component
  67. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst68|muxx:inst6|LPM_MUX:LPM_MUX_component
@@ -104,13 +104,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Dec 08 20:12:08 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 08 22:46:01 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; processor                                   ;
 ; Top-level Entity Name           ; processor                                   ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 38                                          ;
+; Total registers                 ; 53                                          ;
 ; Total pins                      ; 65                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -235,8 +235,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
 ; processor.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/processor.bdf                   ;         ;
 ; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd                   ;         ;
-; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/in_mod.bdf                      ;         ;
+; bus64_split_out.bdf              ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus64_split_out.bdf             ;         ;
 ; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd               ;         ;
+; bus_split_64.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_64.vhd                ;         ;
+; b16_64_merge.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_64_merge.bdf                ;         ;
+; b32_64merge.vhd                  ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd                 ;         ;
+; b16_32_merge.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd                ;         ;
+; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/in_mod.bdf                      ;         ;
 ; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/eightbitff.bdf                  ;         ;
 ; dec38.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/dec38.bdf                                             ;         ;
 ; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd                      ;         ;
@@ -296,67 +301,68 @@ https://fpgasoftware.intel.com/eula.
 ; alumod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alumod.bdf                      ;         ;
 ; mega_nor.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd                    ;         ;
 ; alu_logic.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd                   ;         ;
-; b16_64_merge.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_64_merge.bdf                ;         ;
-; b32_64merge.vhd                  ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd                 ;         ;
-; b16_32_merge.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd                ;         ;
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
 
 
-+--------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                        ;
-+---------------------------------------------+----------------------+
-; Resource                                    ; Usage                ;
-+---------------------------------------------+----------------------+
-; Estimate of Logic utilization (ALMs needed) ; 22                   ;
-;                                             ;                      ;
-; Combinational ALUT usage for logic          ; 21                   ;
-;     -- 7 input functions                    ; 0                    ;
-;     -- 6 input functions                    ; 0                    ;
-;     -- 5 input functions                    ; 20                   ;
-;     -- 4 input functions                    ; 0                    ;
-;     -- <=3 input functions                  ; 1                    ;
-;                                             ;                      ;
-; Dedicated logic registers                   ; 38                   ;
-;                                             ;                      ;
-; I/O pins                                    ; 65                   ;
-;                                             ;                      ;
-; Total DSP Blocks                            ; 0                    ;
-;                                             ;                      ;
-; Maximum fan-out node                        ; eightbitff:inst4|pxd ;
-; Maximum fan-out                             ; 20                   ;
-; Total fan-out                               ; 290                  ;
-; Average fan-out                             ; 1.53                 ;
-+---------------------------------------------+----------------------+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimate of Logic utilization (ALMs needed) ; 32             ;
+;                                             ;                ;
+; Combinational ALUT usage for logic          ; 46             ;
+;     -- 7 input functions                    ; 1              ;
+;     -- 6 input functions                    ; 1              ;
+;     -- 5 input functions                    ; 15             ;
+;     -- 4 input functions                    ; 0              ;
+;     -- <=3 input functions                  ; 29             ;
+;                                             ;                ;
+; Dedicated logic registers                   ; 53             ;
+;                                             ;                ;
+; I/O pins                                    ; 65             ;
+;                                             ;                ;
+; Total DSP Blocks                            ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; CLOCK_50~input ;
+; Maximum fan-out                             ; 26             ;
+; Total fan-out                               ; 351            ;
+; Average fan-out                             ; 1.53           ;
++---------------------------------------------+----------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                           ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                        ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+-------------+--------------+
-; |processor                 ; 21 (1)              ; 38 (0)                    ; 0                 ; 0          ; 65   ; 0            ; |processor                                 ; processor   ; work         ;
-;    |b16_or:inst21|         ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|b16_or:inst21                   ; b16_or      ; work         ;
-;    |b16_or:inst33|         ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|b16_or:inst33                   ; b16_or      ; work         ;
-;    |eightbitff:inst3|      ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|eightbitff:inst3                ; eightbitff  ; work         ;
-;    |eightbitff:inst4|      ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|eightbitff:inst4                ; eightbitff  ; work         ;
-;    |in_mod:inst24|         ; 0 (0)               ; 16 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst24                   ; in_mod      ; work         ;
-;       |eightbitff:inst11|  ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst24|eightbitff:inst11 ; eightbitff  ; work         ;
-;       |eightbitff:inst4|   ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst24|eightbitff:inst4  ; eightbitff  ; work         ;
-;    |in_mod:inst|           ; 0 (0)               ; 16 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst                     ; in_mod      ; work         ;
-;       |eightbitff:inst11|  ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst|eightbitff:inst11   ; eightbitff  ; work         ;
-;       |eightbitff:inst4|   ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst|eightbitff:inst4    ; eightbitff  ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                    ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                               ; Entity Name ; Library Name ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------+-------------+--------------+
+; |processor                                   ; 46 (1)              ; 53 (0)                    ; 0                 ; 0          ; 65   ; 0            ; |processor                                                                                        ; processor   ; work         ;
+;    |b16_or:inst21|                           ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|b16_or:inst21                                                                          ; b16_or      ; work         ;
+;    |b16_or:inst33|                           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|b16_or:inst33                                                                          ; b16_or      ; work         ;
+;    |clockmod2:inst152|                       ; 33 (6)              ; 30 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |processor|clockmod2:inst152                                                                      ; clockmod2   ; work         ;
+;       |count:inst|                           ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |processor|clockmod2:inst152|count:inst                                                           ; count       ; work         ;
+;          |lpm_counter:LPM_COUNTER_component| ; 26 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |processor|clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter ; work         ;
+;             |cntr_djh:auto_generated|        ; 26 (26)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |processor|clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated ; cntr_djh    ; work         ;
+;       |eightbitff:inst15|                    ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|clockmod2:inst152|eightbitff:inst15                                                    ; eightbitff  ; work         ;
+;    |eightbitff:inst3|                        ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|eightbitff:inst3                                                                       ; eightbitff  ; work         ;
+;    |eightbitff:inst4|                        ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|eightbitff:inst4                                                                       ; eightbitff  ; work         ;
+;    |in_mod:inst24|                           ; 0 (0)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst24                                                                          ; in_mod      ; work         ;
+;       |eightbitff:inst4|                     ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst24|eightbitff:inst4                                                         ; eightbitff  ; work         ;
+;    |in_mod:inst|                             ; 0 (0)               ; 16 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst                                                                            ; in_mod      ; work         ;
+;       |eightbitff:inst11|                    ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst|eightbitff:inst11                                                          ; eightbitff  ; work         ;
+;       |eightbitff:inst4|                     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|in_mod:inst|eightbitff:inst4                                                           ; eightbitff  ; work         ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                 ;
-+---------------------------------------------------------------------------------------------------------------+--------------------+
-; Register name                                                                                                 ; Reason for Removal ;
-+---------------------------------------------------------------------------------------------------------------+--------------------+
-; clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated|counter_reg_bit[0..31] ; Lost fanout        ;
-; Total Number of Removed Registers = 32                                                                        ;                    ;
-+---------------------------------------------------------------------------------------------------------------+--------------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                  ;
++----------------------------------------------------------------------------------------------------------------+--------------------+
+; Register name                                                                                                  ; Reason for Removal ;
++----------------------------------------------------------------------------------------------------------------+--------------------+
+; clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated|counter_reg_bit[26..31] ; Lost fanout        ;
+; Total Number of Removed Registers = 6                                                                          ;                    ;
++----------------------------------------------------------------------------------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -364,7 +370,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 38    ;
+; Total registers                              ; 53    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -381,6 +387,44 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------+--------------------+------+-----------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                   ;
 +---------------------------------+--------------------+------+-----------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                            ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                  ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                  ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                  ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                  ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                  ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                         ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                         ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst35|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                            ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                  ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                  ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                  ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                  ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                  ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                         ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                         ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------------------------------------------------------------+
@@ -1422,44 +1466,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst35|muxx:inst6|LPM_MUX:LPM_MUX_component ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-; Parameter Name         ; Value     ; Type                                                                            ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                      ;
-; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                    ;
-; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                    ;
-; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                  ;
-; LPM_WIDTH              ; 1         ; Signed Integer                                                                  ;
-; LPM_SIZE               ; 16        ; Signed Integer                                                                  ;
-; LPM_WIDTHS             ; 4         ; Signed Integer                                                                  ;
-; LPM_PIPELINE           ; 0         ; Signed Integer                                                                  ;
-; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                         ;
-; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                         ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-; Parameter Name         ; Value     ; Type                                                                            ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                      ;
-; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                    ;
-; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                    ;
-; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                  ;
-; LPM_WIDTH              ; 1         ; Signed Integer                                                                  ;
-; LPM_SIZE               ; 16        ; Signed Integer                                                                  ;
-; LPM_WIDTHS             ; 4         ; Signed Integer                                                                  ;
-; LPM_PIPELINE           ; 0         ; Signed Integer                                                                  ;
-; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                         ;
-; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                         ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst52|muxx:inst6|LPM_MUX:LPM_MUX_component ;
 +------------------------+-----------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value     ; Type                                                                            ;
@@ -1560,18 +1566,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 38                          ;
-;     plain             ; 38                          ;
-; arriav_lcell_comb     ; 61                          ;
-;     normal            ; 61                          ;
+; arriav_ff             ; 53                          ;
+;     plain             ; 53                          ;
+; arriav_lcell_comb     ; 62                          ;
+;     arith             ; 26                          ;
+;         1 data inputs ; 26                          ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 35                          ;
 ;         0 data inputs ; 2                           ;
-;         1 data inputs ; 38                          ;
-;         3 data inputs ; 1                           ;
-;         5 data inputs ; 20                          ;
+;         1 data inputs ; 14                          ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 2                           ;
+;         5 data inputs ; 15                          ;
+;         6 data inputs ; 1                           ;
 ; boundary_port         ; 65                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.95                        ;
+; Max LUT depth         ; 3.50                        ;
+; Average LUT depth     ; 1.92                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1590,7 +1602,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Dec 08 20:11:57 2022
+    Info: Processing started: Thu Dec 08 22:45:51 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor -c processor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1608,9 +1620,33 @@ Warning (12125): Using design file bus_split.vhd, which is not specified as a de
     Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 31
     Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst5"
+Warning (12125): Using design file bus64_split_out.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: bus64_split_out
+Info (12128): Elaborating entity "bus64_split_out" for hierarchy "bus64_split_out:inst139"
+Warning (275011): Block or symbol "bus_split_out" of instance "inst139" overlaps another block or symbol
+Warning (275011): Block or symbol "bus_split_out" of instance "inst143" overlaps another block or symbol
+Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus64_split_out:inst139|bus_split_out:inst139"
+Warning (12125): Using design file bus_split_64.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split_64-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_64.vhd Line: 100
+    Info (12023): Found entity 1: bus_split_64 File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_64.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_64" for hierarchy "bus64_split_out:inst139|bus_split_64:inst138"
+Warning (12125): Using design file b16_64_merge.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b16_64_merge
+Info (12128): Elaborating entity "b16_64_merge" for hierarchy "b16_64_merge:inst91"
+Warning (12125): Using design file b32_64merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b32_64merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 35
+    Info (12023): Found entity 1: b32_64merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 7
+Info (12128): Elaborating entity "b32_64merge" for hierarchy "b16_64_merge:inst91|b32_64merge:inst1"
+Warning (12125): Using design file b16_32_merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
+    Info (12023): Found entity 1: b16_32_merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
+Info (12128): Elaborating entity "b16_32_merge" for hierarchy "b16_64_merge:inst91|b16_32_merge:inst2"
 Warning (12125): Using design file in_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: in_mod
-Info (12128): Elaborating entity "in_mod" for hierarchy "in_mod:inst24"
+Info (12128): Elaborating entity "in_mod" for hierarchy "in_mod:inst45"
 Warning (275008): Primitive "NOT" of instance "inst16" not used
 Warning (275008): Primitive "NOT" of instance "inst17" not used
 Warning (275008): Primitive "NOT" of instance "inst18" not used
@@ -1624,33 +1660,29 @@ Warning (275008): Primitive "NOT" of instance "inst25" not used
 Warning (275008): Primitive "NOT" of instance "inst29" not used
 Warning (275008): Primitive "AND2" of instance "inst71" not used
 Warning (275008): Primitive "AND2" of instance "inst72" not used
-Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "in_mod:inst24|bus_split_out:inst13"
 Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: eightbitff
-Info (12128): Elaborating entity "eightbitff" for hierarchy "in_mod:inst24|eightbitff:inst4"
-Info (12128): Elaborating entity "DEC38" for hierarchy "in_mod:inst24|DEC38:inst80"
-Info (12130): Elaborated megafunction instantiation "in_mod:inst24|DEC38:inst80"
+Info (12128): Elaborating entity "eightbitff" for hierarchy "in_mod:inst45|eightbitff:inst4"
+Info (12128): Elaborating entity "DEC38" for hierarchy "in_mod:inst45|DEC38:inst80"
+Info (12130): Elaborated megafunction instantiation "in_mod:inst45|DEC38:inst80"
 Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 39
     Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 13
-Info (12128): Elaborating entity "b16_en" for hierarchy "in_mod:inst24|b16_en:inst84"
+Info (12128): Elaborating entity "b16_en" for hierarchy "in_mod:inst45|b16_en:inst84"
 Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 31
     Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 8
-Info (12128): Elaborating entity "b16_or" for hierarchy "in_mod:inst24|b16_or:inst85"
+Info (12128): Elaborating entity "b16_or" for hierarchy "in_mod:inst45|b16_or:inst85"
 Warning (12125): Using design file decoder_sequential_receiver.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: decoder_sequential_receiver
-Info (12128): Elaborating entity "decoder_sequential_receiver" for hierarchy "decoder_sequential_receiver:inst22"
+Info (12128): Elaborating entity "decoder_sequential_receiver" for hierarchy "decoder_sequential_receiver:inst44"
 Warning (12125): Using design file muxx.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: muxx-SYN File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 68
     Info (12023): Found entity 1: muxx File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 43
-Info (12128): Elaborating entity "muxx" for hierarchy "decoder_sequential_receiver:inst22|muxx:inst6"
-Info (12128): Elaborating entity "LPM_MUX" for hierarchy "decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
-Info (12130): Elaborated megafunction instantiation "decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
-Info (12133): Instantiated megafunction "decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component" with the following parameter: File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12128): Elaborating entity "muxx" for hierarchy "decoder_sequential_receiver:inst44|muxx:inst6"
+Info (12128): Elaborating entity "LPM_MUX" for hierarchy "decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12130): Elaborated megafunction instantiation "decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12133): Instantiated megafunction "decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component" with the following parameter: File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
     Info (12134): Parameter "LPM_WIDTH" = "1"
     Info (12134): Parameter "LPM_SIZE" = "16"
     Info (12134): Parameter "LPM_WIDTHS" = "4"
@@ -1659,13 +1691,13 @@ Info (12133): Instantiated megafunction "decoder_sequential_receiver:inst22|muxx
     Info (12134): Parameter "LPM_HINT" = "UNUSED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_s1e.tdf
     Info (12023): Found entity 1: mux_s1e File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf Line: 23
-Info (12128): Elaborating entity "mux_s1e" for hierarchy "decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component|mux_s1e:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+Info (12128): Elaborating entity "mux_s1e" for hierarchy "decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component|mux_s1e:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
 Warning (12125): Using design file adder16.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: adder16
-Info (12128): Elaborating entity "adder16" for hierarchy "decoder_sequential_receiver:inst22|adder16:inst"
+Info (12128): Elaborating entity "adder16" for hierarchy "decoder_sequential_receiver:inst44|adder16:inst"
 Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: adder
-Info (12128): Elaborating entity "adder" for hierarchy "decoder_sequential_receiver:inst22|adder16:inst|adder:inst26"
+Info (12128): Elaborating entity "adder" for hierarchy "decoder_sequential_receiver:inst44|adder16:inst|adder:inst26"
 Warning (275004): Undeclared parameter CONSTANT_VALUE
 Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
 Warning (275008): Primitive "NOT" of instance "inst12" not used
@@ -1927,19 +1959,6 @@ Warning (12125): Using design file alu_logic.vhd, which is not specified as a de
     Info (12022): Found design unit 1: alu_logic-LogicFunc File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd Line: 44
     Info (12023): Found entity 1: alu_logic File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd Line: 4
 Info (12128): Elaborating entity "alu_logic" for hierarchy "alumod:inst155|alu_logic:inst"
-Warning (12125): Using design file b16_64_merge.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: b16_64_merge
-Info (12128): Elaborating entity "b16_64_merge" for hierarchy "b16_64_merge:inst91"
-Warning (12125): Using design file b32_64merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b32_64merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 35
-    Info (12023): Found entity 1: b32_64merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 7
-Info (12128): Elaborating entity "b32_64merge" for hierarchy "b16_64_merge:inst91|b32_64merge:inst1"
-Warning (10034): Output port "f[63..47]" at b32_64merge.vhd(14) has no driver File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-Warning (12125): Using design file b16_32_merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
-    Info (12023): Found entity 1: b16_32_merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
-Info (12128): Elaborating entity "b16_32_merge" for hierarchy "b16_64_merge:inst91|b16_32_merge:inst2"
-Warning (10034): Output port "f[31]" at b16_32_merge.vhd(14) has no driver File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 14
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
         Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a0" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 50
@@ -2071,24 +2090,36 @@ Warning (14284): Synthesized away the following node(s):
         Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a126" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4208
         Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a127" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4241
 Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX43" is stuck at VCC
+    Warning (13410): Pin "HEX46" is stuck at VCC
+    Warning (13410): Pin "HEX40" is stuck at VCC
+    Warning (13410): Pin "HEX42" is stuck at VCC
+    Warning (13410): Pin "HEX44" is stuck at VCC
+    Warning (13410): Pin "HEX41" is stuck at VCC
+    Warning (13410): Pin "HEX45" is stuck at VCC
+    Warning (13410): Pin "LEDR8" is stuck at GND
+    Warning (13410): Pin "HEX53" is stuck at VCC
+    Warning (13410): Pin "HEX56" is stuck at VCC
+    Warning (13410): Pin "HEX50" is stuck at VCC
+    Warning (13410): Pin "HEX52" is stuck at VCC
+    Warning (13410): Pin "HEX54" is stuck at VCC
     Warning (13410): Pin "HEX51" is stuck at VCC
     Warning (13410): Pin "HEX55" is stuck at VCC
     Warning (13410): Pin "generalc" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 32 registers lost all their fanouts during netlist optimizations.
+Info (17049): 6 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLOCK_50"
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "generala"
-Info (21057): Implemented 124 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 137 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 49 output pins
-    Info (21061): Implemented 59 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 300 warnings
-    Info: Peak virtual memory: 4922 megabytes
-    Info: Processing ended: Thu Dec 08 20:12:08 2022
-    Info: Elapsed time: 00:00:11
+    Info (21061): Implemented 72 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 314 warnings
+    Info: Peak virtual memory: 4926 megabytes
+    Info: Processing ended: Thu Dec 08 22:46:01 2022
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:20
 
 

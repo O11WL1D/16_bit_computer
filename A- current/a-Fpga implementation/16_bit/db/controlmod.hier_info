@@ -1,0 +1,25 @@
+|controlmod
+a => fffd.IN0
+a => fffd.IN0
+b => fffd.IN1
+b => fffd.IN1
+c => fffd.IN1
+c => fffd.IN1
+c => fffd.IN1
+c => fffd.IN1
+d => fffd.IN1
+d => fffd.IN1
+d => fffd.IN1
+d => fffd.IN1
+d => fffe.IN1
+d => fffe.IN1
+fffa <= <GND>
+fffb <= <GND>
+fffc <= <GND>
+fffd <= fffd.DB_MAX_OUTPUT_PORT_TYPE
+fffe <= fffe.DB_MAX_OUTPUT_PORT_TYPE
+ffff <= ffff.DB_MAX_OUTPUT_PORT_TYPE
+fffg <= fffg.DB_MAX_OUTPUT_PORT_TYPE
+fffh <= fffh.DB_MAX_OUTPUT_PORT_TYPE
+
+

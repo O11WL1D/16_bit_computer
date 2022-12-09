@@ -4,6 +4,78 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "ee[63]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[62]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[61]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[60]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[59]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[58]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[57]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[56]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[55]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[54]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[53]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[52]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[51]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[50]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[49]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[48]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[47]",
+					"strict" : false
+				},
+				{
+					"name" : "ee[46]",
+					"strict" : false
+				},
+				{
 					"name" : "ee[45]",
 					"strict" : false
 				},
@@ -252,6 +324,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "bb[15]",
+					"strict" : false
+				},
+				{
 					"name" : "bb[14]",
 					"strict" : false
 				},
@@ -309,6 +385,74 @@
 				},
 				{
 					"name" : "bb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[15]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[14]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[13]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[12]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[11]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[10]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[9]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[8]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dd[15]",
 					"strict" : false
 				},
 				{

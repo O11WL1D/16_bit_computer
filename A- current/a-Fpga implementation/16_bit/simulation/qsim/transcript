@@ -1,32 +1,46 @@
-# do bus64_split_out.do
+# do b16_32_merge.do
 # ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:55:08 on Dec 08,2022
-# vlog -work work bus64_split_out.vo 
-# -- Compiling module bus64_split_out
-# 
-# Top level modules:
-# 	bus64_split_out
-# End time: 19:55:08 on Dec 08,2022, Elapsed time: 0:00:00
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:29:32 on Dec 08,2022
+# vcom -work work b16_32_merge.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity b16_32_merge
+# -- Compiling architecture structure of b16_32_merge
+# End time: 21:29:32 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:55:08 on Dec 08,2022
-# vlog -work work Waveform27.vwf.vt 
-# -- Compiling module bus64_split_out_vlg_vec_tst
-# 
-# Top level modules:
-# 	bus64_split_out_vlg_vec_tst
-# End time: 19:55:08 on Dec 08,2022, Elapsed time: 0:00:00
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:29:32 on Dec 08,2022
+# vcom -work work Waveform29.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity b16_32_merge_vhd_vec_tst
+# -- Compiling architecture b16_32_merge_arch of b16_32_merge_vhd_vec_tst
+# End time: 21:29:32 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.bus64_split_out_vlg_vec_tst 
-# Start time: 19:55:09 on Dec 08,2022
-# Loading work.bus64_split_out_vlg_vec_tst
-# Loading work.bus64_split_out
-# Loading cyclonev_ver.cyclonev_io_obuf
-# Loading cyclonev_ver.cyclonev_io_ibuf
-# Loading cyclonev_ver.cyclonev_lcell_comb
-# after#25
-# ** Note: $finish    : Waveform27.vwf.vt(51)
-#    Time: 1 us  Iteration: 0  Instance: /bus64_split_out_vlg_vec_tst
-# End time: 19:55:09 on Dec 08,2022, Elapsed time: 0:00:00
+# vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.b16_32_merge_vhd_vec_tst 
+# Start time: 21:29:32 on Dec 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.b16_32_merge_vhd_vec_tst(b16_32_merge_arch)
+# Loading altera_lnsim.altera_lnsim_components
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cyclonev.cyclonev_atom_pack(body)
+# Loading cyclonev.cyclonev_components
+# Loading work.b16_32_merge(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cyclonev.cyclonev_io_obuf(arch)
+# Loading cyclonev.cyclonev_io_ibuf(arch)
+# Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
+# after#32
+# End time: 21:29:32 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

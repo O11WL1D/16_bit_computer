@@ -590,10 +590,23 @@ datainput.pop()
 
 
 
-datainput.append(			"w	f	ff	"	)
-datainput.append(			"w	7	b5	"	)
-datainput.append(			"w	a	a5	"	)
-datainput.append(			"w	0	f0	"	)
+#datainput.append(			"w	f	ff	"	)
+#datainput.append(			"w	7	b5	"	)
+#datainput.append(			"w	a	a5	"	)
+#datainput.append(			"w	0	f0	"	)
+
+
+datainput.append(			"w	0	09	"	)
+datainput.append(			"w	8	09	"	)
+datainput.append(			"w	1	16	"	)
+datainput.append(			"w	9	16	"	)
+datainput.append(			"w	2	18	"	)
+datainput.append(			"w	a	18	"	)
+#datainput.append(			"w	3	00	"	)
+#datainput.append(			"w	b	00	"	)
+
+
+
 
 
 

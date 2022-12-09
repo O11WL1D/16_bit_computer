@@ -1,5 +1,5 @@
 Analysis & Synthesis report for b32_64merge
-Thu Dec 08 17:24:38 2022
+Thu Dec 08 21:31:52 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Dec 08 17:24:38 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 08 21:31:52 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; b32_64merge                                 ;
 ; Top-level Entity Name           ; b32_64merge                                 ;
@@ -175,31 +175,31 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimate of Logic utilization (ALMs needed) ; 0     ;
-;                                             ;       ;
-; Combinational ALUT usage for logic          ; 0     ;
-;     -- 7 input functions                    ; 0     ;
-;     -- 6 input functions                    ; 0     ;
-;     -- 5 input functions                    ; 0     ;
-;     -- 4 input functions                    ; 0     ;
-;     -- <=3 input functions                  ; 0     ;
-;                                             ;       ;
-; Dedicated logic registers                   ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 128   ;
-;                                             ;       ;
-; Total DSP Blocks                            ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; a[15] ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 175   ;
-; Average fan-out                             ; 0.68  ;
-+---------------------------------------------+-------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 0           ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 0           ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 0           ;
+;     -- 5 input functions                    ; 0           ;
+;     -- 4 input functions                    ; 0           ;
+;     -- <=3 input functions                  ; 0           ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 128         ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; f[0]~output ;
+; Maximum fan-out                             ; 1           ;
+; Total fan-out                               ; 192         ;
+; Average fan-out                             ; 0.75        ;
++---------------------------------------------+-------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -229,17 +229,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
-; boundary_port         ; 128                         ;
-;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
-+-----------------------+-----------------------------+
++-------------------+---------------------------------+
+; Type              ; Count                           ;
++-------------------+---------------------------------+
+; boundary_port     ; 128                             ;
+;                   ;                                 ;
+; Max LUT depth     ; 0.00                            ;
+; Average LUT depth ; 0.00                            ;
++-------------------+---------------------------------+
 
 
 +-------------------------------+
@@ -257,7 +254,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Dec 08 17:24:29 2022
+    Info: Processing started: Thu Dec 08 21:31:44 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off b32_64merge -c b32_64merge
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -265,52 +262,15 @@ Info (12021): Found 2 design units, including 1 entities, in source file b32_64m
     Info (12022): Found design unit 1: b32_64merge-Behavioral File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 35
     Info (12023): Found entity 1: b32_64merge File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 7
 Info (12127): Elaborating entity "b32_64merge" for the top level hierarchy
-Warning (10034): Output port "f[63..47]" at b32_64merge.vhd(14) has no driver File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "f[47]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[48]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[49]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[50]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[51]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[52]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[53]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[54]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[55]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[56]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[57]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[58]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[59]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[60]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[61]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[62]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
-    Warning (13410): Pin "f[63]" is stuck at GND File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 14
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 17 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "a[15]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[16]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[17]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[18]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[19]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[20]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[21]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[22]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[23]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[24]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[25]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[26]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[27]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[28]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[29]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[30]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
-    Warning (15610): No output dependent on input pin "a[31]" File: C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 13
 Info (21057): Implemented 128 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 64 input pins
     Info (21059): Implemented 64 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 38 warnings
-    Info: Peak virtual memory: 4846 megabytes
-    Info: Processing ended: Thu Dec 08 17:24:38 2022
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:20
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4849 megabytes
+    Info: Processing ended: Thu Dec 08 21:31:52 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:18
 
 

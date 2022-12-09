@@ -2,132 +2,228 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1100mV 85C Model Setup 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : -5.210
+TNS   : -20.080
+
 Type  : Slow 1100mV 85C Model Setup 'KEY1'
-Slack : -4.088
-TNS   : -60.328
+Slack : -3.245
+TNS   : -27.957
 
 Type  : Slow 1100mV 85C Model Setup 'KEY2'
-Slack : -3.773
-TNS   : -53.495
+Slack : -3.014
+TNS   : -22.748
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.617
+TNS   : -35.385
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.441
+TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'KEY2'
-Slack : 0.909
+Slack : 0.646
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'KEY1'
-Slack : 1.424
+Slack : 0.776
 TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : 3.742
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.538
+TNS   : -22.302
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY1'
 Slack : -0.538
-TNS   : -14.149
+TNS   : -7.601
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY2'
 Slack : -0.538
-TNS   : -13.237
+TNS   : -6.458
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY3'
 Slack : -0.538
-TNS   : -3.116
+TNS   : -3.178
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : -0.538
+TNS   : -3.178
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY0'
 Slack : -0.538
-TNS   : -1.585
+TNS   : -1.833
+
+Type  : Slow 1100mV 0C Model Setup 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : -5.249
+TNS   : -20.140
 
 Type  : Slow 1100mV 0C Model Setup 'KEY1'
-Slack : -4.065
-TNS   : -59.678
+Slack : -3.152
+TNS   : -26.877
 
 Type  : Slow 1100mV 0C Model Setup 'KEY2'
-Slack : -3.675
-TNS   : -52.945
+Slack : -2.965
+TNS   : -22.573
 
-Type  : Slow 1100mV 0C Model Hold 'KEY2'
-Slack : 0.835
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.793
+TNS   : -39.050
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.447
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'KEY1'
-Slack : 1.277
+Slack : 0.575
 TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'KEY2'
+Slack : 0.616
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : 3.741
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.538
+TNS   : -22.952
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY1'
 Slack : -0.538
-TNS   : -15.183
+TNS   : -7.975
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY2'
 Slack : -0.538
-TNS   : -13.376
+TNS   : -6.899
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY3'
 Slack : -0.538
-TNS   : -3.302
+TNS   : -3.316
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : -0.538
+TNS   : -3.200
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY0'
 Slack : -0.538
-TNS   : -1.586
+TNS   : -1.649
+
+Type  : Fast 1100mV 85C Model Setup 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : -2.834
+TNS   : -11.011
 
 Type  : Fast 1100mV 85C Model Setup 'KEY1'
-Slack : -1.935
-TNS   : -27.893
+Slack : -1.508
+TNS   : -12.770
 
 Type  : Fast 1100mV 85C Model Setup 'KEY2'
-Slack : -1.709
-TNS   : -23.968
+Slack : -1.216
+TNS   : -8.795
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -0.231
+TNS   : -2.063
 
 Type  : Fast 1100mV 85C Model Hold 'KEY2'
-Slack : 0.302
+Slack : 0.040
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'KEY1'
-Slack : 0.476
+Slack : 0.181
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY1'
-Slack : -0.482
-TNS   : -9.909
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : 2.254
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY2'
-Slack : -0.380
-TNS   : -6.651
+Slack : -0.434
+TNS   : -3.983
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY3'
-Slack : -0.378
-TNS   : -1.848
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY1'
+Slack : -0.426
+TNS   : -4.299
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY0'
-Slack : -0.240
-TNS   : -0.534
+Slack : -0.350
+TNS   : -1.012
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY3'
+Slack : -0.283
+TNS   : -1.183
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.095
+TNS   : -2.707
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : -2.730
+TNS   : -10.597
 
 Type  : Fast 1100mV 0C Model Setup 'KEY1'
-Slack : -1.644
-TNS   : -23.746
+Slack : -1.261
+TNS   : -10.628
 
 Type  : Fast 1100mV 0C Model Setup 'KEY2'
-Slack : -1.462
-TNS   : -20.325
+Slack : -1.036
+TNS   : -7.497
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -0.215
+TNS   : -1.655
 
 Type  : Fast 1100mV 0C Model Hold 'KEY2'
-Slack : 0.258
+Slack : 0.011
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'KEY1'
-Slack : 0.381
+Slack : 0.103
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY1'
-Slack : -0.482
-TNS   : -9.854
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.189
+TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY3'
-Slack : -0.398
-TNS   : -2.000
+Type  : Fast 1100mV 0C Model Hold 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : 2.185
+TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.391
-TNS   : -6.973
+Slack : -0.450
+TNS   : -4.232
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY1'
+Slack : -0.443
+TNS   : -4.632
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY0'
-Slack : -0.250
-TNS   : -0.563
+Slack : -0.323
+TNS   : -0.855
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY3'
+Slack : -0.307
+TNS   : -1.312
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.094
+TNS   : -2.694
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'in_mod:inst24|eightbitff:inst4|pxd'
+Slack : 0.104
+TNS   : 0.000
 
 ------------------------------------------------------------

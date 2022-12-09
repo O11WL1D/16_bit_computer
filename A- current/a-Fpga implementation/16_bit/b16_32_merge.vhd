@@ -75,7 +75,7 @@ ARCHITECTURE Behavioral OF b16_32_merge IS
 		
 	  for x in 0 to 15 loop
 		
-		f((x+15))<=b(x);
+		f(x+16)<=b(x);
 		
 
 			
