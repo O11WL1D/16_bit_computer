@@ -228,6 +228,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "sw8",
+					"strict" : false
+				},
+				{
+					"name" : "sw9",
+					"strict" : false
+				},
+				{
 					"name" : "KEY1",
 					"strict" : false
 				},
@@ -240,15 +248,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "sw9",
-					"strict" : false
-				},
-				{
 					"name" : "KEY0",
-					"strict" : false
-				},
-				{
-					"name" : "sw8",
 					"strict" : false
 				}
 			]

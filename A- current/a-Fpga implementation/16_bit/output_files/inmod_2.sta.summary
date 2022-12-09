@@ -2,132 +2,132 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Setup 'KEY2'
-Slack : -3.912
-TNS   : -86.767
-
 Type  : Slow 1100mV 85C Model Setup 'KEY1'
-Slack : -3.740
-TNS   : -81.291
+Slack : -4.205
+TNS   : -87.750
+
+Type  : Slow 1100mV 85C Model Setup 'KEY2'
+Slack : -3.980
+TNS   : -87.636
 
 Type  : Slow 1100mV 85C Model Hold 'KEY1'
-Slack : 1.018
+Slack : 0.485
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'KEY2'
-Slack : 1.200
+Slack : 1.156
 TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY2'
-Slack : -0.538
-TNS   : -20.357
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY1'
 Slack : -0.538
-TNS   : -19.642
+TNS   : -21.233
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY2'
+Slack : -0.538
+TNS   : -20.949
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY3'
 Slack : -0.538
-TNS   : -1.728
+TNS   : -3.099
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY0'
 Slack : -0.538
 TNS   : -1.580
 
-Type  : Slow 1100mV 0C Model Setup 'KEY2'
-Slack : -3.765
-TNS   : -83.689
-
 Type  : Slow 1100mV 0C Model Setup 'KEY1'
-Slack : -3.617
-TNS   : -79.335
+Slack : -4.136
+TNS   : -85.688
+
+Type  : Slow 1100mV 0C Model Setup 'KEY2'
+Slack : -3.892
+TNS   : -84.752
 
 Type  : Slow 1100mV 0C Model Hold 'KEY1'
-Slack : 0.972
+Slack : 0.397
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'KEY2'
-Slack : 1.091
+Slack : 0.960
 TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.538
-TNS   : -20.975
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY1'
 Slack : -0.538
-TNS   : -20.530
+TNS   : -22.694
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY2'
+Slack : -0.538
+TNS   : -21.945
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY3'
 Slack : -0.538
-TNS   : -1.738
+TNS   : -3.112
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY0'
 Slack : -0.538
-TNS   : -1.584
-
-Type  : Fast 1100mV 85C Model Setup 'KEY2'
-Slack : -1.828
-TNS   : -38.712
+TNS   : -1.583
 
 Type  : Fast 1100mV 85C Model Setup 'KEY1'
-Slack : -1.685
-TNS   : -35.124
+Slack : -2.050
+TNS   : -41.150
+
+Type  : Fast 1100mV 85C Model Setup 'KEY2'
+Slack : -1.820
+TNS   : -40.473
 
 Type  : Fast 1100mV 85C Model Hold 'KEY1'
-Slack : 0.297
+Slack : 0.098
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'KEY2'
-Slack : 0.356
+Slack : 0.441
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY2'
-Slack : -0.465
-TNS   : -10.528
-
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY1'
-Slack : -0.399
-TNS   : -10.835
+Slack : -0.497
+TNS   : -14.234
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY0'
-Slack : -0.242
-TNS   : -0.539
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY2'
+Slack : -0.446
+TNS   : -11.737
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY3'
-Slack : -0.191
-TNS   : -0.382
+Slack : -0.275
+TNS   : -1.143
 
-Type  : Fast 1100mV 0C Model Setup 'KEY2'
-Slack : -1.554
-TNS   : -32.901
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY0'
+Slack : -0.246
+TNS   : -0.544
 
 Type  : Fast 1100mV 0C Model Setup 'KEY1'
-Slack : -1.425
-TNS   : -29.595
+Slack : -1.757
+TNS   : -34.875
+
+Type  : Fast 1100mV 0C Model Setup 'KEY2'
+Slack : -1.551
+TNS   : -34.639
 
 Type  : Fast 1100mV 0C Model Hold 'KEY1'
-Slack : 0.226
+Slack : 0.037
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'KEY2'
-Slack : 0.268
+Slack : 0.343
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.468
-TNS   : -11.096
-
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY1'
-Slack : -0.410
-TNS   : -11.252
+Slack : -0.493
+TNS   : -14.244
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY0'
-Slack : -0.250
-TNS   : -0.564
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY2'
+Slack : -0.435
+TNS   : -11.879
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY3'
-Slack : -0.207
-TNS   : -0.414
+Slack : -0.295
+TNS   : -1.233
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY0'
+Slack : -0.251
+TNS   : -0.565
 
 ------------------------------------------------------------
