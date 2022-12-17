@@ -149,14 +149,14 @@ R21
 !i10b 1
 R22
 Z30 !s90 -work|work|Waveform29.vwf.vht|
-!s107 Waveform29.vwf.vht|
+Z31 !s107 Waveform29.vwf.vht|
 !i113 1
 R4
 R25
 Ab16_32_merge_arch
 R13
 R14
-Z31 DEx4 work 24 b16_32_merge_vhd_vec_tst 0 22 379GbW`UD52djJIU8_EWH3
+DEx4 work 24 b16_32_merge_vhd_vec_tst 0 22 379GbW`UD52djJIU8_EWH3
 !i122 155
 l47
 L34 292
@@ -168,12 +168,12 @@ R21
 !i10b 1
 R22
 R30
-Z32 !s107 Waveform29.vwf.vht|
+R31
 !i113 1
 R4
 R25
 Eb16_ind_reg
-Z33 w1666459432
+Z32 w1666459432
 R9
 R10
 R11
@@ -183,19 +183,19 @@ R14
 R15
 !i122 119
 R16
-Z34 8b16_ind_reg.vho
-Z35 Fb16_ind_reg.vho
+Z33 8b16_ind_reg.vho
+Z34 Fb16_ind_reg.vho
 l0
 R19
 VgCF8<RbjaFIKdFF40<LQE3
 !s100 _Zg6Uzzkj9Dk95T5R1@^Q1
 R20
 32
-Z36 !s110 1666459433
+Z35 !s110 1666459433
 !i10b 1
-Z37 !s108 1666459433.000000
-Z38 !s90 -work|work|b16_ind_reg.vho|
-Z39 !s107 b16_ind_reg.vho|
+Z36 !s108 1666459433.000000
+Z37 !s90 -work|work|b16_ind_reg.vho|
+Z38 !s107 b16_ind_reg.vho|
 !i113 1
 R4
 R25
@@ -215,33 +215,33 @@ V?7ME3YXfFNFHK?E]1o5AB2
 !s100 jQ3B^PS@Nm851DIL6E4c]3
 R20
 32
-R36
+R35
 !i10b 1
+R36
 R37
 R38
-R39
 !i113 1
 R4
 R25
 Eb16_ind_reg_vhd_vec_tst
-Z40 w1666459430
+Z39 w1666459430
 R13
 R14
 !i122 120
 R16
-Z41 8Waveform20.vwf.vht
-Z42 FWaveform20.vwf.vht
+Z40 8Waveform20.vwf.vht
+Z41 FWaveform20.vwf.vht
 l0
 R29
 V`JFLI3kS??n<YK_nlYM<D1
 !s100 Wl7TP[36nhCPAbi`SFOF33
 R20
 32
-R36
+R35
 !i10b 1
-R37
-Z43 !s90 -work|work|Waveform20.vwf.vht|
-Z44 !s107 Waveform20.vwf.vht|
+R36
+Z42 !s90 -work|work|Waveform20.vwf.vht|
+Z43 !s107 Waveform20.vwf.vht|
 !i113 1
 R4
 R25
@@ -256,16 +256,16 @@ V89[TB:V>bX<o<lGZd;l]^1
 !s100 390=kKOA`mdFIi><T8HI73
 R20
 32
-R36
+R35
 !i10b 1
-R37
+R36
+R42
 R43
-R44
 !i113 1
 R4
 R25
 vb16bit_latch
-Z45 !s110 1667530500
+Z44 !s110 1667530500
 !i10b 1
 !s100 Ld1@2^PSGmJW]H9]Dg?5>1
 R1
@@ -281,14 +281,14 @@ R3
 r1
 !s85 0
 31
-Z46 !s108 1667530500.000000
+Z45 !s108 1667530500.000000
 !s107 b16bit_latch.vo|
 !s90 -work|work|b16bit_latch.vo|
 !i113 1
 R4
 R5
 vb16bit_latch_vlg_vec_tst
-R45
+R44
 !i10b 1
 !s100 bn1VEIWhX2DzAHN8JCl:Y1
 R1
@@ -304,14 +304,14 @@ R3
 r1
 !s85 0
 31
-R46
+R45
 !s107 Waveform22.vwf.vt|
 !s90 -work|work|Waveform22.vwf.vt|
 !i113 1
 R4
 R5
 vbus64_split_out
-Z47 !s110 1670554508
+Z46 !s110 1670554508
 !i10b 1
 !s100 0I`S_5HUC4=i^A7>nNVc`1
 R1
@@ -327,14 +327,14 @@ R3
 r1
 !s85 0
 31
-Z48 !s108 1670554508.000000
+Z47 !s108 1670554508.000000
 !s107 bus64_split_out.vo|
 !s90 -work|work|bus64_split_out.vo|
 !i113 1
 R4
 R5
 vbus64_split_out_vlg_vec_tst
-R47
+R46
 !i10b 1
 !s100 6jNc][7V4]M:FmBLdJ1G82
 R1
@@ -350,14 +350,14 @@ R3
 r1
 !s85 0
 31
-R48
+R47
 !s107 Waveform27.vwf.vt|
 !s90 -work|work|Waveform27.vwf.vt|
 !i113 1
 R4
 R5
 vclock_mod
-Z49 !s110 1665944141
+Z48 !s110 1665944141
 !i10b 1
 !s100 Fjnn]C8A@mk<VgA]DQ1JU0
 R1
@@ -373,14 +373,14 @@ R3
 r1
 !s85 0
 31
-Z50 !s108 1665944141.000000
+Z49 !s108 1665944141.000000
 !s107 clock_mod.vo|
 !s90 -work|work|clock_mod.vo|
 !i113 1
 R4
 R5
 vclock_mod_vlg_vec_tst
-R49
+R48
 !i10b 1
 !s100 k1CgzcHCzFLd47hz[4?Li3
 R1
@@ -396,14 +396,14 @@ R3
 r1
 !s85 0
 31
-R50
+R49
 !s107 Waveform16.vwf.vt|
 !s90 -work|work|Waveform16.vwf.vt|
 !i113 1
 R4
 R5
 vclockmod2
-Z51 !s110 1666039169
+Z50 !s110 1666039169
 !i10b 1
 !s100 af8cg2H7_SmkT7UVjUHf<2
 R1
@@ -419,14 +419,14 @@ R3
 r1
 !s85 0
 31
-Z52 !s108 1666039169.000000
+Z51 !s108 1666039169.000000
 !s107 clockmod2.vo|
 !s90 -work|work|clockmod2.vo|
 !i113 1
 R4
 R5
 vclockmod2_vlg_vec_tst
-R51
+R50
 !i10b 1
 !s100 NlgY=DoIFYgTok[`fm<jN3
 R1
@@ -442,14 +442,110 @@ R3
 r1
 !s85 0
 31
-R52
+R51
 !s107 Waveform18.vwf.vt|
 !s90 -work|work|Waveform18.vwf.vt|
 !i113 1
 R4
 R5
+Econtrol_mod
+Z52 w1671236953
+R10
+R12
+R15
+R9
+Z53 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R11
+R13
+R14
+Z54 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 164
+Z55 dC:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim
+Z56 8control_mod.vho
+Z57 Fcontrol_mod.vho
+l0
+L39 1
+VhE>ALb<WkKgG[]=cfn]Vi2
+!s100 o?4BIM9dCe?8a=:JN3P6M2
+R20
+32
+Z58 !s110 1671236956
+!i10b 1
+Z59 !s108 1671236955.000000
+Z60 !s90 -work|work|control_mod.vho|
+Z61 !s107 control_mod.vho|
+!i113 1
+R4
+R25
+Astructure
+R10
+R12
+R15
+R9
+R53
+R11
+R13
+R14
+R54
+DEx4 work 11 control_mod 0 22 hE>ALb<WkKgG[]=cfn]Vi2
+!i122 164
+l106
+L67 336
+V7HTn5Z9D=CmHkl7N^Z0@91
+!s100 c[oAOA>N`;_15>nbSi7ll0
+R20
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R4
+R25
+Econtrol_mod_vhd_vec_tst
+Z62 w1671236950
+R13
+R14
+!i122 165
+R55
+Z63 8Waveform31.vwf.vht
+Z64 FWaveform31.vwf.vht
+l0
+R29
+V9>HlX_gC<]^0CPAH_jN>;2
+!s100 geF<OUk@7G]KfhcFfh:kS2
+R20
+32
+R58
+!i10b 1
+Z65 !s108 1671236956.000000
+Z66 !s90 -work|work|Waveform31.vwf.vht|
+Z67 !s107 Waveform31.vwf.vht|
+!i113 1
+R4
+R25
+Acontrol_mod_arch
+R13
+R14
+DEx4 work 23 control_mod_vhd_vec_tst 0 22 9>HlX_gC<]^0CPAH_jN>;2
+!i122 165
+l61
+L34 85
+V?Z:aaUZaQQB8K1bdO1^_`0
+!s100 e^C0K8:io?mSH4[`7fM5^3
+R20
+32
+R58
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R4
+R25
 veightbitff
-Z53 !s110 1665342157
+Z68 !s110 1665342157
 !i10b 1
 !s100 d12VE`1l1lgUG1C3nRjD^0
 R1
@@ -472,7 +568,7 @@ r1
 R4
 R5
 veightbitff_vlg_vec_tst
-R53
+R68
 !i10b 1
 !s100 LZRe51IFG]GkeS_M;I1Z_1
 R1
@@ -495,7 +591,7 @@ r1
 R4
 R5
 Emega_nor
-Z54 w1665692990
+Z69 w1665692990
 R9
 R10
 R11
@@ -505,19 +601,19 @@ R14
 R15
 !i122 60
 R0
-Z55 8mega_nor.vho
-Z56 Fmega_nor.vho
+Z70 8mega_nor.vho
+Z71 Fmega_nor.vho
 l0
 R19
 VbB91?;[zMLoKQj76>YX4i1
 !s100 75HjIbH_J7i:`kT1SP`M@1
 R20
 32
-Z57 !s110 1665692991
+Z72 !s110 1665692991
 !i10b 1
-Z58 !s108 1665692991.000000
-Z59 !s90 -work|work|mega_nor.vho|
-Z60 !s107 mega_nor.vho|
+Z73 !s108 1665692991.000000
+Z74 !s90 -work|work|mega_nor.vho|
+Z75 !s107 mega_nor.vho|
 !i113 1
 R4
 R25
@@ -537,33 +633,33 @@ VCnj?mGmJSL:D6nY=2i6YC2
 !s100 SRkWfg3]L<JJeckXib=AW2
 R20
 32
-R57
+R72
 !i10b 1
-R58
-R59
-R60
+R73
+R74
+R75
 !i113 1
 R4
 R25
 Emega_nor_vhd_vec_tst
-Z61 w1665692989
+Z76 w1665692989
 R13
 R14
 !i122 61
 R0
-Z62 8Waveform4.vwf.vht
-Z63 FWaveform4.vwf.vht
+Z77 8Waveform4.vwf.vht
+Z78 FWaveform4.vwf.vht
 l0
 R29
 V6k8VADS1BYkL=96Jn^1kK2
 !s100 3PMB:BJODaRT`P<n0Q4a63
 R20
 32
-R57
+R72
 !i10b 1
-R58
-Z64 !s90 -work|work|Waveform4.vwf.vht|
-Z65 !s107 Waveform4.vwf.vht|
+R73
+Z79 !s90 -work|work|Waveform4.vwf.vht|
+Z80 !s107 Waveform4.vwf.vht|
 !i113 1
 R4
 R25
@@ -578,16 +674,62 @@ VVOimP[FWizSZG;:nif6EH2
 !s100 0=_GQN0[2ORJbZBA?NRCz3
 R20
 32
-R57
+R72
 !i10b 1
-R58
-R64
-R65
+R73
+R79
+R80
 !i113 1
 R4
 R25
+vprocessor
+Z81 !s110 1671308402
+!i10b 1
+!s100 [YC[PE_Wj4WPJI:NMT:oZ2
+R1
+I37]F;7>B5Pf_l[][cngP43
+R2
+R55
+w1671308401
+8processor.vo
+Fprocessor.vo
+!i122 172
+L0 32 2355
+R3
+r1
+!s85 0
+31
+Z82 !s108 1671308402.000000
+!s107 processor.vo|
+!s90 -work|work|processor.vo|
+!i113 1
+R4
+R5
+vprocessor_vlg_vec_tst
+R81
+!i10b 1
+!s100 W28ZG=MSK@>>8:0<A8jfi0
+R1
+IhO]]FKWH_KcBV1[z3W8VH1
+R2
+R55
+w1671308399
+8Waveform32.vwf.vt
+FWaveform32.vwf.vt
+!i122 173
+L0 30 248
+R3
+r1
+!s85 0
+31
+R82
+!s107 Waveform32.vwf.vt|
+!s90 -work|work|Waveform32.vwf.vt|
+!i113 1
+R4
+R5
 vsimple_module_test_environment
-Z66 !s110 1667531749
+Z83 !s110 1667531749
 !i10b 1
 !s100 3GPo2QS7n^4YQ:O=3?II]3
 R1
@@ -603,14 +745,14 @@ R3
 r1
 !s85 0
 31
-Z67 !s108 1667531749.000000
+Z84 !s108 1667531749.000000
 !s107 simple_module_test_environment.vo|
 !s90 -work|work|simple_module_test_environment.vo|
 !i113 1
 R4
 R5
 vsimple_module_test_environment_vlg_vec_tst
-R66
+R83
 !i10b 1
 !s100 XlXSmZd8J1of1?nAgAD5>2
 R1
@@ -626,14 +768,14 @@ R3
 r1
 !s85 0
 31
-R67
+R84
 !s107 Waveform23.vwf.vt|
 !s90 -work|work|Waveform23.vwf.vt|
 !i113 1
 R4
 R5
 Etestcontrolcircuit
-Z68 w1670367457
+Z85 w1670367457
 R9
 R10
 R11
@@ -643,19 +785,19 @@ R14
 R15
 !i122 141
 R16
-Z69 8testcontrolcircuit.vho
-Z70 Ftestcontrolcircuit.vho
+Z86 8testcontrolcircuit.vho
+Z87 Ftestcontrolcircuit.vho
 l0
 R19
 Vd^;_;^>^HCIWIUM;VQ]6i1
 !s100 hzTh`l_eY:fJ`FI>0i`4V0
 R20
 32
-Z71 !s110 1670367458
+Z88 !s110 1670367458
 !i10b 1
-Z72 !s108 1670367458.000000
-Z73 !s90 -work|work|testcontrolcircuit.vho|
-Z74 !s107 testcontrolcircuit.vho|
+Z89 !s108 1670367458.000000
+Z90 !s90 -work|work|testcontrolcircuit.vho|
+Z91 !s107 testcontrolcircuit.vho|
 !i113 1
 R4
 R25
@@ -675,33 +817,33 @@ VOQN]=AhS5bz^@`ICe4C=[0
 !s100 Kj8cPi=`dYQi3CdCbzU`@0
 R20
 32
-R71
+R88
 !i10b 1
-R72
-R73
-R74
+R89
+R90
+R91
 !i113 1
 R4
 R25
 Etestcontrolcircuit_vhd_vec_tst
-Z75 w1670367456
+Z92 w1670367456
 R13
 R14
 !i122 142
 R16
-Z76 8Waveform25.vwf.vht
-Z77 FWaveform25.vwf.vht
+Z93 8Waveform25.vwf.vht
+Z94 FWaveform25.vwf.vht
 l0
 R29
 Vo<BLdJzNnP@dAYDR;aD<g2
 !s100 P^gEgCdi_edeGh<Ii6`RZ3
 R20
 32
-R71
+R88
 !i10b 1
-R72
-Z78 !s90 -work|work|Waveform25.vwf.vht|
-Z79 !s107 Waveform25.vwf.vht|
+R89
+Z95 !s90 -work|work|Waveform25.vwf.vht|
+Z96 !s107 Waveform25.vwf.vht|
 !i113 1
 R4
 R25
@@ -716,11 +858,11 @@ VO0R4cPT14GA8=T>2m4a]h1
 !s100 6N[TQ?Z=ln]Yo25<J3?:n3
 R20
 32
-R71
+R88
 !i10b 1
-R72
-R78
-R79
+R89
+R95
+R96
 !i113 1
 R4
 R25

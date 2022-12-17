@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ram_write_enable",
+					"strict" : false
+				},
+				{
+					"name" : "progcountTOram",
+					"strict" : false
+				},
+				{
+					"name" : "programcontincrement",
+					"strict" : false
+				},
+				{
+					"name" : "programcontenable",
+					"strict" : false
+				},
+				{
+					"name" : "state0",
+					"strict" : false
+				},
+				{
+					"name" : "state1",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "general",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

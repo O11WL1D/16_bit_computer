@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off b16_32_merge -c b16_32_merge --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform29.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform29.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off processor -c processor --vector_source="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform32.vwf" --testbench_file="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform32.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,15 +26,21 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Dec 08 21:29:29 2022
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off b16_32_merge -c b16_32_merge --vector_source="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform29.vwf" --testbench_file="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform29.vwf.vht"
+    Info: Processing started: Sat Dec 17 13:19:57 2022
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off processor -c processor --vector_source="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform32.vwf" --testbench_file="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform32.vwf.vt"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+h files
+
+processors): 00:00:02
+
+Completed successfully. 
 
 Completed successfully. 
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" b16_32_merge -c b16_32_merge
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" processor -c processor
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -53,95 +59,93 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Dec 08 21:29:30 2022
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" b16_32_merge -c b16_32_merge
+    Info: Processing started: Sat Dec 17 13:19:59 2022
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" processor -c processor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file b16_32_merge.vho in folder "C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file processor.vo in folder "C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4717 megabytes
-    Info: Processing ended: Thu Dec 08 21:29:31 2022
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4721 megabytes
+    Info: Processing ended: Sat Dec 17 13:20:01 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/b16_32_merge.do generated.
+C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/processor.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do b16_32_merge.do
+c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do processor.do
 
 Reading pref.tcl
 
 # 2020.1
 
 
-# do b16_32_merge.do
+# do processor.do
 # ** Warning: (vlib-34) Library already exists at "work".
 
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:29:32 on Dec 08,2022
-# vcom -work work b16_32_merge.vho 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package altera_lnsim_components
-# -- Loading package VITAL_Timing
-# -- Loading package VITAL_Primitives
-# -- Loading package cyclonev_atom_pack
-# -- Loading package cyclonev_components
-# -- Compiling entity b16_32_merge
-# -- Compiling architecture structure of b16_32_merge
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:02 on Dec 17,2022
+# vlog -work work processor.vo 
 
-# End time: 21:29:32 on Dec 08,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:29:32 on Dec 08,2022
-# vcom -work work Waveform29.vwf.vht 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity b16_32_merge_vhd_vec_tst
-# -- Compiling architecture b16_32_merge_arch of b16_32_merge_vhd_vec_tst
-# End time: 21:29:32 on Dec 08,2022, Elapsed time: 0:00:00
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 13:20:02 on Dec 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.b16_32_merge_vhd_vec_tst 
-# Start time: 21:29:32 on Dec 08,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.b16_32_merge_vhd_vec_tst(b16_32_merge_arch)
-# Loading altera_lnsim.altera_lnsim_components
-# Loading ieee.vital_timing(body)
-# Loading ieee.vital_primitives(body)
-# Loading cyclonev.cyclonev_atom_pack(body)
-# Loading cyclonev.cyclonev_components
-# Loading work.b16_32_merge(structure)
-# Loading ieee.std_logic_arith(body)
-# Loading cyclonev.cyclonev_io_obuf(arch)
-# Loading cyclonev.cyclonev_io_ibuf(arch)
-# Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
-# after#32
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:02 on Dec 17,2022
+# vlog -work work Waveform32.vwf.vt 
 
-# End time: 21:29:32 on Dec 08,2022, Elapsed time: 0:00:00
+# -- Compiling module processor_vlg_vec_tst
+# 
+# Top level modules:
+# 	processor_vlg_vec_tst
+# End time: 13:20:02 on Dec 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.processor_vlg_vec_tst 
+# Start time: 13:20:02 on Dec 17,2022
+# Loading work.processor_vlg_vec_tst
+# Loading work.processor
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_clkena
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cyclonev_ver.cyclonev_ram_block
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m10k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#25
+
+# ** Note: $finish    : Waveform32.vwf.vt(187)
+#    Time: 1 us  Iteration: 0  Instance: /processor_vlg_vec_tst
+# End time: 13:20:03 on Dec 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform29.vwf...
+Reading C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform32.vwf...
 
-Reading C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/b16_32_merge.msim.vcd...
+Reading C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/processor.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/dudkr/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/b16_32_merge_20221208212933.sim.vwf
+Writing the resulting VWF to C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/processor_20221217132003.sim.vwf
 
 Finished VCD to VWF conversion.
 

@@ -24,34 +24,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "HEX01",
-					"strict" : false
-				},
-				{
-					"name" : "HEX05",
-					"strict" : false
-				},
-				{
-					"name" : "HEX13",
-					"strict" : false
-				},
-				{
-					"name" : "HEX16",
-					"strict" : false
-				},
-				{
-					"name" : "HEX10",
-					"strict" : false
-				},
-				{
-					"name" : "HEX12",
-					"strict" : false
-				},
-				{
-					"name" : "HEX14",
-					"strict" : false
-				},
-				{
 					"name" : "HEX11",
 					"strict" : false
 				},
@@ -61,10 +33,6 @@
 				},
 				{
 					"name" : "LEDR1",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR2",
 					"strict" : false
 				},
 				{
@@ -132,63 +100,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "LEDR7",
+					"name" : "sendtoprogen",
 					"strict" : false
 				},
 				{
-					"name" : "sw1",
+					"name" : "progcountclock",
 					"strict" : false
 				},
 				{
-					"name" : "sw2",
+					"name" : "state0",
 					"strict" : false
 				},
 				{
-					"name" : "sw3",
-					"strict" : false
-				},
-				{
-					"name" : "sw4",
-					"strict" : false
-				},
-				{
-					"name" : "sw5",
-					"strict" : false
-				},
-				{
-					"name" : "sw6",
-					"strict" : false
-				},
-				{
-					"name" : "sw7",
-					"strict" : false
-				},
-				{
-					"name" : "sw0",
-					"strict" : false
-				},
-				{
-					"name" : "CLOCK_50",
+					"name" : "state1",
 					"strict" : false
 				},
 				{
 					"name" : "sw8",
-					"strict" : false
-				},
-				{
-					"name" : "sw9",
-					"strict" : false
-				},
-				{
-					"name" : "KEY1",
-					"strict" : false
-				},
-				{
-					"name" : "KEY2",
-					"strict" : false
-				},
-				{
-					"name" : "KEY3",
 					"strict" : false
 				},
 				{

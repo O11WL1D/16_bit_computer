@@ -1,0 +1,6 @@
+
+State Machine - |control_mod|fstate
+Name fstate.i0m0 fstate.i0m1 fstate.wait0 
+fstate.wait0 0 0 0 
+fstate.i0m1 0 1 1 
+fstate.i0m0 1 0 1 

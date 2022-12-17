@@ -1,5 +1,5 @@
 Flow report for processor
-Thu Dec 08 22:46:29 2022
+Sat Dec 17 13:20:01 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Dec 08 22:46:23 2022       ;
+; Flow Status                     ; Successful - Sat Dec 17 13:20:01 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; processor                                   ;
 ; Top-level Entity Name           ; processor                                   ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 28 / 18,480 ( < 1 % )                       ;
-; Total registers                 ; 56                                          ;
-; Total pins                      ; 65 / 224 ( 29 % )                           ;
+; Logic utilization (in ALMs)     ; 2 / 18,480 ( < 1 % )                        ;
+; Total registers                 ; 3                                           ;
+; Total pins                      ; 118 / 224 ( 53 % )                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                       ;
+; Total block memory bits         ; 32 / 3,153,920 ( < 1 % )                    ;
 ; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/08/2022 22:45:52 ;
+; Start date & time ; 12/17/2022 13:05:47 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; processor           ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 224391393303535.167056475112436        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 20184960790213.167130754707216         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -94,11 +94,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4926 MB             ; 00:00:20                           ;
-; Fitter               ; 00:00:16     ; 1.0                     ; 6268 MB             ; 00:00:27                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4821 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 5073 MB             ; 00:00:05                           ;
-; Total                ; 00:00:34     ; --                      ; --                  ; 00:00:55                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4942 MB             ; 00:00:33                           ;
+; Fitter               ; 00:00:36     ; 1.0                     ; 6720 MB             ; 00:01:30                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4822 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:11     ; 1.1                     ; 5141 MB             ; 00:00:11                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4713 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4721 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4713 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4721 MB             ; 00:00:02                           ;
+; Total                ; 00:01:14     ; --                      ; --                  ; 00:02:27                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -107,10 +111,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; Nak              ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-L12M0NN  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -121,6 +129,10 @@ quartus_map --read_settings_files=on --write_settings_files=off processor -c pro
 quartus_fit --read_settings_files=off --write_settings_files=off processor -c processor
 quartus_asm --read_settings_files=off --write_settings_files=off processor -c processor
 quartus_sta processor -c processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off processor -c processor --vector_source="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform32.vwf" --testbench_file="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform32.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" processor -c processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off processor -c processor --vector_source="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/Waveform32.vwf" --testbench_file="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/Waveform32.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/simulation/qsim/" processor -c processor
 
 
 
