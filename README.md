@@ -1,6 +1,5 @@
-﻿# start here
+﻿# general viewer start here:
 
-For a general viewer:
 
 [progress presentation 2](https://1drv.ms/p/s!AovYuAJ6j-05jCl1JrxJ9tjOCj4N?e=ZiZEBO)
 
@@ -27,8 +26,7 @@ top of the page.
 
 
 
-
-For the inquisitive viewer: 
+# inquisitive viewer start here  
 
 
 
