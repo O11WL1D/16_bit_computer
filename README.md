@@ -1,12 +1,15 @@
 ﻿# start here
 
-For a general viewer, I would suggest visiting the documentation section (down below in bold) and view the screenshots of my fpga
-designs, along with viewing the onenote journal I've produced for this computer. I update the onenote journal, read me
+For a general viewer:
+
+[progress presentation 2](https://1drv.ms/p/s!AovYuAJ6j-05jCl1JrxJ9tjOCj4N?e=ZiZEBO)
+
+
+for a more indepth look at this project, I would suggest going to the documentation section and looking at the onenote journal i've produced for this computer.I update the onenote journal, read me
 documentation or other files in the documentation directory every time I work on this project to keep track of what was
 completed and what needs further work. The journal provides important contextual information necessary to understand the
 screenshots better. Also the general log (down below in bold) provides more general information pertaining to the overall 
 development of this project.
-
 
 
 -Please note that when viewing the fpga design screenshots, the name of the current module can be seen at the
@@ -17,6 +20,15 @@ top of the page.
 
 
 
+
+
+
+
+
+
+
+
+For the inquisitive viewer: 
 
 
 
