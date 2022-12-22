@@ -3,10 +3,12 @@
 
 [progress presentation 2](https://1drv.ms/p/s!AovYuAJ6j-05jCl1JrxJ9tjOCj4N?e=ZiZEBO)
 
+[Online viewable onenote notebook](https://1drv.ms/u/s!AovYuAJ6j-05i1pXVn8fNj3wXU7-?e=myZffd) 
 
-for a more indepth look at this project, I would suggest going to the documentation section and looking at the onenote journal i've produced for this computer.I update the onenote journal, read me
+
+for a more indepth look at this project, I would looking at the onenote journal i've produced for this computer.I update the onenote journal, read me
 documentation or other files in the documentation directory every time I work on this project to keep track of what was
-completed and what needs further work. The journal provides important contextual information necessary to understand the
+completed and what needs further work. All documentation can be found under the documentation section. The journal provides important contextual information necessary to understand the
 screenshots better. Also the general log (down below in bold) provides more general information pertaining to the overall 
 development of this project.
 
@@ -92,7 +94,7 @@ Pre onenote notes found [here](https://github.com/O11WL1D/16_bit_computer/tree/m
 
 Other photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation).
 
-
+[progress presentation 2](https://1drv.ms/p/s!AovYuAJ6j-05jCl1JrxJ9tjOCj4N?e=ZiZEBO)
 
 
 
