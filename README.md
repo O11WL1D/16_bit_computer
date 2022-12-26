@@ -120,6 +120,17 @@ Other photos of this project can be found [Here](https://github.com/O11WL1D/16_b
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder, and
 in the computer journal+notes, which is where I keep the actively used onenote file for this project. 
 
+12-26-2022
+
+I've slowed down in my progress in this project as of late, finals has completely wiped out my drive to work on this project.
+Moreover, there is some strange issue i've encountered while designing the control module, for whatever reason, the project is imported 
+to the de0-cv without issue, but when I try to use quartus simulation the project doesnt work at all. This is, no good.
+
+So I may pick this project back up in a week or two, who knows I might just alternate between this project and another one to
+prevent apathy from forming. So long as I have an extra curricular project to re-ignite my passion for engineering, 
+anything goes. 
+
+
 
 
 10-25-2022
