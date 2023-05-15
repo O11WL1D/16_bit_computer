@@ -120,6 +120,27 @@ Other photos of this project can be found [Here](https://github.com/O11WL1D/16_b
 Here you may find a log for the overall design of the computer. Module specific notes may be found in said modules folder, and
 in the computer journal+notes, which is where I keep the actively used onenote file for this project. 
 
+
+5-15-2023
+
+-> I am probably going to pick this project up again for the summer, right now I am having some issues in re-installing the 
+usb blaster ii driver to communicate with the fpga board.
+
+quartus path: 
+
+
+C:\intelFPGA_lite\20.1\quartus\bin64
+
+
+3:52 pm 
+
+-> just got it figured out, what I did was set the path for the device manager to look into to be the installation path for quartus,
+since I didnt know where the driver was located I just set it to the folder that might contain it somewhere and hoped that the right one was installed.
+
+usb blaster ii is now working and now I can begin. 
+
+
+
 12-26-2022
 
 I've slowed down in my progress in this project as of late, finals has completely wiped out my drive to work on this project.

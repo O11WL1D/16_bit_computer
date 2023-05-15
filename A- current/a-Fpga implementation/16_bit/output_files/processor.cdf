@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEBA4F23) Path("C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/") File("processor.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEBA4F23) Path("C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/output_files/") File("processor.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

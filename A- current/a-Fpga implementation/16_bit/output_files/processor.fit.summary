@@ -1,4 +1,4 @@
-Fitter Status : Successful - Sat Dec 17 13:06:40 2022
+Fitter Status : Successful - Sun May 14 17:01:24 2023
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : processor
 Top-level Entity Name : processor
@@ -9,8 +9,8 @@ Logic utilization (in ALMs) : 2 / 18,480 ( < 1 % )
 Total registers : 3
 Total pins : 118 / 224 ( 53 % )
 Total virtual pins : 0
-Total block memory bits : 32 / 3,153,920 ( < 1 % )
-Total RAM Blocks : 1 / 308 ( < 1 % )
+Total block memory bits : 0 / 3,153,920 ( 0 % )
+Total RAM Blocks : 0 / 308 ( 0 % )
 Total DSP Blocks : 0 / 66 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

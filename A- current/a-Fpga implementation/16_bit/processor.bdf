@@ -1214,7 +1214,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2160 13824 2176 14000)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "state0" (rect 2 5 19 35)(font "Intel Clear" )(vertical))
+	(text "state0" (rect 2 5 19 34)(font "Intel Clear" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -1231,7 +1231,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2144 13824 2160 14000)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "state1" (rect 2 5 19 35)(font "Intel Clear" )(vertical))
+	(text "state1" (rect 2 5 19 34)(font "Intel Clear" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -1248,7 +1248,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 2128 13824 2144 14000)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "state2" (rect 2 5 19 35)(font "Intel Clear" )(vertical))
+	(text "state2" (rect 2 5 19 34)(font "Intel Clear" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -11252,18 +11252,8 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 1824 11768)
-	(pt 1448 11768)
-	(bus)
-)
-(connector
 	(pt 1752 9800)
 	(pt 1752 9832)
-	(bus)
-)
-(connector
-	(pt 1752 9832)
-	(pt 1488 9832)
 	(bus)
 )
 (connector
@@ -11274,26 +11264,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 1752 9800)
 	(pt 1160 9800)
-	(bus)
-)
-(connector
-	(pt 1448 6896)
-	(pt 1712 6896)
-	(bus)
-)
-(connector
-	(pt 1808 6896)
-	(pt 2232 6896)
-	(bus)
-)
-(connector
-	(pt 1488 6912)
-	(pt 1712 6912)
-	(bus)
-)
-(connector
-	(pt 1808 6912)
-	(pt 2256 6912)
 	(bus)
 )
 (connector
@@ -11433,28 +11403,8 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 1512 6928)
-	(pt 1720 6928)
-	(bus)
-)
-(connector
-	(pt 1808 6928)
-	(pt 2280 6928)
-	(bus)
-)
-(connector
 	(pt 1512 -1208)
 	(pt 1512 6928)
-	(bus)
-)
-(connector
-	(pt 2360 14096)
-	(pt 2360 14176)
-	(bus)
-)
-(connector
-	(pt 2360 14096)
-	(pt 1512 14096)
 	(bus)
 )
 (connector
@@ -11740,36 +11690,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 1280 8032)
 	(pt 1280 14928)
-	(bus)
-)
-(connector
-	(pt 1448 6896)
-	(pt 1448 11768)
-	(bus)
-)
-(connector
-	(pt 1448 11768)
-	(pt 1448 14928)
-	(bus)
-)
-(connector
-	(pt 1488 6912)
-	(pt 1488 9832)
-	(bus)
-)
-(connector
-	(pt 1488 9832)
-	(pt 1488 14928)
-	(bus)
-)
-(connector
-	(pt 1512 6928)
-	(pt 1512 14096)
-	(bus)
-)
-(connector
-	(pt 1512 14096)
-	(pt 1512 14928)
 	(bus)
 )
 (connector
@@ -12315,16 +12235,21 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1720 11864)
 )
 (connector
-	(pt 2168 14000)
-	(pt 2168 14240)
+	(pt 1512 6928)
+	(pt 1512 14928)
+	(bus)
 )
 (connector
-	(pt 1976 14240)
-	(pt 2168 14240)
+	(pt 2136 14000)
+	(pt 2136 14272)
 )
 (connector
-	(pt 2168 14240)
-	(pt 2176 14240)
+	(pt 1976 14272)
+	(pt 2136 14272)
+)
+(connector
+	(pt 2136 14272)
+	(pt 2176 14272)
 )
 (connector
 	(pt 2152 14000)
@@ -12339,16 +12264,41 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2176 14256)
 )
 (connector
-	(pt 2136 14000)
-	(pt 2136 14272)
+	(pt 2168 14000)
+	(pt 2168 14240)
 )
 (connector
-	(pt 1976 14272)
-	(pt 2136 14272)
+	(pt 1976 14240)
+	(pt 2168 14240)
 )
 (connector
-	(pt 2136 14272)
-	(pt 2176 14272)
+	(pt 2168 14240)
+	(pt 2176 14240)
+)
+(connector
+	(pt 1448 6896)
+	(pt 1448 14928)
+	(bus)
+)
+(connector
+	(pt 1488 6912)
+	(pt 1488 14928)
+	(bus)
+)
+(connector
+	(pt 1448 6896)
+	(pt 2232 6896)
+	(bus)
+)
+(connector
+	(pt 1488 6912)
+	(pt 2256 6912)
+	(bus)
+)
+(connector
+	(pt 1512 6928)
+	(pt 2280 6928)
+	(bus)
 )
 (junction (pt 2632 1232))
 (junction (pt 1624 1048))
@@ -12428,9 +12378,7 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 2016 11664))
 (junction (pt 1080 11800))
 (junction (pt 1824 11736))
-(junction (pt 1448 11768))
 (junction (pt 1752 9800))
-(junction (pt 1488 9832))
 (junction (pt 1080 10048))
 (junction (pt 1144 10008))
 (junction (pt 640 11952))
@@ -12438,7 +12386,6 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 560 14128))
 (junction (pt 576 12272))
 (junction (pt 624 12312))
-(junction (pt 1512 14096))
 (junction (pt 1128 14392))
 (junction (pt 592 14424))
 (junction (pt 608 14440))

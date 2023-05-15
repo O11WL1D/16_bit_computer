@@ -1,5 +1,5 @@
 Analysis & Synthesis report for processor
-Sat Dec 17 13:06:03 2022
+Sun May 14 17:00:55 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,74 +13,72 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis RAM Summary
-  9. State Machine - |processor|control_mod:inst137|fstate
- 10. Registers Removed During Synthesis
- 11. Removed Registers Triggering Further Register Optimizations
- 12. General Register Statistics
- 13. Source assignments for ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated
+  8. State Machine - |processor|control_mod:inst137|fstate
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Source assignments for ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated
+ 12. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 13. Parameter Settings for User Entity Instance: clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component
  14. Parameter Settings for User Entity Instance: ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component
- 15. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component
- 16. Parameter Settings for User Entity Instance: clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component
- 17. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 18. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 19. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 20. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 21. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 22. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 23. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 24. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 25. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 26. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 27. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 28. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 29. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 30. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 31. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 32. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 33. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 34. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 35. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 36. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 37. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 38. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 39. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 40. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 41. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 42. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 43. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 44. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 45. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 46. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 47. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 48. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 49. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 50. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 51. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 52. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 53. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 54. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 55. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 56. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 57. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 58. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 59. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
- 60. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
- 61. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
- 62. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
- 63. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
- 64. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
- 65. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component
- 66. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst35|muxx:inst6|LPM_MUX:LPM_MUX_component
- 67. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component
- 68. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst52|muxx:inst6|LPM_MUX:LPM_MUX_component
- 69. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst60|muxx:inst6|LPM_MUX:LPM_MUX_component
- 70. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst68|muxx:inst6|LPM_MUX:LPM_MUX_component
- 71. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst76|muxx:inst6|LPM_MUX:LPM_MUX_component
- 72. altsyncram Parameter Settings by Entity Instance
- 73. Post-Synthesis Netlist Statistics for Top Partition
- 74. Elapsed Time Per Partition
- 75. Analysis & Synthesis Messages
+ 15. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 16. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 17. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 18. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 19. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 20. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst1|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 21. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 22. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 23. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst40|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 24. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 25. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 26. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst2|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 27. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 28. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 29. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst41|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 30. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 32. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst3|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 33. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 34. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 35. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst42|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 36. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 37. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 38. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst4|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 39. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 40. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 41. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst43|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 42. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 43. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 44. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst5|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 45. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 46. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 47. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst44|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 48. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 49. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 50. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst6|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 51. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 52. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 53. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst45|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 54. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 55. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 56. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst7|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 57. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst1|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 58. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst2|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 59. Parameter Settings for User Entity Instance: reg_mod:inst154|b16_ind_reg:inst46|decoder_sequential_receiver:inst3|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 60. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst4|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 61. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst5|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 62. Parameter Settings for User Entity Instance: reg_mod:inst154|b_invreg_write_selector:inst8|decoder_sequential_receiver:inst|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 63. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst22|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 64. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst35|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 65. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst44|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 66. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst52|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 67. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst60|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 68. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst68|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 69. Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst76|muxx:inst6|LPM_MUX:LPM_MUX_component
+ 70. altsyncram Parameter Settings by Entity Instance
+ 71. Post-Synthesis Netlist Statistics for Top Partition
+ 72. Elapsed Time Per Partition
+ 73. Analysis & Synthesis Messages
 
 
 
@@ -107,7 +105,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Dec 17 13:06:03 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun May 14 17:00:55 2023       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; processor                                   ;
 ; Top-level Entity Name           ; processor                                   ;
@@ -116,7 +114,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total registers                 ; 3                                           ;
 ; Total pins                      ; 118                                         ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 32                                          ;
+; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -220,90 +218,90 @@ https://fpgasoftware.intel.com/eula.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 8           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-8         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                   ;
-+----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                   ; Library ;
-+----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
-; processor.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/processor.bdf                   ;         ;
-; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd                   ;         ;
-; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd               ;         ;
-; control_mod.vhd                  ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/control_mod.vhd                 ;         ;
-; ram_mod.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ram_mod.bdf                     ;         ;
-; ramo.vhd                         ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd                        ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                                          ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                   ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                                             ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                                          ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                          ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/a_rdenreg.inc                                           ;         ;
-; altrom.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altrom.inc                                              ;         ;
-; altram.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                                              ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                                            ;         ;
-; db/altsyncram_nfu3.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf          ;         ;
-; db/decode_dla.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_dla.tdf               ;         ;
-; db/decode_61a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_61a.tdf               ;         ;
-; db/mux_chb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_chb.tdf                  ;         ;
-; b8bus_or_gate.bdf                ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b8bus_or_gate.bdf               ;         ;
-; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd                      ;         ;
-; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd                      ;         ;
-; b16bit_latch.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16bit_latch.bdf                ;         ;
-; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/8bitdlatch.bdf                  ;         ;
-; adder16.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder16.bdf                     ;         ;
-; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder.bdf                       ;         ;
-; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/in_mod.bdf                      ;         ;
-; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/eightbitff.bdf                  ;         ;
-; dec38.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/dec38.bdf                                             ;         ;
-; decoder_sequential_receiver.bdf  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/decoder_sequential_receiver.bdf ;         ;
-; muxx.vhd                         ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd                        ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf                                             ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/muxlut.inc                                              ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                                            ;         ;
-; altshift.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                                            ;         ;
-; db/mux_s1e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf                  ;         ;
-; constt.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/constt.bdf                      ;         ;
-; b16_invert.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd                  ;         ;
-; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                             ;         ;
-; clockmod2.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/clockmod2.bdf                   ;         ;
-; b16w_and.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16w_and.vhd                    ;         ;
-; bus_split_32.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_32.vhd                ;         ;
-; count.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd                       ;         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf                                         ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                                        ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                         ;         ;
-; cmpconst.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cmpconst.inc                                            ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                                         ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                                         ;         ;
-; dffeea.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/dffeea.inc                                              ;         ;
-; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                 ;         ;
-; db/cntr_djh.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/cntr_djh.tdf                 ;         ;
-; reg_mod.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/reg_mod.bdf                     ;         ;
-; b16_ind_reg.bdf                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_ind_reg.bdf                 ;         ;
-; b_invreg_write_selector.bdf      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b_invreg_write_selector.bdf     ;         ;
-; busified_16decoder.bdf           ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/busified_16decoder.bdf          ;         ;
-; bus4_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd                  ;         ;
-; bus16_4.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus16_4.bdf                     ;         ;
-; bus4_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd              ;         ;
-; bus8_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd                  ;         ;
-; bus8_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd              ;         ;
-; alumod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alumod.bdf                      ;         ;
-; mega_nor.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd                    ;         ;
-; alu_logic.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd                   ;         ;
-; b16_64_merge.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_64_merge.bdf                ;         ;
-; b32_64merge.vhd                  ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd                 ;         ;
-; b16_32_merge.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd                ;         ;
-+----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                            ; Library ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
+; processor.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/processor.bdf                   ;         ;
+; bus_split.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd                   ;         ;
+; constt.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/constt.bdf                      ;         ;
+; b16_or.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd                      ;         ;
+; b16_en.vhd                       ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd                      ;         ;
+; bus_split_out.vhd                ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd               ;         ;
+; control_mod.vhd                  ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/control_mod.vhd                 ;         ;
+; adder16.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder16.bdf                     ;         ;
+; adder.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/adder.bdf                       ;         ;
+; b16bit_latch.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16bit_latch.bdf                ;         ;
+; 8bitdlatch.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/8bitdlatch.bdf                  ;         ;
+; b8bus_or_gate.bdf                ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b8bus_or_gate.bdf               ;         ;
+; in_mod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/in_mod.bdf                      ;         ;
+; eightbitff.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/eightbitff.bdf                  ;         ;
+; dec38.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/dec38.bdf                                                      ;         ;
+; decoder_sequential_receiver.bdf  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/decoder_sequential_receiver.bdf ;         ;
+; muxx.vhd                         ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd                        ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf                                                      ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                                   ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/muxlut.inc                                                       ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                                                     ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                                                     ;         ;
+; db/mux_s1e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf                  ;         ;
+; b16_invert.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd                  ;         ;
+; 74154.bdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74154.bdf                                                      ;         ;
+; clockmod2.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/clockmod2.bdf                   ;         ;
+; b16w_and.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16w_and.vhd                    ;         ;
+; bus_split_32.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_32.vhd                ;         ;
+; count.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd                       ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf                                                  ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                                                 ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                                                   ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                  ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cmpconst.inc                                                     ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                                                  ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                                                  ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/dffeea.inc                                                       ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                          ;         ;
+; db/cntr_djh.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/cntr_djh.tdf                 ;         ;
+; ram_mod.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ram_mod.bdf                     ;         ;
+; ramo.vhd                         ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd                        ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                                                   ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                            ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                                                      ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                    ;         ;
+; altrom.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altrom.inc                                                       ;         ;
+; altram.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                                                       ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                                                     ;         ;
+; db/altsyncram_nfu3.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf          ;         ;
+; db/decode_dla.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_dla.tdf               ;         ;
+; db/decode_61a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_61a.tdf               ;         ;
+; db/mux_chb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_chb.tdf                  ;         ;
+; reg_mod.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/reg_mod.bdf                     ;         ;
+; b16_ind_reg.bdf                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_ind_reg.bdf                 ;         ;
+; b_invreg_write_selector.bdf      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b_invreg_write_selector.bdf     ;         ;
+; busified_16decoder.bdf           ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/busified_16decoder.bdf          ;         ;
+; bus4_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd                  ;         ;
+; bus16_4.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus16_4.bdf                     ;         ;
+; bus4_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd              ;         ;
+; bus8_split.vhd                   ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd                  ;         ;
+; bus8_split_out.vhd               ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd              ;         ;
+; alumod.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alumod.bdf                      ;         ;
+; mega_nor.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd                    ;         ;
+; alu_logic.vhd                    ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd                   ;         ;
+; b16_64_merge.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_64_merge.bdf                ;         ;
+; b32_64merge.vhd                  ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd                 ;         ;
+; b16_32_merge.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd                ;         ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------------------------+
@@ -323,40 +321,25 @@ https://fpgasoftware.intel.com/eula.
 ; Dedicated logic registers                   ; 3                               ;
 ;                                             ;                                 ;
 ; I/O pins                                    ; 118                             ;
-; Total MLAB memory bits                      ; 0                               ;
-; Total block memory bits                     ; 32                              ;
 ;                                             ;                                 ;
 ; Total DSP Blocks                            ; 0                               ;
 ;                                             ;                                 ;
-; Maximum fan-out node                        ; control_mod:inst137|fstate.i0m1 ;
-; Maximum fan-out                             ; 21                              ;
-; Total fan-out                               ; 189                             ;
-; Average fan-out                             ; 0.74                            ;
+; Maximum fan-out node                        ; control_mod:inst137|fstate.i0m0 ;
+; Maximum fan-out                             ; 4                               ;
+; Total fan-out                               ; 133                             ;
+; Average fan-out                             ; 0.55                            ;
 +---------------------------------------------+---------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                            ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                   ; Entity Name     ; Library Name ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |processor                                   ; 2 (0)               ; 3 (0)                     ; 32                ; 0          ; 118  ; 0            ; |processor                                                                                            ; processor       ; work         ;
-;    |control_mod:inst137|                     ; 2 (2)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|control_mod:inst137                                                                        ; control_mod     ; work         ;
-;    |ram_mod:inst153|                         ; 0 (0)               ; 0 (0)                     ; 32                ; 0          ; 0    ; 0            ; |processor|ram_mod:inst153                                                                            ; ram_mod         ; work         ;
-;       |ramo:inst54|                          ; 0 (0)               ; 0 (0)                     ; 32                ; 0          ; 0    ; 0            ; |processor|ram_mod:inst153|ramo:inst54                                                                ; ramo            ; work         ;
-;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 32                ; 0          ; 0    ; 0            ; |processor|ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
-;             |altsyncram_nfu3:auto_generated| ; 0 (0)               ; 0 (0)                     ; 32                ; 0          ; 0    ; 0            ; |processor|ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated ; altsyncram_nfu3 ; work         ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------+-----------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                               ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name            ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+-------------+--------------+
+; |processor                 ; 2 (0)               ; 3 (0)                     ; 0                 ; 0          ; 118  ; 0            ; |processor                     ; processor   ; work         ;
+;    |control_mod:inst137|   ; 2 (2)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |processor|control_mod:inst137 ; control_mod ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                             ;
-+-------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
-; Name                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size    ; MIF  ;
-+-------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
-; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 65536        ; 16           ; 65536        ; 16           ; 1048576 ; None ;
-+-------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
 
 
 Encoding Type:  One-Hot
@@ -371,30 +354,14 @@ Encoding Type:  One-Hot
 +--------------+-------------+-------------+--------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                          ;
-+--------------------------------------------------------------------------------------------------------------------+----------------------------------------+
-; Register name                                                                                                      ; Reason for Removal                     ;
-+--------------------------------------------------------------------------------------------------------------------+----------------------------------------+
-; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|address_reg_b[0..2]     ; Stuck at VCC due to stuck port data_in ;
-; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|out_address_reg_b[0..2] ; Stuck at VCC due to stuck port data_in ;
-; clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated|counter_reg_bit[0..31]      ; Lost fanout                            ;
-; Total Number of Removed Registers = 38                                                                             ;                                        ;
-+--------------------------------------------------------------------------------------------------------------------+----------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                                                                               ;
-+-------------------------------------------------------------------------------------------------------------+---------------------------+-----------------------------------------------------------------------------------------------------------------+
-; Register name                                                                                               ; Reason for Removal        ; Registers Removed due to This Register                                                                          ;
-+-------------------------------------------------------------------------------------------------------------+---------------------------+-----------------------------------------------------------------------------------------------------------------+
-; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|address_reg_b[2] ; Stuck at VCC              ; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|out_address_reg_b[2] ;
-;                                                                                                             ; due to stuck port data_in ;                                                                                                                 ;
-; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|address_reg_b[1] ; Stuck at VCC              ; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|out_address_reg_b[1] ;
-;                                                                                                             ; due to stuck port data_in ;                                                                                                                 ;
-; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|address_reg_b[0] ; Stuck at VCC              ; ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|out_address_reg_b[0] ;
-;                                                                                                             ; due to stuck port data_in ;                                                                                                                 ;
-+-------------------------------------------------------------------------------------------------------------+---------------------------+-----------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                 ;
++---------------------------------------------------------------------------------------------------------------+--------------------+
+; Register name                                                                                                 ; Reason for Removal ;
++---------------------------------------------------------------------------------------------------------------+--------------------+
+; clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated|counter_reg_bit[0..31] ; Lost fanout        ;
+; Total Number of Removed Registers = 32                                                                        ;                    ;
++---------------------------------------------------------------------------------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -419,6 +386,52 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+-----------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                   ;
 +---------------------------------+--------------------+------+-----------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+; Parameter Name         ; Value     ; Type                                                                            ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                  ;
+; LPM_WIDTH              ; 1         ; Signed Integer                                                                  ;
+; LPM_SIZE               ; 16        ; Signed Integer                                                                  ;
+; LPM_WIDTHS             ; 4         ; Signed Integer                                                                  ;
+; LPM_PIPELINE           ; 0         ; Signed Integer                                                                  ;
+; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                         ;
+; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                         ;
++------------------------+-----------+---------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+----------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                 ;
++------------------------+-------------+----------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                         ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                       ;
+; LPM_WIDTH              ; 32          ; Signed Integer                                                       ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                              ;
+; LPM_MODULUS            ; 0           ; Untyped                                                              ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                              ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                              ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                              ;
+; DEVICE_FAMILY          ; Cyclone V   ; Untyped                                                              ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                              ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                   ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                   ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                              ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                              ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                              ;
+; CBXI_PARAMETER         ; cntr_djh    ; Untyped                                                              ;
++------------------------+-------------+----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------------------------------------------------+
@@ -479,52 +492,6 @@ Encoding Type:  One-Hot
 ; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                      ;
 ; CBXI_PARAMETER                     ; altsyncram_nfu3      ; Untyped                                      ;
 +------------------------------------+----------------------+----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-; Parameter Name         ; Value     ; Type                                                                            ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON        ; AUTO_CARRY                                                                      ;
-; IGNORE_CARRY_BUFFERS   ; OFF       ; IGNORE_CARRY                                                                    ;
-; AUTO_CASCADE_CHAINS    ; ON        ; AUTO_CASCADE                                                                    ;
-; IGNORE_CASCADE_BUFFERS ; OFF       ; IGNORE_CASCADE                                                                  ;
-; LPM_WIDTH              ; 1         ; Signed Integer                                                                  ;
-; LPM_SIZE               ; 16        ; Signed Integer                                                                  ;
-; LPM_WIDTHS             ; 4         ; Signed Integer                                                                  ;
-; LPM_PIPELINE           ; 0         ; Signed Integer                                                                  ;
-; CBXI_PARAMETER         ; mux_s1e   ; Untyped                                                                         ;
-; DEVICE_FAMILY          ; Cyclone V ; Untyped                                                                         ;
-+------------------------+-----------+---------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component ;
-+------------------------+-------------+----------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                                 ;
-+------------------------+-------------+----------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                           ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                         ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                         ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                       ;
-; LPM_WIDTH              ; 32          ; Signed Integer                                                       ;
-; LPM_DIRECTION          ; UP          ; Untyped                                                              ;
-; LPM_MODULUS            ; 0           ; Untyped                                                              ;
-; LPM_AVALUE             ; UNUSED      ; Untyped                                                              ;
-; LPM_SVALUE             ; UNUSED      ; Untyped                                                              ;
-; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                              ;
-; DEVICE_FAMILY          ; Cyclone V   ; Untyped                                                              ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                              ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                   ;
-; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                   ;
-; CARRY_CNT_EN           ; SMART       ; Untyped                                                              ;
-; LABWIDE_SCLR           ; ON          ; Untyped                                                              ;
-; USE_NEW_VERSION        ; TRUE        ; Untyped                                                              ;
-; CBXI_PARAMETER         ; cntr_djh    ; Untyped                                                              ;
-+------------------------+-------------+----------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1600,15 +1567,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 3                           ;
 ;     ENA               ; 3                           ;
-; arriav_lcell_comb     ; 21                          ;
-;     normal            ; 21                          ;
+; arriav_lcell_comb     ; 4                           ;
+;     normal            ; 4                           ;
 ;         0 data inputs ; 2                           ;
-;         1 data inputs ; 19                          ;
+;         1 data inputs ; 2                           ;
 ; boundary_port         ; 118                         ;
-; stratixv_ram_block    ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.88                        ;
+; Average LUT depth     ; 0.44                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1627,10 +1593,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Dec 17 13:05:46 2022
+    Info: Processing started: Sun May 14 17:00:38 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor -c processor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file processor.bdf
     Info (12023): Found entity 1: processor
 Info (12127): Elaborating entity "processor" for the top level hierarchy
@@ -1642,29 +1608,142 @@ Warning (275011): Block or symbol "b16_en" of instance "inst17" overlaps another
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
 Warning (12125): Using design file bus_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 31
-    Info (12023): Found entity 1: bus_split File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 7
+    Info (12022): Found design unit 1: bus_split-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 31
+    Info (12023): Found entity 1: bus_split File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split.vhd Line: 7
 Info (12128): Elaborating entity "bus_split" for hierarchy "bus_split:inst5"
+Warning (12125): Using design file constt.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: constt
+Info (12128): Elaborating entity "constt" for hierarchy "constt:inst147"
+Warning (275011): Block or symbol "bus_split_out" of instance "inst3" overlaps another block or symbol
+Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 31
+    Info (12023): Found entity 1: b16_or File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 8
+Info (12128): Elaborating entity "b16_or" for hierarchy "constt:inst147|b16_or:inst2"
+Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 39
+    Info (12023): Found entity 1: b16_en File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 13
+Info (12128): Elaborating entity "b16_en" for hierarchy "constt:inst147|b16_en:inst5"
 Warning (12125): Using design file bus_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus_split_out File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_out" for hierarchy "bus_split_out:inst161"
+    Info (12022): Found design unit 1: bus_split_out-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus_split_out File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_out.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_out" for hierarchy "constt:inst147|bus_split_out:inst3"
 Warning (12125): Using design file control_mod.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: control_mod-BEHAVIOR File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/control_mod.vhd Line: 37
-    Info (12023): Found entity 1: control_mod File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/control_mod.vhd Line: 22
+    Info (12022): Found design unit 1: control_mod-BEHAVIOR File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/control_mod.vhd Line: 37
+    Info (12023): Found entity 1: control_mod File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/control_mod.vhd Line: 22
 Info (12128): Elaborating entity "control_mod" for hierarchy "control_mod:inst137"
+Warning (12125): Using design file adder16.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: adder16
+Info (12128): Elaborating entity "adder16" for hierarchy "adder16:inst144"
+Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: adder
+Info (12128): Elaborating entity "adder" for hierarchy "adder16:inst144|adder:inst26"
+Warning (275004): Undeclared parameter CONSTANT_VALUE
+Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
+Warning (275008): Primitive "NOT" of instance "inst12" not used
+Warning (275008): Primitive "NOT" of instance "inst13" not used
+Warning (275008): Primitive "NOT" of instance "inst14" not used
+Warning (12125): Using design file b16bit_latch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b16bit_latch
+Info (12128): Elaborating entity "b16bit_latch" for hierarchy "b16bit_latch:inst142"
+Warning (275011): Block or symbol "bus_split" of instance "inst3" overlaps another block or symbol
+Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
+Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: 8bitdlatch
+Info (12128): Elaborating entity "8bitdlatch" for hierarchy "b16bit_latch:inst142|8bitdlatch:inst"
+Warning (12125): Using design file b8bus_or_gate.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b8bus_or_gate
+Info (12128): Elaborating entity "b8bus_or_gate" for hierarchy "b8bus_or_gate:inst158"
+Warning (12125): Using design file in_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: in_mod
+Info (12128): Elaborating entity "in_mod" for hierarchy "in_mod:inst"
+Warning (275008): Primitive "NOT" of instance "inst16" not used
+Warning (275008): Primitive "NOT" of instance "inst17" not used
+Warning (275008): Primitive "NOT" of instance "inst18" not used
+Warning (275008): Primitive "NOT" of instance "inst19" not used
+Warning (275008): Primitive "NOT" of instance "inst20" not used
+Warning (275008): Primitive "NOT" of instance "inst21" not used
+Warning (275008): Primitive "NOT" of instance "inst22" not used
+Warning (275008): Primitive "NOT" of instance "inst23" not used
+Warning (275008): Primitive "NOT" of instance "inst24" not used
+Warning (275008): Primitive "NOT" of instance "inst25" not used
+Warning (275008): Primitive "NOT" of instance "inst29" not used
+Warning (275008): Primitive "AND2" of instance "inst71" not used
+Warning (275008): Primitive "AND2" of instance "inst72" not used
+Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: eightbitff
+Info (12128): Elaborating entity "eightbitff" for hierarchy "in_mod:inst|eightbitff:inst4"
+Info (12128): Elaborating entity "DEC38" for hierarchy "in_mod:inst|DEC38:inst80"
+Info (12130): Elaborated megafunction instantiation "in_mod:inst|DEC38:inst80"
+Warning (12125): Using design file decoder_sequential_receiver.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: decoder_sequential_receiver
+Info (12128): Elaborating entity "decoder_sequential_receiver" for hierarchy "decoder_sequential_receiver:inst15"
+Warning (12125): Using design file muxx.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: muxx-SYN File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 68
+    Info (12023): Found entity 1: muxx File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 43
+Info (12128): Elaborating entity "muxx" for hierarchy "decoder_sequential_receiver:inst15|muxx:inst6"
+Info (12128): Elaborating entity "LPM_MUX" for hierarchy "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12130): Elaborated megafunction instantiation "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+Info (12133): Instantiated megafunction "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component" with the following parameter: File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
+    Info (12134): Parameter "LPM_WIDTH" = "1"
+    Info (12134): Parameter "LPM_SIZE" = "16"
+    Info (12134): Parameter "LPM_WIDTHS" = "4"
+    Info (12134): Parameter "LPM_PIPELINE" = "0"
+    Info (12134): Parameter "LPM_TYPE" = "LPM_MUX"
+    Info (12134): Parameter "LPM_HINT" = "UNUSED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_s1e.tdf
+    Info (12023): Found entity 1: mux_s1e File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf Line: 23
+Info (12128): Elaborating entity "mux_s1e" for hierarchy "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component|mux_s1e:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+Warning (12125): Using design file b16_invert.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16_invert-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 39
+    Info (12023): Found entity 1: b16_invert File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 13
+Info (12128): Elaborating entity "b16_invert" for hierarchy "b16_invert:inst163"
+Info (12128): Elaborating entity "74154" for hierarchy "74154:inst140"
+Info (12130): Elaborated megafunction instantiation "74154:inst140"
+Warning (12125): Using design file clockmod2.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: clockmod2
+Info (12128): Elaborating entity "clockmod2" for hierarchy "clockmod2:inst152"
+Warning (275011): Block or symbol "OR8" of instance "inst17" overlaps another block or symbol
+Warning (275011): Block or symbol "bus_split_out" of instance "inst13" overlaps another block or symbol
+Warning (275043): Pin "generalc" is missing source
+Warning (275009): Pin "generala" not connected
+Warning (275009): Pin "s0" not connected
+Warning (275009): Pin "s1" not connected
+Warning (275009): Pin "s2" not connected
+Warning (275009): Pin "s3" not connected
+Warning (12125): Using design file b16w_and.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: b16w_and-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16w_and.vhd Line: 39
+    Info (12023): Found entity 1: b16w_and File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16w_and.vhd Line: 13
+Info (12128): Elaborating entity "b16w_and" for hierarchy "clockmod2:inst152|b16w_and:inst11"
+Warning (12125): Using design file bus_split_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_split_32-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_32.vhd Line: 69
+    Info (12023): Found entity 1: bus_split_32 File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_32.vhd Line: 7
+Info (12128): Elaborating entity "bus_split_32" for hierarchy "clockmod2:inst152|bus_split_32:inst1"
+Warning (12125): Using design file count.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: count-SYN File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 52
+    Info (12023): Found entity 1: count File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 43
+Info (12128): Elaborating entity "count" for hierarchy "clockmod2:inst152|count:inst"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 74
+Info (12130): Elaborated megafunction instantiation "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 74
+Info (12133): Instantiated megafunction "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 74
+    Info (12134): Parameter "lpm_direction" = "UP"
+    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
+    Info (12134): Parameter "lpm_width" = "32"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_djh.tdf
+    Info (12023): Found entity 1: cntr_djh File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/cntr_djh.tdf Line: 26
+Info (12128): Elaborating entity "cntr_djh" for hierarchy "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
 Warning (12125): Using design file ram_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: ram_mod
 Info (12128): Elaborating entity "ram_mod" for hierarchy "ram_mod:inst153"
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
 Warning (12125): Using design file ramo.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: ramo-SYN File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 56
-    Info (12023): Found entity 1: ramo File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 43
+    Info (12022): Found design unit 1: ramo-SYN File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 56
+    Info (12023): Found entity 1: ramo File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 43
 Info (12128): Elaborating entity "ramo" for hierarchy "ram_mod:inst153|ramo:inst54"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 63
-Info (12130): Elaborated megafunction instantiation "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 63
-Info (12133): Instantiated megafunction "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 63
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 63
+Info (12130): Elaborated megafunction instantiation "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 63
+Info (12133): Instantiated megafunction "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/ramo.vhd Line: 63
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK0"
@@ -1716,130 +1795,17 @@ Info (12133): Instantiated megafunction "ram_mod:inst153|ramo:inst54|altsyncram:
     Info (12134): Parameter "lpm_hint" = "UNUSED"
     Info (12134): Parameter "lpm_type" = "altsyncram"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_nfu3.tdf
-    Info (12023): Found entity 1: altsyncram_nfu3 File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 34
+    Info (12023): Found entity 1: altsyncram_nfu3 File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 34
 Info (12128): Elaborating entity "altsyncram_nfu3" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_dla.tdf
-    Info (12023): Found entity 1: decode_dla File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_dla.tdf Line: 23
-Info (12128): Elaborating entity "decode_dla" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|decode_dla:decode2" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 46
+    Info (12023): Found entity 1: decode_dla File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_dla.tdf Line: 23
+Info (12128): Elaborating entity "decode_dla" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|decode_dla:decode2" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 46
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_61a.tdf
-    Info (12023): Found entity 1: decode_61a File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_61a.tdf Line: 23
-Info (12128): Elaborating entity "decode_61a" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|decode_61a:rden_decode_b" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 47
+    Info (12023): Found entity 1: decode_61a File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/decode_61a.tdf Line: 23
+Info (12128): Elaborating entity "decode_61a" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|decode_61a:rden_decode_b" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_chb.tdf
-    Info (12023): Found entity 1: mux_chb File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_chb.tdf Line: 23
-Info (12128): Elaborating entity "mux_chb" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|mux_chb:mux3" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 49
-Warning (12125): Using design file b8bus_or_gate.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: b8bus_or_gate
-Info (12128): Elaborating entity "b8bus_or_gate" for hierarchy "b8bus_or_gate:inst136"
-Warning (12125): Using design file b16_or.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_or-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 31
-    Info (12023): Found entity 1: b16_or File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_or.vhd Line: 8
-Info (12128): Elaborating entity "b16_or" for hierarchy "b8bus_or_gate:inst136|b16_or:inst14"
-Warning (12125): Using design file b16_en.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_en-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 39
-    Info (12023): Found entity 1: b16_en File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_en.vhd Line: 13
-Info (12128): Elaborating entity "b16_en" for hierarchy "b16_en:inst156"
-Warning (12125): Using design file b16bit_latch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: b16bit_latch
-Info (12128): Elaborating entity "b16bit_latch" for hierarchy "b16bit_latch:inst142"
-Warning (275011): Block or symbol "bus_split" of instance "inst3" overlaps another block or symbol
-Warning (275011): Block or symbol "bus_split_out" of instance "inst7" overlaps another block or symbol
-Warning (12125): Using design file 8bitdlatch.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: 8bitdlatch
-Info (12128): Elaborating entity "8bitdlatch" for hierarchy "b16bit_latch:inst142|8bitdlatch:inst"
-Warning (12125): Using design file adder16.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: adder16
-Info (12128): Elaborating entity "adder16" for hierarchy "adder16:inst144"
-Warning (12125): Using design file adder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: adder
-Info (12128): Elaborating entity "adder" for hierarchy "adder16:inst144|adder:inst26"
-Warning (275004): Undeclared parameter CONSTANT_VALUE
-Warning (275006): Can't find a definition for parameter ci+1 -- assuming CONSTANT_VALUE was intended to be a quoted string
-Warning (275008): Primitive "NOT" of instance "inst12" not used
-Warning (275008): Primitive "NOT" of instance "inst13" not used
-Warning (275008): Primitive "NOT" of instance "inst14" not used
-Warning (12125): Using design file in_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: in_mod
-Info (12128): Elaborating entity "in_mod" for hierarchy "in_mod:inst"
-Warning (275008): Primitive "NOT" of instance "inst16" not used
-Warning (275008): Primitive "NOT" of instance "inst17" not used
-Warning (275008): Primitive "NOT" of instance "inst18" not used
-Warning (275008): Primitive "NOT" of instance "inst19" not used
-Warning (275008): Primitive "NOT" of instance "inst20" not used
-Warning (275008): Primitive "NOT" of instance "inst21" not used
-Warning (275008): Primitive "NOT" of instance "inst22" not used
-Warning (275008): Primitive "NOT" of instance "inst23" not used
-Warning (275008): Primitive "NOT" of instance "inst24" not used
-Warning (275008): Primitive "NOT" of instance "inst25" not used
-Warning (275008): Primitive "NOT" of instance "inst29" not used
-Warning (275008): Primitive "AND2" of instance "inst71" not used
-Warning (275008): Primitive "AND2" of instance "inst72" not used
-Warning (12125): Using design file eightbitff.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: eightbitff
-Info (12128): Elaborating entity "eightbitff" for hierarchy "in_mod:inst|eightbitff:inst4"
-Info (12128): Elaborating entity "DEC38" for hierarchy "in_mod:inst|DEC38:inst80"
-Info (12130): Elaborated megafunction instantiation "in_mod:inst|DEC38:inst80"
-Warning (12125): Using design file decoder_sequential_receiver.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: decoder_sequential_receiver
-Info (12128): Elaborating entity "decoder_sequential_receiver" for hierarchy "decoder_sequential_receiver:inst15"
-Warning (12125): Using design file muxx.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: muxx-SYN File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 68
-    Info (12023): Found entity 1: muxx File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 43
-Info (12128): Elaborating entity "muxx" for hierarchy "decoder_sequential_receiver:inst15|muxx:inst6"
-Info (12128): Elaborating entity "LPM_MUX" for hierarchy "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
-Info (12130): Elaborated megafunction instantiation "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
-Info (12133): Instantiated megafunction "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component" with the following parameter: File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/muxx.vhd Line: 128
-    Info (12134): Parameter "LPM_WIDTH" = "1"
-    Info (12134): Parameter "LPM_SIZE" = "16"
-    Info (12134): Parameter "LPM_WIDTHS" = "4"
-    Info (12134): Parameter "LPM_PIPELINE" = "0"
-    Info (12134): Parameter "LPM_TYPE" = "LPM_MUX"
-    Info (12134): Parameter "LPM_HINT" = "UNUSED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/mux_s1e.tdf
-    Info (12023): Found entity 1: mux_s1e File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_s1e.tdf Line: 23
-Info (12128): Elaborating entity "mux_s1e" for hierarchy "decoder_sequential_receiver:inst15|muxx:inst6|LPM_MUX:LPM_MUX_component|mux_s1e:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
-Warning (12125): Using design file constt.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: constt
-Info (12128): Elaborating entity "constt" for hierarchy "constt:inst134"
-Warning (275011): Block or symbol "bus_split_out" of instance "inst3" overlaps another block or symbol
-Warning (12125): Using design file b16_invert.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_invert-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 39
-    Info (12023): Found entity 1: b16_invert File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_invert.vhd Line: 13
-Info (12128): Elaborating entity "b16_invert" for hierarchy "b16_invert:inst163"
-Info (12128): Elaborating entity "74154" for hierarchy "74154:inst140"
-Info (12130): Elaborated megafunction instantiation "74154:inst140"
-Warning (12125): Using design file clockmod2.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: clockmod2
-Info (12128): Elaborating entity "clockmod2" for hierarchy "clockmod2:inst152"
-Warning (275011): Block or symbol "OR8" of instance "inst17" overlaps another block or symbol
-Warning (275011): Block or symbol "bus_split_out" of instance "inst13" overlaps another block or symbol
-Warning (275043): Pin "generalc" is missing source
-Warning (275009): Pin "generala" not connected
-Warning (275009): Pin "s0" not connected
-Warning (275009): Pin "s1" not connected
-Warning (275009): Pin "s2" not connected
-Warning (275009): Pin "s3" not connected
-Warning (12125): Using design file b16w_and.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16w_and-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16w_and.vhd Line: 39
-    Info (12023): Found entity 1: b16w_and File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16w_and.vhd Line: 13
-Info (12128): Elaborating entity "b16w_and" for hierarchy "clockmod2:inst152|b16w_and:inst11"
-Warning (12125): Using design file bus_split_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus_split_32-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_32.vhd Line: 69
-    Info (12023): Found entity 1: bus_split_32 File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus_split_32.vhd Line: 7
-Info (12128): Elaborating entity "bus_split_32" for hierarchy "clockmod2:inst152|bus_split_32:inst1"
-Warning (12125): Using design file count.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: count-SYN File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 52
-    Info (12023): Found entity 1: count File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 43
-Info (12128): Elaborating entity "count" for hierarchy "clockmod2:inst152|count:inst"
-Info (12128): Elaborating entity "lpm_counter" for hierarchy "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 74
-Info (12130): Elaborated megafunction instantiation "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 74
-Info (12133): Instantiated megafunction "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/count.vhd Line: 74
-    Info (12134): Parameter "lpm_direction" = "UP"
-    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
-    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
-    Info (12134): Parameter "lpm_width" = "32"
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_djh.tdf
-    Info (12023): Found entity 1: cntr_djh File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/cntr_djh.tdf Line: 26
-Info (12128): Elaborating entity "cntr_djh" for hierarchy "clockmod2:inst152|count:inst|lpm_counter:LPM_COUNTER_component|cntr_djh:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
+    Info (12023): Found entity 1: mux_chb File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/mux_chb.tdf Line: 23
+Info (12128): Elaborating entity "mux_chb" for hierarchy "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|mux_chb:mux3" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 49
 Warning (12125): Using design file reg_mod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: reg_mod
 Info (12128): Elaborating entity "reg_mod" for hierarchy "reg_mod:inst154"
@@ -1933,8 +1899,8 @@ Warning (12125): Using design file busified_16decoder.bdf, which is not specifie
     Info (12023): Found entity 1: busified_16decoder
 Info (12128): Elaborating entity "busified_16decoder" for hierarchy "reg_mod:inst154|busified_16decoder:inst24"
 Warning (12125): Using design file bus4_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus4_split-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 31
-    Info (12023): Found entity 1: bus4_split File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 7
+    Info (12022): Found design unit 1: bus4_split-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 31
+    Info (12023): Found entity 1: bus4_split File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split.vhd Line: 7
 Info (12128): Elaborating entity "bus4_split" for hierarchy "reg_mod:inst154|busified_16decoder:inst24|bus4_split:inst"
 Warning (12125): Using design file bus16_4.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: bus16_4
@@ -1943,16 +1909,16 @@ Warning (275011): Block or symbol "bus8_split_out" of instance "inst9" overlaps 
 Warning (275011): Block or symbol "bus4_split_out" of instance "inst14" overlaps another block or symbol
 Warning (275011): Block or symbol "bus4_split_out" of instance "inst16" overlaps another block or symbol
 Warning (12125): Using design file bus4_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus4_split_out-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus4_split_out File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd Line: 7
+    Info (12022): Found design unit 1: bus4_split_out-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus4_split_out File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus4_split_out.vhd Line: 7
 Info (12128): Elaborating entity "bus4_split_out" for hierarchy "reg_mod:inst154|bus16_4:inst23|bus4_split_out:inst14"
 Warning (12125): Using design file bus8_split.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus8_split-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd Line: 31
-    Info (12023): Found entity 1: bus8_split File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd Line: 7
+    Info (12022): Found design unit 1: bus8_split-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd Line: 31
+    Info (12023): Found entity 1: bus8_split File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split.vhd Line: 7
 Info (12128): Elaborating entity "bus8_split" for hierarchy "reg_mod:inst154|bus16_4:inst23|bus8_split:inst12"
 Warning (12125): Using design file bus8_split_out.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: bus8_split_out-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 31
-    Info (12023): Found entity 1: bus8_split_out File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 7
+    Info (12022): Found design unit 1: bus8_split_out-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 31
+    Info (12023): Found entity 1: bus8_split_out File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/bus8_split_out.vhd Line: 7
 Info (12128): Elaborating entity "bus8_split_out" for hierarchy "reg_mod:inst154|bus16_4:inst23|bus8_split_out:inst9"
 Warning (12125): Using design file alumod.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: alumod
@@ -1960,148 +1926,188 @@ Info (12128): Elaborating entity "alumod" for hierarchy "alumod:inst155"
 Warning (275043): Pin "generalc" is missing source
 Warning (275009): Pin "generala" not connected
 Warning (12125): Using design file mega_nor.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: mega_nor-Behavioral File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd Line: 38
-    Info (12023): Found entity 1: mega_nor File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd Line: 11
+    Info (12022): Found design unit 1: mega_nor-Behavioral File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd Line: 38
+    Info (12023): Found entity 1: mega_nor File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd Line: 11
 Info (12128): Elaborating entity "mega_nor" for hierarchy "alumod:inst155|mega_nor:inst2"
-Warning (10034): Output port "af[14..8]" at mega_nor.vhd(16) has no driver File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd Line: 16
+Warning (10034): Output port "af[14..8]" at mega_nor.vhd(16) has no driver File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/mega_nor.vhd Line: 16
 Warning (12125): Using design file alu_logic.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: alu_logic-LogicFunc File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd Line: 44
-    Info (12023): Found entity 1: alu_logic File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd Line: 4
+    Info (12022): Found design unit 1: alu_logic-LogicFunc File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd Line: 44
+    Info (12023): Found entity 1: alu_logic File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/alu_logic.vhd Line: 4
 Info (12128): Elaborating entity "alu_logic" for hierarchy "alumod:inst155|alu_logic:inst"
 Warning (12125): Using design file b16_64_merge.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: b16_64_merge
 Info (12128): Elaborating entity "b16_64_merge" for hierarchy "b16_64_merge:inst91"
 Warning (12125): Using design file b32_64merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b32_64merge-Behavioral File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 35
-    Info (12023): Found entity 1: b32_64merge File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 7
+    Info (12022): Found design unit 1: b32_64merge-Behavioral File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 35
+    Info (12023): Found entity 1: b32_64merge File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b32_64merge.vhd Line: 7
 Info (12128): Elaborating entity "b32_64merge" for hierarchy "b16_64_merge:inst91|b32_64merge:inst1"
 Warning (12125): Using design file b16_32_merge.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
-    Info (12023): Found entity 1: b16_32_merge File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
+    Info (12022): Found design unit 1: b16_32_merge-Behavioral File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 35
+    Info (12023): Found entity 1: b16_32_merge File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/b16_32_merge.vhd Line: 7
 Info (12128): Elaborating entity "b16_32_merge" for hierarchy "b16_64_merge:inst91|b16_32_merge:inst2"
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a0" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 50
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a1" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 83
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a2" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 116
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a3" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 149
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a4" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 182
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a5" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 215
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a6" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 248
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a7" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 281
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a8" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 314
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a9" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 347
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a10" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 380
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a11" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 413
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a12" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 446
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a13" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 479
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a14" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 512
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a15" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 545
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a16" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 578
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a17" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 611
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a18" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 644
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a19" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 677
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a20" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 710
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a21" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 743
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a22" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 776
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a23" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 809
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a24" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 842
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a25" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 875
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a26" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 908
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a27" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 941
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a28" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 974
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a29" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1007
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a30" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1040
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a31" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1073
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a32" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1106
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a33" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1139
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a34" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1172
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a35" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1205
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a36" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1238
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a37" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1271
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a38" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1304
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a39" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1337
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a40" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1370
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a41" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1403
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a42" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1436
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a43" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1469
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a44" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1502
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a45" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1535
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a46" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1568
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a47" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1601
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a48" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1634
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a49" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1667
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a50" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1700
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a51" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1733
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a52" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1766
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a53" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1799
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a54" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1832
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a55" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1865
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a56" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1898
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a57" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1931
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a58" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1964
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a59" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1997
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a60" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2030
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a61" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2063
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a62" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2096
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a63" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2129
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a64" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2162
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a65" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2195
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a66" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2228
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a67" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2261
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a68" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2294
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a69" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2327
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a70" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2360
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a71" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2393
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a72" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2426
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a73" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2459
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a74" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2492
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a75" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2525
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a76" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2558
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a77" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2591
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a78" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2624
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a79" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2657
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a80" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2690
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a81" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2723
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a82" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2756
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a83" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2789
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a84" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2822
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a85" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2855
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a86" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2888
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a87" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2921
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a88" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2954
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a89" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2987
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a90" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3020
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a91" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3053
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a92" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3086
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a93" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3119
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a94" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3152
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a95" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3185
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a96" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3218
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a97" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3251
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a98" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3284
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a99" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3317
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a100" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3350
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a101" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3383
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a102" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3416
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a103" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3449
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a104" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3482
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a105" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3515
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a106" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3548
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a107" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3581
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a108" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3614
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a109" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3647
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a110" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3680
-        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a111" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3713
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a0" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 50
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a1" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 83
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a2" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 116
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a3" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 149
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a4" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 182
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a5" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 215
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a6" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 248
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a7" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 281
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a8" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 314
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a9" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 347
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a10" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 380
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a11" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 413
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a12" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 446
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a13" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 479
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a14" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 512
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a15" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 545
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a16" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 578
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a17" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 611
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a18" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 644
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a19" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 677
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a20" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 710
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a21" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 743
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a22" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 776
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a23" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 809
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a24" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 842
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a25" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 875
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a26" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 908
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a27" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 941
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a28" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 974
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a29" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1007
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a30" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1040
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a31" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1073
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a32" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1106
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a33" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1139
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a34" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1172
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a35" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1205
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a36" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1238
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a37" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1271
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a38" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1304
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a39" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1337
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a40" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1370
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a41" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1403
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a42" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1436
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a43" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1469
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a44" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1502
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a45" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1535
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a46" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1568
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a47" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1601
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a48" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1634
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a49" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1667
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a50" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1700
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a51" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1733
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a52" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1766
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a53" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1799
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a54" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1832
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a55" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1865
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a56" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1898
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a57" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1931
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a58" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1964
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a59" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 1997
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a60" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2030
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a61" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2063
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a62" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2096
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a63" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2129
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a64" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2162
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a65" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2195
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a66" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2228
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a67" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2261
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a68" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2294
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a69" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2327
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a70" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2360
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a71" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2393
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a72" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2426
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a73" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2459
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a74" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2492
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a75" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2525
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a76" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2558
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a77" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2591
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a78" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2624
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a79" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2657
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a80" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2690
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a81" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2723
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a82" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2756
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a83" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2789
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a84" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2822
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a85" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2855
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a86" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2888
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a87" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2921
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a88" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2954
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a89" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 2987
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a90" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3020
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a91" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3053
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a92" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3086
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a93" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3119
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a94" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3152
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a95" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3185
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a96" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3218
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a97" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3251
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a98" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3284
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a99" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3317
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a100" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3350
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a101" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3383
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a102" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3416
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a103" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3449
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a104" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3482
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a105" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3515
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a106" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3548
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a107" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3581
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a108" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3614
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a109" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3647
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a110" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3680
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a111" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3713
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a112" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3746
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a113" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3779
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a114" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3812
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a115" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3845
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a116" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3878
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a117" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3911
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a118" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3944
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a119" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3977
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a120" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4010
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a121" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4043
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a122" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4076
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a123" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4109
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a124" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4142
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a125" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4175
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a126" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4208
+        Warning (14320): Synthesized away node "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ram_block1a127" File: C:/Users/dudkr/OneDrive/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 4241
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX01" is stuck at VCC
-    Warning (13410): Pin "HEX05" is stuck at VCC
-    Warning (13410): Pin "HEX13" is stuck at VCC
-    Warning (13410): Pin "HEX16" is stuck at VCC
-    Warning (13410): Pin "HEX10" is stuck at VCC
-    Warning (13410): Pin "HEX12" is stuck at VCC
-    Warning (13410): Pin "HEX14" is stuck at VCC
-    Warning (13410): Pin "LEDR2" is stuck at GND
+    Warning (13410): Pin "HEX03" is stuck at GND
+    Warning (13410): Pin "HEX06" is stuck at GND
+    Warning (13410): Pin "HEX00" is stuck at GND
+    Warning (13410): Pin "HEX02" is stuck at GND
+    Warning (13410): Pin "HEX04" is stuck at GND
+    Warning (13410): Pin "HEX01" is stuck at GND
+    Warning (13410): Pin "HEX05" is stuck at GND
+    Warning (13410): Pin "HEX13" is stuck at GND
+    Warning (13410): Pin "HEX16" is stuck at GND
+    Warning (13410): Pin "HEX10" is stuck at GND
+    Warning (13410): Pin "HEX12" is stuck at GND
+    Warning (13410): Pin "HEX14" is stuck at GND
+    Warning (13410): Pin "HEX11" is stuck at GND
+    Warning (13410): Pin "HEX15" is stuck at GND
+    Warning (13410): Pin "LEDR1" is stuck at VCC
+    Warning (13410): Pin "LEDR2" is stuck at VCC
+    Warning (13410): Pin "LEDR4" is stuck at VCC
+    Warning (13410): Pin "LEDR5" is stuck at VCC
+    Warning (13410): Pin "HEX23" is stuck at GND
+    Warning (13410): Pin "HEX26" is stuck at GND
+    Warning (13410): Pin "HEX20" is stuck at GND
+    Warning (13410): Pin "HEX22" is stuck at GND
+    Warning (13410): Pin "HEX24" is stuck at GND
+    Warning (13410): Pin "HEX21" is stuck at GND
+    Warning (13410): Pin "HEX25" is stuck at GND
+    Warning (13410): Pin "HEX33" is stuck at GND
+    Warning (13410): Pin "HEX36" is stuck at GND
+    Warning (13410): Pin "HEX30" is stuck at GND
+    Warning (13410): Pin "HEX32" is stuck at GND
+    Warning (13410): Pin "HEX34" is stuck at GND
+    Warning (13410): Pin "HEX31" is stuck at GND
+    Warning (13410): Pin "HEX35" is stuck at GND
     Warning (13410): Pin "LEDR7" is stuck at VCC
     Warning (13410): Pin "HEX43" is stuck at GND
     Warning (13410): Pin "HEX46" is stuck at GND
@@ -2170,7 +2176,6 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "progcountinput[0]" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 32 registers lost all their fanouts during netlist optimizations.
-Info (17036): Removed 12 MSB VCC or GND address nodes from RAM block "ram_mod:inst153|ramo:inst54|altsyncram:altsyncram_component|altsyncram_nfu3:auto_generated|ALTSYNCRAM" File: C:/Users/17202/Desktop/16 bit computer/A- current/a-Fpga implementation/16_bit/db/altsyncram_nfu3.tdf Line: 3746
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 14 input pin(s) that do not drive logic
@@ -2188,15 +2193,14 @@ Warning (21074): Design contains 14 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "sw9"
     Warning (15610): No output dependent on input pin "CLOCK_50"
     Warning (15610): No output dependent on input pin "generala"
-Info (21057): Implemented 137 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 121 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 102 output pins
     Info (21061): Implemented 3 logic cells
-    Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 366 warnings
-    Info: Peak virtual memory: 4942 megabytes
-    Info: Processing ended: Sat Dec 17 13:06:03 2022
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 406 warnings
+    Info: Peak virtual memory: 4929 megabytes
+    Info: Processing ended: Sun May 14 17:00:55 2023
     Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:34
+    Info: Total CPU time (on all processors): 00:00:08
 
 
