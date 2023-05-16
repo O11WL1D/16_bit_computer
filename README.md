@@ -121,6 +121,13 @@ Here you may find a log for the overall design of the computer. Module specific 
 in the computer journal+notes, which is where I keep the actively used onenote file for this project. 
 
 
+
+5-16-2023
+
+I think it would probably be a good idea to label each connection at the bottom of the processor file, and make all of my input/output connections down there, a common location so that I dont need to wildly search the entire design for where I last connected mod x to any of the outputs. 
+
+
+
 5-15-2023
 
 -> I am probably going to pick this project up again for the summer, right now I am having some issues in re-installing the 

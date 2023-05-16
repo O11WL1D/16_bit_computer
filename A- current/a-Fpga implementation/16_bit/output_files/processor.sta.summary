@@ -3,51 +3,99 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'KEY0'
-Slack : -0.633
-TNS   : -1.797
+Slack : -7.807
+TNS   : -8.774
+
+Type  : Slow 1100mV 85C Model Setup 'control_mod:inst137|fstate.i0m1'
+Slack : -3.222
+TNS   : -63.965
 
 Type  : Slow 1100mV 85C Model Hold 'KEY0'
-Slack : 0.383
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_mod:inst137|fstate.i0m1'
+Slack : 0.581
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY0'
 Slack : -0.538
-TNS   : -2.376
+TNS   : -2.556
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_mod:inst137|fstate.i0m1'
+Slack : 0.283
+TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Setup 'KEY0'
-Slack : -0.616
-TNS   : -1.717
+Slack : -7.151
+TNS   : -7.993
+
+Type  : Slow 1100mV 0C Model Setup 'control_mod:inst137|fstate.i0m1'
+Slack : -3.366
+TNS   : -65.796
 
 Type  : Slow 1100mV 0C Model Hold 'KEY0'
-Slack : 0.482
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_mod:inst137|fstate.i0m1'
+Slack : 0.468
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY0'
 Slack : -0.538
-TNS   : -2.376
+TNS   : -2.401
 
-Type  : Fast 1100mV 85C Model Setup 'KEY0'
-Slack : 0.264
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_mod:inst137|fstate.i0m1'
+Slack : 0.284
 TNS   : 0.000
 
+Type  : Fast 1100mV 85C Model Setup 'KEY0'
+Slack : -4.391
+TNS   : -4.391
+
+Type  : Fast 1100mV 85C Model Setup 'control_mod:inst137|fstate.i0m1'
+Slack : -1.191
+TNS   : -20.068
+
 Type  : Fast 1100mV 85C Model Hold 'KEY0'
-Slack : 0.230
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_mod:inst137|fstate.i0m1'
+Slack : 0.561
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY0'
-Slack : -0.243
-TNS   : -0.784
+Slack : -0.294
+TNS   : -1.030
 
-Type  : Fast 1100mV 0C Model Setup 'KEY0'
-Slack : 0.321
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_mod:inst137|fstate.i0m1'
+Slack : 0.375
 TNS   : 0.000
 
+Type  : Fast 1100mV 0C Model Setup 'KEY0'
+Slack : -3.461
+TNS   : -3.461
+
+Type  : Fast 1100mV 0C Model Setup 'control_mod:inst137|fstate.i0m1'
+Slack : -1.081
+TNS   : -17.518
+
 Type  : Fast 1100mV 0C Model Hold 'KEY0'
-Slack : 0.233
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_mod:inst137|fstate.i0m1'
+Slack : 0.543
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY0'
-Slack : -0.250
-TNS   : -0.813
+Slack : -0.279
+TNS   : -0.950
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_mod:inst137|fstate.i0m1'
+Slack : 0.390
+TNS   : 0.000
 
 ------------------------------------------------------------

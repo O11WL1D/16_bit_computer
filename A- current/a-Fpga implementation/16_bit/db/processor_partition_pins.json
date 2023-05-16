@@ -4,11 +4,199 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "sendtoprogen",
+					"name" : "HEX03",
 					"strict" : false
 				},
 				{
-					"name" : "progcountclock",
+					"name" : "HEX06",
+					"strict" : false
+				},
+				{
+					"name" : "HEX00",
+					"strict" : false
+				},
+				{
+					"name" : "HEX02",
+					"strict" : false
+				},
+				{
+					"name" : "HEX04",
+					"strict" : false
+				},
+				{
+					"name" : "HEX01",
+					"strict" : false
+				},
+				{
+					"name" : "HEX05",
+					"strict" : false
+				},
+				{
+					"name" : "HEX13",
+					"strict" : false
+				},
+				{
+					"name" : "HEX16",
+					"strict" : false
+				},
+				{
+					"name" : "HEX10",
+					"strict" : false
+				},
+				{
+					"name" : "HEX12",
+					"strict" : false
+				},
+				{
+					"name" : "HEX14",
+					"strict" : false
+				},
+				{
+					"name" : "HEX11",
+					"strict" : false
+				},
+				{
+					"name" : "HEX15",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR1",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR2",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR4",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR5",
+					"strict" : false
+				},
+				{
+					"name" : "HEX23",
+					"strict" : false
+				},
+				{
+					"name" : "HEX26",
+					"strict" : false
+				},
+				{
+					"name" : "HEX20",
+					"strict" : false
+				},
+				{
+					"name" : "HEX22",
+					"strict" : false
+				},
+				{
+					"name" : "HEX24",
+					"strict" : false
+				},
+				{
+					"name" : "HEX21",
+					"strict" : false
+				},
+				{
+					"name" : "HEX25",
+					"strict" : false
+				},
+				{
+					"name" : "HEX33",
+					"strict" : false
+				},
+				{
+					"name" : "HEX36",
+					"strict" : false
+				},
+				{
+					"name" : "HEX30",
+					"strict" : false
+				},
+				{
+					"name" : "HEX32",
+					"strict" : false
+				},
+				{
+					"name" : "HEX34",
+					"strict" : false
+				},
+				{
+					"name" : "HEX31",
+					"strict" : false
+				},
+				{
+					"name" : "HEX35",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR7",
+					"strict" : false
+				},
+				{
+					"name" : "HEX43",
+					"strict" : false
+				},
+				{
+					"name" : "HEX46",
+					"strict" : false
+				},
+				{
+					"name" : "HEX40",
+					"strict" : false
+				},
+				{
+					"name" : "HEX42",
+					"strict" : false
+				},
+				{
+					"name" : "HEX44",
+					"strict" : false
+				},
+				{
+					"name" : "HEX41",
+					"strict" : false
+				},
+				{
+					"name" : "HEX45",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR8",
+					"strict" : false
+				},
+				{
+					"name" : "HEX53",
+					"strict" : false
+				},
+				{
+					"name" : "HEX56",
+					"strict" : false
+				},
+				{
+					"name" : "HEX50",
+					"strict" : false
+				},
+				{
+					"name" : "HEX52",
+					"strict" : false
+				},
+				{
+					"name" : "HEX54",
+					"strict" : false
+				},
+				{
+					"name" : "HEX51",
+					"strict" : false
+				},
+				{
+					"name" : "HEX55",
+					"strict" : false
+				},
+				{
+					"name" : "sendtoprogen",
 					"strict" : false
 				},
 				{
@@ -17,6 +205,198 @@
 				},
 				{
 					"name" : "state1",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[15]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[14]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[13]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[12]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[11]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[10]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[9]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[8]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[7]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[6]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[5]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[4]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[3]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[2]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[1]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[0]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[15]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[14]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[13]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[12]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[11]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[10]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[9]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[8]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[7]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[6]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[5]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[4]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[3]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[2]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[1]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[0]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[0]",
 					"strict" : false
 				},
 				{
