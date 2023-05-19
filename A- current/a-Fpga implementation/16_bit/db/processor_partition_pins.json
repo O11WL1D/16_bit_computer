@@ -196,215 +196,59 @@
 					"strict" : false
 				},
 				{
-					"name" : "sendtoprogen",
-					"strict" : false
-				},
-				{
-					"name" : "state0",
-					"strict" : false
-				},
-				{
-					"name" : "state1",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[15]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[14]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[13]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[12]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[11]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[10]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[9]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[8]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[7]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[6]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[5]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[4]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[3]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[2]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[1]",
-					"strict" : false
-				},
-				{
-					"name" : "incremented[0]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[15]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[14]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[13]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[12]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[11]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[10]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[9]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[8]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[7]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[6]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[5]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[4]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[3]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[2]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[1]",
-					"strict" : false
-				},
-				{
-					"name" : "preincremented[0]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[15]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[14]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[13]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[12]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[11]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[10]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[9]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[8]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[7]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[6]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[5]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[4]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[3]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[2]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[1]",
-					"strict" : false
-				},
-				{
-					"name" : "progcountinput[0]",
-					"strict" : false
-				},
-				{
 					"name" : "KEY0",
 					"strict" : false
 				},
 				{
+					"name" : "sw9",
+					"strict" : false
+				},
+				{
+					"name" : "sw0",
+					"strict" : false
+				},
+				{
+					"name" : "sw1",
+					"strict" : false
+				},
+				{
+					"name" : "sw2",
+					"strict" : false
+				},
+				{
+					"name" : "sw3",
+					"strict" : false
+				},
+				{
+					"name" : "sw4",
+					"strict" : false
+				},
+				{
+					"name" : "sw5",
+					"strict" : false
+				},
+				{
+					"name" : "sw6",
+					"strict" : false
+				},
+				{
+					"name" : "sw7",
+					"strict" : false
+				},
+				{
 					"name" : "sw8",
+					"strict" : false
+				},
+				{
+					"name" : "KEY1",
+					"strict" : false
+				},
+				{
+					"name" : "KEY2",
+					"strict" : false
+				},
+				{
+					"name" : "KEY3",
 					"strict" : false
 				}
 			]

@@ -1,6 +1,7 @@
 
 State Machine - |control_mod|fstate
-Name fstate.i0m0 fstate.i0m1 fstate.wait0 
-fstate.wait0 0 0 0 
-fstate.i0m1 0 1 1 
-fstate.i0m0 1 0 1 
+Name fstate.i2m0resetpc fstate.i1m0 fstate.i1m1 fstate.wait0 
+fstate.wait0 0 0 0 0 
+fstate.i1m1 0 0 1 1 
+fstate.i1m0 0 1 0 1 
+fstate.i2m0resetpc 1 0 0 1 

@@ -28,6 +28,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "super0",
+					"strict" : false
+				},
+				{
+					"name" : "super1",
+					"strict" : false
+				},
+				{
 					"name" : "reset",
 					"strict" : false
 				},
