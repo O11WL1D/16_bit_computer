@@ -3,163 +3,147 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'KEY0'
-Slack : -9.429
-TNS   : -46375.814
+Slack : -10.612
+TNS   : -2616.458
 
-Type  : Slow 1100mV 85C Model Setup 'KEY1'
-Slack : -5.156
-TNS   : -113.401
+Type  : Slow 1100mV 85C Model Setup 'control_mod:inst137|fstate.ramwrite0'
+Slack : -9.725
+TNS   : -172.686
 
-Type  : Slow 1100mV 85C Model Setup 'KEY2'
-Slack : -4.768
-TNS   : -106.510
+Type  : Slow 1100mV 85C Model Setup 'control_mod:inst137|fstate.ramwrite1'
+Slack : -3.373
+TNS   : -47.939
 
 Type  : Slow 1100mV 85C Model Hold 'KEY0'
-Slack : 0.450
+Slack : -7.194
+TNS   : -17591.670
+
+Type  : Slow 1100mV 85C Model Hold 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.588
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Hold 'KEY2'
-Slack : 1.621
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'KEY1'
-Slack : 1.634
+Type  : Slow 1100mV 85C Model Hold 'control_mod:inst137|fstate.ramwrite1'
+Slack : 1.443
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY0'
 Slack : -2.636
-TNS   : -23681.407
+TNS   : -22302.809
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY1'
-Slack : -0.538
-TNS   : -20.577
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite1'
+Slack : 0.295
+TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY2'
-Slack : -0.538
-TNS   : -20.361
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY3'
-Slack : -0.538
-TNS   : -3.886
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.309
+TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Setup 'KEY0'
-Slack : -8.971
-TNS   : -43526.459
+Slack : -9.967
+TNS   : -2465.990
 
-Type  : Slow 1100mV 0C Model Setup 'KEY1'
-Slack : -5.102
-TNS   : -111.989
+Type  : Slow 1100mV 0C Model Setup 'control_mod:inst137|fstate.ramwrite0'
+Slack : -9.414
+TNS   : -167.838
 
-Type  : Slow 1100mV 0C Model Setup 'KEY2'
-Slack : -4.733
-TNS   : -105.125
+Type  : Slow 1100mV 0C Model Setup 'control_mod:inst137|fstate.ramwrite1'
+Slack : -3.371
+TNS   : -47.750
 
 Type  : Slow 1100mV 0C Model Hold 'KEY0'
-Slack : 0.486
+Slack : -6.999
+TNS   : -17860.982
+
+Type  : Slow 1100mV 0C Model Hold 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.518
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'KEY2'
-Slack : 1.459
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'KEY1'
-Slack : 1.537
+Type  : Slow 1100mV 0C Model Hold 'control_mod:inst137|fstate.ramwrite1'
+Slack : 1.397
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY0'
 Slack : -2.636
-TNS   : -23655.532
+TNS   : -22273.068
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY1'
-Slack : -0.538
-TNS   : -21.094
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.306
+TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.538
-TNS   : -21.046
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY3'
-Slack : -0.538
-TNS   : -3.990
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite1'
+Slack : 0.327
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Setup 'KEY0'
-Slack : -5.511
-TNS   : -25866.812
+Slack : -6.624
+TNS   : -1524.658
 
-Type  : Fast 1100mV 85C Model Setup 'KEY1'
-Slack : -2.642
-TNS   : -54.660
+Type  : Fast 1100mV 85C Model Setup 'control_mod:inst137|fstate.ramwrite0'
+Slack : -4.694
+TNS   : -78.300
 
-Type  : Fast 1100mV 85C Model Setup 'KEY2'
-Slack : -2.366
-TNS   : -51.005
+Type  : Fast 1100mV 85C Model Setup 'control_mod:inst137|fstate.ramwrite1'
+Slack : -1.263
+TNS   : -16.849
 
 Type  : Fast 1100mV 85C Model Hold 'KEY0'
-Slack : 0.311
+Slack : -3.806
+TNS   : -9548.480
+
+Type  : Fast 1100mV 85C Model Hold 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.411
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Hold 'KEY2'
-Slack : 0.535
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'KEY1'
-Slack : 0.610
+Type  : Fast 1100mV 85C Model Hold 'control_mod:inst137|fstate.ramwrite1'
+Slack : 0.691
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY0'
 Slack : -2.174
-TNS   : -19076.070
+TNS   : -17959.911
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY1'
-Slack : -0.460
-TNS   : -11.638
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.271
+TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY2'
-Slack : -0.431
-TNS   : -11.370
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY3'
-Slack : -0.420
-TNS   : -2.304
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite1'
+Slack : 0.335
+TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Setup 'KEY0'
-Slack : -4.554
-TNS   : -21224.498
+Slack : -5.302
+TNS   : -1209.196
 
-Type  : Fast 1100mV 0C Model Setup 'KEY1'
-Slack : -2.251
-TNS   : -46.762
+Type  : Fast 1100mV 0C Model Setup 'control_mod:inst137|fstate.ramwrite0'
+Slack : -4.437
+TNS   : -73.041
 
-Type  : Fast 1100mV 0C Model Setup 'KEY2'
-Slack : -2.032
-TNS   : -44.075
+Type  : Fast 1100mV 0C Model Setup 'control_mod:inst137|fstate.ramwrite1'
+Slack : -1.027
+TNS   : -13.616
 
 Type  : Fast 1100mV 0C Model Hold 'KEY0'
-Slack : 0.298
+Slack : -3.722
+TNS   : -9937.107
+
+Type  : Fast 1100mV 0C Model Hold 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.401
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'KEY2'
-Slack : 0.452
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'KEY1'
-Slack : 0.498
+Type  : Fast 1100mV 0C Model Hold 'control_mod:inst137|fstate.ramwrite1'
+Slack : 0.616
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY0'
 Slack : -2.174
-TNS   : -19043.770
+TNS   : -17935.273
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY1'
-Slack : -0.450
-TNS   : -11.463
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite0'
+Slack : 0.317
+TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY2'
-Slack : -0.426
-TNS   : -11.247
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY3'
-Slack : -0.425
-TNS   : -2.312
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_mod:inst137|fstate.ramwrite1'
+Slack : 0.363
+TNS   : 0.000
 
 ------------------------------------------------------------

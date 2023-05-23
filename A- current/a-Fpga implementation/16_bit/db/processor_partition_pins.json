@@ -72,10 +72,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "LEDR5",
-					"strict" : false
-				},
-				{
 					"name" : "HEX23",
 					"strict" : false
 				},
@@ -89,38 +85,6 @@
 				},
 				{
 					"name" : "HEX22",
-					"strict" : false
-				},
-				{
-					"name" : "HEX24",
-					"strict" : false
-				},
-				{
-					"name" : "HEX21",
-					"strict" : false
-				},
-				{
-					"name" : "HEX25",
-					"strict" : false
-				},
-				{
-					"name" : "HEX33",
-					"strict" : false
-				},
-				{
-					"name" : "HEX36",
-					"strict" : false
-				},
-				{
-					"name" : "HEX30",
-					"strict" : false
-				},
-				{
-					"name" : "HEX32",
-					"strict" : false
-				},
-				{
-					"name" : "HEX34",
 					"strict" : false
 				},
 				{
@@ -196,43 +160,199 @@
 					"strict" : false
 				},
 				{
-					"name" : "KEY0",
+					"name" : "sendtoprogen",
 					"strict" : false
 				},
 				{
-					"name" : "sw9",
+					"name" : "incremented[15]",
 					"strict" : false
 				},
 				{
-					"name" : "sw0",
+					"name" : "incremented[14]",
 					"strict" : false
 				},
 				{
-					"name" : "sw1",
+					"name" : "incremented[13]",
 					"strict" : false
 				},
 				{
-					"name" : "sw2",
+					"name" : "incremented[12]",
 					"strict" : false
 				},
 				{
-					"name" : "sw3",
+					"name" : "incremented[11]",
 					"strict" : false
 				},
 				{
-					"name" : "sw4",
+					"name" : "incremented[10]",
 					"strict" : false
 				},
 				{
-					"name" : "sw5",
+					"name" : "incremented[9]",
 					"strict" : false
 				},
 				{
-					"name" : "sw6",
+					"name" : "incremented[8]",
 					"strict" : false
 				},
 				{
-					"name" : "sw7",
+					"name" : "incremented[7]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[6]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[5]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[4]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[3]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[2]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[1]",
+					"strict" : false
+				},
+				{
+					"name" : "incremented[0]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[15]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[14]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[13]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[12]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[11]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[10]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[9]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[8]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[7]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[6]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[5]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[4]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[3]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[2]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[1]",
+					"strict" : false
+				},
+				{
+					"name" : "preincremented[0]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "progcountinput[0]",
 					"strict" : false
 				},
 				{
@@ -240,15 +360,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "KEY1",
+					"name" : "KEY0",
 					"strict" : false
 				},
 				{
-					"name" : "KEY2",
-					"strict" : false
-				},
-				{
-					"name" : "KEY3",
+					"name" : "sw9",
 					"strict" : false
 				}
 			]
