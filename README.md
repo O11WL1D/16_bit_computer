@@ -1,23 +1,11 @@
-﻿# general viewer start here:
 
 
-[progress presentation 2](https://1drv.ms/p/s!AovYuAJ6j-05jCl1JrxJ9tjOCj4N?e=ZiZEBO)
-
-[Online viewable onenote notebook](https://1drv.ms/u/s!AovYuAJ6j-05i1pXVn8fNj3wXU7-?e=myZffd) 
 
 
-for a more indepth look at this project, I would looking at the onenote journal i've produced for this computer.I update the onenote journal, read me
-documentation or other files in the documentation directory every time I work on this project to keep track of what was
-completed and what needs further work. All documentation can be found under the documentation section. The journal provides important contextual information necessary to understand the
-screenshots better. Also the general log (down below in bold) provides more general information pertaining to the overall 
-development of this project.
 
+# documentation
 
--Please note that when viewing the fpga design screenshots, the name of the current module can be seen at the
-top of the page. 
-
-
-(no downloads necessary)
+[progress presentation 2](https://www.linkedin.com/in/gavin-unrue/overlay/1635511234448/single-media-viewer/?profileId=ACoAADbeo2kBvR-3A6LRyaBPi1caVx19yGecSbw)
 
 
 
@@ -26,16 +14,6 @@ top of the page.
 
 
 
-
-
-# inquisitive viewer start here  
-
-
-
-For anyone more curious about my project, I would suggest using quartus prime lite (free download) to give it a more 
-in-depth viewing. However, this would entail downloading the project, so be prepared to do that :).
- 
-(downloads necessary)
 
 
 
@@ -76,25 +54,6 @@ Once every module has been tested, and all revisions have been made, I will put 
 
 
 
-
-
-
-
-
-
-
-
-# documentation
-
-Screenshots of my fpga can be found [Here](https://1drv.ms/u/s!AovYuAJ6j-05iiZyxuV3IQgVdUtE?e=UuMA8f).
-
-Online viewable onenote notebook found [here](https://1drv.ms/u/s!AovYuAJ6j-05i1pXVn8fNj3wXU7-?e=myZffd) 
-
-Pre onenote notes found [here](https://github.com/O11WL1D/16_bit_computer/tree/master/Written%20notes%2B%20computer%20journal)
-
-Other photos of this project can be found [Here](https://github.com/O11WL1D/16_bit_computer/tree/master/build%20progress%2Bdocumentation).
-
-[progress presentation 2](https://1drv.ms/p/s!AovYuAJ6j-05jCl1JrxJ9tjOCj4N?e=ZiZEBO)
 
 
 
